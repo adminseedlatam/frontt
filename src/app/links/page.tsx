@@ -71,7 +71,7 @@ export default function Links() {
                     </Link>
                   </li>
                   <li>
-                    <Link target="_blank" rel="noopener" href="https://t.me/DeFi_LATAM">
+                    <Link target="_blank" rel="noopener" href="https://t.me/seed_latam">
                       {" "}
                       <Image
                         className=" "
