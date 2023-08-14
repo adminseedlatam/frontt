@@ -1,0 +1,101 @@
+
+#Gobernanza .mySwiperGobernanzaHome .swiper-pagination-bullet {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #Gobernanza .mySwiperGobernanzaHome .swiper-button-next {
+    color: #ffffff;
+    font-weight: 900;
+  }
+  
+  #Gobernanza .mySwiperGobernanzaHome .swiper-button-prev {
+    color: #ffffff;
+    font-weight: 900;
+  }
+  
+  #Gobernanza .mySwiperGobernanzaHome .swiper-pagination-bullet {
+    background-color: #d9d9d9;
+  }
+  
+  #Gobernanza .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #Gobernanza .mySwiperGobernanzaHome .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
+  #Gobernanza .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    /* bottom: px;  */
+    top: 290px;
+    left: 390px;
+    width: 200px;
+  }
+  
+  #Gobernanzas .mySwiperGobernanzas .swiper-button-next {
+    right: 0px;
+  }
+  
+  #Gobernanzas .mySwiperGobernanzas .swiper-button-prev {
+    left: 0px;
+  }
+
+
+
+  
+@media (width <= 480px) {
+
+    #Descubrenos .mySwiperResponsive .prev-button svg {
+      stroke-width: 1.5 !important;
+      }
+  
+    #Descubrenos .mySwiperResponsive .next-button svg {
+    stroke-width: 1.5 !important;
+    }
+  
+    #Descubrenos .mySwiperResponsive .swiper-pagination-bullet {
+      width: 0.74981rem;
+      height: 0.74981rem;
+    }
+  
+    #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+      top: 5px;
+      left: 37%;
+      cursor: pointer;
+      width: 100px;
+    }
+  
+    #Descubrenos .mySwiperResponsive .prev-button {
+      position: absolute;
+      top: 0;
+      left: 5vw;
+      z-index: 1;
+      cursor: pointer;
+    }
+  
+    #Descubrenos .mySwiperResponsive .next-button {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 90vw;
+      z-index: 1;
+    }
+  
+  
+    #Separte .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  
+      top: 800px;
+      left: 20%;
+      width: 200px;
+    }
+  }

@@ -1,0 +1,232 @@
+#Separte .mySwiperNewSeparte .swiper-button-next {
+  color: #ffffff;
+  font-weight: 900;
+}
+
+#Separte .mySwiperDesktop .swiper-button-next {
+  color: #ffffff;
+  font-weight: 900;
+}
+
+#Separte .mySwiperDesktop  .swiper-button-prev {
+  color: #ffffff;
+  font-weight: 900;
+}
+
+#Separte .mySwiperNewSeparte .swiper-button-prev {
+  color: #ffffff;
+  font-weight: 900;
+}
+
+#Separte .mySwiperNewSeparte .swiper-button-prev svg {
+  font-size: 10px !important;
+  width: 10px !important;
+}
+
+#Separte .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  top: 33vh;
+  left: 30vw;
+  width: 200px;
+}
+
+/*  #Separte  .swiper-slide-active {
+  width: 300px !important;
+}  */
+
+/* #Separte .mySwiperSeParteDesktop  .swiper-pagination-bullet {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #Separte .mySwiperSeParteDesktop .swiper-button-next {
+    color: #ffffff;
+    font-weight: 900;
+  }
+  
+  #Separte .mySwiperSeParteDesktop .swiper-button-prev {
+    color: #ffffff;
+    font-weight: 900;
+  }
+  
+  #Separte .mySwiperSeParteDesktop .swiper-pagination-bullet {
+    background-color: #d9d9d9;
+  }
+  
+  #Separte .swiper {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-right: 50px;
+  }
+  
+  #Separte .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    top: 320px;
+    left: 390px;
+    width: 200px;
+  }
+  
+  #Separte .mySwiperSeParteDesktop .swiper-button-next {
+    right: 0px;
+  }
+  
+  #Separte .mySwiperSeParteDesktop .swiper-button-prev {
+    left: 0px;
+  }
+ */
+
+  
+ /*  @media (width <= 1250px) {
+
+    #Separte .mySwiperSeparteResponsive  .swiper-pagination-bullet {
+      width: 24px;
+      height: 24px;
+    }
+    
+    #Separte .mySwiperSeparteResponsive .swiper-button-next {
+      color: #ffffff;
+      font-weight: 900;
+    }
+    
+    #Separte .mySwiperSeparteResponsive .swiper-button-prev {
+      color: #ffffff;
+      font-weight: 900;
+    }
+    
+    #Separte .mySwiperSeparteResponsive .swiper-pagination-bullet {
+      background-color: #d9d9d9;
+    }
+
+    #Separte .mySwiperSeparteResponsive .swiper-button-next {
+      right: 0;
+    }
+
+    
+    #Separte .mySwiperSeparteResponsive {
+      --swiper-pagination-bullet-inactive-opacity: 0;
+    --swiper-pagination-bullet-opacity: 0;
+  }
+
+    #Separte .mySwiperSeparteResponsive  .swiper-button-prev {
+      left: 0;
+    }
+  
+    #Separte .swiper {
+      padding-top: 50px;
+    }
+  
+    #Separte .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+      top: 33vh;
+      left: 30vw;
+      width: 200px;
+    }
+  } */
+
+/*   @media (width <= 480px) {
+
+    #Separte  .swiper-slide-active {
+      width: 360px !important;
+    }
+
+    #Separte  .swiper-slide-active img {
+      margin-left: 13%;
+      width: 500px !important;
+    }
+
+
+    #Separte .swiper {
+      width: 100%;
+      padding-bottom: 50px;
+      padding-right: 0px;
+    }
+
+    #Separte .mySwiperSeparteResponsive .prev-button svg {
+      stroke-width: 2 !important;
+    }
+  
+    #Separte .mySwiperSeparteResponsive .next-button svg {
+      stroke-width: 2 !important;
+    }
+
+    #Separte .mySwiperSeparteResponsive .prev-button {
+      position: absolute;
+    
+      bottom: 120px;
+      left: 0vw;
+      z-index: 1;
+      cursor: pointer;
+    }
+  
+    #Separte .mySwiperSeparteResponsive .next-button {
+      position: absolute;
+      bottom: 120px;
+      cursor: pointer;
+      top: 10;
+      right: 0vw;
+      z-index: 1;
+    }
+
+  } */
+
+
+
+/*   @media (width <= 380px) {
+
+
+    #Separte  .swiper-slide-active img {
+      width: 280px !important;
+    }
+
+    #Separte  .swiper-slide-active {
+      margin-left: 0px;
+      width: 300px !important;
+    }
+   
+      #Separte .swiper-horizontal > .swiper-pagination-bullets,
+      .swiper-pagination-bullets.swiper-pagination-horizontal,
+      .swiper-pagination-custom,
+      .swiper-pagination-fraction {
+        top: 500px;
+        left: 20%;
+        width: 0px;
+      }
+
+  } */
+
+   
+/*   @media (width <= 320px) {
+    #Separte  .swiper-slide-active img {
+      width: 220px !important;
+    }
+
+    #Separte  .swiper-slide-active {
+      margin-left: 2%;
+      width: 220px !important;
+    }
+
+    #Separte .mySwiperSeparteResponsive .prev-button {
+      position: absolute;
+    
+      bottom: 120px;
+      left: 0;
+      z-index: 1;
+      cursor: pointer;
+    }
+  
+    #Separte .mySwiperSeparteResponsive .next-button {
+      position: absolute;
+      bottom: 120px;
+      cursor: pointer;
+      top: 10;
+      right: 0;
+      z-index: 1;
+    }
+    
+  } */

@@ -1,0 +1,113 @@
+.hero{
+  /*    max-height: 810px; */
+     background-image: url("../../../../assets/img/hero/hero-01.png");
+     background-position: center;
+     background-size:cover;
+     background-repeat: no-repeat;
+     display: flex;
+     align-content: center;
+   }
+
+  .tagline {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.2px;
+  }
+
+   .hero_button1 {
+    border-radius: 8px;
+    width: 215px;
+    border: solid 3.2px;
+    border-color: #F651F6;
+    padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #F651F6;
+    margin-right: 25px;
+  }
+
+  .hero_button1:hover {
+    color: #F651F6;
+    border: 3.2px solid;
+    border-color: #F651F6;  
+    background: rgba(0, 0, 0, 0.25);
+  }
+
+  .hero_button2 {
+    border-radius: 8px;
+    width: 161px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #F651F6;
+    border: 3.2px solid;
+    border-color: #F651F6;  
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.25);
+    margin-right: 25px;
+  }
+
+  .hero_button2:hover {
+    
+    border: 3.2px solid;
+    border-color: #F651F6;  
+    color: white;
+    background-color: #F651F6;
+  }
+
+
+
+  @media ( width <= 1250px ) {
+
+    .hero_button1 {
+      display: flex;
+      width: 7.02613rem;
+      height: 2rem;
+      padding: 0.45313rem 0.93288rem;
+      justify-content: center;
+      align-items: center;
+      gap: 0.21325rem;
+      flex-shrink: 0;
+      font-size: 0.75rem;
+      font-weight: 700;
+      border-radius: 4.733px;
+      background-color: #F651F6;
+      margin-right: 25px;
+    }
+  
+    .hero_button1:hover {
+      color: #F651F6;
+      border-radius: 4.733px;
+      border: 1.088px solid #F651F6; 
+      background: rgba(0, 0, 0, 0.25);
+    }
+  
+    .hero_button2 {
+      display: inline-flex;
+      width: 7.02613rem;
+      height: 2rem;
+      padding: 0.45313rem 0.93288rem;
+      justify-content: center;
+      align-items: center;
+      gap: 0.21325rem;
+      flex-shrink: 0;
+      color: #F651F6;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: -0.0375rem;
+      margin-top: 0;
+      border-radius: 4.733px;
+      border: 1.088px solid #F651F6;
+    }
+  
+    .hero_button2:hover {
+      
+      border-radius: 4.733px;
+      border: 1.088px solid #F651F6;
+      color: white;
+      background-color: #F651F6;
+    }
+
+   }
