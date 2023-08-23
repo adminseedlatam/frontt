@@ -1,14 +1,18 @@
-#Separte .mySwiperNewSeparte .swiper-button-next {
-  color: #ffffff;
-  font-weight: 900;
-}
+
 
 #Separte .mySwiperDesktop .swiper-button-next {
   color: #ffffff;
   font-weight: 900;
+  width: calc(var(--swiper-navigation-size)/ 2.5 * 27);
 }
 
 #Separte .mySwiperDesktop  .swiper-button-prev {
+  color: #ffffff;
+  font-weight: 900;
+  width: calc(var(--swiper-navigation-size)/ 2.5 * 27);
+}
+
+#Separte .mySwiperNewSeparte .swiper-button-next {
   color: #ffffff;
   font-weight: 900;
 }

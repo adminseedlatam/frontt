@@ -63,12 +63,12 @@ export default function HomePage() {
 
             {/*  slider comunidad Desktop */}
           {/*   <div className=" max-w-[499px] w-auto w-[499px] "> */}
-<div className="w-[484px]">
+<div className="w-[900px]">
             <Swiper
         effect={'coverflow'}
         grabCursor={false}
         centeredSlides={true}
-        slidesPerView={'1'}
+        slidesPerView={'3'}
         rewind={true}
         coverflowEffect={{
           rotate: 0,
@@ -79,7 +79,9 @@ export default function HomePage() {
         }}
         preventClicks={true}
         navigation={true}
-        pagination={true}
+        pagination={{
+          type: 'fraction',
+        }}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiperDesktop"
       >
@@ -156,6 +158,7 @@ export default function HomePage() {
                     </div>
                   </a>
                 </SwiperSlide>
+                
               
               </Swiper>
           {/*     <Swiper
@@ -364,7 +367,7 @@ export default function HomePage() {
                 effect={"coverflow"}
                 grabCursor={false}
                 centeredSlides={true}
-                slidesPerView={1}
+                slidesPerView={'2'}
                 loop={true}
                 coverflowEffect={{
                   rotate: 0,
@@ -425,7 +428,7 @@ export default function HomePage() {
                   </a>
                 </SwiperSlide>
               </Swiper>
-              </div>
+            </div>
           
           </div>
         </div>
