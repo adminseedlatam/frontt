@@ -7,11 +7,22 @@
   #GobernanzasPage .mySwiperGobernanzasPage .swiper-button-next {
     color: #ffffff;
     font-weight: 900;
+    width: calc(var(--swiper-navigation-size)/ 2.5 * 27);
   }
   
   #GobernanzasPage .mySwiperGobernanzasPage .swiper-button-prev {
     color: #ffffff;
     font-weight: 900;
+    width: calc(var(--swiper-navigation-size)/ 2.5 * 27);
+  }
+
+  #GobernanzasPage .mySwiperGobernanzasPage .swiper-pagination {
+    position: initial;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+    color: #ffffff;
   }
 
   #Gobernanzas .mySwiperGobernanzasPage {
