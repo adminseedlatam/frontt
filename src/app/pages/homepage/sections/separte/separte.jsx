@@ -26,8 +26,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 SwiperCore.use([Pagination, Navigation, EffectCoverflow]);
 
 export default function HomePage() {
-   const swiperRef = useRef(null);
-   const slidePrev = () => {
+  const swiperRef = useRef(null);
+  const slidePrev = () => {
     if (swiperRef.current) {
       swiperRef.current.slidePrev();
     }
@@ -38,16 +38,20 @@ export default function HomePage() {
       swiperRef.current.slideNext();
     }
   };
- 
 
   return (
     <div>
-      {/* Desktop */}
-      <div id="Separte" className="hidden xl:block py-[5vw]">
-        <div className="px-[5vw] pt-[75px]">
-          <div className=" pb-[75px]">
-            <h3 className={styles.title}>Las comunidades y SEED Latam</h3>
+      <div 
+      id="Separte" 
+      className="hidden xl:block py-[5vw]"
+      >
+        <div className="px-[5vw] pt-[75px]"> {/* Este agarra todo el swiper */}
+          <div className=" pb-[75px]"> 
+            <h3 className={styles.title}>
+              DESKTOP Las comunidades y SEED Latam
+            </h3>
           </div>
+          {/* este es el ultimo  */}
           <div className="flex  justify-between items-center pb-[50px]">
             <div>
               <div className="max-w-[336px] pb-[24px]">
@@ -62,30 +66,30 @@ export default function HomePage() {
             </div>
 
             {/*  slider comunidad Desktop */}
-          {/*   <div className=" max-w-[499px] w-auto w-[499px] "> */}
-<div className="w-[900px]">
-            <Swiper
-        effect={'coverflow'}
-        grabCursor={false}
-        centeredSlides={true}
-        slidesPerView={'3'}
-        rewind={true}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 20,
-          modifier: 20,
-          slideShadows: false,
-        }}
-        preventClicks={true}
-        navigation={true}
-        pagination={{
-          type:'fraction',
-        }}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiperDesktop"
-      >
-           {/*  <Swiper
+            {/*   <div className=" max-w-[499px] w-auto w-[499px] "> */}
+            <div className="w-[880px]">
+              <Swiper
+                effect={"coverflow"}
+                grabCursor={false}
+                centeredSlides={true}
+                slidesPerView={"3"}
+                rewind={true}
+                coverflowEffect={{
+                  rotate: 0,
+                  stretch: 0,
+                  depth: 20,
+                  modifier: 20,
+                  slideShadows: false,
+                }}
+                preventClicks={true}
+                navigation={true}
+                pagination={{
+                  type: "fraction",
+                }}
+                modules={[EffectCoverflow, Pagination]}
+                className="mySwiperDesktop"
+              >
+                {/*  <Swiper
                 effect={"coverflow"}
                 grabCursor={false}
                 centeredSlides={true} 
@@ -125,14 +129,12 @@ export default function HomePage() {
                     </div>
                   </a>
                 </SwiperSlide>
-                <SwiperSlide className="cursor-pointer" onClick={() => window.my_modal_4.showModal()}>
-                  <a
-                   
-                    className="cursor-pointer"
-                    
-                  >
-                    <div  className="cursor-pointer"
-                    >
+                <SwiperSlide
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_4.showModal()}
+                >
+                  <a className="cursor-pointer">
+                    <div className="cursor-pointer">
                       <Image
                         className="cursor-pointer"
                         width="100%"
@@ -158,9 +160,9 @@ export default function HomePage() {
                     </div>
                   </a>
                 </SwiperSlide>
-              
               </Swiper>
-          {/*     <Swiper
+
+              {/*     <Swiper
                 effect={"coverflow"}
                 grabCursor={false}
                 centeredSlides={true}
@@ -228,13 +230,11 @@ export default function HomePage() {
                 </SwiperSlide>    
               </Swiper> */}
             </div>
-
-            
           </div>
         </div>
 
-{/* slider comunidad responsive */}
-       {/*  <div className="  hidden md:flex  lg:justify-between  px-[5vw] ">
+        {/* slider comunidad responsive */}
+        {/*  <div className="  hidden md:flex  lg:justify-between  px-[5vw] ">
           <div className="lg:flex min-w-[90vw] lg:justify-between">
             <div className="  max-w-[316px] pb-[24px]">
               <h4 className={styles.h3}>Comunidades Amigas</h4>
@@ -347,7 +347,7 @@ export default function HomePage() {
       <div id="Separte" className="xl:hidden">
         <div className=" px-[5vw] pt-[75px]">
           <div className="pb-[28.1px]  xl:pb-[75px]">
-            <h3 className={styles.title}>Las comunidades y SEED Latam</h3>
+            <h3 className={styles.title}>RESPONSIVELas comunidades y SEED Latam</h3>
           </div>
           <div className="flex  justify-between items-center xl:pb-[50px] flex-wrap">
             <div>
@@ -362,7 +362,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className=" max-w-[90vw]  w-[485px] py-[50px]">
-             <Swiper
+              <Swiper
                 effect={"coverflow"}
                 grabCursor={false}
                 centeredSlides={true}
@@ -376,7 +376,6 @@ export default function HomePage() {
                   slideShadows: false,
                 }}
                 navigation={true}
-                
                 modules={[EffectCoverflow, Navigation]}
                 className="mySwiperNewSeparte"
               >
@@ -427,8 +426,7 @@ export default function HomePage() {
                   </a>
                 </SwiperSlide>
               </Swiper>
-              </div>
-          
+            </div>
           </div>
         </div>
         {/* Comunidades Amigas Desktop */}
@@ -538,7 +536,7 @@ export default function HomePage() {
         </div> */}
 
         {/* Comunidades Amigas Responsive */}
-       {/*  <div className=" flex xl:hidden    lg:justify-between  px-[5vw] ">
+        {/*  <div className=" flex xl:hidden    lg:justify-between  px-[5vw] ">
           <div className="lg:flex min-w-[90vw] lg:justify-between">
             <div>
               <div className=" max-w-[316px] ">
@@ -679,7 +677,7 @@ export default function HomePage() {
                     <Image className="" alt="Logo" src={discord}></Image>
                   </Link>
                 </div>
-              
+
                 <div>
                   <Link
                     target="_blank"
@@ -722,7 +720,7 @@ export default function HomePage() {
                     <Image className="" alt="Logo" src={discord}></Image>
                   </Link>
                 </div>
-               
+
                 <div>
                   <Link
                     target="_blank"
@@ -764,7 +762,7 @@ export default function HomePage() {
                     <Image className="" alt="Logo" src={discord}></Image>
                   </Link>
                 </div>
-              
+
                 <div>
                   <Link
                     target="_blank"
