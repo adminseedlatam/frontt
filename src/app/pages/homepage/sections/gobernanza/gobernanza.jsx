@@ -152,7 +152,7 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="pb-4 text-lg">
+              <p className="pb-4 text-lg text-black">
                 Es una comunidad en español que se dedica a la educación y
                 adopción de usuarios en el ecosistema Web3 y cripto, bajo los
                 valores de la descentralización. Su principal enfoque está en el
@@ -197,7 +197,7 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="pb-4 text-lg">
+              <p className="pb-4 text-lg text-black">
                 Sovereign Finance AVC fue fundada en marzo de 2023 como parte
                 del área de Gobernanza de SEED Latam, una comunidad educativa
                 enfocada en Web3 nacida en Latam. Nuestra comunidad ha estado
@@ -230,7 +230,7 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="pb-4 text-lg">
+              <p className="pb-4 text-lg text-black">
                 La Arbitrum DAO se encarga de la gobernanza y el mantenimiento
                 del protocolo Arbitrum, incluyendo la implementación de mejoras,
                 la toma de decisiones y la asignación de recursos.
