@@ -129,6 +129,7 @@ export default function HomePage() {
                     </div>
                   </a>
                 </SwiperSlide>
+                
               </Swiper>
             </div>
           </div>

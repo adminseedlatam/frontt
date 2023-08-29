@@ -5,8 +5,10 @@ import Link from "next/link";
 import Maker from "../assets/img/gobernanza/gob-maker.png";
 import Arbitrum from "../assets/img/gobernanza/gob-arbitrum.png";
 import Optimism from "../assets/img/gobernanza/gob-op.png";
-import discord from "../assets/icons/discord.svg";
-import twitter from "../assets/icons/twitter.svg";
+import Starknet from "../assets/img/gobernanza/gob-starknet.png";
+import Connext from "../assets/img/gobernanza/gob-connext.png"
+import discord from "../assets/icons/discordwhite.svg";
+import twitter from "../assets/icons/twitterwhite.svg";
 import govday from "../assets/img/gobernanza/GOVERNANCEDAY.png";
 
 import styles from "./gobernanzas.module.css";
@@ -87,7 +89,7 @@ export default function HomePage() {
               modules={[EffectCoverflow, Pagination]}
               className="mySwiperGobernanzasPage"
             >
-              <SwiperSlide onClick={() => window.showModal()}>
+              <SwiperSlide>
                 <a
                   className="cursor-pointer"
                   onClick={() => window.my_modal_22.showModal()}
@@ -118,6 +120,8 @@ export default function HomePage() {
                   </div>
                 </a>
               </SwiperSlide>
+
+              {/* arbitrum */}
               <SwiperSlide>
                 <a
                   className="cursor-pointer"
@@ -133,6 +137,42 @@ export default function HomePage() {
                   </div>
                 </a>
               </SwiperSlide>
+
+              {/* starknet */}
+              <SwiperSlide>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_25.showModal()}
+                >
+                  <div>
+                    <Image
+                      width="100%"
+                      height={331}
+                      src={Starknet}
+                      alt="logo"
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
+              {/* connext */}
+              <SwiperSlide>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_26.showModal()}
+                >
+                  <div>
+                    <Image
+                      width="100%"
+                      height={331}
+                      src={Connext}
+                      alt="logo"
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
+
+
+
             </Swiper>{" "}
           </div>
         </div>
@@ -163,7 +203,7 @@ export default function HomePage() {
               modules={[EffectCoverflow, Pagination]}
               className="mySwiperGobernanzasPage"
             >
-              <SwiperSlide onClick={() => window.showModal()}>
+              <SwiperSlide >
                 <a
                   className="cursor-pointer"
                   onClick={() => window.my_modal_22.showModal()}
@@ -196,6 +236,7 @@ export default function HomePage() {
                   </div>
                 </a>
               </SwiperSlide>
+
               <SwiperSlide onClick={() => window.my_modal_24.showModal()}>
                 <a
                   className="cursor-pointer"
@@ -212,6 +253,44 @@ export default function HomePage() {
                   </div>
                 </a>
               </SwiperSlide>
+
+              {/* starknet */}
+              <SwiperSlide>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_25.showModal()}
+                >
+                  <div>
+                    <Image
+                      width="100%"
+                      height={331}
+                      src={Starknet}
+                      alt="logo"
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
+              {/* connext */}
+              <SwiperSlide>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_26.showModal()}
+                >
+                  <div>
+                    <Image
+                      width="100%"
+                      height={331}
+                      src={Connext}
+                      alt="logo"
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
+
+
+
+
+
             </Swiper>{" "}
 
 
@@ -222,14 +301,14 @@ export default function HomePage() {
 
         {/* MODALS */}
         <dialog id="my_modal_22" className="modal">
-              <form method="dialog" className="modal-box">
+              <form method="dialog" className="modal-box bg-bg-card">
                 <div className={styles.headerModal_OPGov}>
                   <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2 ">
                     ✕
                   </button>
                 </div>
                 <div className="px-4 ">
-                  <p className="py-4 text-lg text-black">
+                  <p className="py-4 text-lg text-white">
                     Optimism DAO, su ecosistema y la potenciación de LATAM como
                     región. Comprendemos que la gobernanza es una pieza
                     fundamental para impulsar esta misión y reconocemos el arduo
@@ -265,14 +344,14 @@ export default function HomePage() {
               </form>
             </dialog>
             <dialog id="my_modal_23" className="modal">
-              <form method="dialog" className="modal-box">
+              <form method="dialog" className="modal-box bg-bg-card">
                 <div className={styles.headerModal_sofi}>
-                  <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+                  <button className="btn btn-sm btn-circle text-white btn-ghost border-none outline-none absolute right-2 top-2">
                     ✕
                   </button>
                 </div>
                 <div className="px-4 ">
-                  <p className="py-4 text-lg text-black">
+                  <p className="py-4 text-lg text-white">
                     Sovereign Finance AVC fue fundada en marzo de 2023 como
                     parte del área de Gobernanza de SEED Latam, una comunidad
                     educativa enfocada en Web3 nacida en Latam. Nuestra
@@ -305,15 +384,103 @@ export default function HomePage() {
                 <button>close</button>
               </form>
             </dialog>
+
+            {/* modal arbitrum */}
             <dialog id="my_modal_24" className="modal">
-              <form method="dialog" className="modal-box">
+              <form method="dialog" className="modal-box bg-bg-card">
                 <div className={styles.headerModal_arb}>
-                  <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+                  <button className="btn btn-sm btn-circle btn-ghost text-white border-none outline-none absolute right-2 top-2">
                     ✕
                   </button>
                 </div>
                 <div className="px-4 ">
-                  <p className="py-4 text-lg text-black">
+                  <p className="py-4 text-lg text-white">
+                    La Arbitrum DAO se encarga de la gobernanza y el
+                    mantenimiento del protocolo Arbitrum, incluyendo la
+                    implementación de mejoras, la toma de decisiones y la
+                    asignación de recursos.
+                  </p>
+                  <div className="flex md:justify-end gap-2 ">
+                    <div>
+                      {" "}
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://comunidad.seedlatam.org"
+                      >
+                        <Image className="" alt="Logo" src={discord}></Image>
+                      </Link>
+                    </div>
+                    <div>
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://twitter.com/SEEDLatam/"
+                      >
+                        <Image className="" alt="Logo" src={twitter}></Image>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
+
+              {/* modal starknet */}
+            <dialog id="my_modal_25" className="modal">
+              <form method="dialog" className="modal-box bg-bg-card">
+                <div className={styles.headerModal_starknet}>
+                  <button className="btn btn-sm btn-circle btn-ghost text-white border-none outline-none absolute right-2 top-2">
+                    ✕
+                  </button>
+                </div>
+                <div className="px-4 ">
+                  <p className="py-4 text-lg text-white">
+                    La Arbitrum DAO se encarga de la gobernanza y el
+                    mantenimiento del protocolo Arbitrum, incluyendo la
+                    implementación de mejoras, la toma de decisiones y la
+                    asignación de recursos.
+                  </p>
+                  <div className="flex md:justify-end gap-2 ">
+                    <div>
+                      {" "}
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://comunidad.seedlatam.org"
+                      >
+                        <Image className="" alt="Logo" src={discord}></Image>
+                      </Link>
+                    </div>
+                    <div>
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://twitter.com/SEEDLatam/"
+                      >
+                        <Image className="" alt="Logo" src={twitter}></Image>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
+
+            {/* modal connext */}
+            <dialog id="my_modal_26" className="modal">
+              <form method="dialog" className="modal-box bg-bg-card">
+                <div className={styles.headerModal_connext}>
+                  <button className="btn btn-sm btn-circle btn-ghost text-white border-none outline-none absolute right-2 top-2">
+                    ✕
+                  </button>
+                </div>
+                <div className="px-4 ">
+                  <p className="py-4 text-lg text-white">
                     La Arbitrum DAO se encarga de la gobernanza y el
                     mantenimiento del protocolo Arbitrum, incluyendo la
                     implementación de mejoras, la toma de decisiones y la
@@ -353,14 +520,14 @@ export default function HomePage() {
       <div className="xl:flex grid-cols-2 justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
         <Image className="" alt="Logo" src={govday}></Image>
 
-        <div className="max-w-[482px] text-right">
+        <div className="max-w-[482px] text-right pt-5">
           <h3 className={styles.h3}>Governance Day</h3>
           <p className={styles.p2}>
             El primer evento presencial enfocado en las gobernanzas en web3.
           </p>
 
           {/* boton */}
-          <div className={styles3.buttonContainer}>
+          <div className="text-9xl md:w-max-90vw md:flex md:justify-end">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button2}>
                 Ver más sobre Governance Day
@@ -371,13 +538,13 @@ export default function HomePage() {
       </div>
 
       {/* escuela de gov */}
-      <div className="xl:flex grid-cols-2 justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
+      <div className="justify-center xl:flex grid-cols-2 md:justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
         <div className="max-w-[482px] text-left">
           <h3 className={styles.h3}>Escuela de gobernanza</h3>
           <p className={styles.p}>Proximamente :)</p>
 
           {/* boton */}
-          <div className={styles3.buttonContainer}>
+          <div className="text-right md:w-max-90vw md:flex md:justify-end">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button2}>
                 Click aca para inscribirte

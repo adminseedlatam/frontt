@@ -24,11 +24,13 @@
 #Separte .mySwiperNewSeparte .swiper-button-next {
   color: #ffffff;
   font-weight: 900;
+  width: calc(var(--swiper-navigation-size)/ 44 * 27);
 }
 
 #Separte .mySwiperNewSeparte .swiper-button-prev {
   color: #ffffff;
   font-weight: 900;
+  width: calc(var(--swiper-navigation-size)/ 44 * 27);
 }
 
 #Separte .mySwiperNewSeparte .swiper-button-prev svg {

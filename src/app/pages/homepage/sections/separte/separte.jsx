@@ -14,6 +14,8 @@ import ForkDAO from "../../../../../app/assets/img/community-section/forkdao.png
 import Dpp from "../../../../../app/assets/img/community-section/dpp.png";
 import Opes from "../../../../../app/assets/img/community-section/opes.png";
 import discord from "../../../../assets/icons/discord.svg";
+import discordwhite from "../../../../assets/icons/discordwhite.svg"; 
+import twitterwhite from "../../../../assets/icons/twitterwhite.svg"; 
 import instagram from "../../../../assets/icons/instagram.svg";
 import twitter from "../../../../assets/icons/twitter.svg";
 
@@ -627,14 +629,14 @@ export default function HomePage() {
       <div id="modals">
 
         <dialog id="my_modal_2" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal}>
-              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none  text-white absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg text-black">
+              <p className="py-4 text-lg  text-white">
                 Es una comunidad en español que se dedica a la educación y
                 adopción de usuarios en el ecosistema Web3 y cripto, bajo los
                 valores de la descentralización. Su principal enfoque está en el
@@ -654,7 +656,7 @@ export default function HomePage() {
                     <Image 
                     className="" 
                     alt="Logo" 
-                    src={discord}></Image>
+                    src={discordwhite}></Image>
                   </Link>
                 </div>
 
@@ -664,7 +666,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://twitter.com/DeFi_Latam"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -676,14 +678,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_3" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_l2}>
-              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute text-white right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg text-black">
+              <p className="py-4 text-lg text-white">
                 Es una comunidad en español dedicada al estudio de soluciones de
                 escalabilidad en Ethereum. Su principal enfoque está relacionado
                 a las L2, Optimistic Rollup, Zk rollup, Ethereum, Validiums, DA,
@@ -697,7 +699,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
 
@@ -707,7 +709,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://twitter.com/Layer2es"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -719,14 +721,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_4" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_opes}>
-              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none text-black absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg text-black">
+              <p className="py-4 text-lg text-white">
                 Es una comunidad enfocada en brindar información sobre el
                 ecosistema Optimism. Su principal enfoque está en la
                 actualización del protocolo y la traducción de documentación.
@@ -739,7 +741,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
 
@@ -749,7 +751,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://twitter.com/OptimismESP"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -761,14 +763,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_5" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_buidlers}>
               <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-white">
                 Es una comunidad que compone el hub de desarrolladores Web3 en
                 español, en la cual la descentralización, calidad y colaboración
                 son parte de su identidad.
@@ -780,7 +782,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -810,14 +812,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_6" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_descilatam}>
-              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none text-white absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-white">
                 Es una comunidad en español y portugués de educación sobre
                 ciencia descentralizada. Su principal objetivo es dar a conocer
                 el movimiento DeSci en Latinoamérica y apoyar proyectos de
@@ -831,7 +833,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -850,7 +852,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://twitter.com/SEEDLatam/"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -882,7 +884,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -900,7 +902,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://twitter.com/SEEDLatam/"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -934,7 +936,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -983,7 +985,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -1039,7 +1041,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>

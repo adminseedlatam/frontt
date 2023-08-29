@@ -6,6 +6,8 @@ import Logo from '../../assets/img/logo/logo.png';
 import discord from "../../assets/icons/discord.svg";
 import instagram from "../../assets/icons/instagram.svg";
 import twitter from "../../assets/icons/twitter.svg";
+import twitterwhite from "../../assets/icons/twitterwhite.svg"; 
+import discordwhite from "../../assets/icons/discordwhite.svg"; 
 
 export function Footer() {
   return (
@@ -38,8 +40,8 @@ export function Footer() {
                   </ul>
               </div>
               <div>
-                  <h2 className=" text-base md:text-lg pb-2 font-bold uppercase ">Nuestras comunidades</h2>
-                  <ul className="text-gray-600 text-gray-400 text-base md:text-lg font-bold ">
+                  <h2 className=" text-base md:text-xl pb-2 font-bold ">Nuestras comunidades: </h2>
+                  <ul className="text-gray-400 text-base md:text-base font-bold ">
                       <li>
                           <a target="_blank" rel="noopener" href="https://defilatam.com/" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">DeFi LATAM</a>
                       </li>
@@ -56,11 +58,11 @@ export function Footer() {
                 {/*   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Legal</h2> */}
                   <div className="flex md:justify-end gap-2 ">
                <div> <Link target="_blank" rel="noopener" href="https://comunidad.seedlatam.org">
-                <Image className="" alt="Logo" src={discord}></Image>
+                <Image className="" alt="Logo" src={discordwhite}></Image>
               </Link></div><div> <Link target="_blank" rel="noopener" href="https://www.instagram.com/defilatam/">
                 <Image className="" alt="Logo" src={instagram}></Image>
               </Link></div><div><Link target="_blank" rel="noopener" href="https://twitter.com/SEEDLatam/">
-                <Image className="" alt="Logo" src={twitter}></Image>
+                <Image className="" alt="Logo" src={twitterwhite}></Image>
               </Link></div>
              
                   </div>

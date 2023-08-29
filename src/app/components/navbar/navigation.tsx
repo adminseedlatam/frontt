@@ -48,17 +48,18 @@ export function Navigation() {
                 Descúbrenos
               </Link>
               <Link
-                href="#Separte"
-                className=" p-2  text-lg  font-bold text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
-              >
-                Sé parte
-              </Link>
-              <Link
                 href="#Gobernanza"
                 className=" p-2  text-lg font-bold  text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
               >
                 Gobernanza
               </Link>
+              <Link
+                href="#Separte"
+                className=" p-2  text-lg  font-bold text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
+              >
+                Sé parte
+              </Link>
+              
               <Link
                 target="_blank"
                 rel="noopener"

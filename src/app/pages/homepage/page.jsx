@@ -9,8 +9,8 @@ export default function HomePage() {
     <div>
       <Hero></Hero>
       <Descubrenos></Descubrenos>
-      <Separte></Separte>
       <Gobernanza></Gobernanza>
+      <Separte></Separte>
       <Articulos></Articulos>
     </div>
   );1
