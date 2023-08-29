@@ -89,31 +89,7 @@ export default function HomePage() {
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiperDesktop"
               >
-                {/*  <Swiper
-                effect={"coverflow"}
-                grabCursor={false}
-                centeredSlides={true} 
-                slidesPerView={'3'}
-                loop={true} 
-                allowSlideNext={true}
-               rewind={true}
-                 coverflowEffect={{
-                  rotate: 10,
-                  stretch: 0,
-                  scale: 1,
-                  depth: 20,
-                  modifier: 1,
-                  slideShadows: true, }} 
-
-                navigation={true}
-                pagination={{
-                  clickable: true,
-                }}
-                
-                modules={[EffectCoverflow, Navigation, Pagination]}
-                className="mySwiperNewSeparte"
-              > */}
-                <SwiperSlide onClick={() => window.my_modal_2.showModal()}>
+                <SwiperSlide onClick={() => window.showModal()}>
                   <a
                     className="cursor-pointer"
                     onClick={() => window.my_modal_2.showModal()}
@@ -649,6 +625,7 @@ export default function HomePage() {
 
       {/* Modals */}
       <div id="modals">
+
         <dialog id="my_modal_2" className="modal">
           <form method="dialog" className="modal-box">
             <div className={styles.headerModal}>
@@ -657,7 +634,7 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-black">
                 Es una comunidad en español que se dedica a la educación y
                 adopción de usuarios en el ecosistema Web3 y cripto, bajo los
                 valores de la descentralización. Su principal enfoque está en el
@@ -674,7 +651,10 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image 
+                    className="" 
+                    alt="Logo" 
+                    src={discord}></Image>
                   </Link>
                 </div>
 
@@ -703,7 +683,7 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-black">
                 Es una comunidad en español dedicada al estudio de soluciones de
                 escalabilidad en Ethereum. Su principal enfoque está relacionado
                 a las L2, Optimistic Rollup, Zk rollup, Ethereum, Validiums, DA,
@@ -746,7 +726,7 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-black">
                 Es una comunidad enfocada en brindar información sobre el
                 ecosistema Optimism. Su principal enfoque está en la
                 actualización del protocolo y la traducción de documentación.

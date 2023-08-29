@@ -20,23 +20,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function HomePage() {
   const swiperRef = useRef(null);
 
-  const slidePrev = () => {
-    if (swiperRef.current) {
-      swiperRef.current.slidePrev();
-    }
-  };
-
-  const slideNext = () => {
-    if (swiperRef.current) {
-      swiperRef.current.slideNext();
-    }
-  };
-
   return (
-    <div
-      id="GobernanzasPage"
-      className="justify-between max-md:pt-[100px] pt-[209px] px-[5vw] pb-[50px] min-h-screen"
-    >
+    <div className="justify-between max-md:pt-[100px] pt-[209px] px-[5vw] pb-[50px] min-h-screen">
       {/* ENFOQUE GOBERNANZAS */}
       <div>
         <h1 className={styles.h1}>Nuestro enfoque en gobernanzas</h1>
@@ -64,6 +49,7 @@ export default function HomePage() {
       {/* PLATAFORMAS ACTIVAS ACTUALMENTE- Desktop */}
 
       <div className="xl:flex grid-cols-2 justify-normal xl:justify-between items-center xl:text-left pt-[130px] max-md:pt-[3rem] ">
+        {/* columna 1 */}
         <div className="max-w-[482px]">
           <h3 className={styles.h3}>Plataformas activas actualmente</h3>
           <p className={styles.p}>
@@ -73,9 +59,12 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* invisible xl:visible */}
+        {/* columna 2 */}
         {/*  slider gobernanzas DESKTOP*/}
-        <div className="pb-[50px] xl:pt-[46px] px-16">
+        <div
+          id="GobernanzasPage"
+          className="hidden xl:block py-[50px] xl:pt-[46px] px-16"
+        >
           <div className="md:w-[880px]  xl:pt-16">
             <Swiper
               effect={"coverflow"}
@@ -98,7 +87,7 @@ export default function HomePage() {
               modules={[EffectCoverflow, Pagination]}
               className="mySwiperGobernanzasPage"
             >
-              <SwiperSlide>
+              <SwiperSlide onClick={() => window.showModal()}>
                 <a
                   className="cursor-pointer"
                   onClick={() => window.my_modal_22.showModal()}
@@ -109,6 +98,7 @@ export default function HomePage() {
                       height={331}
                       src={Optimism}
                       alt="logo"
+                      onClick={() => window.my_modal_22.showModal()}
                     ></Image>
                   </div>
                 </a>
@@ -120,7 +110,6 @@ export default function HomePage() {
                 >
                   <div>
                     <Image
-                      className="cursor-pointer"
                       width="100%"
                       height={331}
                       src={Maker}
@@ -144,172 +133,223 @@ export default function HomePage() {
                   </div>
                 </a>
               </SwiperSlide>
-
-              <div id="modals" className="md:max-w-[100vw] max-w">
-                <dialog id="my_modal_22" className="modal">
-                  <form method="dialog" className="modal-box">
-                    <div className={styles.headerModal_OPGov}>
-                      <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
-                        ✕
-                      </button>
-                    </div>
-                    <div className="px-4 ">
-                      <p className="py-4 text-lg">
-                        Optimism DAO, su ecosistema y la potenciación de LATAM
-                        como región. Comprendemos que la gobernanza es una pieza
-                        fundamental para impulsar esta misión y reconocemos el
-                        arduo trabajo de sus Delegados; quienes votación tras
-                        votación determinan cuál es la mejor dirección que debe
-                        tomar el Optimism Collective.
-                      </p>
-                      <div className="flex md:justify-end gap-2 ">
-                        <div>
-                          <Link
-                            target="_blank"
-                            rel="noopener"
-                            href="https://comunidad.seedlatam.org"
-                          >
-                            <Image
-                              className=""
-                              alt="Logo"
-                              src={discord}
-                            ></Image>
-                          </Link>
-                        </div>
-                        <div>
-                          <Link
-                            target="_blank"
-                            rel="noopener"
-                            href="https://twitter.com/SEEDLatam/"
-                          >
-                            <Image
-                              className=""
-                              alt="Logo"
-                              src={twitter}
-                            ></Image>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                  <form method="dialog" className="modal-backdrop">
-                    <button>close</button>
-                  </form>
-                </dialog>
-
-                <dialog id="my_modal_23" className="modal">
-                  <form method="dialog" className="modal-box">
-                    <div className={styles.headerModal_sofi}>
-                      <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
-                        ✕
-                      </button>
-                    </div>
-                    <div className="px-4 ">
-                      <p className="py-4 text-lg">
-                        Sovereign Finance AVC fue fundada en marzo de 2023 como
-                        parte del área de Gobernanza de SEED Latam, una
-                        comunidad educativa enfocada en Web3 nacida en Latam.
-                        Nuestra comunidad ha estado activa desde 2020 y
-                        participamos activamente en múltiples iniciativas de
-                        gobernanza.{" "}
-                      </p>
-                      <div className="flex md:justify-end gap-2 ">
-                        <div>
-                          <Link
-                            target="_blank"
-                            rel="noopener"
-                            href="https://comunidad.seedlatam.org"
-                          >
-                            <Image
-                              className=""
-                              alt="Logo"
-                              src={discord}
-                            ></Image>
-                          </Link>
-                        </div>
-                        <div>
-                          <Link
-                            target="_blank"
-                            rel="noopener"
-                            href="https://twitter.com/SEEDLatam/"
-                          >
-                            <Image
-                              className=""
-                              alt="Logo"
-                              src={twitter}
-                            ></Image>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                  <form method="dialog" className="modal-backdrop">
-                    <button>close</button>
-                  </form>
-                </dialog>
-
-                <dialog id="my_modal_24" className="modal">
-                  <form method="dialog" className="modal-box">
-                    <div className={styles.headerModal_arb}>
-                      <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
-                        ✕
-                      </button>
-                    </div>
-                    <div className="px-4 ">
-                      <p className="py-4 text-lg">
-                        La Arbitrum DAO se encarga de la gobernanza y el
-                        mantenimiento del protocolo Arbitrum, incluyendo la
-                        implementación de mejoras, la toma de decisiones y la
-                        asignación de recursos.
-                      </p>
-                      <div className="flex md:justify-end gap-2 ">
-                        <div>
-                          {" "}
-                          <Link
-                            target="_blank"
-                            rel="noopener"
-                            href="https://comunidad.seedlatam.org"
-                          >
-                            <Image
-                              className=""
-                              alt="Logo"
-                              src={discord}
-                            ></Image>
-                          </Link>
-                        </div>
-                        <div>
-                          <Link
-                            target="_blank"
-                            rel="noopener"
-                            href="https://twitter.com/SEEDLatam/"
-                          >
-                            <Image
-                              className=""
-                              alt="Logo"
-                              src={twitter}
-                            ></Image>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                  <form method="dialog" className="modal-backdrop">
-                    <button>close</button>
-                  </form>
-                </dialog>
-              </div>
             </Swiper>{" "}
           </div>
         </div>
+
+        {/* columna 2 */}
+        {/* -----------------------Responsive ------------------------ */}
+
+        <div id="GobernanzasPageRes" className="xl:hidden pb-[50px] ">
+          <div className=" w-[350px]  pt-16">
+            <Swiper
+              effect={"coverflow"}
+              grabCursor={false}
+              centeredSlides={true}
+              slidesPerView={"1"}
+              rewind={true}
+              coverflowEffect={{
+                rotate: 0,
+                stretch: 0,
+                depth: 20,
+                modifier: 20,
+                slideShadows: false,
+              }}
+              preventClicks={true}
+              navigation={true}
+              pagination={{
+                type: "fraction",
+              }}
+              modules={[EffectCoverflow, Pagination]}
+              className="mySwiperGobernanzasPage"
+            >
+              <SwiperSlide onClick={() => window.showModal()}>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_22.showModal()}
+                >
+                  <div>
+                    <Image
+                      width="100%"
+                      height={331}
+                      src={Optimism}
+                      alt="logo"
+                      onClick={() => window.my_modal_22.showModal()}
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_23.showModal()}
+                >
+                  <div>
+                    <Image
+                      className="cursor-pointer"
+                      width="100%"
+                      height={331}
+                      src={Maker}
+                      alt="logo"
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
+              <SwiperSlide onClick={() => window.my_modal_24.showModal()}>
+                <a
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_24.showModal()}
+                >
+                  <div>
+                    <Image
+                      width="100%"
+                      height={331}
+                      src={Arbitrum}
+                      alt="logo"
+                      onClick={() => window.my_modal_24.showModal()}
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
+            </Swiper>{" "}
+
+
+            
+          </div>
+
+        </div>
+
+        {/* MODALS */}
+        <dialog id="my_modal_22" className="modal">
+              <form method="dialog" className="modal-box">
+                <div className={styles.headerModal_OPGov}>
+                  <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2 ">
+                    ✕
+                  </button>
+                </div>
+                <div className="px-4 ">
+                  <p className="py-4 text-lg text-black">
+                    Optimism DAO, su ecosistema y la potenciación de LATAM como
+                    región. Comprendemos que la gobernanza es una pieza
+                    fundamental para impulsar esta misión y reconocemos el arduo
+                    trabajo de sus Delegados; quienes votación tras votación
+                    determinan cuál es la mejor dirección que debe tomar el
+                    Optimism Collective.
+                  </p>
+                  <div className="flex md:justify-end gap-2 ">
+                    <div>
+                      {" "}
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://comunidad.seedlatam.org"
+                      >
+                        <Image className="" alt="Logo" src={discord}></Image>
+                      </Link>
+                    </div>
+                    <div>
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://twitter.com/SEEDLatam/"
+                      >
+                        <Image className="" alt="Logo" src={twitter}></Image>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
+            <dialog id="my_modal_23" className="modal">
+              <form method="dialog" className="modal-box">
+                <div className={styles.headerModal_sofi}>
+                  <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+                    ✕
+                  </button>
+                </div>
+                <div className="px-4 ">
+                  <p className="py-4 text-lg text-black">
+                    Sovereign Finance AVC fue fundada en marzo de 2023 como
+                    parte del área de Gobernanza de SEED Latam, una comunidad
+                    educativa enfocada en Web3 nacida en Latam. Nuestra
+                    comunidad ha estado activa desde 2020 y participamos
+                    activamente en múltiples iniciativas de gobernanza.{" "}
+                  </p>
+                  <div className="flex md:justify-end gap-2 ">
+                    <div>
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://comunidad.seedlatam.org"
+                      >
+                        <Image className="" alt="Logo" src={discord}></Image>
+                      </Link>
+                    </div>
+                    <div>
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://twitter.com/SEEDLatam/"
+                      >
+                        <Image className="" alt="Logo" src={twitter}></Image>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
+            <dialog id="my_modal_24" className="modal">
+              <form method="dialog" className="modal-box">
+                <div className={styles.headerModal_arb}>
+                  <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+                    ✕
+                  </button>
+                </div>
+                <div className="px-4 ">
+                  <p className="py-4 text-lg text-black">
+                    La Arbitrum DAO se encarga de la gobernanza y el
+                    mantenimiento del protocolo Arbitrum, incluyendo la
+                    implementación de mejoras, la toma de decisiones y la
+                    asignación de recursos.
+                  </p>
+                  <div className="flex md:justify-end gap-2 ">
+                    <div>
+                      {" "}
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://comunidad.seedlatam.org"
+                      >
+                        <Image className="" alt="Logo" src={discord}></Image>
+                      </Link>
+                    </div>
+                    <div>
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://twitter.com/SEEDLatam/"
+                      >
+                        <Image className="" alt="Logo" src={twitter}></Image>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
+
       </div>
-      {/* -----------------------Responsive ------------------------ */}
-      {/* 
-        ver como hacer para q no se rompa todo
 
-        ------------------- */}
-
-
-        {/* imagen y titullo gov day */}
+      {/* imagen y titullo gov day */}
       <div className="xl:flex grid-cols-2 justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
         <Image className="" alt="Logo" src={govday}></Image>
 
@@ -321,43 +361,35 @@ export default function HomePage() {
 
           {/* boton */}
           <div className={styles3.buttonContainer}>
-          <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-            <button className={styles3.button2}>
-              Ver más sobre Governance Day
-            </button> 
-          </Link></div>
-
-
+            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
+              <button className={styles3.button2}>
+                Ver más sobre Governance Day
+              </button>
+            </Link>
+          </div>
         </div>
-
       </div>
 
       {/* escuela de gov */}
       <div className="xl:flex grid-cols-2 justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
-        
         <div className="max-w-[482px] text-left">
           <h3 className={styles.h3}>Escuela de gobernanza</h3>
-          <p className={styles.p}>
-            Proximamente :)
-          </p>
+          <p className={styles.p}>Proximamente :)</p>
 
           {/* boton */}
           <div className={styles3.buttonContainer}>
-          <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-            <button className={styles3.button2}>
-              Click aca para inscribirte
-            </button> 
-          </Link></div>
-
-
+            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
+              <button className={styles3.button2}>
+                Click aca para inscribirte
+              </button>
+            </Link>
+          </div>
         </div>
 
         <Image className="" alt="Logo" src={govday}></Image>
-
       </div>
-
-      
-
     </div>
+
+    /* -------------------------------------------- */
   );
 }
