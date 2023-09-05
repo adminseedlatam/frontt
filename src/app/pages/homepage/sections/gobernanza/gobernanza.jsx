@@ -13,9 +13,9 @@ import SwiperCore, { Pagination, Navigation } from "swiper";
 import Maker from "../../../../assets/img/gobernanza/gob-maker.png";
 import Arbitrum from "../../../../../app/assets/img/gobernanza/gob-arbitrum.png";
 import Optimism from "../../../../../app/assets/img/gobernanza/gob-op.png";
-import discord from "../../../../assets/icons/discord.svg";
+import discord from "../../../../assets/icons/discordwhite.svg";
 import instagram from "../../../../assets/icons/instagram.svg";
-import twitter from "../../../../assets/icons/twitter.svg";
+import twitter from "../../../../assets/icons/twitterwhite.svg";
 
 // Swiper
 
@@ -144,16 +144,19 @@ export default function HomePage() {
         </div>
       </div>
 
+                {/* MODALS */}
       <div id="modals">
+
+        {/* OPTIMISM */}
         <dialog id="my_modal_22" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_OPGov}>
               <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4 ">
-              <p className="pb-4 text-lg text-black">
+              <p className="pb-4 text-lg text-white">
                 Es una comunidad en español que se dedica a la educación y
                 adopción de usuarios en el ecosistema Web3 y cripto, bajo los
                 valores de la descentralización. Su principal enfoque está en el
@@ -191,14 +194,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_23" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card ">
             <div className={styles.headerModal_sofi}>
               <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
                 ✕
               </button>
             </div>
-            <div className="px-4 ">
-              <p className="pb-4 text-lg text-black">
+            <div className="px-4">
+              <p className="pb-4 text-lg text-white">
                 Sovereign Finance AVC fue fundada en marzo de 2023 como parte
                 del área de Gobernanza de SEED Latam, una comunidad educativa
                 enfocada en Web3 nacida en Latam. Nuestra comunidad ha estado
@@ -224,14 +227,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_24" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card ">
             <div className={styles.headerModal_arb}>
               <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4 ">
-              <p className="pb-4 text-lg text-black">
+              <p className="pb-4 text-lg text-white">
                 La Arbitrum DAO se encarga de la gobernanza y el mantenimiento
                 del protocolo Arbitrum, incluyendo la implementación de mejoras,
                 la toma de decisiones y la asignación de recursos.
