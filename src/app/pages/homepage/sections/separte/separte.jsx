@@ -50,7 +50,7 @@ export default function HomePage() {
         <div className="px-[5vw] pt-[75px]"> {/* Este agarra todo el swiper */}
           <div className=" pb-[75px]"> 
             <h3 className={styles.title}>
-              DESKTOP Las comunidades y SEED Latam
+              Las comunidades y SEED Latam
             </h3>
           </div>
           {/* este es el ultimo  */}
@@ -325,7 +325,7 @@ export default function HomePage() {
       <div id="Separte" className="xl:hidden">
         <div className=" px-[5vw] pt-[75px]">
           <div className="pb-[28.1px]  xl:pb-[75px]">
-            <h3 className={styles.title}>RESPONSIVELas comunidades y SEED Latam</h3>
+            <h3 className={styles.title}>Las comunidades y SEED Latam</h3>
           </div>
           <div className="flex  justify-between items-center xl:pb-[50px] flex-wrap">
             <div>

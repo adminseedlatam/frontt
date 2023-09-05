@@ -10,6 +10,8 @@ import Connext from "../assets/img/gobernanza/gob-connext.png"
 import discord from "../assets/icons/discordwhite.svg";
 import twitter from "../assets/icons/twitterwhite.svg";
 import govday from "../assets/img/gobernanza/GOVERNANCEDAY.png";
+import web from "../assets/icons/web.svg"
+import everyone from "../assets/img/gobernanza/everyone.png"
 
 import styles from "./gobernanzas.module.css";
 import styles3 from "./gobernanzas.module.css";
@@ -300,6 +302,8 @@ export default function HomePage() {
         </div>
 
         {/* MODALS */}
+
+        {/* optimism */}
         <dialog id="my_modal_22" className="modal">
               <form method="dialog" className="modal-box bg-bg-card">
                 <div className={styles.headerModal_OPGov}>
@@ -322,7 +326,7 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://comunidad.seedlatam.org"
+                        href="https://tr.ee/j8u08Dhqyt"
                       >
                         <Image className="" alt="Logo" src={discord}></Image>
                       </Link>
@@ -331,7 +335,7 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://twitter.com/SEEDLatam/"
+                        href="https://twitter.com/OptimismESP"
                       >
                         <Image className="" alt="Logo" src={twitter}></Image>
                       </Link>
@@ -343,6 +347,8 @@ export default function HomePage() {
                 <button>close</button>
               </form>
             </dialog>
+
+            {/* sovereign finance AVC */}
             <dialog id="my_modal_23" className="modal">
               <form method="dialog" className="modal-box bg-bg-card">
                 <div className={styles.headerModal_sofi}>
@@ -363,12 +369,12 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://comunidad.seedlatam.org"
+                        href="https://governance-seedlatam.notion.site/Sovereign-Finance-AVC-6790b6b2fa5544cbacc8d02da5c3b5e3"
                       >
-                        <Image className="" alt="Logo" src={discord}></Image>
+                        <Image className="" alt="Logo" src={web}></Image>
                       </Link>
                     </div>
-                    <div>
+                    {/* <div>
                       <Link
                         target="_blank"
                         rel="noopener"
@@ -376,7 +382,7 @@ export default function HomePage() {
                       >
                         <Image className="" alt="Logo" src={twitter}></Image>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </form>
@@ -406,7 +412,7 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://comunidad.seedlatam.org"
+                        href="https://discord.gg/6Vn5panv"
                       >
                         <Image className="" alt="Logo" src={discord}></Image>
                       </Link>
@@ -415,7 +421,7 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://twitter.com/SEEDLatam/"
+                        href="https://twitter.com/arbitrum_esp"
                       >
                         <Image className="" alt="Logo" src={twitter}></Image>
                       </Link>
@@ -438,10 +444,10 @@ export default function HomePage() {
                 </div>
                 <div className="px-4 ">
                   <p className="py-4 text-lg text-white">
-                    La Arbitrum DAO se encarga de la gobernanza y el
-                    mantenimiento del protocolo Arbitrum, incluyendo la
-                    implementación de mejoras, la toma de decisiones y la
-                    asignación de recursos.
+                  StarkNet  DAO tiene como misión respaldar el proyecto StarkNet, 
+                  una red l2 en Ethereum. 
+                  Esta governanza promoverá el desarrollo de StarkNet, 
+                  la adopción de la red y la participación de la comunidad.
                   </p>
                   <div className="flex md:justify-end gap-2 ">
                     <div>
@@ -449,7 +455,7 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://comunidad.seedlatam.org"
+                        href="https://discord.gg/6Vn5panv"
                       >
                         <Image className="" alt="Logo" src={discord}></Image>
                       </Link>
@@ -458,7 +464,7 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://twitter.com/SEEDLatam/"
+                        href="https://twitter.com/StarknetEs"
                       >
                         <Image className="" alt="Logo" src={twitter}></Image>
                       </Link>
@@ -481,10 +487,8 @@ export default function HomePage() {
                 </div>
                 <div className="px-4 ">
                   <p className="py-4 text-lg text-white">
-                    La Arbitrum DAO se encarga de la gobernanza y el
-                    mantenimiento del protocolo Arbitrum, incluyendo la
-                    implementación de mejoras, la toma de decisiones y la
-                    asignación de recursos.
+                  Nuestra delegación en Connext DAO es nuestra participación más reciente. 
+                  En actividad a partir septiembre de 2023, busca determinar mejoras para Connext.
                   </p>
                   <div className="flex md:justify-end gap-2 ">
                     <div>
@@ -492,7 +496,7 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://comunidad.seedlatam.org"
+                        href="https://t.co/Wp8w4BBfIg"
                       >
                         <Image className="" alt="Logo" src={discord}></Image>
                       </Link>
@@ -501,7 +505,7 @@ export default function HomePage() {
                       <Link
                         target="_blank"
                         rel="noopener"
-                        href="https://twitter.com/SEEDLatam/"
+                        href="https://twitter.com/ConnextEspanol"
                       >
                         <Image className="" alt="Logo" src={twitter}></Image>
                       </Link>
@@ -516,20 +520,30 @@ export default function HomePage() {
 
       </div>
 
-      {/* imagen y titullo gov day */}
-      <div className="xl:flex grid-cols-2 justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
-        <Image className="" alt="Logo" src={govday}></Image>
+      {/* imagen everyone y titullo gov day */}
+      <div className="bg-[url('../assets/img/gobernanza/fondo-gov-day.png')] min-h-max pr-3 xl:flex grid-cols-2 justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
+        
+        <Image className="md:min-w-min pl-3 pb-3 md:pl-16 md:pb-40" alt="Logo" src={everyone}></Image>
 
-        <div className="max-w-[482px] text-right pt-5">
+        <div className="max-w-[482px] text-right pt-5 md:pr-20 pr-3 md:pb-40">
           <h3 className={styles.h3}>Governance Day</h3>
           <p className={styles.p2}>
             El primer evento presencial enfocado en las gobernanzas en web3.
           </p>
 
-          {/* boton */}
-          <div className="text-9xl md:w-max-90vw md:flex md:justify-end">
+          {/* boton DESKTOP*/}
+          <div className="hidden xl:block text-9xl md:w-max-90vw md:flex md:justify-end">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button2}>
+                Ver más sobre Governance Day
+              </button>
+            </Link>
+          </div>
+          
+          {/* boton RESPONSIVE */}
+          <div className="xl:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:flex md:justify-end">
+            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
+              <button className={styles3.button3}>
                 Ver más sobre Governance Day
               </button>
             </Link>
@@ -543,17 +557,21 @@ export default function HomePage() {
           <h3 className={styles.h3}>Escuela de gobernanza</h3>
           <p className={styles.p}>Proximamente :)</p>
 
-          {/* boton */}
-          <div className="text-right md:w-max-90vw md:flex md:justify-end">
+          {/* boton DESKTOP */}
+          <div className="text-right md:pt-8 md:w-max-90vw md:flex md:justify-end">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button2}>
-                Click aca para inscribirte
+                Click acá para inscribirte
               </button>
             </Link>
           </div>
+
+
+
+          
         </div>
 
-        <Image className="" alt="Logo" src={govday}></Image>
+        <Image className="pt-5" alt="Logo" src={govday}></Image>
       </div>
     </div>
 
