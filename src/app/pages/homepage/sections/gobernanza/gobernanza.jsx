@@ -17,8 +17,6 @@ import discord from "../../../../assets/icons/discord.svg";
 import instagram from "../../../../assets/icons/instagram.svg";
 import twitter from "../../../../assets/icons/twitter.svg";
 
-
-
 // Swiper
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -53,7 +51,7 @@ export default function HomePage() {
   };
   return (
     <div id="Gobernanza" className="pt-[4vw]">
-          <div className={styles3.gobernanza} >
+      <div className={styles3.gobernanza}>
         <div className="px-[5vw] pb-[76px]">
           <h2 className={styles3.h2}>Gobernanza en web3</h2>
           <h3 className={styles3.h3}>
@@ -67,8 +65,7 @@ export default function HomePage() {
             votar mediante blockchain.
           </p>
           <div className="flex flex-wrap lg:justify-start md:justify-center">
-          <div className="max-w-[973px]  max-lg:max-w-[90vw] py-[50px] lg:hidden">
-             
+            <div className="max-w-[973px]  max-lg:max-w-[90vw] py-[50px] lg:hidden">
               <Swiper
                 effect={"coverflow"}
                 grabCursor={false}
@@ -83,7 +80,6 @@ export default function HomePage() {
                   slideShadows: false,
                 }}
                 navigation={true}
-                
                 modules={[EffectCoverflow, Navigation]}
                 className="mySwiperGobernanzaHome lg:hidden"
               >
@@ -136,17 +132,17 @@ export default function HomePage() {
                 
               </Swiper>
             </div>
-           
           </div>
+
           <div className={styles3.buttonContainer}>
-          <Link href="/gobernanzas">
-            <button className={styles3.button2}>
-              Ver más sobre gobernanza
-            </button> 
-          </Link></div>
+            <Link href="/gobernanzas">
+              <button className={styles3.button2}>
+                Ver más sobre gobernanza
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
-      
 
       <div id="modals">
         <dialog id="my_modal_22" className="modal">
@@ -157,7 +153,7 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="pb-4 text-lg">
+              <p className="pb-4 text-lg text-black">
                 Es una comunidad en español que se dedica a la educación y
                 adopción de usuarios en el ecosistema Web3 y cripto, bajo los
                 valores de la descentralización. Su principal enfoque está en el
@@ -202,8 +198,13 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="pb-4 text-lg">
-              Sovereign Finance AVC fue fundada en marzo de 2023 como parte del área de Gobernanza de SEED Latam, una comunidad educativa enfocada en Web3 nacida en Latam. Nuestra comunidad ha estado activa desde 2020 y participamos activamente en múltiples iniciativas de gobernanza. </p>
+              <p className="pb-4 text-lg text-black">
+                Sovereign Finance AVC fue fundada en marzo de 2023 como parte
+                del área de Gobernanza de SEED Latam, una comunidad educativa
+                enfocada en Web3 nacida en Latam. Nuestra comunidad ha estado
+                activa desde 2020 y participamos activamente en múltiples
+                iniciativas de gobernanza.{" "}
+              </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
                   <Link
@@ -230,8 +231,10 @@ export default function HomePage() {
               </button>
             </div>
             <div className="px-4 ">
-              <p className="pb-4 text-lg">
-              La Arbitrum DAO se encarga de la gobernanza y el mantenimiento del protocolo Arbitrum, incluyendo la implementación de mejoras, la toma de decisiones y la asignación de recursos.
+              <p className="pb-4 text-lg text-black">
+                La Arbitrum DAO se encarga de la gobernanza y el mantenimiento
+                del protocolo Arbitrum, incluyendo la implementación de mejoras,
+                la toma de decisiones y la asignación de recursos.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -270,12 +273,7 @@ export default function HomePage() {
             <button>close</button>
           </form>
         </dialog>
-        </div>
-
-
-
+      </div>
     </div>
   );
 }
-
-

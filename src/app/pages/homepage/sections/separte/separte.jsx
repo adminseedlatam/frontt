@@ -14,6 +14,8 @@ import ForkDAO from "../../../../../app/assets/img/community-section/forkdao.png
 import Dpp from "../../../../../app/assets/img/community-section/dpp.png";
 import Opes from "../../../../../app/assets/img/community-section/opes.png";
 import discord from "../../../../assets/icons/discord.svg";
+import discordwhite from "../../../../assets/icons/discordwhite.svg"; 
+import twitterwhite from "../../../../assets/icons/twitterwhite.svg"; 
 import instagram from "../../../../assets/icons/instagram.svg";
 import twitter from "../../../../assets/icons/twitter.svg";
 
@@ -26,8 +28,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 SwiperCore.use([Pagination, Navigation, EffectCoverflow]);
 
 export default function HomePage() {
-   const swiperRef = useRef(null);
-   const slidePrev = () => {
+  const swiperRef = useRef(null);
+  const slidePrev = () => {
     if (swiperRef.current) {
       swiperRef.current.slidePrev();
     }
@@ -38,16 +40,20 @@ export default function HomePage() {
       swiperRef.current.slideNext();
     }
   };
- 
 
   return (
     <div>
-      {/* Desktop */}
-      <div id="Separte" className="hidden xl:block py-[5vw]">
-        <div className="px-[5vw] pt-[75px]">
-          <div className=" pb-[75px]">
-            <h3 className={styles.title}>Las comunidades y SEED Latam</h3>
+      <div 
+      id="Separte" 
+      className="hidden xl:block py-[5vw]"
+      >
+        <div className="px-[5vw] pt-[75px]"> {/* Este agarra todo el swiper */}
+          <div className=" pb-[75px]"> 
+            <h3 className={styles.title}>
+              Las comunidades y SEED Latam
+            </h3>
           </div>
+          {/* este es el ultimo  */}
           <div className="flex  justify-between items-center pb-[50px]">
             <div>
               <div className="max-w-[336px] pb-[24px]">
@@ -62,52 +68,30 @@ export default function HomePage() {
             </div>
 
             {/*  slider comunidad Desktop */}
-          {/*   <div className=" max-w-[499px] w-auto w-[499px] "> */}
-<div className="w-[484px]">
-            <Swiper
-        effect={'coverflow'}
-        grabCursor={false}
-        centeredSlides={true}
-        slidesPerView={'1'}
-        rewind={true}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 20,
-          modifier: 20,
-          slideShadows: false,
-        }}
-        preventClicks={true}
-        navigation={true}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiperDesktop"
-      >
-           {/*  <Swiper
+            {/*   <div className=" max-w-[499px] w-auto w-[499px] "> */}
+            <div className="w-[880px]">
+              <Swiper
                 effect={"coverflow"}
                 grabCursor={false}
-                centeredSlides={true} 
-                slidesPerView={'3'}
-                loop={true} 
-                allowSlideNext={true}
-               rewind={true}
-                 coverflowEffect={{
-                  rotate: 10,
+                centeredSlides={true}
+                slidesPerView={"3"}
+                rewind={true}
+                coverflowEffect={{
+                  rotate: 0,
                   stretch: 0,
-                  scale: 1,
                   depth: 20,
-                  modifier: 1,
-                  slideShadows: true, }} 
-
+                  modifier: 20,
+                  slideShadows: false,
+                }}
+                preventClicks={true}
                 navigation={true}
                 pagination={{
-                  clickable: true,
+                  type: "fraction",
                 }}
-                
-                modules={[EffectCoverflow, Navigation, Pagination]}
-                className="mySwiperNewSeparte"
-              > */}
-                <SwiperSlide onClick={() => window.my_modal_2.showModal()}>
+                modules={[EffectCoverflow, Pagination]}
+                className="mySwiperDesktop"
+              >
+                <SwiperSlide onClick={() => window.showModal()}>
                   <a
                     className="cursor-pointer"
                     onClick={() => window.my_modal_2.showModal()}
@@ -123,14 +107,12 @@ export default function HomePage() {
                     </div>
                   </a>
                 </SwiperSlide>
-                <SwiperSlide className="cursor-pointer" onClick={() => window.my_modal_4.showModal()}>
-                  <a
-                   
-                    className="cursor-pointer"
-                    
-                  >
-                    <div  className="cursor-pointer"
-                    >
+                <SwiperSlide
+                  className="cursor-pointer"
+                  onClick={() => window.my_modal_4.showModal()}
+                >
+                  <a className="cursor-pointer">
+                    <div className="cursor-pointer">
                       <Image
                         className="cursor-pointer"
                         width="100%"
@@ -156,9 +138,9 @@ export default function HomePage() {
                     </div>
                   </a>
                 </SwiperSlide>
-              
               </Swiper>
-          {/*     <Swiper
+
+              {/*     <Swiper
                 effect={"coverflow"}
                 grabCursor={false}
                 centeredSlides={true}
@@ -226,13 +208,11 @@ export default function HomePage() {
                 </SwiperSlide>    
               </Swiper> */}
             </div>
-
-            
           </div>
         </div>
 
-{/* slider comunidad responsive */}
-       {/*  <div className="  hidden md:flex  lg:justify-between  px-[5vw] ">
+        {/* slider comunidad responsive */}
+        {/*  <div className="  hidden md:flex  lg:justify-between  px-[5vw] ">
           <div className="lg:flex min-w-[90vw] lg:justify-between">
             <div className="  max-w-[316px] pb-[24px]">
               <h4 className={styles.h3}>Comunidades Amigas</h4>
@@ -360,7 +340,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className=" max-w-[90vw]  w-[485px] py-[50px]">
-             <Swiper
+              <Swiper
                 effect={"coverflow"}
                 grabCursor={false}
                 centeredSlides={true}
@@ -374,7 +354,6 @@ export default function HomePage() {
                   slideShadows: false,
                 }}
                 navigation={true}
-                
                 modules={[EffectCoverflow, Navigation]}
                 className="mySwiperNewSeparte"
               >
@@ -425,8 +404,7 @@ export default function HomePage() {
                   </a>
                 </SwiperSlide>
               </Swiper>
-              </div>
-          
+            </div>
           </div>
         </div>
         {/* Comunidades Amigas Desktop */}
@@ -536,7 +514,7 @@ export default function HomePage() {
         </div> */}
 
         {/* Comunidades Amigas Responsive */}
-       {/*  <div className=" flex xl:hidden    lg:justify-between  px-[5vw] ">
+        {/*  <div className=" flex xl:hidden    lg:justify-between  px-[5vw] ">
           <div className="lg:flex min-w-[90vw] lg:justify-between">
             <div>
               <div className=" max-w-[316px] ">
@@ -649,15 +627,16 @@ export default function HomePage() {
 
       {/* Modals */}
       <div id="modals">
+
         <dialog id="my_modal_2" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal}>
-              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none  text-white absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg  text-white">
                 Es una comunidad en español que se dedica a la educación y
                 adopción de usuarios en el ecosistema Web3 y cripto, bajo los
                 valores de la descentralización. Su principal enfoque está en el
@@ -674,17 +653,20 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image 
+                    className="" 
+                    alt="Logo" 
+                    src={discordwhite}></Image>
                   </Link>
                 </div>
-              
+
                 <div>
                   <Link
                     target="_blank"
                     rel="noopener"
                     href="https://twitter.com/DeFi_Latam"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -696,14 +678,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_3" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_l2}>
-              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute text-white right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-white">
                 Es una comunidad en español dedicada al estudio de soluciones de
                 escalabilidad en Ethereum. Su principal enfoque está relacionado
                 a las L2, Optimistic Rollup, Zk rollup, Ethereum, Validiums, DA,
@@ -717,17 +699,17 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
-               
+
                 <div>
                   <Link
                     target="_blank"
                     rel="noopener"
                     href="https://twitter.com/Layer2es"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -739,14 +721,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_4" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_opes}>
-              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none text-black absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4 ">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-white">
                 Es una comunidad enfocada en brindar información sobre el
                 ecosistema Optimism. Su principal enfoque está en la
                 actualización del protocolo y la traducción de documentación.
@@ -759,17 +741,17 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
-              
+
                 <div>
                   <Link
                     target="_blank"
                     rel="noopener"
                     href="https://twitter.com/OptimismESP"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -781,14 +763,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_5" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_buidlers}>
               <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-white">
                 Es una comunidad que compone el hub de desarrolladores Web3 en
                 español, en la cual la descentralización, calidad y colaboración
                 son parte de su identidad.
@@ -800,7 +782,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -830,14 +812,14 @@ export default function HomePage() {
         </dialog>
 
         <dialog id="my_modal_6" className="modal">
-          <form method="dialog" className="modal-box">
+          <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal_descilatam}>
-              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle btn-ghost border-none outline-none text-white absolute right-2 top-2">
                 ✕
               </button>
             </div>
             <div className="px-4">
-              <p className="py-4 text-lg">
+              <p className="py-4 text-lg text-white">
                 Es una comunidad en español y portugués de educación sobre
                 ciencia descentralizada. Su principal objetivo es dar a conocer
                 el movimiento DeSci en Latinoamérica y apoyar proyectos de
@@ -851,7 +833,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -870,7 +852,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://twitter.com/SEEDLatam/"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -902,7 +884,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -920,7 +902,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://twitter.com/SEEDLatam/"
                   >
-                    <Image className="" alt="Logo" src={twitter}></Image>
+                    <Image className="" alt="Logo" src={twitterwhite}></Image>
                   </Link>
                 </div>
               </div>
@@ -954,7 +936,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -1003,7 +985,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>
@@ -1059,7 +1041,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image className="" alt="Logo" src={discord}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
                 <div>

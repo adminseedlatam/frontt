@@ -48,16 +48,25 @@ export function Navigation() {
                 Descúbrenos
               </Link>
               <Link
+                href="#Gobernanza"
+                className=" p-2  text-lg font-bold  text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
+              >
+                Gobernanza
+              </Link>
+              <Link
                 href="#Separte"
                 className=" p-2  text-lg  font-bold text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
               >
                 Sé parte
               </Link>
+              
               <Link
-                href="#Gobernanza"
-                className=" p-2  text-lg font-bold  text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
+                target="_blank"
+                rel="noopener"
+                href="https://mirror.xyz/seedlatam.eth"
+                className="p-2 text-lg font-bold border-[#222222]  text-white hover:border-b-4 hover:border-[#F651F6] border-b-4"
               >
-                Gobernanza
+                Blog
               </Link>
               <Link
                 target="_blank"

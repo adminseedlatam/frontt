@@ -6,9 +6,9 @@ import styles from "./hero.module.css";
 import logoIso from "../../../../assets/img/hero/logo-iso.svg";
 import logoText from "../../../../assets/img/hero/logo-text.svg";
 import formerly from "../../../../assets/img/hero/formerly.png";
-import discord from "../../../../assets/icons/discord.svg";
+import discord from "../../../../assets/icons/discordwhite.svg";
 import instagram from "../../../../assets/icons/instagram.svg";
-import twitter from "../../../../assets/icons/twitter.svg";
+import twitter from "../../../../assets/icons/twitterwhite.svg";
 
 export function Hero() {
   return (
