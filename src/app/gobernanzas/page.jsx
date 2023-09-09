@@ -573,6 +573,15 @@ export default function HomePage() {
 
         <Image className="pt-5" alt="Logo" src={govday}></Image>
       </div>
+
+      {/* boton DESKTOP*/}
+      <div className="hidden xl:block text-9xl md:w-max-90vw md:flex md:justify-end">
+            <Link href="/gobernanzas/govday">
+              <button className={styles3.button2}>
+                TEST
+              </button>
+            </Link>
+          </div>
     </div>
 
     /* -------------------------------------------- */
