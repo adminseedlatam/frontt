@@ -38,17 +38,7 @@ SwiperCore.use([Pagination, Navigation]);
 export default function HomePage() {
   const swiperRef = useRef(null);
 
-  const slidePrev = () => {
-    if (swiperRef.current) {
-      swiperRef.current.slidePrev();
-    }
-  };
 
-  const slideNext = () => {
-    if (swiperRef.current) {
-      swiperRef.current.slideNext();
-    }
-  };
   return (
     <div id="Gobernanza" className="pt-[4vw]">
       <div className={styles3.gobernanza}>

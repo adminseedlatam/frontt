@@ -1,0 +1,233 @@
+.gobernanzas {
+    /*    max-height: 810px; */
+    background-image: url("../../assets/img/gobernanza/gobernanza-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 77px;
+    padding-bottom: 77px;
+    padding-left: 77px;
+    padding-right: 77px;
+  }
+  
+  .h1 {
+    padding-bottom: 75px;
+    text-shadow: 0px 3px 16.5px 0px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 66px; /* 137.5% */
+    letter-spacing: -2.4px;
+  }
+  
+  .h4 {
+    max-width: 381px;
+    text-shadow: 0px 4.079999923706055px 22.440000534057617px 0px
+      rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 110% */
+    letter-spacing: -1.5px;
+  }
+  
+  .small {
+    max-width: 610.5px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.9px;
+  }
+  
+  .h3 {
+    text-shadow: 0px 3px 16.5px 0px rgba(0, 0, 0, 0.25);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 37.5px; /* 104.167% */
+    letter-spacing: -1.8px;
+    padding-bottom: 30px;
+  }
+  
+  .p {
+    text-align: justify;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 112.5% */
+    letter-spacing: -1.2px;
+  }
+  
+  .p2 {
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px; /* 112.5% */
+    letter-spacing: -1.2px;
+  }
+  
+  .headerModal_arb {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../../app/assets/img/gobernanza/header_arbitrum.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*   border-radius: 18.3714px; */
+  }
+  
+  .headerModal_OPGov {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../../app/assets/img/gobernanza/header_op.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border-radius: 18.3714px 0 18.3714px 0; */
+  }
+  
+  .headerModal_sofi {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../../app/assets/img/gobernanza/header_sofi.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border-radius: 18.3714px; */
+  }
+  
+  .headerModal_starknet {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../../app/assets/img/gobernanza/header_starknet.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border-radius: 18.3714px; */
+  }
+  
+  .headerModal_connext {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../../app/assets/img/gobernanza/header_connext.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border-radius: 18.3714px; */
+  }
+  
+  .buttonContainer {
+    max-width: 90vw;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .button2 {
+    /* font-size: medium;
+    text-align: center; */
+    border-radius: 8px;
+    width: 382px;
+    height: 63px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f651f6;
+    border: 1px solid;
+    border-color: #f651f6;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.25);
+    margin-right: 25px;
+    margin-top: 80px;
+  }
+  
+  .button2:hover {
+    border: 1px solid;
+    border-color: #f651f6;
+    color: white;
+    background-color: #f651f6;
+  }
+  
+  .button3 {
+    /* font-size: medium;
+    text-align: center; */
+    border-radius: 8px;
+    width: 305px;
+    height: 63px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f651f6;
+    border: 1px solid;
+    border-color: #f651f6;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.25);
+    margin-right: 25px;
+    margin-top: 80px;
+  }
+  
+  .button3:hover {
+    border: 1px solid;
+    border-color: #f651f6;
+    color: white;
+    background-color: #f651f6;
+  }
+  
+  @media (width <= 1024px) {
+    .gobernanzas {
+      /*    max-height: 810px; */
+      display: block;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  
+    .h1 {
+      text-shadow: 0px 1.9994605779647827px 10.997034072875977px 0px
+        rgba(0, 0, 0, 0.25);
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 27.992px; /* 116.635% */
+      letter-spacing: -1.2px;
+    }
+  
+    .h4 {
+      text-shadow: 0px 1.9994605779647827px 10.997034072875977px 0px
+        rgba(0, 0, 0, 0.25);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 27.992px; /* 116.635% */
+      letter-spacing: -1.2px;
+      padding-bottom: 2rem;
+    }
+  
+    .small {
+      text-align: justify;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 19px; /* 118.75% */
+      letter-spacing: -0.8px;
+    }
+  
+    .h3 {
+      text-shadow: 0px 1.9994605779647827px 10.997034072875977px 0px
+        rgba(0, 0, 0, 0.25);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 27.992px; /* 116.635% */
+      letter-spacing: -1.2px;
+    }
+  
+    .p {
+      text-align: justify;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 19px; /* 118.75% */
+      letter-spacing: -0.8px;
+    }
+  }
+  
