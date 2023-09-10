@@ -532,7 +532,7 @@ export default function HomePage() {
           </p>
 
           {/* boton DESKTOP*/}
-          <div className="hidden xl:block text-9xl md:w-max-90vw md:flex md:justify-end">
+          <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button2}>
                 Ver más sobre Governance Day
@@ -541,7 +541,7 @@ export default function HomePage() {
           </div>
           
           {/* boton RESPONSIVE */}
-          <div className="xl:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:flex md:justify-end">
+          <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button3}>
                 Ver más sobre Governance Day
@@ -558,7 +558,7 @@ export default function HomePage() {
           <p className={styles.p}>Proximamente :)</p>
 
           {/* boton DESKTOP */}
-          <div className="text-right md:pt-8 md:w-max-90vw md:flex md:justify-end">
+          <div className="text-right md:pt-8 md:w-max-90vw md:flex md:justify-start">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button2}>
                 Click acá para inscribirte
@@ -574,7 +574,7 @@ export default function HomePage() {
         <Image className="pt-5" alt="Logo" src={govday}></Image>
       </div>
 
-      {/* boton DESKTOP*/}
+      {/* boton TEST*/}
       <div className="hidden xl:block text-9xl md:w-max-90vw md:flex md:justify-end">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button2}>
