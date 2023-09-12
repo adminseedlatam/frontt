@@ -1,11 +1,11 @@
 import Link from "next/link";
 import styles from "./links.module.css";
 import Image from "next/image";
-import discord from "../assets/icons/discord.svg";
+import discord from "../assets/icons/discordwhite.svg";
 import instagram from "../assets/icons/instagram.svg";
 import youtube from "../assets/icons/youtube.svg";
 import linkedin from "../assets/icons/linkedin.svg";
-import twitter from "../assets/icons/twitter.svg";
+import twitter from "../assets/icons/twitterwhite.svg";
 import mirror from "../assets/icons/mirror.svg";
 import telegram from "../assets/icons/telegram.svg";
 

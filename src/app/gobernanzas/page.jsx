@@ -533,7 +533,7 @@ export default function HomePage() {
 
           {/* boton DESKTOP*/}
           <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
-            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
+            <Link href="/gobernanzas/govday">
               <button className={styles3.button2}>
                 Ver más sobre Governance Day
               </button>
@@ -542,7 +542,7 @@ export default function HomePage() {
           
           {/* boton RESPONSIVE */}
           <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
-            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
+            <Link href="/gobernanzas/govday">
               <button className={styles3.button3}>
                 Ver más sobre Governance Day
               </button>
@@ -574,14 +574,6 @@ export default function HomePage() {
         <Image className="pt-5" alt="Logo" src={govday}></Image>
       </div>
 
-      {/* boton TEST*/}
-      <div className="hidden xl:block text-9xl md:w-max-90vw md:flex md:justify-end">
-            <Link href="/gobernanzas/govday">
-              <button className={styles3.button2}>
-                TEST
-              </button>
-            </Link>
-          </div>
     </div>
 
     /* -------------------------------------------- */
