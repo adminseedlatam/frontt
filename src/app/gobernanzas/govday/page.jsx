@@ -52,8 +52,8 @@ export default function HomePage() {
         <div className="max-w-[482px] pt-6 text-left">
           <h3 className={styles.h3}>Charlas & Speakers </h3>
           <p className={styles.p}>
-            Vinieron speakers zarpados y dieron charlas zarpadas, anda a verlas
-            a Youtube, anon!{" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Etiam maximus augue nec ante tempus, nec.{" "}
           </p>
 
           {/* boton DESKTOP */}
@@ -77,7 +77,7 @@ export default function HomePage() {
           <div className="xl:pr-2">
             <iframe
               className="lg:left-0 aspect-video pt-6 mt-10 mx-auto h-48 sm:h-64 md:mt-0 md:h-72 lg:h-80 xl:h-96"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://www.youtube.com/embed/OjtMlpi_MjA"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""

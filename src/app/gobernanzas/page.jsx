@@ -532,8 +532,10 @@ export default function HomePage() {
           </p>
 
           {/* boton DESKTOP*/}
+          {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
+          {/* PROXIMAMENTE */}
           <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
-            <Link href="/gobernanzas/govday">
+            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button2}>
                 Ver más sobre Governance Day
               </button>
@@ -541,8 +543,11 @@ export default function HomePage() {
           </div>
           
           {/* boton RESPONSIVE */}
+          {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
+          {/* PROXIMAMENTE */}
           <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
-            <Link href="/gobernanzas/govday">
+            
+            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
               <button className={styles3.button3}>
                 Ver más sobre Governance Day
               </button>
