@@ -1,3 +1,13 @@
+.headerModal {
+  width: 100%;
+  height: 200px;
+  background-image: url("../../../../assets/img/descubrenos/mapa-ecosistema.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+
 .sectionContainer {
   width: 482.25px;
   height: 697.54px;

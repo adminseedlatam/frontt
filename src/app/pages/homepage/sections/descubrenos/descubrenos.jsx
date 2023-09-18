@@ -9,6 +9,17 @@ import CommunityCalls from "../../../../assets/img/slide-section/community-calls
 import EventosEspeciales from "../../../../../app/assets/img/slide-section/eventos-especiales.png";
 import GovernanceCalls from "../../../../../app/assets/img/slide-section/governance-calls.png";
 import EventosPresenciales from "../../../../../app/assets/img/slide-section/eventos-presenciales.png";
+import mapa from "../../../../assets/img/descubrenos/mapa-ecosistema.png";
+import wonderland from "../../../../assets/img/descubrenos/wonderland.svg";
+import decentraland from "../../../../assets/img/descubrenos/decentraland-dao.svg";
+import kleros from "../../../../assets/img/descubrenos/kleros.svg";
+import uniswap from "../../../../assets/img/descubrenos/uniswap.svg";
+import connext from "../../../../assets/img/descubrenos/connext.svg";
+import letgh from "../../../../assets/img/descubrenos/letsgethai.svg";
+import lens from "../../../../assets/img/descubrenos/lens-protocol.svg";
+ 
+
+
 
 // Swiper
 import { useRef } from "react";
@@ -55,6 +66,7 @@ export default function HomePage() {
             }}
             className="mySwiperDescubrenosDesktop"
           >
+            {/* SLIDE 1 DESKTOP */}
             <SwiperSlide key="slide1">
               <div className="px-[5vw] ">
                 <div className={styles.mainContainer}>
@@ -93,6 +105,8 @@ export default function HomePage() {
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* SLIDE 2 DESKTOP */}
             <SwiperSlide key="slide2">
               <div className="px-[5vw]">
                 <div className={styles.mainContainer}>
@@ -245,6 +259,8 @@ export default function HomePage() {
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* SLIDE 3 DESKTOP */}
             <SwiperSlide key="slide3">
               <div className="px-[5vw] ">
                 <div className={styles.mainContainer}>
@@ -292,6 +308,202 @@ export default function HomePage() {
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* SLIDE 4 DESKTOP */}
+            <SwiperSlide key="slide4">
+              <div className="px-[5vw]">
+                <div className={styles.mainContainer}>
+                  <div className={styles.sectionContainer}>
+                    <div className="h-28 pb-8 flex xl:pt-80">
+                      <h3 className={styles.title}>
+                        ¿Quienes forman parte de SEED Latam?
+                      </h3>
+                    </div>
+                  </div>
+
+                  <div className="  xl:max-w-[990px] pl-[108px] ">
+                    <div className="min-[1570px]:max-w-[700px]">
+                      <div className="flex">
+                        <div className={styles.breadcrumbs}>
+                          SEED Latam &gt;
+                        </div>
+                        <div className={styles.breadcrumbs2}>
+                          ¿Quienes forman parte de SEED Latam?
+                        </div>
+                      </div>
+                      <div className="pt-5">
+                        <p className={styles.font4}>Texto test</p>
+                      </div>
+                    </div>
+
+                    <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px]">
+                      <div className="pr-[79.75px]">
+                        <div className={styles.events}>
+                          <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
+                            <div>
+                              <Image
+                                width={100}
+                                height={100}
+                                src={CommunityCalls}
+                                alt="logo"
+                              ></Image>
+                            </div>
+                            <div className=" pl-[1rem] ">
+                              <div className="text-white text-[20px] font-bold leading-9">
+                                Ecosistema SEED
+                              </div>
+
+                              <h4>Toda nuestra estructura explicada</h4>
+                              <a
+                                className="text-fuchsia-500 font-normal leading-9"
+                                target="_blank"
+                                rel="noopener"
+                                onClick={() => window.my_modal_1.showModal()}
+                              >
+                                Ver más
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* modal 1 */}
+                      <dialog
+                        id="my_modal_1"
+                        className="modal"
+                      >
+                        <div>
+                          <form
+                            method="dialog"
+                            className="modal-backdrop justify-end"
+                          >
+                            <button className="text-white ">
+                              ✕
+                            </button>
+                          </form>
+                          <Image
+                            className="object-contain mx-auto px-28 w-screen"
+                            alt="Logo"
+                            src={mapa}
+                          ></Image>
+                        </div>
+                      </dialog>
+
+                      {/* ---------------Fin modal -------- */}
+
+                      <div className="pr-[79.75px] ">
+                        <div className={styles.events}>
+                          <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
+                            <div>
+                              <Image
+                                width={100}
+                                height={100}
+                                src={GovernanceCalls}
+                                alt="logo"
+                              ></Image>
+                            </div>
+                            <div className=" pl-[1rem] ">
+                              <div className="text-white text-[20px] font-bold leading-9">
+                                Estatuto
+                              </div>
+
+                              <h4>Toda la informacion interna de SEED Latam</h4>
+                              <Link
+                                target="_blank"
+                                rel="noopener"
+                                className="text-fuchsia-500 font-normal leading-9"
+                                href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI"
+                              >
+                                Ver url: seedlatam.wiki
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            {/* SLIDE 5 DESKTOP */}
+            <SwiperSlide key="slide5">
+              <div className="px-[5vw] ">
+                <div className={styles.mainContainer}>
+                  <div className={styles.sectionContainer}>
+                    <div className={styles.containerTitle}>
+                      <h3 className={styles.title}>¿Quienes ya confiaron en nosotros?</h3>
+                    </div>
+                  </div>
+
+                  <div className="lg:max-w-[874px] pl-[108px] ">
+                    <div className="flex pb-10">
+                      <div className={styles.breadcrumbs}>SEED Latam &gt;</div>
+                      <div className={styles.breadcrumbs2}>
+                      ¿Quienes ya confiaron en nosotros?
+                      </div>
+                    </div>
+                    {/* Imagenes */}
+                    {/* wonderland decentraland kleros uniswap */}
+                    <div className="  ">
+                    <Image 
+                      width={246}
+                      src={wonderland}
+                      alt = "logo_wonderland"
+                      className="">
+                      
+                    </Image>
+
+                    <Image 
+                      width={222}
+                      src={decentraland}
+                      alt = "logo_decentraland"
+                      className="py-3">
+                    </Image>
+
+                    <Image 
+                      width={222}
+                      src={connext}
+                      alt = "logo_connext"
+                      className="py-3">
+                    </Image>
+
+                    <Image 
+                      width={107}
+                      src={kleros}
+                      alt = "logo_kleros"
+                      className="py-3">
+                    </Image>
+
+                    <Image 
+                      width={222}
+                      src={letgh}
+                      alt = "logo_letgh"
+                      className="py-3">
+                    </Image>
+
+                    <Image 
+                      width={153}
+                      src={uniswap}
+                      alt = "logo_uniswap"
+                      className="py-3">
+                    </Image>
+
+                    <Image 
+                      width={222}
+                      src={lens}
+                      alt = "logo_lens"
+                      className="py-3">
+                    </Image>
+
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
             <div className="prev-button">
               <FiChevronLeft
                 size={32}
@@ -336,7 +548,8 @@ export default function HomePage() {
               className="mySwiperResponsive"
               modules={[EffectCoverflow, Pagination, Navigation]}
             >
-              <SwiperSlide key="slide4" className={styles.mainContainer}>
+              {/* SLIDE 1 RESPONSIVE */}
+              <SwiperSlide key="slide6" className={styles.mainContainer}>
                 <div>
                   <div className={styles.sectionContainer}>
                     <div className={styles.containerTitle}>
@@ -367,7 +580,9 @@ export default function HomePage() {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide key="slide5">
+
+              {/* SLIDE 2 RESPONSIVE */}
+              <SwiperSlide key="slide7">
                 <div>
                   <div className={styles.mainContainer}>
                     <div className={styles.sectionContainer}>
@@ -411,11 +626,10 @@ export default function HomePage() {
                                   Community Calls
                                 </h4>
                                 <div className={styles.eventDescription}>
-                                  Todos los jueves 20hs
+                                  Repasamos los hechos más importantes
                                 </div>
-                                
+
                                 <p className={styles.eventCTA}>Ver más</p>
-                                
                               </div>
                             </div>
                           </Link>
@@ -511,7 +725,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide key="slide6">
+              <SwiperSlide key="slide8">
                 <div className="">
                   <div className={styles.mainContainer}>
                     <div className={styles.sectionContainer}>
