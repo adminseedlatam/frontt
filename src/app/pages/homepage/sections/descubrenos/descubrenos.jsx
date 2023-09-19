@@ -9,7 +9,7 @@ import CommunityCalls from "../../../../assets/img/slide-section/community-calls
 import EventosEspeciales from "../../../../../app/assets/img/slide-section/eventos-especiales.png";
 import GovernanceCalls from "../../../../../app/assets/img/slide-section/governance-calls.png";
 import EventosPresenciales from "../../../../../app/assets/img/slide-section/eventos-presenciales.png";
-import mapa from "../../../../assets/img/descubrenos/mapa-ecosistema.png";
+import mapa from "../../../../assets/img/descubrenos/mapa-ecosistema.svg";
 import wonderland from "../../../../assets/img/descubrenos/wonderland.svg";
 import decentraland from "../../../../assets/img/descubrenos/decentraland-dao.svg";
 import kleros from "../../../../assets/img/descubrenos/kleros.svg";

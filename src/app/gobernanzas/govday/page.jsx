@@ -52,8 +52,201 @@ export default function HomePage() {
         <div className="max-w-[482px] pt-6 text-left">
           <h3 className={styles.h3}>Charlas & Speakers </h3>
           <p className={styles.p}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Etiam maximus augue nec ante tempus, nec.{" "}
+            {/* ----------------------------------- */}
+            {/* Manugotsuka */}
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/watch?v=JUv4b2qfkVE&list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa&index=6"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Un resumen de los primeros meses de Arbitrum DAO
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://forum.arbitrum.foundation/u/manugotsuka"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Manugotsuka
+            </Link>
+            <br /> <br />
+            {/* ----------------------------------- */}
+            {/* João Kury */}
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/watch?v=qmTec7TUl9k&feature=youtu.be"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Transparencia y Anonimato en DAOs y Gobernanza (EN)
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/cripto_nita_"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              João Kury
+            </Link>
+            <br /> <br />
+            {/* ----------------------------------- */}
+            {/* Maxlomu.eth */}
+            <Link target="_blank" rel="noopener" href="" className="">
+              DAO-Ops: el nivel de interoperabilidad entre cadenas (ES)
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/maxlomu"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Maxlomu.eth
+            </Link>
+            <br /> <br />
+            {/* ----------------------------------- */}
+            {/* Maxlomu.eth */}
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/watch?v=5WOof_NFGBg&feature=youtu.be"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Gobernanza, Toma de Decisiones y Agencia en un entorno
+              descentralizado
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/federiconh"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Federico Holzwarth
+            </Link>
+            <br /> <br />
+            {/* ----------------------------------- */}
+            {/* Pumbi */}
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/watch?v=OgqQXsYGch0&feature=youtu.be"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              El Futuro de la Gobernanza en Optimism (ES)
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/0xPumbi"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Pumbi
+            </Link>
+            <br /> <br />
+            {/* ----------------------------------- */}
+            {/* Joxes */}
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/watch?v=qyRaaq-nTPg&feature=youtu.be"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Gobernanza en Rollups: ¿Un Mal Necesario? (ES)
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/0xJoxes"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Joxes
+            </Link>
+            <br /> <br />
+            {/* ----------------------------------- */}
+            {/* Gonna */}
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/watch?v=4AqvRyIVLS8"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Bienes Públicos en Optimism (ES)
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/GonnaEth"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Gonna
+            </Link>
+            <br /> <br />
+            {/* ----------------------------------- */}
+            {/* Mariano Davo y Crisincrypto */}
+            Taller:
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/watch?v=CNCfto0inxo"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              &nbsp;Creación y el presente de AVCs
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/CryptoAbogadoAR"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Mariano Davo
+            </Link>
+            &nbsp; y &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/Crisincrypto"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              Crisincrypto
+            </Link>
+            <br /> <br />
+            {/* ----------------------------------- */}
+            {/* 0x3liza y 0xRetro */}
+            Taller:
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://www.youtube.com/watch?v=HeEJ1Wx2Zjc"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              &nbsp;Preparando el Terreno para la Gobernanza de los Comunes (EN)
+            </Link>
+            &nbsp; por &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/0x3liza"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              0x3liza
+            </Link> 
+            &nbsp; y &nbsp;
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="https://twitter.com/0xRetro"
+              className="text-fuchsia-500 font-normal leading-9"
+            >
+              0xRetro
+            </Link>{" "}
           </p>
 
           {/* boton DESKTOP */}
@@ -69,7 +262,6 @@ export default function HomePage() {
               <button className={styles3.button3}>Ir a lista de Youtube</button>
             </Link>
           </div>
-          
         </div>
 
         <div>
@@ -84,8 +276,6 @@ export default function HomePage() {
             ></iframe>
           </div>
         </div>
-
-        
       </div>
     </div>
   );
