@@ -17,9 +17,6 @@ import uniswap from "../../../../assets/img/descubrenos/uniswap.svg";
 import connext from "../../../../assets/img/descubrenos/connext.svg";
 import letgh from "../../../../assets/img/descubrenos/letsgethai.svg";
 import lens from "../../../../assets/img/descubrenos/lens-protocol.svg";
- 
-
-
 
 // Swiper
 import { useRef } from "react";
@@ -368,25 +365,20 @@ export default function HomePage() {
                       </div>
 
                       {/* modal 1 */}
-                      <dialog
-                        id="my_modal_1"
-                        className="modal"
-                      >
-                        <div>
-                          <form
-                            method="dialog"
-                            className="modal-backdrop justify-end"
-                          >
-                            <button className="text-white ">
-                              ✕
-                            </button>
-                          </form>
+                      <dialog id="my_modal_1" className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4 ">
+                        <form
+                          method="dialog"
+                          className="modal-backdrop justify-end"
+                        >
+                          <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-28 top-12 xl:top-24 2xl:top-4">
+                            ✕
+                          </button>
                           <Image
                             className="object-contain mx-auto px-28 w-screen"
                             alt="Logo"
                             src={mapa}
                           ></Image>
-                        </div>
+                        </form>
                       </dialog>
 
                       {/* ---------------Fin modal -------- */}
@@ -432,7 +424,9 @@ export default function HomePage() {
                 <div className={styles.mainContainer}>
                   <div className={styles.sectionContainer}>
                     <div className={styles.containerTitle}>
-                      <h3 className={styles.title}>¿Quienes ya confiaron en nosotros?</h3>
+                      <h3 className={styles.title}>
+                        ¿Quienes ya confiaron en nosotros?
+                      </h3>
                     </div>
                   </div>
 
@@ -440,65 +434,61 @@ export default function HomePage() {
                     <div className="flex pb-10">
                       <div className={styles.breadcrumbs}>SEED Latam &gt;</div>
                       <div className={styles.breadcrumbs2}>
-                      ¿Quienes ya confiaron en nosotros?
+                        ¿Quienes ya confiaron en nosotros?
                       </div>
                     </div>
                     {/* Imagenes */}
                     {/* wonderland decentraland kleros uniswap */}
                     <div className="  ">
-                    <Image 
-                      width={246}
-                      src={wonderland}
-                      alt = "logo_wonderland"
-                      className="">
-                      
-                    </Image>
+                      <Image
+                        width={246}
+                        src={wonderland}
+                        alt="logo_wonderland"
+                        className=""
+                      ></Image>
 
-                    <Image 
-                      width={222}
-                      src={decentraland}
-                      alt = "logo_decentraland"
-                      className="py-3">
-                    </Image>
+                      <Image
+                        width={222}
+                        src={decentraland}
+                        alt="logo_decentraland"
+                        className="py-5"
+                      ></Image>
 
-                    <Image 
-                      width={222}
-                      src={connext}
-                      alt = "logo_connext"
-                      className="py-3">
-                    </Image>
+                      <Image
+                        width={222}
+                        src={connext}
+                        alt="logo_connext"
+                        className="py-5"
+                      ></Image>
 
-                    <Image 
-                      width={107}
-                      src={kleros}
-                      alt = "logo_kleros"
-                      className="py-3">
-                    </Image>
+                      <Image
+                        width={107}
+                        src={kleros}
+                        alt="logo_kleros"
+                        className="py-5"
+                      ></Image>
 
-                    <Image 
-                      width={222}
-                      src={letgh}
-                      alt = "logo_letgh"
-                      className="py-3">
-                    </Image>
+                      <Image
+                        width={222}
+                        src={letgh}
+                        alt="logo_letgh"
+                        className="py-5"
+                      ></Image>
 
-                    <Image 
-                      width={153}
-                      src={uniswap}
-                      alt = "logo_uniswap"
-                      className="py-3">
-                    </Image>
+                      <Image
+                        width={153}
+                        src={uniswap}
+                        alt="logo_uniswap"
+                        className="py-5"
+                      ></Image>
 
-                    <Image 
-                      width={222}
-                      src={lens}
-                      alt = "logo_lens"
-                      className="py-3">
-                    </Image>
-
-
+                      <Image
+                        width={222}
+                        src={lens}
+                        alt="logo_lens"
+                        className="py-5"
+                      ></Image>
                     </div>
-
                   </div>
                 </div>
               </div>

@@ -4,9 +4,17 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
   align-content: center;
+  justify-content: normal;
+  padding-top: 130px;
+  min-height: max-content;
+  padding-right: 0.75rem/* 12px */;
+  display:grid ;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+
+
+
 
 .h2 {
   padding-top: 75.75px;
@@ -62,6 +70,23 @@
 }
 
 @media (width <= 1024px) {
+
+  .gobernanza {
+    /*    max-height: 810px; */
+    background-image: url("../../../../assets/img/gobernanza/gobernanza.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-content: normal;
+    padding-top: 130px;
+    min-height: max-content;
+    padding-right: 0.75rem/* 12px */;
+    display: block ;
+    
+  }
+
+
   .h2 {
     padding-top: 3rem;
     padding-bottom: 1rem;
@@ -92,7 +117,7 @@
     border-radius: 8px;
     max-width: 90vw;
     height: auto;
-   
+    
     font-size: 1.5rem;
     font-weight: 700;
     color: #f651f6;
@@ -141,17 +166,13 @@
 
   .buttonContainer {
     max-width: 90vw;
-    display: flex;
     justify-content: center;
   }
 
   .button2 {
-    display: flex;
     height: 2rem;
     padding: 0.493rem 1.01506rem;
     width: 250px;
-    justify-content: center;
-    align-items: center;
     color: #f651f6;
     font-size: 0.75rem;
     font-weight: 700;

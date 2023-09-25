@@ -91,7 +91,7 @@ export default function HomePage() {
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiperDesktop"
               >
-                <SwiperSlide onClick={() => window.showModal()}>
+                <SwiperSlide onClick={() => window.my_modal_2.showModal()}>
                   <a
                     className="cursor-pointer"
                     onClick={() => window.my_modal_2.showModal()}

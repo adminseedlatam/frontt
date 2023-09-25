@@ -22,6 +22,8 @@
   font-weight: 800;
   line-height: 66px; /* 137.5% */
   letter-spacing: -2.4px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .h4 {
@@ -33,6 +35,20 @@
   font-weight: 700;
   line-height: 33px; /* 110% */
   letter-spacing: -1.5px;
+  padding-left: 5vw;
+}
+
+.h5 {
+  max-width: 381px;
+  text-shadow: 0px 4.079999923706055px 22.440000534057617px 0px
+    rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 110% */
+  letter-spacing: -1.5px;
+  padding-left: 5vw;
+  padding-top: 36px;
 }
 
 .small {
