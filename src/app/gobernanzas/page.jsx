@@ -11,7 +11,7 @@ import discord from "../assets/icons/discordwhite.svg";
 import twitter from "../assets/icons/twitterwhite.svg";
 import govday from "../assets/img/gobernanza/GOVERNANCEDAY.png";
 import web from "../assets/icons/web.svg";
-import everyone from "../assets/img/gobernanza/everyone.png";
+import governanza from "../assets/img/gobernanza/gobernanza.png";
 
 import styles from "./gobernanzas.module.css";
 import styles3 from "./gobernanzas.module.css";
@@ -35,10 +35,10 @@ export default function HomePage() {
         <h1 className={styles.h1}>Nuestro enfoque en gobernanzas</h1>
 
         {/* 2 secciones NUESTRA VISION + GOBERNANZA MODELO ABIERTO */}
-        <div>
-          <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px]">
+        <div className="pl-16 lg:pl-48">
+          <div className=" flex flex-wrap gap-4 ">
             <div className="pr-[79.75px]">
-              <div className={styles.events}>
+              <div className=" ">
                 <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
                   <div>
                     <Image
@@ -50,10 +50,10 @@ export default function HomePage() {
                   </div>
                   <div className=" pl-[1rem] ">
                     <div className="text-white text-[20px] font-bold leading-9">
-                      Ecosistema SEED
+                      Nuestra visión
                     </div>
 
-                    <h4>Toda nuestra estructura explicada</h4>
+                    <h4>¿Porque participar en este fenónmeno?</h4>
                     <a
                       className="text-fuchsia-500 font-normal leading-9"
                       target="_blank"
@@ -67,20 +67,94 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* modal 1 */}
-            <dialog
-              id="my_modal_1"
-              className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4 "
-            >
-              <form method="dialog" className="modal-backdrop justify-end">
-                <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-28 top-12 xl:top-24 2xl:top-4">
-                  ✕
-                </button>
-                <Image
-                  className="object-contain mx-auto px-28 w-screen"
-                  alt="Logo"
-                  /* src={mapa} */
-                ></Image>
+            {/* MODAL 1 */}
+
+            <dialog id="my_modal_1" className="modal">
+              <form
+                method="dialog"
+                className="modal-box bg-bg-card max-w-xl lg:max-w-5xl "
+              >
+                <div className={styles.headerModal_nuestravision}>
+                  <h1 className="pl-20 font-extrabold text-5xl">
+                    Nuestra visión
+                  </h1>
+
+                  <h4 className="pl-20 font-normal text-2xl">
+                    ¿Porque participar en este fenónmeno?
+                  </h4>
+                </div>
+
+                <div className="px-7 lg:px-6 ">
+                  <p className="lg:pt-5 text-2xl text-white">
+                    Abogamos por una mirada crítica y objetiva, desde nuestro
+                    rol como representantes y tenemos en cuenta el impacto que
+                    pueden tener las decisiones tomadas en la comunidad de
+                    Latinoamérica sobre los usuarios, desarrolladores,
+                    protocolos, instituciones locales y todos aquellos que
+                    tengan interés en el ecosistema Web3.
+                    <br />
+                    <br />
+                    La participación en gobernanzas de Web3 es clave a la hora
+                    de decidir el futuro de las blockchains y protocolos que
+                    buscan construir una alternativa al sistema financiero
+                    tradicional y la disrupción en otras áreas. A lo largo de
+                    los años, nuestra región casi nunca ha sido protagonista en
+                    la toma de decisiones. Pero esto está cambiando, y desde
+                    SEED Latam somos parte del cambio siendo partícipes de la
+                    toma de decisiones y contribuir con nuestra visión y
+                    percepción.
+                  </p>
+                </div>
+
+                {/* BOTONES */}
+
+                <div className="flex  justify-end ">
+                  {" "}
+                  {/* VER COMO PONER PROPIEDAD ACA PARA QUE ESTEN ARRIBA DE TODO */}
+                  {/* BOTON VOLVER */}
+                  <div className="flex md:justify-end gap-2">
+                    {/* boton DESKTOP*/}
+                    <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas">
+                        <button className={styles3.button4}>Volver</button>
+                      </Link>
+                    </div>
+
+                    {/* boton RESPONSIVE */}
+                    {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
+                    {/* PROXIMAMENTE */}
+                    <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas">
+                        <button className={styles3.button5}>
+                          Ver platafomas activas
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                  {/* BOTON VER PLATAFORMAS ACTIVAS */}
+                  <div className="flex md:justify-end gap-2 ">
+                    {/* boton DESKTOP*/}
+                    <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas">
+                        <button className={styles3.button5}>
+                          Ver platafomas activas
+                        </button>
+                      </Link>
+                    </div>
+
+                    {/* boton RESPONSIVE */}
+                    {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
+                    {/* PROXIMAMENTE */}
+                    <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas">
+                        <button className={styles3.button4}>Volver</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
               </form>
             </dialog>
 
@@ -93,40 +167,137 @@ export default function HomePage() {
                     <Image
                       width={100}
                       height={100}
-                      /* src={GovernanceCalls} */
+                      /* src={} */
                       alt="logo"
                     ></Image>
                   </div>
+
                   <div className=" pl-[1rem] ">
                     <div className="text-white text-[20px] font-bold leading-9">
-                      Estatuto
+                      Gobernanza modelo abierto
                     </div>
 
-                    <h4>Toda la informacion interna de SEED Latam</h4>
-                    <Link
+                    <h4>¿Porqué nuestro modelo de gobernanza es abierto?</h4>
+                    <a
+                      className="text-fuchsia-500 font-normal leading-9"
                       target="_blank"
                       rel="noopener"
-                      className="text-fuchsia-500 font-normal leading-9"
-                      href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI"
+                      onClick={() => window.my_modal_2.showModal()}
                     >
-                      Ver url: seedlatam.wiki
-                    </Link>
+                      Ver más
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            {/* MODAL 2 */}
+
+            <dialog id="my_modal_2" className="modal">
+              <form
+                method="dialog"
+                className="modal-box bg-bg-card max-w-xl lg:max-w-4xl "
+              >
+                <div className={styles.headerModal_nuestravision}>
+                  <h1 className="pl-20 font-extrabold text-5xl">
+                    Gobernanza modelo abierto
+                  </h1>
+
+                  <h4 className="pl-20 font-normal text-2xl">
+                    ¿Porqué nuestro modelo de gobernanza es abierto?
+                  </h4>
+                </div>
+
+                <div className="px-7 lg:px-8 ">
+                  <p className="lg:pt-5 text-2xl text-white">
+                    Tenemos llamadas de gobernanza comunitarias y abiertas al
+                    público donde invitamos a la comunidad a participar.
+                    Debatimos ideas y las implicancias de la decisión. La
+                    delegación votará lo que se decidió en la llamada,
+                    manteniendo una gobernanza transparente e inclusiva.
+                    <br />
+                    <br />
+                    En SEED Latam, reconocemos las diferencias en escalabilidad
+                    individual y, por ello, impulsamos equipos representados por
+                    "El Delegado" con un equipo de soporte y respaldo para
+                    enriquecer el debate. Cada decisión se toma considerando su
+                    impacto positivo en la región con una visión
+                    multidisciplinaria que abarque al usuario final,
+                    desarrolladores, eficiencia de capital, etc .
+                  </p>
+                </div>
+
+                {/* BOTONES */}
+
+                <div className="flex  justify-end ">
+                  {" "}
+                  {/* VER COMO PONER PROPIEDAD ACA PARA QUE ESTEN ARRIBA DE TODO */}
+                  {/* BOTON VOLVER */}
+                  <div className="flex md:justify-end gap-2">
+                    {/* boton DESKTOP*/}
+                    <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas">
+                        <button className={styles3.button4}>Volver</button>
+                      </Link>
+                    </div>
+
+                    {/* boton RESPONSIVE */}
+                    {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
+                    {/* PROXIMAMENTE */}
+                    <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas">
+                        <button className={styles3.button5}>
+                          Ver platafomas activas
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                  {/* BOTON VER PLATAFORMAS ACTIVAS */}
+                  <div className="flex md:justify-end gap-2 ">
+                    {/* boton DESKTOP*/}
+                    <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas">
+                        <button className={styles3.button5}>
+                          Ver platafomas activas
+                        </button>
+                      </Link>
+                    </div>
+
+                    {/* boton RESPONSIVE */}
+                    {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
+                    {/* PROXIMAMENTE */}
+                    <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas">
+                        <button className={styles3.button4}>Volver</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
           </div>
         </div>
 
         {/* Segundo TITULO */}
         <h1 className={styles.h5}>Nuestras iniciativas: </h1>
 
+        <div className="pl-16 xl:pl-20 pt-24 xl:flex xl:flex-wrap ">
+          <div className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify">
+            <h1 className={styles.h6}>Plataformas activas </h1>
+          </div>
 
+          <div className="w-80 h-16 bg-fuchsia-500 rounded-md mr-12">
+            <h1 className={styles.h6}>Governance Day </h1>
+          </div>
 
-
+          <div className=" w-80 h-16 bg-fuchsia-500 rounded-md">
+            <h1 className={styles.h6}>Aula Abierta </h1>
+          </div>
+        </div>
       </div>
-
-
 
       {/* PLATAFORMAS ACTIVAS ACTUALMENTE- Desktop */}
 
