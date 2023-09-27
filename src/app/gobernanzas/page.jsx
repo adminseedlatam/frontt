@@ -108,11 +108,11 @@ export default function HomePage() {
 
                 {/* BOTONES */}
 
-                <div className="flex  justify-end ">
+                <div className="flex justify-end ">
                   {" "}
                   {/* VER COMO PONER PROPIEDAD ACA PARA QUE ESTEN ARRIBA DE TODO */}
                   {/* BOTON VOLVER */}
-                  <div className="flex md:justify-end gap-2">
+                  <div className="flex md:justify-end">
                     {/* boton DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas">
@@ -219,7 +219,7 @@ export default function HomePage() {
                     <br />
                     En SEED Latam, reconocemos las diferencias en escalabilidad
                     individual y, por ello, impulsamos equipos representados por
-                    "El Delegado" con un equipo de soporte y respaldo para
+                    &quot;El Delegado&quot; con un equipo de soporte y respaldo para
                     enriquecer el debate. Cada decisión se toma considerando su
                     impacto positivo en la región con una visión
                     multidisciplinaria que abarque al usuario final,
