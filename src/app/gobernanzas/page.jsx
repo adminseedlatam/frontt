@@ -110,51 +110,44 @@ export default function HomePage() {
 
                 <div className="flex justify-end ">
                   {" "}
-                  {/* VER COMO PONER PROPIEDAD ACA PARA QUE ESTEN ARRIBA DE TODO */}
-                  {/* BOTON VOLVER */}
+                  {/* BOTONES DESKTOP*/}
                   <div className="flex md:justify-end">
-                    {/* boton DESKTOP*/}
+                    {/* boton Volver DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas">
-                        <button className={styles3.button4}>Volver</button>
-                      </Link>
+                      <form method="dialog" className="modal-backdrop">
+                        <button className={styles3.button4}> Volver </button>
+                      </form>
                     </div>
 
-                    {/* boton RESPONSIVE */}
-                    {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
-                    {/* PROXIMAMENTE */}
-                    <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas">
+                    {/* boton PLAT ACTIVAS */}
+                    <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
                           Ver platafomas activas
                         </button>
                       </Link>
                     </div>
+
                   </div>
-                  {/* BOTON VER PLATAFORMAS ACTIVAS */}
+                  {/* BOTONES RESPONSIVE */}
                   <div className="flex md:justify-end gap-2 ">
-                    {/* boton DESKTOP*/}
-                    <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas">
+                    {/* BOTON PLAT ACTIVAS */}
+                    <div className="md:hidden pl-6 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                      <form method="dialog" className="modal-backdrop">
+                        <button className={styles3.button4}> Volver </button>
+                      </form>
+                    </div>
+
+                    {/* boton PLAT ACTIVAS */}
+                    <div className="md:hidden text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
                           Ver platafomas activas
                         </button>
-                      </Link>
-                    </div>
-
-                    {/* boton RESPONSIVE */}
-                    {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
-                    {/* PROXIMAMENTE */}
-                    <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas">
-                        <button className={styles3.button4}>Volver</button>
                       </Link>
                     </div>
                   </div>
                 </div>
-              </form>
-              <form method="dialog" className="modal-backdrop">
-                <button>close</button>
               </form>
             </dialog>
 
@@ -219,9 +212,9 @@ export default function HomePage() {
                     <br />
                     En SEED Latam, reconocemos las diferencias en escalabilidad
                     individual y, por ello, impulsamos equipos representados por
-                    &quot;El Delegado&quot; con un equipo de soporte y respaldo para
-                    enriquecer el debate. Cada decisión se toma considerando su
-                    impacto positivo en la región con una visión
+                    &quot;El Delegado&quot; con un equipo de soporte y respaldo
+                    para enriquecer el debate. Cada decisión se toma
+                    considerando su impacto positivo en la región con una visión
                     multidisciplinaria que abarque al usuario final,
                     desarrolladores, eficiencia de capital, etc .
                   </p>
@@ -231,44 +224,42 @@ export default function HomePage() {
 
                 <div className="flex  justify-end ">
                   {" "}
-                  {/* VER COMO PONER PROPIEDAD ACA PARA QUE ESTEN ARRIBA DE TODO */}
                   {/* BOTON VOLVER */}
                   <div className="flex md:justify-end gap-2">
                     {/* boton DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas">
-                        <button className={styles3.button4}>Volver</button>
-                      </Link>
+                      <form method="dialog" className="modal-backdrop">
+                        <button className={styles3.button4}> Volver </button>
+                      </form>
                     </div>
 
                     {/* boton RESPONSIVE */}
-                    {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
+
                     {/* PROXIMAMENTE */}
-                    <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas">
+                    <div className="hidden md:block pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                      <Link href="/gobernanzas/#PlataformasActivas">
+                        {/*  cambiar esto desp */}
                         <button className={styles3.button5}>
-                          Ver platafomas activas
+                          Ver llamadas YouTube
                         </button>
                       </Link>
                     </div>
                   </div>
-                  {/* BOTON VER PLATAFORMAS ACTIVAS */}
+                  {/* BOTONES RESPONSIVE */}
                   <div className="flex md:justify-end gap-2 ">
-                    {/* boton DESKTOP*/}
-                    <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
+                    {/* Boton VOLVER */}
+                    <div className="md:hidden pl-6 pb-5 text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas">
-                        <button className={styles3.button5}>
-                          Ver platafomas activas
-                        </button>
+                        <button className={styles3.button4}>Volver</button>
                       </Link>
                     </div>
 
-                    {/* boton RESPONSIVE */}
-                    {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
-                    {/* PROXIMAMENTE */}
-                    <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                    {/* BOTON LLLAMADAS YOUTUBE */}
+                    <div className="md:hidden pr-4 text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas">
-                        <button className={styles3.button4}>Volver</button>
+                        <button className={styles3.button5}>
+                          Ver llamadas YouTube
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -285,23 +276,35 @@ export default function HomePage() {
         <h1 className={styles.h5}>Nuestras iniciativas: </h1>
 
         <div className="pl-16 xl:pl-20 pt-24 xl:flex xl:flex-wrap ">
-          <div className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify">
+          <Link
+            href="/gobernanzas/#PlataformasActivas"
+            className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
+          >
             <h1 className={styles.h6}>Plataformas activas </h1>
-          </div>
+          </Link>
 
-          <div className="w-80 h-16 bg-fuchsia-500 rounded-md mr-12">
+          <Link
+            href="/gobernanzas/#GovernanceDay"
+            className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
+          >
             <h1 className={styles.h6}>Governance Day </h1>
-          </div>
+          </Link>
 
-          <div className=" w-80 h-16 bg-fuchsia-500 rounded-md">
+          <Link
+            href="/gobernanzas/#AulaAbierta"
+            className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
+          >
             <h1 className={styles.h6}>Aula Abierta </h1>
-          </div>
+          </Link>
         </div>
       </div>
 
       {/* PLATAFORMAS ACTIVAS ACTUALMENTE- Desktop */}
 
-      <div className="px-[5vw]  xl:flex grid-cols-2 justify-normal xl:justify-between items-center xl:text-left pt-[130px] max-md:pt-[3rem] ">
+      <div
+        id="PlataformasActivas"
+        className="px-[5vw]  xl:flex grid-cols-2 justify-normal xl:justify-between items-center xl:text-left pt-[130px] max-md:pt-[3rem] "
+      >
         {/* columna 1 */}
         <div className="max-w-[482px]">
           <h3 className={styles.h3}>Plataformas activas actualmente</h3>
@@ -756,7 +759,10 @@ export default function HomePage() {
       </div>
 
       {/* imagen everyone y titullo gov day */}
-      <div className="px-[5vw] min-h-max pr-3 xl:flex grid-cols-2 justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
+      <div
+        id="GovernanceDay"
+        className="px-[5vw] min-h-max pr-3 xl:flex grid-cols-2 justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] "
+      >
         <div>
           {/* Video de youtube */}
           <div className="xl:pr-2">
@@ -801,7 +807,10 @@ export default function HomePage() {
       </div>
 
       {/* escuela de gov */}
-      <div className="px-[5vw] justify-center xl:flex grid-cols-2 md:justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] ">
+      <div
+        id="AulaAbierta"
+        className="px-[5vw] justify-center xl:flex grid-cols-2 md:justify-normal xl:justify-between items-center pt-[130px] max-md:pt-[3rem] "
+      >
         <div className="max-w-[482px] text-left">
           <h3 className={styles.h3}>Aula abierta </h3>
           <p className={styles.p}>
