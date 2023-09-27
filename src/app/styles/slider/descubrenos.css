@@ -26,9 +26,9 @@
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    bottom: 100px;
-    left: 300px;
-    width: 100px;
+    bottom: 85px;
+    left: 260px;
+    width: 200px;
   }
 
   #Descubrenos .mySwiperDescubrenosDesktop .prev-button {
@@ -52,8 +52,8 @@
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
     bottom: 85px;
-    left: 290px;
-    width: 100px;
+    left: 190px;
+    width: 300px;
   }
 
   #Descubrenos .mySwiperDescubrenosDesktop .prev-button {
@@ -71,14 +71,37 @@
   }
 }
 
+@media (width <= 1555px) {
+  #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 105px;
+    left: 180px;
+    width: 300px;
+  }
+}
+
+@media (width <= 1465px) {
+  #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 135px;
+    left: 180px;
+    width: 300px;
+  }
+}
+
+
 @media (width <= 1440px) {
   #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    bottom: 140px;
-    left: 260px;
-    width: 100px;
+    bottom: 145px;
+    left: 180px;
+    width: 300px;
   }
 
   #Descubrenos .mySwiperDescubrenosDesktop .prev-button {
@@ -95,6 +118,40 @@
     z-index: 1;
   }
 }
+
+@media (width <= 1387px) {
+  #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 160px;
+    left: 180px;
+    width: 300px;
+  }
+}
+
+@media (width <= 1300px) {
+  #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 180px;
+    left: 180px;
+    width: 300px;
+  }
+}
+
+@media (width <= 1283) {
+  #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 200px;
+    left: 180px;
+    width: 300px;
+  }
+}
+
 
 @media (width <= 1280px) {
   #Descubrenos .mySwiper .swiper-button-prev {
@@ -115,10 +172,10 @@
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    top: 685px;
-    left: 250px;
+    top: 680px;
+    left: 170px;
     cursor: pointer;
-    width: 100px;
+    width: 300px;
   }
 
   #Descubrenos .mySwiperResponsive .prev-button {
@@ -157,11 +214,10 @@
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    top: 0;
-    left: 45vw;
-
+    top: 680px;
+    left: 170px;
     cursor: pointer;
-    width: 100px;
+    width: 300px;
   }
 
   #Descubrenos .mySwiperResponsive .prev-button {
