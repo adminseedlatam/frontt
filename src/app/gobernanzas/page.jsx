@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+//Imagenes
 import Maker from "../assets/img/gobernanza/gob-maker.png";
 import Arbitrum from "../assets/img/gobernanza/gob-arbitrum.png";
 import Optimism from "../assets/img/gobernanza/gob-op.png";
@@ -12,6 +13,10 @@ import twitter from "../assets/icons/twitterwhite.svg";
 import govday from "../assets/img/gobernanza/GOVERNANCEDAY.png";
 import web from "../assets/icons/web.svg";
 import governanza from "../assets/img/gobernanza/gobernanza.png";
+import iconVision from "../assets/icons/icon-nuestravision.svg";
+import iconGobModAbierto from "../assets/icons/icon-GobModAbierto.svg"
+
+
 
 import styles from "./gobernanzas.module.css";
 import styles3 from "./gobernanzas.module.css";
@@ -44,7 +49,7 @@ export default function HomePage() {
                     <Image
                       width={100}
                       height={100}
-                      /* src={CommunityCalls} */
+                      src={iconVision} 
                       alt="logo"
                     ></Image>
                   </div>
@@ -160,7 +165,7 @@ export default function HomePage() {
                     <Image
                       width={100}
                       height={100}
-                      /* src={} */
+                      src={iconGobModAbierto}
                       alt="logo"
                     ></Image>
                   </div>

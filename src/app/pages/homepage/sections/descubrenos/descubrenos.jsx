@@ -17,6 +17,8 @@ import uniswap from "../../../../assets/img/descubrenos/uniswap.svg";
 import connext from "../../../../assets/img/descubrenos/connext.svg";
 import letgh from "../../../../assets/img/descubrenos/letsgethai.svg";
 import lens from "../../../../assets/img/descubrenos/lens-protocol.svg";
+import iconEcoSeed from "../../../../assets/icons/icon-planetatierra.svg";
+import iconEstatuto from "../../../../assets/icons/icon-papel.svg";
 
 // Swiper
 import { useRef } from "react";
@@ -320,16 +322,13 @@ export default function HomePage() {
 
                   <div className="  xl:max-w-[990px] pl-[108px] ">
                     <div className="min-[1570px]:max-w-[700px]">
-                      <div className="flex">
+                      <div className="flex pb-5">
                         <div className={styles.breadcrumbs}>
                           SEED Latam &gt;
                         </div>
                         <div className={styles.breadcrumbs2}>
                           ¿Quienes forman parte de SEED Latam?
                         </div>
-                      </div>
-                      <div className="pt-5">
-                        <p className={styles.font4}>Texto test</p>
                       </div>
                     </div>
 
@@ -341,7 +340,7 @@ export default function HomePage() {
                               <Image
                                 width={100}
                                 height={100}
-                                src={CommunityCalls}
+                                src={iconEcoSeed}
                                 alt="logo"
                               ></Image>
                             </div>
@@ -390,7 +389,7 @@ export default function HomePage() {
                               <Image
                                 width={100}
                                 height={100}
-                                src={GovernanceCalls}
+                                src={iconEstatuto}
                                 alt="logo"
                               ></Image>
                             </div>
