@@ -364,7 +364,10 @@ export default function HomePage() {
                       </div>
 
                       {/* modal 1 */}
-                      <dialog id="my_modal_1" className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4 ">
+                      <dialog
+                        id="my_modal_1"
+                        className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4 "
+                      >
                         <form
                           method="dialog"
                           className="modal-backdrop justify-end"
@@ -514,8 +517,9 @@ export default function HomePage() {
           </Swiper>
         </div>
       </div>
-
+      {/* -------------------------------- */}
       {/* Responsive slider Descubrenos*/}
+      {/* -------------------------------- */}
       <div id="Descubrenos" className="xl:hidden pt-[5vw]">
         <div>
           <div className=" mt-[25px] ">
@@ -714,6 +718,8 @@ export default function HomePage() {
                   </div>
                 </div>
               </SwiperSlide>
+
+              {/* SLIDE 3 RESPONSIVE */}
               <SwiperSlide key="slide8">
                 <div className="">
                   <div className={styles.mainContainer}>
@@ -762,6 +768,199 @@ export default function HomePage() {
                   </div>
                 </div>
               </SwiperSlide>
+
+              {/* SLIDE 4 DESKTOP */}
+              <SwiperSlide key="slide9">
+                <div className="px-[5vw]">
+                  <div className={styles.mainContainer}>
+                    <div className={styles.sectionContainer}>
+                      <div className="h-28 pb-8 flex xl:pt-80">
+                        <h3 className={styles.title}>
+                          ¿Quienes forman parte de SEED Latam?
+                        </h3>
+                      </div>
+                    </div>
+
+                    <div className="  xl:max-w-[990px] pl-[108px] ">
+                      <div className="min-[1570px]:max-w-[700px]">
+                        <div className="flex pb-5">
+                          <div className={styles.breadcrumbs}>
+                            SEED Latam &gt;
+                          </div>
+                          <div className={styles.breadcrumbs2}>
+                            ¿Quienes forman parte de SEED Latam?
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px]">
+                        <div className="pr-[79.75px]">
+                          <div className={styles.events}>
+                            <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
+                              <div>
+                                <Image
+                                  width={100}
+                                  height={100}
+                                  src={iconEcoSeed}
+                                  alt="logo"
+                                ></Image>
+                              </div>
+                              <div className=" pl-[1rem] ">
+                                <div className="text-white text-[20px] font-bold leading-9">
+                                  Ecosistema SEED
+                                </div>
+
+                                <h4>Toda nuestra estructura explicada</h4>
+                                <a
+                                  className="text-fuchsia-500 font-normal leading-9"
+                                  target="_blank"
+                                  rel="noopener"
+                                  onClick={() => window.my_modal_1.showModal()}
+                                >
+                                  Ver más
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* modal 1 */}
+                        <dialog
+                          id="my_modal_1"
+                          className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4 "
+                        >
+                          <form
+                            method="dialog"
+                            className="modal-backdrop justify-end"
+                          >
+                            <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-28 top-12 xl:top-24 2xl:top-4">
+                              ✕
+                            </button>
+                            <Image
+                              className="object-contain mx-auto px-28 w-screen"
+                              alt="Logo"
+                              src={mapa}
+                            ></Image>
+                          </form>
+                        </dialog>
+
+                        {/* ---------------Fin modal -------- */}
+
+                        <div className="pr-[79.75px] ">
+                          <div className={styles.events}>
+                            <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
+                              <div>
+                                <Image
+                                  width={100}
+                                  height={100}
+                                  src={iconEstatuto}
+                                  alt="logo"
+                                ></Image>
+                              </div>
+                              <div className=" pl-[1rem] ">
+                                <div className="text-white text-[20px] font-bold leading-9">
+                                  Estatuto
+                                </div>
+
+                                <h4>
+                                  Toda la informacion interna de SEED Latam
+                                </h4>
+                                <Link
+                                  target="_blank"
+                                  rel="noopener"
+                                  className="text-fuchsia-500 font-normal leading-9"
+                                  href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI"
+                                >
+                                  Ver url: seedlatam.wiki
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              {/* SLIDE 5 Responsive */}
+              <SwiperSlide key="slide10">
+                <div className="px-[5vw] ">
+                  <div className={styles.mainContainer}>
+                    <div className={styles.sectionContainer}>
+                      <div className={styles.containerTitle}>
+                        <h3 className={styles.title}>
+                          ¿Quienes ya confiaron en nosotros?
+                        </h3>
+                      </div>
+                    </div>
+
+                    <div className="lg:max-w-[874px] pl-[108px] ">
+                      <div className="flex pb-10">
+                        <div className={styles.breadcrumbs}>
+                          SEED Latam &gt;
+                        </div>
+                        <div className={styles.breadcrumbs2}>
+                          ¿Quienes ya confiaron en nosotros?
+                        </div>
+                      </div>
+                      {/* Imagenes */}
+                      {/* wonderland decentraland kleros uniswap */}
+                      <div className="  ">
+                        <Image
+                          width={246}
+                          src={wonderland}
+                          alt="logo_wonderland"
+                          className=""
+                        ></Image>
+
+                        <Image
+                          width={222}
+                          src={decentraland}
+                          alt="logo_decentraland"
+                          className="py-5"
+                        ></Image>
+
+                        <Image
+                          width={222}
+                          src={connext}
+                          alt="logo_connext"
+                          className="py-5"
+                        ></Image>
+
+                        <Image
+                          width={107}
+                          src={kleros}
+                          alt="logo_kleros"
+                          className="py-5"
+                        ></Image>
+
+                        <Image
+                          width={222}
+                          src={letgh}
+                          alt="logo_letgh"
+                          className="py-5"
+                        ></Image>
+
+                        <Image
+                          width={153}
+                          src={uniswap}
+                          alt="logo_uniswap"
+                          className="py-5"
+                        ></Image>
+
+                        <Image
+                          width={222}
+                          src={lens}
+                          alt="logo_lens"
+                          className="py-5"
+                        ></Image>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
               <div className="prev-button">
                 <FiChevronLeft
                   size={32}
@@ -771,6 +970,7 @@ export default function HomePage() {
                   }}
                 />
               </div>
+
               <div className="next-button">
                 <FiChevronRight
                   size={32}
