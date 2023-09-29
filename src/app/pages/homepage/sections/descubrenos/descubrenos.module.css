@@ -381,7 +381,7 @@
 } */
 
 
-@media (width <= 1250px) {
+@media (width <= 1279px) {
 
   .sectionContainer {
     margin-top: 3rem;
@@ -440,8 +440,8 @@
 
   .events {
     display: flex;
-    width: 43vw;
-    max-width: 90vw;
+    width: 60vw;
+    max-width: 60vw;
     background: #323232;
     align-items: center;
     border-radius: 7px;

@@ -170,8 +170,8 @@
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    top: 680px;
-    left: 170px;
+    top: 0px;
+    left: 475px;
     cursor: pointer;
     width: 300px;
   }

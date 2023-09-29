@@ -769,19 +769,19 @@ export default function HomePage() {
                 </div>
               </SwiperSlide>
 
-              {/* SLIDE 4 DESKTOP */}
+              {/* SLIDE 4 RESPONSIVE */}
               <SwiperSlide key="slide9">
-                <div className="px-[5vw]">
+                <div className="">
                   <div className={styles.mainContainer}>
                     <div className={styles.sectionContainer}>
-                      <div className="h-28 pb-8 flex xl:pt-80">
+                      <div className="h-28 pt-14 flex xl:pt-80">
                         <h3 className={styles.title}>
                           ¿Quienes forman parte de SEED Latam?
                         </h3>
                       </div>
                     </div>
 
-                    <div className="  xl:max-w-[990px] pl-[108px] ">
+                    <div className="  xl:max-w-[990px] ">
                       <div className="min-[1570px]:max-w-[700px]">
                         <div className="flex pb-5">
                           <div className={styles.breadcrumbs}>
@@ -793,9 +793,9 @@ export default function HomePage() {
                         </div>
                       </div>
 
-                      <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px]">
-                        <div className="pr-[79.75px]">
-                          <div className={styles.events}>
+                      <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px] ">
+                        <div className="pr-[79.75px] ">
+                          <div className="">
                             <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
                               <div>
                                 <Image
@@ -847,7 +847,7 @@ export default function HomePage() {
                         {/* ---------------Fin modal -------- */}
 
                         <div className="pr-[79.75px] ">
-                          <div className={styles.events}>
+                          <div className="">
                             <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
                               <div>
                                 <Image
@@ -885,7 +885,7 @@ export default function HomePage() {
 
               {/* SLIDE 5 Responsive */}
               <SwiperSlide key="slide10">
-                <div className="px-[5vw] ">
+                <div className=" ">
                   <div className={styles.mainContainer}>
                     <div className={styles.sectionContainer}>
                       <div className={styles.containerTitle}>
@@ -895,7 +895,7 @@ export default function HomePage() {
                       </div>
                     </div>
 
-                    <div className="lg:max-w-[874px] pl-[108px] ">
+                    <div className="lg:max-w-[874px] ">
                       <div className="flex pb-10">
                         <div className={styles.breadcrumbs}>
                           SEED Latam &gt;
