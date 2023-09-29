@@ -228,6 +228,7 @@ export default function HomePage() {
                           </div>
                         </div>
                       </div>
+                      
                       {/* CONTENIDO ONLINE */}
                       <div className="pr-[79.75px]">
                         <div className={styles.events}>
@@ -769,19 +770,23 @@ export default function HomePage() {
                             </div>
                           </Link>
                         </div>
+
+
                         {/* CONTENIDO ONLINE */}
                         <div className="pb-[10px]">
-                          <Link
+                          <a
                             target="_blank"
                             rel="noopener"
-                            href="https://www.youtube.com/watch?v=GsiwGYV0t_Y"
+                            onClick={() =>
+                              window.my_modal_contOnline2.showModal()
+                            }
                           >
                             <div className={styles.events}>
                               <div>
                                 <Image
                                   width="5,5rem"
                                   height={100}
-                                  src={EventosEspeciales}
+                                  src={ContenidoOnline}
                                   alt="logo"
                                 ></Image>
                               </div>
@@ -795,8 +800,83 @@ export default function HomePage() {
                                 <p className={styles.eventCTA}>Ver más</p>
                               </div>
                             </div>
-                          </Link>
+                          </a>
                         </div>
+
+                        {/* modal ContenidoOnline2 */}
+                        <dialog
+                          id="my_modal_contOnline2"
+                          className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4"
+                        >
+                          <form method="dialog" className="modal-backdrop pt-20  ">
+                            <div className="items-center max-w-6xl rounded-lg h-fit md:h-4/5 min-w-3/4 border-white border bg-[#222222] mx-auto ">
+                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none  ">
+                                ✕
+                              </button>
+                              <div className="flex flex-wrap gap-12 mx-20 md:mx-6 pt-0 md:pt-44 justify-center">
+                                {/* ARTICULOS MIRROR */}
+
+                                <div>
+                                  <Image
+                                    alt="articulosMirror"
+                                    src={articulosMirror}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Contenido Online
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+
+                                {/* TWITTER SPACES */}
+
+                                <div>
+                                  <Image
+                                    alt="twitterSpaces"
+                                    src={twitterSpaces}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Twitter Spaces
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+
+                                {/* HITOS WEB3 */}
+
+                                <div>
+                                  <Image
+                                    alt="hitosweb3"
+                                    src={hitosWeb3}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Hitos Web3
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </dialog>
                       </div>
                     </div>
                   </div>
@@ -888,7 +968,7 @@ export default function HomePage() {
                                   className="text-fuchsia-500 font-normal leading-9"
                                   target="_blank"
                                   rel="noopener"
-                                  onClick={() => window.my_modal_1.showModal()}
+                                  onClick={() => window.my_modal_mapa.showModal()}
                                 >
                                   Ver más
                                 </a>
@@ -899,7 +979,7 @@ export default function HomePage() {
 
                         {/* modal 1 */}
                         <dialog
-                          id="my_modal_1"
+                          id="my_modal_mapa"
                           className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4 "
                         >
                           <form
