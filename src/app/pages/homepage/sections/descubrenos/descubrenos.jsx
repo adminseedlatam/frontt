@@ -782,17 +782,6 @@ export default function HomePage() {
                     </div>
 
                     <div className="  xl:max-w-[990px] ">
-                      <div className="min-[1570px]:max-w-[700px]">
-                        <div className="flex pb-5">
-                          <div className={styles.breadcrumbs}>
-                            SEED Latam &gt;
-                          </div>
-                          <div className={styles.breadcrumbs2}>
-                            ¿Quienes forman parte de SEED Latam?
-                          </div>
-                        </div>
-                      </div>
-
                       <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px] ">
                         <div className="pr-[79.75px] ">
                           <div className="">
@@ -896,14 +885,6 @@ export default function HomePage() {
                     </div>
 
                     <div className="lg:max-w-[874px] ">
-                      <div className="flex pb-10">
-                        <div className={styles.breadcrumbs}>
-                          SEED Latam &gt;
-                        </div>
-                        <div className={styles.breadcrumbs2}>
-                          ¿Quienes ya confiaron en nosotros?
-                        </div>
-                      </div>
                       {/* Imagenes */}
                       {/* wonderland decentraland kleros uniswap */}
                       <div className="  ">
