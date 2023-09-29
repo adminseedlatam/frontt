@@ -11,6 +11,7 @@ module.exports = {
         'bg-card':'#4F4F4F'
       },
       backgroundImage: {
+        'fondo' : "url('../assets/img/descubrenos/fondo-gris.svg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

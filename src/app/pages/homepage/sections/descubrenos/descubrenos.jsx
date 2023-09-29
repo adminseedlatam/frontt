@@ -19,6 +19,11 @@ import letgh from "../../../../assets/img/descubrenos/letsgethai.svg";
 import lens from "../../../../assets/img/descubrenos/lens-protocol.svg";
 import iconEcoSeed from "../../../../assets/icons/icon-planetatierra.svg";
 import iconEstatuto from "../../../../assets/icons/icon-papel.svg";
+import ContenidoOnline from "../../../../assets/icons/icon-contenidoOnline.svg";
+import articulosMirror from "../../../../assets/icons/icon-articuloMirror.svg";
+import twitterSpaces from "../../../../assets/icons/icon-TwitterSpaces.svg";
+import hitosWeb3 from "../../../../assets/icons/icon-hitosweb3.svg";
+import fondo from "../../../../assets/img/descubrenos/fondo-gris.svg";
 
 // Swiper
 import { useRef } from "react";
@@ -223,7 +228,7 @@ export default function HomePage() {
                           </div>
                         </div>
                       </div>
-
+                      {/* CONTENIDO ONLINE */}
                       <div className="pr-[79.75px]">
                         <div className={styles.events}>
                           <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
@@ -231,27 +236,105 @@ export default function HomePage() {
                               <Image
                                 width={100}
                                 height={100}
-                                src={EventosEspeciales}
+                                src={ContenidoOnline}
                                 alt="logo"
                               ></Image>
                             </div>
                             <div className=" pl-[1rem] ">
                               <div className="text-white text-[20px] font-bold leading-9">
-                                Eventos especiales
+                                Contenido Online
                               </div>
 
-                              <h4>Celebración de hitos web3</h4>
-                              <Link
+                              <h4>Entrevistas, artículos e hitos de Web3</h4>
+                              <a
                                 className="text-fuchsia-500 font-normal leading-9"
                                 target="_blank"
                                 rel="noopener"
-                                href="https://www.youtube.com/watch?v=GsiwGYV0t_Y"
+                                onClick={() =>
+                                  window.my_modal_contOnline.showModal()
+                                }
                               >
                                 Ver más
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>
+                        {/* modal ContenidoOnline */}
+                        <dialog
+                          id="my_modal_contOnline"
+                          className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4"
+                        >
+                          <form method="dialog" className="modal-backdrop pt-20  ">
+                            <div className="items-center max-w-6xl rounded-lg h-4/5 border-white border bg-[#222222] mx-auto w-screen">
+                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none  ">
+                                ✕
+                              </button>
+                              <div className="flex flex-wrap gap-12 mx-auto pt-44 justify-center">
+                                {/* ARTICULOS MIRROR */}
+
+                                <div>
+                                  <Image
+                                    alt="articulosMirror"
+                                    src={articulosMirror}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Contenido Online
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+
+                                {/* TWITTER SPACES */}
+
+                                <div>
+                                  <Image
+                                    alt="twitterSpaces"
+                                    src={twitterSpaces}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Twitter Spaces
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+
+                                {/* HITOS WEB3 */}
+
+                                <div>
+                                  <Image
+                                    alt="hitosweb3"
+                                    src={hitosWeb3}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Hitos Web3
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </dialog>
+
+                        {/* ---------------Fin modal -------- */}
                       </div>
                     </div>
                   </div>
@@ -686,6 +769,7 @@ export default function HomePage() {
                             </div>
                           </Link>
                         </div>
+                        {/* CONTENIDO ONLINE */}
                         <div className="pb-[10px]">
                           <Link
                             target="_blank"
@@ -703,7 +787,7 @@ export default function HomePage() {
                               </div>
                               <div className={styles.eventTitleContainer}>
                                 <h4 className={styles.eventTitle}>
-                                  Eventos Especiales
+                                  Contenido Online
                                 </h4>
                                 <div className={styles.eventDescription}>
                                   Celebracion hitos web3
