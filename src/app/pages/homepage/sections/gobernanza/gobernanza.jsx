@@ -18,8 +18,7 @@ import "swiper/css/navigation";
 
 //Images
 
-import temporal from "../../../../assets/img/gobernanza/temporal.png"
-
+import temporal from "../../../../assets/img/gobernanza/temporal.png";
 
 // carrousel
 
@@ -37,11 +36,10 @@ export default function HomePage() {
             Una nueva forma de entender la participación comunitaria
           </h3>
           <p className={styles3.p}>
-            La gobernanza web3 es el conjunto de procesos que se utilizan para
-            decidir el funcionamiento de blockchains y protocolos
-            descentralizados. Estos procesos ocurren off-chain por medio de
-            discusiones en foros y comunidades online y on-chain a la hora de
-            votar mediante blockchain.
+            Abogamos por una mirada crítica y objetiva desde nuestro rol como
+            representantes porque se involucran usuarios, desarrolladores,
+            protocolos, instituciones locales y todos aquellos que tengan
+            interés en el ecosistema Web3.
           </p>
 
           <div className="justify-center max-w-full">
@@ -53,10 +51,12 @@ export default function HomePage() {
           </div>
         </div>
 
-        <Image className="max-w-lg md:max-w-full  md:min-w-min pl-2 lg:pt-32 xl:pt-20 md:pl-16 md:pb-40" alt="Logo" src={temporal}></Image>
-
+        <Image
+          className="max-w-lg md:max-w-full  md:min-w-min pl-2 lg:pt-32 xl:pt-20 md:pl-16 md:pb-40"
+          alt="Logo"
+          src={temporal}
+        ></Image>
       </div>
-
     </div>
   );
 }

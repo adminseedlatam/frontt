@@ -88,22 +88,21 @@ export default function HomePage() {
                       </div>
                     </div>
                     <p className={styles.font}>
-                      SEED Latam es un ecosistema que tiene el objetivo de
-                      promover el conocimiento y el pensamiento crítico sobre la
-                      Web3 en América Latina, así como impulsar a los líderes
-                      Web3 del futuro.
+                      El ecosistema SEED Latam tiene el objetivo de promover el
+                      conocimiento, el pensamiento crítico sobre Web3 a través
+                      de la educación, comunidad y la participación activa en
+                      gobernanza con el fin de generar un impacto positivo en la
+                      región latinoamericana.
                     </p>
                     <p className={styles.font2}>
-                      Nuestra labor se centra en dos pilares fundamentales: la
-                      gobernanza y la educación. A través de la gobernanza,
-                      buscamos alzar la voz de Latinoamérica, promover la
-                      participación y potenciar aquellos delegados que
-                      representen a la región. Mientras que en el ámbito
-                      educativo, continuamos generando contenido para fomentar
-                      la participación activa de más personas en el ecosistema
-                      Web3. Desde el 2020 acercamos contenido de valor a los
-                      miembros y fomentamos el aprendizaje colaborativo y
-                      cooperativo.
+                      En SEED Latam creemos que el conocimiento colectivo y
+                      cooperativo es fundamental para formar una comunidad con
+                      pensamiento crítico. <br/><br/> Tendemos puentes entre la industria
+                      global y el talento local, por eso, generamos contenido
+                      educativo en castellano libre, abierto y de calidad para
+                      la comunidad. Nos esforzamos por ser un modelo de
+                      referencia para una educación inclusiva y accesible a
+                      todos
                     </p>
                   </div>
                 </div>
@@ -228,7 +227,7 @@ export default function HomePage() {
                           </div>
                         </div>
                       </div>
-                      
+
                       {/* CONTENIDO ONLINE */}
                       <div className="pr-[79.75px]">
                         <div className={styles.events}>
@@ -265,7 +264,10 @@ export default function HomePage() {
                           id="my_modal_contOnline"
                           className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4"
                         >
-                          <form method="dialog" className="modal-backdrop pt-20  ">
+                          <form
+                            method="dialog"
+                            className="modal-backdrop pt-20  "
+                          >
                             <div className="items-center max-w-6xl rounded-lg h-4/5 border-white border bg-[#222222] mx-auto w-screen">
                               <button className="text-white btn btn-sm btn-circle btn-ghost border-none  ">
                                 ✕
@@ -771,7 +773,6 @@ export default function HomePage() {
                           </Link>
                         </div>
 
-
                         {/* CONTENIDO ONLINE */}
                         <div className="pb-[10px]">
                           <a
@@ -808,7 +809,10 @@ export default function HomePage() {
                           id="my_modal_contOnline2"
                           className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4"
                         >
-                          <form method="dialog" className="modal-backdrop pt-20  ">
+                          <form
+                            method="dialog"
+                            className="modal-backdrop pt-20  "
+                          >
                             <div className="items-center max-w-6xl rounded-lg h-fit md:h-4/5 min-w-3/4 border-white border bg-[#222222] mx-auto ">
                               <button className="text-white btn btn-sm btn-circle btn-ghost border-none  ">
                                 ✕
@@ -968,7 +972,9 @@ export default function HomePage() {
                                   className="text-fuchsia-500 font-normal leading-9"
                                   target="_blank"
                                   rel="noopener"
-                                  onClick={() => window.my_modal_mapa.showModal()}
+                                  onClick={() =>
+                                    window.my_modal_mapa.showModal()
+                                  }
                                 >
                                   Ver más
                                 </a>
