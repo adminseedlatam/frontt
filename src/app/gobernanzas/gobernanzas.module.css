@@ -240,7 +240,7 @@
   padding: 10px;
   background: rgba(0, 0, 0, 0.25);
   margin-right: 25px;
-  margin-top: 80px;
+  margin-top: 86px;
 }
 
 .button4:hover {
@@ -262,6 +262,7 @@
   font-weight: 700;
   background-color: #f651f6;
   margin-right: 25px;
+  margin-bottom: 5px;
 }
 
 .button5:hover {

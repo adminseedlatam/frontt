@@ -71,6 +71,7 @@ export default function HomePage() {
             {/*   <div className=" max-w-[499px] w-auto w-[499px] "> */}
             <div className="w-[880px]">
               <Swiper
+                initialSlide="1"
                 effect={"coverflow"}
                 grabCursor={false}
                 centeredSlides={true}

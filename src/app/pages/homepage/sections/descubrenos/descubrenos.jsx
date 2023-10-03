@@ -17,6 +17,10 @@ import uniswap from "../../../../assets/img/descubrenos/uniswap.svg";
 import connext from "../../../../assets/img/descubrenos/connext.svg";
 import letgh from "../../../../assets/img/descubrenos/letsgethai.svg";
 import lens from "../../../../assets/img/descubrenos/lens-protocol.svg";
+import chainlink from "../../../../assets/img/descubrenos/chainlink.svg";
+import dappnode from "../../../../assets/img/descubrenos/dappnode.svg";
+import ethfound from "../../../../assets/img/descubrenos/ethereumfoundation.svg";
+import criptotend from "../../../../assets/img/descubrenos/criptotendencias.svg";
 import iconEcoSeed from "../../../../assets/icons/icon-planetatierra.svg";
 import iconEstatuto from "../../../../assets/icons/icon-papel.svg";
 import ContenidoOnline from "../../../../assets/icons/icon-contenidoOnline.svg";
@@ -97,12 +101,12 @@ export default function HomePage() {
                     <p className={styles.font2}>
                       En SEED Latam creemos que el conocimiento colectivo y
                       cooperativo es fundamental para formar una comunidad con
-                      pensamiento crítico. <br/><br/> Tendemos puentes entre la industria
-                      global y el talento local, por eso, generamos contenido
-                      educativo en castellano libre, abierto y de calidad para
-                      la comunidad. Nos esforzamos por ser un modelo de
-                      referencia para una educación inclusiva y accesible a
-                      todos
+                      pensamiento crítico. <br />
+                      <br /> Tendemos puentes entre la industria global y el
+                      talento local, por eso, generamos contenido educativo en
+                      castellano libre, abierto y de calidad para la comunidad.
+                      Nos esforzamos por ser un modelo de referencia para una
+                      educación inclusiva y accesible a todos
                     </p>
                   </div>
                 </div>
@@ -518,6 +522,7 @@ export default function HomePage() {
                     </div>
                   </div>
 
+                  {/* LOGOS TODOS */}
                   <div className="lg:max-w-[874px] pl-[108px] ">
                     <div className="flex pb-10">
                       <div className={styles.breadcrumbs}>SEED Latam &gt;</div>
@@ -527,7 +532,7 @@ export default function HomePage() {
                     </div>
                     {/* Imagenes */}
                     {/* wonderland decentraland kleros uniswap */}
-                    <div className="  ">
+                    <div className=" flex gap-5">
                       <Image
                         width={246}
                         src={wonderland}
@@ -548,7 +553,9 @@ export default function HomePage() {
                         alt="logo_connext"
                         className="py-5"
                       ></Image>
+                    </div>
 
+                    <div className="flex gap-5">
                       <Image
                         width={107}
                         src={kleros}
@@ -574,6 +581,33 @@ export default function HomePage() {
                         width={222}
                         src={lens}
                         alt="logo_lens"
+                        className="py-5"
+                      ></Image>
+                    </div>
+                    {/* tercer fila */}
+                    <div className="flex gap-5">
+                      <Image
+                        width={222}
+                        src={chainlink}
+                        alt="logo_chainlink"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={dappnode}
+                        alt="logo_dappnode"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={ethfound}
+                        alt="logo_ethereumfoundation"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={criptotend}
+                        alt="logo_criptotendencias"
                         className="py-5"
                       ></Image>
                     </div>
@@ -1057,56 +1091,85 @@ export default function HomePage() {
                     <div className="lg:max-w-[874px] ">
                       {/* Imagenes */}
                       {/* wonderland decentraland kleros uniswap */}
-                      <div className="  ">
-                        <Image
-                          width={246}
-                          src={wonderland}
-                          alt="logo_wonderland"
-                          className=""
-                        ></Image>
+                      <div className=" flex gap-5">
+                      <Image
+                        width={246}
+                        src={wonderland}
+                        alt="logo_wonderland"
+                        className=""
+                      ></Image>
 
-                        <Image
-                          width={222}
-                          src={decentraland}
-                          alt="logo_decentraland"
-                          className="py-5"
-                        ></Image>
+                      <Image
+                        width={222}
+                        src={decentraland}
+                        alt="logo_decentraland"
+                        className="py-5"
+                      ></Image>
 
-                        <Image
-                          width={222}
-                          src={connext}
-                          alt="logo_connext"
-                          className="py-5"
-                        ></Image>
+                      <Image
+                        width={222}
+                        src={connext}
+                        alt="logo_connext"
+                        className="py-5"
+                      ></Image>
+                    </div>
 
-                        <Image
-                          width={107}
-                          src={kleros}
-                          alt="logo_kleros"
-                          className="py-5"
-                        ></Image>
+                    <div className="flex gap-5">
+                      <Image
+                        width={107}
+                        src={kleros}
+                        alt="logo_kleros"
+                        className="py-5"
+                      ></Image>
 
-                        <Image
-                          width={222}
-                          src={letgh}
-                          alt="logo_letgh"
-                          className="py-5"
-                        ></Image>
+                      <Image
+                        width={222}
+                        src={letgh}
+                        alt="logo_letgh"
+                        className="py-5"
+                      ></Image>
 
-                        <Image
-                          width={153}
-                          src={uniswap}
-                          alt="logo_uniswap"
-                          className="py-5"
-                        ></Image>
+                      <Image
+                        width={153}
+                        src={uniswap}
+                        alt="logo_uniswap"
+                        className="py-5"
+                      ></Image>
 
-                        <Image
-                          width={222}
-                          src={lens}
-                          alt="logo_lens"
-                          className="py-5"
-                        ></Image>
-                      </div>
+                      <Image
+                        width={222}
+                        src={lens}
+                        alt="logo_lens"
+                        className="py-5"
+                      ></Image>
+                    </div>
+                    {/* tercer fila */}
+                    <div className="flex gap-5">
+                      <Image
+                        width={222}
+                        src={chainlink}
+                        alt="logo_chainlink"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={dappnode}
+                        alt="logo_dappnode"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={ethfound}
+                        alt="logo_ethereumfoundation"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={criptotend}
+                        alt="logo_criptotendencias"
+                        className="py-5"
+                      ></Image>
+                    </div>
                     </div>
                   </div>
                 </div>

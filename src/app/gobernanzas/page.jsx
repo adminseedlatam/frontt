@@ -128,7 +128,7 @@ export default function HomePage() {
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
-                          Ver platafomas activas
+                          Ver plataformas activas
                         </button>
                       </Link>
                     </div>
@@ -147,7 +147,7 @@ export default function HomePage() {
                     <div className="md:hidden text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
-                          Ver platafomas activas
+                          Ver plataformas activas
                         </button>
                       </Link>
                     </div>
@@ -328,6 +328,7 @@ export default function HomePage() {
         >
           <div className="md:w-[880px]  xl:pt-16">
             <Swiper
+              initialSlide="2"
               effect={"coverflow"}
               grabCursor={false}
               centeredSlides={true}
