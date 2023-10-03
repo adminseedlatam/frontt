@@ -496,7 +496,7 @@ export default function HomePage() {
                                 target="_blank"
                                 rel="noopener"
                                 className="text-fuchsia-500 font-normal leading-9"
-                                href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI"
+                                href="https://estatuto-test.netlify.app/"
                               >
                                 Ver url: seedlatam.wiki
                               </Link>
