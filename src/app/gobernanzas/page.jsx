@@ -12,11 +12,10 @@ import discord from "../assets/icons/discordwhite.svg";
 import twitter from "../assets/icons/twitterwhite.svg";
 import govday from "../assets/img/gobernanza/GOVERNANCEDAY.png";
 import web from "../assets/icons/web.svg";
+import webWhite from "../assets/icons/web-white.svg"
 import governanza from "../assets/img/gobernanza/gobernanza.png";
 import iconVision from "../assets/icons/icon-nuestravision.svg";
-import iconGobModAbierto from "../assets/icons/icon-GobModAbierto.svg"
-
-
+import iconGobModAbierto from "../assets/icons/icon-GobModAbierto.svg";
 
 import styles from "./gobernanzas.module.css";
 import styles3 from "./gobernanzas.module.css";
@@ -49,7 +48,7 @@ export default function HomePage() {
                     <Image
                       width={100}
                       height={100}
-                      src={iconVision} 
+                      src={iconVision}
                       alt="logo"
                     ></Image>
                   </div>
@@ -132,7 +131,6 @@ export default function HomePage() {
                         </button>
                       </Link>
                     </div>
-
                   </div>
                   {/* BOTONES RESPONSIVE */}
                   <div className="flex md:justify-end gap-2 ">
@@ -571,6 +569,16 @@ export default function HomePage() {
                   <Link
                     target="_blank"
                     rel="noopener"
+                    href="https://seedlatam.notion.site/Optimism-delegation-SEED-Latam-8e01a8c1679d4b988e6330f99e8241fb"
+                  >
+                    <Image className="" alt="Logo" src={webWhite}></Image>
+                  </Link>
+                </div>
+                <div>
+                  {" "}
+                  <Link
+                    target="_blank"
+                    rel="noopener"
                     href="https://tr.ee/j8u08Dhqyt"
                   >
                     <Image className="" alt="Logo" src={discord}></Image>
@@ -616,7 +624,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://governance-seedlatam.notion.site/Sovereign-Finance-AVC-6790b6b2fa5544cbacc8d02da5c3b5e3"
                   >
-                    <Image className="" alt="Logo" src={web}></Image>
+                    <Image className="" alt="Logo" src={webWhite}></Image>
                   </Link>
                 </div>
                 {/* <div>
@@ -651,6 +659,16 @@ export default function HomePage() {
                 la toma de decisiones y la asignación de recursos.
               </p>
               <div className="flex md:justify-end gap-2 ">
+              <div>
+                  {" "}
+                  <Link
+                    target="_blank"
+                    rel="noopener"
+                    href="https://seedlatam.notion.site/ARIBITRUM-942d873d6f3a47bc97323b31d2d6b944"
+                  >
+                    <Image className="" alt="Logo" src={webWhite}></Image>
+                  </Link>
+                </div>
                 <div>
                   {" "}
                   <Link
@@ -694,6 +712,16 @@ export default function HomePage() {
                 comunidad.
               </p>
               <div className="flex md:justify-end gap-2 ">
+              <div>
+                  {" "}
+                  <Link
+                    target="_blank"
+                    rel="noopener"
+                    href="https://seedlatam.notion.site/STARKNET-6c7931c8200e493185ee0e0404898268"
+                  >
+                    <Image className="" alt="Logo" src={webWhite}></Image>
+                  </Link>
+                </div>
                 <div>
                   {" "}
                   <Link
@@ -736,6 +764,16 @@ export default function HomePage() {
                 determinar mejoras para Connext.
               </p>
               <div className="flex md:justify-end gap-2 ">
+              <div>
+                  {" "}
+                  <Link
+                    target="_blank"
+                    rel="noopener"
+                    href="https://seedlatam.notion.site/Connext-16972cf657914a76b277cbe27d205a82"
+                  >
+                    <Image className="" alt="Logo" src={webWhite}></Image>
+                  </Link>
+                </div>
                 <div>
                   {" "}
                   <Link

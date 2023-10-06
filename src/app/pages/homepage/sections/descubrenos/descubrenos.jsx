@@ -273,9 +273,10 @@ export default function HomePage() {
                             className="modal-backdrop pt-20  "
                           >
                             <div className="items-center max-w-6xl rounded-lg h-4/5 border-white border bg-[#222222] mx-auto w-screen">
-                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none  ">
+                              <button className=" ">
                                 ✕
                               </button>
+                              
                               <div className="flex flex-wrap gap-12 mx-auto pt-44 justify-center">
                                 {/* ARTICULOS MIRROR */}
 
@@ -291,7 +292,7 @@ export default function HomePage() {
                                     className="text-fuchsia-500 font-normal leading-9"
                                     target="_blank"
                                     rel="noopener"
-                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                    href="https://mirror.xyz/seedlatam.eth"
                                   >
                                     Ver más
                                   </Link>
@@ -311,7 +312,7 @@ export default function HomePage() {
                                     className="text-fuchsia-500 font-normal leading-9"
                                     target="_blank"
                                     rel="noopener"
-                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5xNmrs0iWrSLGuiPaZIvyws"
                                   >
                                     Ver más
                                   </Link>
@@ -462,7 +463,7 @@ export default function HomePage() {
                           method="dialog"
                           className="modal-backdrop justify-end"
                         >
-                          <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-28 top-12 xl:top-24 2xl:top-4">
+                          <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-28 xl:right-32 2xl:right-32 top-12 xl:top-28 2xl:top-8">
                             ✕
                           </button>
                           <Image
@@ -1026,7 +1027,7 @@ export default function HomePage() {
                             method="dialog"
                             className="modal-backdrop justify-end"
                           >
-                            <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-28 top-12 xl:top-24 2xl:top-4">
+                            <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-32 top-12 xl:top-24 2xl:top-4">
                               ✕
                             </button>
                             <Image
