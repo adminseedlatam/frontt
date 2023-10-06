@@ -2,16 +2,16 @@ const fotos = [
     {
         "slide" : "slide1",
         "img": "/images/foto1.png",
-        "titulo" : "tituloTest1",
-        "subtitulo" : "subtituloTest",
-        "parrafo" :"parrafoTest",
+        "titulo" : "La noche de la birreria",
+        "subtitulo" : "abril 2022",
+        "parrafo" :"Se inscribieron 700 personas, pudieron llegar solo XXX porque habia un show internacional y estaba la zona colapsada.Tambien colapso el bar, la vereda del bar y un poco de la calle que también ocupamos. Tuvimos que empezar a comprar bebida en los kioscos porque el bar se quedo sin abastecimiento",
     },
     {
         "slide" : "slide2",
         "img": "/images/foto2.png",
-        "titulo" : "tituloTest2",
-        "subtitulo" : "subtituloTest",
-        "parrafo" :"parrafoTest",
+        "titulo" : "Córdoba también",
+        "subtitulo" : "Mayo 2022",
+        "parrafo" :"Se inscribieron 700 personas, pudieron llegar solo XXX porque habia un show internacional y estaba la zona colapsada.Tambien colapso el bar, la vereda del bar y un poco de la calle que también ocupamos. Tuvimos que empezar a comprar bebida en los kioscos porque el bar se quedo sin abastecimiento",
     },
     {
         "slide" : "slide3",

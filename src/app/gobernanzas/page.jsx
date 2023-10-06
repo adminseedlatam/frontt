@@ -240,8 +240,10 @@ export default function HomePage() {
 
                     {/* PROXIMAMENTE */}
                     <div className="hidden md:block pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas/#PlataformasActivas">
-                        {/*  cambiar esto desp */}
+                      <Link 
+                      
+                      href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI&si=gPAXdJ77mwefllQ8">
+                        {/* poner noopener para que se abra otra pestaña */}
                         <button className={styles3.button5}>
                           Ver llamadas YouTube
                         </button>
@@ -259,7 +261,9 @@ export default function HomePage() {
 
                     {/* BOTON LLLAMADAS YOUTUBE */}
                     <div className="md:hidden pr-4 text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas">
+                      <Link 
+                    
+                      href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI">
                         <button className={styles3.button5}>
                           Ver llamadas YouTube
                         </button>
@@ -278,7 +282,7 @@ export default function HomePage() {
         {/* Segundo TITULO */}
         <h1 className={styles.h5}>Nuestras iniciativas: </h1>
 
-        <div className="pl-16 xl:pl-20 pt-24 xl:flex xl:flex-wrap ">
+        <div className="pl-16  xl:pl-20 pt-24 flex flex-wrap  gap-4">
           <Link
             href="/gobernanzas/#PlataformasActivas"
             className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
@@ -295,7 +299,7 @@ export default function HomePage() {
 
           <Link
             href="/gobernanzas/#AulaAbierta"
-            className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
+            className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify mb-20"
           >
             <h1 className={styles.h6}>Aula Abierta </h1>
           </Link>

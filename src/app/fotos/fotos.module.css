@@ -1,13 +1,25 @@
-.next-button {
-  position: absolute; /* o relative según tus necesidades */
-  right: -10px; /* Ajusta la posición horizontal según tus necesidades */
-  bottom: 150px; /* Ajusta la posición vertical según tus necesidades */
-  z-index: 1; /* Opcional, para controlar la superposición */
+.swiper_container .swiper-button-prev {
+    color: #ffffff;
+    font-weight: 900;
+  }
+  
+.swiper_container .swiper-button-next {
+    color: #ffffff;
+    font-weight: 900;
+  }
+
+.swiper_container .slider-controler .swiper-button-prev{
+    color: #ffffff;
+    font-weight: 900;
+
 }
 
-.prev-button {
-  position: absolute; /* o relative según tus necesidades */
-  right: 650px; /* Ajusta la posición horizontal según tus necesidades */
-  bottom: 150px; /* Ajusta la posición vertical según tus necesidades */
-  z-index: 1; /* Opcional, para controlar la superposición */
+.swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    color: #ffffff;
 }

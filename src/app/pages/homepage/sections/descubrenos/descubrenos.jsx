@@ -273,7 +273,7 @@ export default function HomePage() {
                             className="modal-backdrop pt-20  "
                           >
                             <div className="items-center max-w-6xl rounded-lg h-4/5 border-white border bg-[#222222] mx-auto w-screen">
-                              <button className=" ">
+                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none ">
                                 ✕
                               </button>
                               
@@ -286,7 +286,7 @@ export default function HomePage() {
                                     src={articulosMirror}
                                   ></Image>
                                   <div className="text-white text-[20px] font-bold leading-9">
-                                    Contenido Online
+                                  Artículos
                                   </div>
                                   <Link
                                     className="text-fuchsia-500 font-normal leading-9"
@@ -332,7 +332,7 @@ export default function HomePage() {
                                     className="text-fuchsia-500 font-normal leading-9"
                                     target="_blank"
                                     rel="noopener"
-                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                    href="https://seedlatam.notion.site/SEED-Latam-Events-627a0d0646d646ef8ab58c491b3e64cf"
                                   >
                                     Ver más
                                   </Link>
@@ -497,7 +497,7 @@ export default function HomePage() {
                                 target="_blank"
                                 rel="noopener"
                                 className="text-fuchsia-500 font-normal leading-9"
-                                href="https://estatuto-test.netlify.app/"
+                                href="https://seedlatam.notion.site/Estatuto-SEED-Latam-bb2b20c5132d4bbaad7c2c2290c32da5"
                               >
                                 Ver url: seedlatam.wiki
                               </Link>
@@ -861,7 +861,7 @@ export default function HomePage() {
                                     src={articulosMirror}
                                   ></Image>
                                   <div className="text-white text-[20px] font-bold leading-9">
-                                    Contenido Online
+                                  Artículos
                                   </div>
                                   <Link
                                     className="text-fuchsia-500 font-normal leading-9"
@@ -907,7 +907,7 @@ export default function HomePage() {
                                     className="text-fuchsia-500 font-normal leading-9"
                                     target="_blank"
                                     rel="noopener"
-                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                    href="https://seedlatam.notion.site/SEED-Latam-Events-627a0d0646d646ef8ab58c491b3e64cf"
                                   >
                                     Ver más
                                   </Link>

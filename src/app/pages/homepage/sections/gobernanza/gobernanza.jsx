@@ -50,12 +50,17 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-
-        <Image
-          className="max-w-lg md:max-w-full  md:min-w-min pl-2 lg:pt-32 xl:pt-20 md:pl-16 md:pb-40"
-          alt="Logo"
-          src={temporal}
-        ></Image>
+        <Link
+          target="_blank"
+          rel="noopener"
+          href="https://mirror.xyz/seedlatam.eth"
+        >
+          <Image
+            className="max-w-lg md:max-w-full  md:min-w-min pl-2 lg:pt-32 xl:pt-20 md:pl-16 md:pb-40"
+            alt="Logo"
+            src={temporal}
+          ></Image>
+        </Link>
       </div>
     </div>
   );
