@@ -71,6 +71,7 @@ export default function HomePage() {
             {/*   <div className=" max-w-[499px] w-auto w-[499px] "> */}
             <div className="w-[880px]">
               <Swiper
+                initialSlide="1"
                 effect={"coverflow"}
                 grabCursor={false}
                 centeredSlides={true}
@@ -91,7 +92,7 @@ export default function HomePage() {
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiperDesktop"
               >
-                <SwiperSlide onClick={() => window.showModal()}>
+                <SwiperSlide onClick={() => window.my_modal_2.showModal()}>
                   <a
                     className="cursor-pointer"
                     onClick={() => window.my_modal_2.showModal()}

@@ -9,6 +9,25 @@ import CommunityCalls from "../../../../assets/img/slide-section/community-calls
 import EventosEspeciales from "../../../../../app/assets/img/slide-section/eventos-especiales.png";
 import GovernanceCalls from "../../../../../app/assets/img/slide-section/governance-calls.png";
 import EventosPresenciales from "../../../../../app/assets/img/slide-section/eventos-presenciales.png";
+import mapa from "../../../../assets/img/descubrenos/mapa-ecosistema.svg";
+import wonderland from "../../../../assets/img/descubrenos/wonderland.svg";
+import decentraland from "../../../../assets/img/descubrenos/decentraland-dao.svg";
+import kleros from "../../../../assets/img/descubrenos/kleros.svg";
+import uniswap from "../../../../assets/img/descubrenos/uniswap.svg";
+import connext from "../../../../assets/img/descubrenos/connext.svg";
+import letgh from "../../../../assets/img/descubrenos/letsgethai.svg";
+import lens from "../../../../assets/img/descubrenos/lens-protocol.svg";
+import chainlink from "../../../../assets/img/descubrenos/chainlink.svg";
+import dappnode from "../../../../assets/img/descubrenos/dappnode.svg";
+import ethfound from "../../../../assets/img/descubrenos/ethereumfoundation.svg";
+import criptotend from "../../../../assets/img/descubrenos/criptotendencias.svg";
+import iconEcoSeed from "../../../../assets/icons/icon-planetatierra.svg";
+import iconEstatuto from "../../../../assets/icons/icon-papel.svg";
+import ContenidoOnline from "../../../../assets/icons/icon-contenidoOnline.svg";
+import articulosMirror from "../../../../assets/icons/icon-articuloMirror.svg";
+import twitterSpaces from "../../../../assets/icons/icon-TwitterSpaces.svg";
+import hitosWeb3 from "../../../../assets/icons/icon-hitosweb3.svg";
+import fondo from "../../../../assets/img/descubrenos/fondo-gris.svg";
 
 // Swiper
 import { useRef } from "react";
@@ -55,6 +74,7 @@ export default function HomePage() {
             }}
             className="mySwiperDescubrenosDesktop"
           >
+            {/* SLIDE 1 DESKTOP */}
             <SwiperSlide key="slide1">
               <div className="px-[5vw] ">
                 <div className={styles.mainContainer}>
@@ -72,27 +92,28 @@ export default function HomePage() {
                       </div>
                     </div>
                     <p className={styles.font}>
-                      SEED Latam es un ecosistema que tiene el objetivo de
-                      promover el conocimiento y el pensamiento crítico sobre la
-                      Web3 en América Latina, así como impulsar a los líderes
-                      Web3 del futuro.
+                      El ecosistema SEED Latam tiene el objetivo de promover el
+                      conocimiento, el pensamiento crítico sobre Web3 a través
+                      de la educación, comunidad y la participación activa en
+                      gobernanza con el fin de generar un impacto positivo en la
+                      región latinoamericana.
                     </p>
                     <p className={styles.font2}>
-                      Nuestra labor se centra en dos pilares fundamentales: la
-                      gobernanza y la educación. A través de la gobernanza,
-                      buscamos alzar la voz de Latinoamérica, promover la
-                      participación y potenciar aquellos delegados que
-                      representen a la región. Mientras que en el ámbito
-                      educativo, continuamos generando contenido para fomentar
-                      la participación activa de más personas en el ecosistema
-                      Web3. Desde el 2020 acercamos contenido de valor a los
-                      miembros y fomentamos el aprendizaje colaborativo y
-                      cooperativo.
+                      En SEED Latam creemos que el conocimiento colectivo y
+                      cooperativo es fundamental para formar una comunidad con
+                      pensamiento crítico. <br />
+                      <br /> Tendemos puentes entre la industria global y el
+                      talento local, por eso, generamos contenido educativo en
+                      castellano libre, abierto y de calidad para la comunidad.
+                      Nos esforzamos por ser un modelo de referencia para una
+                      educación inclusiva y accesible a todos
                     </p>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* SLIDE 2 DESKTOP */}
             <SwiperSlide key="slide2">
               <div className="px-[5vw]">
                 <div className={styles.mainContainer}>
@@ -211,6 +232,7 @@ export default function HomePage() {
                         </div>
                       </div>
 
+                      {/* CONTENIDO ONLINE */}
                       <div className="pr-[79.75px]">
                         <div className={styles.events}>
                           <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
@@ -218,33 +240,117 @@ export default function HomePage() {
                               <Image
                                 width={100}
                                 height={100}
-                                src={EventosEspeciales}
+                                src={ContenidoOnline}
                                 alt="logo"
                               ></Image>
                             </div>
                             <div className=" pl-[1rem] ">
                               <div className="text-white text-[20px] font-bold leading-9">
-                                Eventos especiales
+                                Contenido Online
                               </div>
 
-                              <h4>Celebración de hitos web3</h4>
-                              <Link
+                              <h4>Entrevistas, artículos e hitos de Web3</h4>
+                              <a
                                 className="text-fuchsia-500 font-normal leading-9"
                                 target="_blank"
                                 rel="noopener"
-                                href="https://www.youtube.com/watch?v=GsiwGYV0t_Y"
+                                onClick={() =>
+                                  window.my_modal_contOnline.showModal()
+                                }
                               >
                                 Ver más
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>
+                        {/* modal ContenidoOnline */}
+                        <dialog
+                          id="my_modal_contOnline"
+                          className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4"
+                        >
+                          <form
+                            method="dialog"
+                            className="modal-backdrop pt-20  "
+                          >
+                            <div className="items-center max-w-6xl rounded-lg h-4/5 border-white border bg-[#222222] mx-auto w-screen">
+                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none ">
+                                ✕
+                              </button>
+                              
+                              <div className="flex flex-wrap gap-12 mx-auto pt-44 justify-center">
+                                {/* ARTICULOS MIRROR */}
+
+                                <div>
+                                  <Image
+                                    alt="articulosMirror"
+                                    src={articulosMirror}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                  Artículos
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://mirror.xyz/seedlatam.eth"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+
+                                {/* TWITTER SPACES */}
+
+                                <div>
+                                  <Image
+                                    alt="twitterSpaces"
+                                    src={twitterSpaces}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Twitter Spaces
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5xNmrs0iWrSLGuiPaZIvyws"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+
+                                {/* HITOS WEB3 */}
+
+                                <div>
+                                  <Image
+                                    alt="hitosweb3"
+                                    src={hitosWeb3}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Hitos Web3
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://seedlatam.notion.site/SEED-Latam-Events-627a0d0646d646ef8ab58c491b3e64cf"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </dialog>
+
+                        {/* ---------------Fin modal -------- */}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* SLIDE 3 DESKTOP */}
             <SwiperSlide key="slide3">
               <div className="px-[5vw] ">
                 <div className={styles.mainContainer}>
@@ -292,6 +398,225 @@ export default function HomePage() {
                 </div>
               </div>
             </SwiperSlide>
+
+            {/* SLIDE 4 DESKTOP */}
+            <SwiperSlide key="slide4">
+              <div className="px-[5vw]">
+                <div className={styles.mainContainer}>
+                  <div className={styles.sectionContainer}>
+                    <div className="h-28 pb-8 flex xl:pt-80">
+                      <h3 className={styles.title}>
+                        ¿Quienes forman parte de SEED Latam?
+                      </h3>
+                    </div>
+                  </div>
+
+                  <div className="  xl:max-w-[990px] pl-[108px] ">
+                    <div className="min-[1570px]:max-w-[700px]">
+                      <div className="flex pb-5">
+                        <div className={styles.breadcrumbs}>
+                          SEED Latam &gt;
+                        </div>
+                        <div className={styles.breadcrumbs2}>
+                          ¿Quienes forman parte de SEED Latam?
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px]">
+                      <div className="pr-[79.75px]">
+                        <div className={styles.events}>
+                          <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
+                            <div>
+                              <Image
+                                width={100}
+                                height={100}
+                                src={iconEcoSeed}
+                                alt="logo"
+                              ></Image>
+                            </div>
+                            <div className=" pl-[1rem] ">
+                              <div className="text-white text-[20px] font-bold leading-9">
+                                Ecosistema SEED
+                              </div>
+
+                              <h4>Toda nuestra estructura explicada</h4>
+                              <a
+                                className="text-fuchsia-500 font-normal leading-9"
+                                target="_blank"
+                                rel="noopener"
+                                onClick={() => window.my_modal_1.showModal()}
+                              >
+                                Ver más
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* modal 1 */}
+                      <dialog
+                        id="my_modal_1"
+                        className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4 "
+                      >
+                        <form
+                          method="dialog"
+                          className="modal-backdrop justify-end"
+                        >
+                          <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-28 xl:right-32 2xl:right-32 top-12 xl:top-28 2xl:top-8">
+                            ✕
+                          </button>
+                          <Image
+                            className="object-contain mx-auto px-28 w-screen"
+                            alt="Logo"
+                            src={mapa}
+                          ></Image>
+                        </form>
+                      </dialog>
+
+                      {/* ---------------Fin modal -------- */}
+
+                      <div className="pr-[79.75px] ">
+                        <div className={styles.events}>
+                          <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
+                            <div>
+                              <Image
+                                width={100}
+                                height={100}
+                                src={iconEstatuto}
+                                alt="logo"
+                              ></Image>
+                            </div>
+                            <div className=" pl-[1rem] ">
+                              <div className="text-white text-[20px] font-bold leading-9">
+                                Estatuto
+                              </div>
+
+                              <h4>Toda la informacion interna de SEED Latam</h4>
+                              <Link
+                                target="_blank"
+                                rel="noopener"
+                                className="text-fuchsia-500 font-normal leading-9"
+                                href="https://seedlatam.notion.site/Estatuto-SEED-Latam-bb2b20c5132d4bbaad7c2c2290c32da5"
+                              >
+                                Ver url: seedlatam.wiki
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            {/* SLIDE 5 DESKTOP */}
+            <SwiperSlide key="slide5">
+              <div className="px-[5vw] ">
+                <div className={styles.mainContainer}>
+                  <div className={styles.sectionContainer}>
+                    <div className={styles.containerTitle}>
+                      <h3 className={styles.title}>
+                        ¿Quienes ya confiaron en nosotros?
+                      </h3>
+                    </div>
+                  </div>
+
+                  {/* LOGOS TODOS */}
+                  <div className="lg:max-w-[874px] pl-[108px] ">
+                    <div className="flex pb-10">
+                      <div className={styles.breadcrumbs}>SEED Latam &gt;</div>
+                      <div className={styles.breadcrumbs2}>
+                        ¿Quienes ya confiaron en nosotros?
+                      </div>
+                    </div>
+                    {/* Imagenes */}
+                    {/* wonderland decentraland kleros uniswap */}
+                    <div className=" flex gap-5">
+                      <Image
+                        width={246}
+                        src={wonderland}
+                        alt="logo_wonderland"
+                        className=""
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={decentraland}
+                        alt="logo_decentraland"
+                        className="py-5"
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={connext}
+                        alt="logo_connext"
+                        className="py-5"
+                      ></Image>
+                    </div>
+
+                    <div className="flex gap-5">
+                      <Image
+                        width={107}
+                        src={kleros}
+                        alt="logo_kleros"
+                        className="py-5"
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={letgh}
+                        alt="logo_letgh"
+                        className="py-5"
+                      ></Image>
+
+                      <Image
+                        width={153}
+                        src={uniswap}
+                        alt="logo_uniswap"
+                        className="py-5"
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={lens}
+                        alt="logo_lens"
+                        className="py-5"
+                      ></Image>
+                    </div>
+                    {/* tercer fila */}
+                    <div className="flex gap-5">
+                      <Image
+                        width={222}
+                        src={chainlink}
+                        alt="logo_chainlink"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={dappnode}
+                        alt="logo_dappnode"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={ethfound}
+                        alt="logo_ethereumfoundation"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={criptotend}
+                        alt="logo_criptotendencias"
+                        className="py-5"
+                      ></Image>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
             <div className="prev-button">
               <FiChevronLeft
                 size={32}
@@ -313,8 +638,9 @@ export default function HomePage() {
           </Swiper>
         </div>
       </div>
-
+      {/* -------------------------------- */}
       {/* Responsive slider Descubrenos*/}
+      {/* -------------------------------- */}
       <div id="Descubrenos" className="xl:hidden pt-[5vw]">
         <div>
           <div className=" mt-[25px] ">
@@ -336,7 +662,8 @@ export default function HomePage() {
               className="mySwiperResponsive"
               modules={[EffectCoverflow, Pagination, Navigation]}
             >
-              <SwiperSlide key="slide4" className={styles.mainContainer}>
+              {/* SLIDE 1 RESPONSIVE */}
+              <SwiperSlide key="slide6" className={styles.mainContainer}>
                 <div>
                   <div className={styles.sectionContainer}>
                     <div className={styles.containerTitle}>
@@ -367,7 +694,9 @@ export default function HomePage() {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide key="slide5">
+
+              {/* SLIDE 2 RESPONSIVE */}
+              <SwiperSlide key="slide7">
                 <div>
                   <div className={styles.mainContainer}>
                     <div className={styles.sectionContainer}>
@@ -411,11 +740,10 @@ export default function HomePage() {
                                   Community Calls
                                 </h4>
                                 <div className={styles.eventDescription}>
-                                  Todos los jueves 20hs
+                                  Repasamos los hechos más importantes
                                 </div>
-                                
+
                                 <p className={styles.eventCTA}>Ver más</p>
-                                
                               </div>
                             </div>
                           </Link>
@@ -479,24 +807,28 @@ export default function HomePage() {
                             </div>
                           </Link>
                         </div>
+
+                        {/* CONTENIDO ONLINE */}
                         <div className="pb-[10px]">
-                          <Link
+                          <a
                             target="_blank"
                             rel="noopener"
-                            href="https://www.youtube.com/watch?v=GsiwGYV0t_Y"
+                            onClick={() =>
+                              window.my_modal_contOnline2.showModal()
+                            }
                           >
                             <div className={styles.events}>
                               <div>
                                 <Image
                                   width="5,5rem"
                                   height={100}
-                                  src={EventosEspeciales}
+                                  src={ContenidoOnline}
                                   alt="logo"
                                 ></Image>
                               </div>
                               <div className={styles.eventTitleContainer}>
                                 <h4 className={styles.eventTitle}>
-                                  Eventos Especiales
+                                  Contenido Online
                                 </h4>
                                 <div className={styles.eventDescription}>
                                   Celebracion hitos web3
@@ -504,14 +836,94 @@ export default function HomePage() {
                                 <p className={styles.eventCTA}>Ver más</p>
                               </div>
                             </div>
-                          </Link>
+                          </a>
                         </div>
+
+                        {/* modal ContenidoOnline2 */}
+                        <dialog
+                          id="my_modal_contOnline2"
+                          className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4"
+                        >
+                          <form
+                            method="dialog"
+                            className="modal-backdrop pt-20  "
+                          >
+                            <div className="items-center max-w-6xl rounded-lg h-fit md:h-4/5 min-w-3/4 border-white border bg-[#222222] mx-auto ">
+                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none  ">
+                                ✕
+                              </button>
+                              <div className="flex flex-wrap gap-12 mx-20 md:mx-6 pt-0 md:pt-44 justify-center">
+                                {/* ARTICULOS MIRROR */}
+
+                                <div>
+                                  <Image
+                                    alt="articulosMirror"
+                                    src={articulosMirror}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                  Artículos
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+
+                                {/* TWITTER SPACES */}
+
+                                <div>
+                                  <Image
+                                    alt="twitterSpaces"
+                                    src={twitterSpaces}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Twitter Spaces
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+
+                                {/* HITOS WEB3 */}
+
+                                <div>
+                                  <Image
+                                    alt="hitosweb3"
+                                    src={hitosWeb3}
+                                  ></Image>
+                                  <div className="text-white text-[20px] font-bold leading-9">
+                                    Hitos Web3
+                                  </div>
+                                  <Link
+                                    className="text-fuchsia-500 font-normal leading-9"
+                                    target="_blank"
+                                    rel="noopener"
+                                    href="https://seedlatam.notion.site/SEED-Latam-Events-627a0d0646d646ef8ab58c491b3e64cf"
+                                  >
+                                    Ver más
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </dialog>
                       </div>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide key="slide6">
+
+              {/* SLIDE 3 RESPONSIVE */}
+              <SwiperSlide key="slide8">
                 <div className="">
                   <div className={styles.mainContainer}>
                     <div className={styles.sectionContainer}>
@@ -559,6 +971,211 @@ export default function HomePage() {
                   </div>
                 </div>
               </SwiperSlide>
+
+              {/* SLIDE 4 RESPONSIVE */}
+              <SwiperSlide key="slide9">
+                <div className="">
+                  <div className={styles.mainContainer}>
+                    <div className={styles.sectionContainer}>
+                      <div className="h-28 pt-14 flex xl:pt-80">
+                        <h3 className={styles.title}>
+                          ¿Quienes forman parte de SEED Latam?
+                        </h3>
+                      </div>
+                    </div>
+
+                    <div className="  xl:max-w-[990px] ">
+                      <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px] ">
+                        <div className="pr-[79.75px] ">
+                          <div className="">
+                            <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
+                              <div>
+                                <Image
+                                  width={100}
+                                  height={100}
+                                  src={iconEcoSeed}
+                                  alt="logo"
+                                ></Image>
+                              </div>
+                              <div className=" pl-[1rem] ">
+                                <div className="text-white text-[20px] font-bold leading-9">
+                                  Ecosistema SEED
+                                </div>
+
+                                <h4>Toda nuestra estructura explicada</h4>
+                                <a
+                                  className="text-fuchsia-500 font-normal leading-9"
+                                  target="_blank"
+                                  rel="noopener"
+                                  onClick={() =>
+                                    window.my_modal_mapa.showModal()
+                                  }
+                                >
+                                  Ver más
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* modal 1 */}
+                        <dialog
+                          id="my_modal_mapa"
+                          className="modal pt-10 sm: md: lg: xl:pt-24 2xl:pt-4 "
+                        >
+                          <form
+                            method="dialog"
+                            className="modal-backdrop justify-end"
+                          >
+                            <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-32 top-12 xl:top-24 2xl:top-4">
+                              ✕
+                            </button>
+                            <Image
+                              className="object-contain mx-auto px-28 w-screen"
+                              alt="Logo"
+                              src={mapa}
+                            ></Image>
+                          </form>
+                        </dialog>
+
+                        {/* ---------------Fin modal -------- */}
+
+                        <div className="pr-[79.75px] ">
+                          <div className="">
+                            <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
+                              <div>
+                                <Image
+                                  width={100}
+                                  height={100}
+                                  src={iconEstatuto}
+                                  alt="logo"
+                                ></Image>
+                              </div>
+                              <div className=" pl-[1rem] ">
+                                <div className="text-white text-[20px] font-bold leading-9">
+                                  Estatuto
+                                </div>
+
+                                <h4>
+                                  Toda la informacion interna de SEED Latam
+                                </h4>
+                                <Link
+                                  target="_blank"
+                                  rel="noopener"
+                                  className="text-fuchsia-500 font-normal leading-9"
+                                  href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI"
+                                >
+                                  Ver url: seedlatam.wiki
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              {/* SLIDE 5 Responsive */}
+              <SwiperSlide key="slide10">
+                <div className=" ">
+                  <div className={styles.mainContainer}>
+                    <div className={styles.sectionContainer}>
+                      <div className={styles.containerTitle}>
+                        <h3 className={styles.title}>
+                          ¿Quienes ya confiaron en nosotros?
+                        </h3>
+                      </div>
+                    </div>
+
+                    <div className="lg:max-w-[874px] ">
+                      {/* Imagenes */}
+                      {/* wonderland decentraland kleros uniswap */}
+                      <div className=" flex gap-5">
+                      <Image
+                        width={246}
+                        src={wonderland}
+                        alt="logo_wonderland"
+                        className=""
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={decentraland}
+                        alt="logo_decentraland"
+                        className="py-5"
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={connext}
+                        alt="logo_connext"
+                        className="py-5"
+                      ></Image>
+                    </div>
+
+                    <div className="flex gap-5">
+                      <Image
+                        width={107}
+                        src={kleros}
+                        alt="logo_kleros"
+                        className="py-5"
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={letgh}
+                        alt="logo_letgh"
+                        className="py-5"
+                      ></Image>
+
+                      <Image
+                        width={153}
+                        src={uniswap}
+                        alt="logo_uniswap"
+                        className="py-5"
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={lens}
+                        alt="logo_lens"
+                        className="py-5"
+                      ></Image>
+                    </div>
+                    {/* tercer fila */}
+                    <div className="flex gap-5">
+                      <Image
+                        width={222}
+                        src={chainlink}
+                        alt="logo_chainlink"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={dappnode}
+                        alt="logo_dappnode"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={ethfound}
+                        alt="logo_ethereumfoundation"
+                        className="py-5"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={criptotend}
+                        alt="logo_criptotendencias"
+                        className="py-5"
+                      ></Image>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
               <div className="prev-button">
                 <FiChevronLeft
                   size={32}
@@ -568,6 +1185,7 @@ export default function HomePage() {
                   }}
                 />
               </div>
+
               <div className="next-button">
                 <FiChevronRight
                   size={32}

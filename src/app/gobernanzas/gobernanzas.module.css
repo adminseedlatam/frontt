@@ -22,6 +22,8 @@
   font-weight: 800;
   line-height: 66px; /* 137.5% */
   letter-spacing: -2.4px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .h4 {
@@ -33,6 +35,35 @@
   font-weight: 700;
   line-height: 33px; /* 110% */
   letter-spacing: -1.5px;
+  padding-left: 5vw;
+}
+
+.h5 {
+  max-width: 381px;
+  text-shadow: 0px 4.079999923706055px 22.440000534057617px 0px
+    rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px; /* 110% */
+  letter-spacing: -1.5px;
+  padding-left: 5vw;
+  padding-top: 36px;
+}
+
+.h6 {
+  max-width: 381px;
+  text-shadow: 0px 4.079999923706055px 22.440000534057617px 0px
+    rgba(0, 0, 0, 0.25);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px; /* 110% */
+  letter-spacing: -1.5px;
+  padding-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .small {
@@ -70,6 +101,30 @@
   font-weight: 500;
   line-height: 27px; /* 112.5% */
   letter-spacing: -1.2px;
+}
+
+.headerModal_nuestravision {
+  width: 100%;
+  height: 275px;
+  background-image: url("../../app/assets/img/gobernanza/gobernanza-modal.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  padding-top: 130px;
+  /*   border-radius: 18.3714px; */
+}
+
+@media (width <= 1024px) {
+  .headerModal_nuestravision {
+    width: 100%;
+    height: 312px;
+    background-image: url("../../app/assets/img/gobernanza/gobernanza-modal.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding-top: 70px;
+    /*   BAJAR pt EN <lg? */
+  }
 }
 
 .headerModal_arb {
@@ -170,6 +225,62 @@
   color: white;
   background-color: #f651f6;
 }
+
+.button4 {
+  /* font-size: medium;
+  text-align: center; */
+  border-radius: 8px;
+  width: 123px;
+  height: 48px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f651f6;
+  border: 1px solid;
+  border-color: #f651f6;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.25);
+  margin-right: 25px;
+  margin-top: 86px;
+}
+
+.button4:hover {
+  border: 1px solid;
+  border-color: #f651f6;
+  color: white;
+  background-color: #f651f6;
+}
+
+.button5 {
+  border-radius: 8px;
+  width: 235px;
+  height: 48px;
+  border: solid 3.2px;
+  border-color: #f651f6;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #f651f6;
+  margin-right: 25px;
+  margin-bottom: 5px;
+}
+
+.button5:hover {
+  border-radius: 8px;
+  width: 233px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f651f6;
+  border: 1px solid;
+  border-color: #f651f6;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.25);
+  margin-right: 25px;
+  margin-top: 80px;
+}
+
+
 
 @media (width <= 1024px) {
   .gobernanzas {

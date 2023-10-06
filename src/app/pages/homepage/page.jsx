@@ -11,7 +11,7 @@ export default function HomePage() {
       <Descubrenos></Descubrenos>
       <Gobernanza></Gobernanza>
       <Separte></Separte>
-      <Articulos></Articulos>
+      {/* <Articulos></Articulos> */}
     </div>
   );1
 }

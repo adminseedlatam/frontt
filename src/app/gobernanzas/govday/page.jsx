@@ -52,8 +52,12 @@ export default function HomePage() {
         <div className="max-w-[482px] pt-6 text-left">
           <h3 className={styles.h3}>Charlas & Speakers </h3>
           <p className={styles.p}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Etiam maximus augue nec ante tempus, nec.{" "}
+            Únete a nosotros en las diversas charlas de uno de los eventos más
+            destacados organizados por SEED Latam, el primer evento dedicado
+            exclusivamente a la gobernanza en América Latina. Contamos con la
+            participación de speakers internacionales en el #governanceday, una
+            oportunidad única para explorar temas clave en gobernanza blockchain
+            en nuestra región.
           </p>
 
           {/* boton DESKTOP */}
@@ -69,7 +73,6 @@ export default function HomePage() {
               <button className={styles3.button3}>Ir a lista de Youtube</button>
             </Link>
           </div>
-          
         </div>
 
         <div>
@@ -84,8 +87,6 @@ export default function HomePage() {
             ></iframe>
           </div>
         </div>
-
-        
       </div>
     </div>
   );
