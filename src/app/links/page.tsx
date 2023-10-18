@@ -20,8 +20,7 @@ export default function Links() {
             <div>
               <h1 className={styles.h1}>Links</h1>
               <p className={styles.p}>
-                Construyendo colectivamente el camino a la descentralización y
-                la soberanía digital no permisionada
+              Collectively building the path to decentralized and unpermissioned digital sovereignty
               </p>
             </div>
             <div>
@@ -91,7 +90,7 @@ export default function Links() {
                 </ul>
               </div>
               <div>
-                <h2 className={styles.h2}>Comunidades</h2>
+                <h2 className={styles.h2}>Communities</h2>
                 <div className={styles.linksMainContainer}>
                   <ul className={styles.linksContainer}>
                     <li>

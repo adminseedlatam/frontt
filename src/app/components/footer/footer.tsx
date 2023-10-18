@@ -26,21 +26,21 @@ export function Footer() {
                  {/*  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Descubrenos</h2> */}
                   <ul className="text-gray-600 text-base md:text-lg font-bold">
                   <li>
-                          <Link href="#Descubrenos" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">Descubrenos</Link>
+                          <Link href="#Descubrenos" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">Discover us</Link>
                       </li>
                       <li>
-                          <Link href="#Separte" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">Se parte</Link>
+                          <Link href="#Separte" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">Join us</Link>
                       </li>
                       <li>
-                          <Link href="#Gobernanza" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">Gobernanza</Link>
+                          <Link href="#Gobernanza" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">Governance</Link>
                       </li>
                       <li>
-                          <Link  target="_blank" rel="noopener" href="/links" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">Contacto</Link>
+                          <Link  target="_blank" rel="noopener" href="/links" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">Contact</Link>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 className=" text-base md:text-xl pb-2 font-bold ">Nuestras comunidades: </h2>
+                  <h2 className=" text-base md:text-xl pb-2 font-bold ">Our communities: </h2>
                   <ul className="text-gray-400 text-base md:text-base font-bold ">
                       <li>
                           <a target="_blank" rel="noopener" href="https://defilatam.com/" className="border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]">DeFi LATAM</a>

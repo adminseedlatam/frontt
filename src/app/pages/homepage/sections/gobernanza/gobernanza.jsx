@@ -31,21 +31,20 @@ export default function HomePage() {
     <div id="Gobernanza" className="pt-[4vw]">
       <div className={styles3.gobernanza}>
         <div className="px-[5vw] pb-[76px]">
-          <h2 className={styles3.h2}>Gobernanza en web3</h2>
+          <h2 className={styles3.h2}>Governance in web3</h2>
           <h3 className={styles3.h3}>
-            Una nueva forma de entender la participación comunitaria
+            A new way to understand community participation
           </h3>
           <p className={styles3.p}>
-            Abogamos por una mirada crítica y objetiva desde nuestro rol como
-            representantes porque se involucran usuarios, desarrolladores,
-            protocolos, instituciones locales y todos aquellos que tengan
-            interés en el ecosistema Web3.
+            We advocate for a critical and objective perspective from our role
+            as representatives because we involve users, developers, protocols,
+            local institutions, and all those interested in the Web3 ecosystem.
           </p>
 
           <div className="justify-center max-w-full">
             <Link href="/gobernanzas">
               <button className={styles3.button2}>
-                Ver más sobre gobernanza
+              Learn more about governance
               </button>
             </Link>
           </div>

@@ -80,7 +80,7 @@ export default function HomePage() {
                 <div className={styles.mainContainer}>
                   <div className={styles.sectionContainer}>
                     <div className={styles.containerTitle}>
-                      <h3 className={styles.title}>¿Qué es SEED Latam?</h3>
+                      <h3 className={styles.title}>What is SEED Latam?</h3>
                     </div>
                   </div>
 
@@ -88,25 +88,24 @@ export default function HomePage() {
                     <div className="flex">
                       <div className={styles.breadcrumbs}>SEED Latam &gt;</div>
                       <div className={styles.breadcrumbs2}>
-                        ¿Qué es SEED Latam?
+                        What is SEED Latam?
                       </div>
                     </div>
                     <p className={styles.font}>
-                      El ecosistema SEED Latam tiene el objetivo de promover el
-                      conocimiento, el pensamiento crítico sobre Web3 a través
-                      de la educación, comunidad y la participación activa en
-                      gobernanza con el fin de generar un impacto positivo en la
-                      región latinoamericana.
+                      The SEED Latam ecosystem aims to promote knowledge and
+                      critical thinking about Web3 through education, community,
+                      and active governance participation in order to generate a
+                      positive impact in the Latin American region.
                     </p>
                     <p className={styles.font2}>
-                      En SEED Latam creemos que el conocimiento colectivo y
-                      cooperativo es fundamental para formar una comunidad con
-                      pensamiento crítico. <br />
-                      <br /> Tendemos puentes entre la industria global y el
-                      talento local, por eso, generamos contenido educativo en
-                      castellano libre, abierto y de calidad para la comunidad.
-                      Nos esforzamos por ser un modelo de referencia para una
-                      educación inclusiva y accesible a todos
+                      At SEED Latam, we believe that collective and cooperative
+                      knowledge is essential for forming a critically thinking
+                      community. <br />
+                      <br /> We build bridges between the global industry and
+                      local talent; that&apos;s why we create high-quality,
+                      open, and freely accessible educational content in Spanish
+                      for the community. We strive to be a benchmark model for
+                      inclusive and accessible education for all.
                     </p>
                   </div>
                 </div>
@@ -120,7 +119,7 @@ export default function HomePage() {
                   <div className={styles.sectionContainer}>
                     <div className={styles.containerTitle}>
                       <h3 className={styles.title}>
-                        ¿Qué hacemos en SEED Latam?
+                        What do we do at SEED Latam?
                       </h3>
                     </div>
                   </div>
@@ -132,12 +131,12 @@ export default function HomePage() {
                           SEED Latam &gt;
                         </div>
                         <div className={styles.breadcrumbs2}>
-                          ¿Qué hacemos en SEED Latam?
+                          What do we do at SEED Latam?
                         </div>
                       </div>
                       <div className="pt-5">
                         <p className={styles.font4}>
-                          Estos son los espacios de encuentro que tenemos
+                          These are the meeting spaces we have:
                         </p>
                       </div>
                     </div>
@@ -158,14 +157,14 @@ export default function HomePage() {
                                 Community Calls
                               </div>
 
-                              <h4>Repasamos los hechos más importantes</h4>
+                              <h4>We review the most important events.</h4>
                               <Link
                                 className="text-fuchsia-500 font-normal leading-9"
                                 target="_blank"
                                 rel="noopener"
                                 href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
                               >
-                                Ver más
+                                Learn more
                               </Link>
                             </div>
                           </div>
@@ -188,14 +187,14 @@ export default function HomePage() {
                                 Governance Calls
                               </div>
 
-                              <h4>Votación en comunidad</h4>
+                              <h4>Community voting</h4>
                               <Link
                                 target="_blank"
                                 rel="noopener"
                                 className="text-fuchsia-500 font-normal leading-9"
                                 href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI"
                               >
-                                Ver más
+                                Learn more
                               </Link>
                             </div>
                           </div>
@@ -215,17 +214,17 @@ export default function HomePage() {
                             </div>
                             <div className=" pl-[1rem] ">
                               <div className="text-white text-[20px] font-bold leading-9">
-                                Eventos presenciales
+                                In-Person Events
                               </div>
 
-                              <h4>En varias provincias del país</h4>
+                              <h4>In various provinces of the country</h4>
                               <Link
                                 target="_blank"
                                 rel="noopener"
                                 className="text-fuchsia-500 font-normal leading-9"
                                 href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5ycJFkObjp3VAUu4dZsCWlP"
                               >
-                                Ver más
+                                Learn more
                               </Link>
                             </div>
                           </div>
@@ -246,10 +245,10 @@ export default function HomePage() {
                             </div>
                             <div className=" pl-[1rem] ">
                               <div className="text-white text-[20px] font-bold leading-9">
-                                Contenido Online
+                                Online Content
                               </div>
 
-                              <h4>Entrevistas, artículos e hitos de Web3</h4>
+                              <h4>Interviews, articles, and Web3 milestones</h4>
                               <a
                                 className="text-fuchsia-500 font-normal leading-9"
                                 target="_blank"
@@ -258,7 +257,7 @@ export default function HomePage() {
                                   window.my_modal_contOnline.showModal()
                                 }
                               >
-                                Ver más
+                                Learn more
                               </a>
                             </div>
                           </div>
@@ -276,7 +275,7 @@ export default function HomePage() {
                               <button className="text-white btn btn-sm btn-circle btn-ghost border-none ">
                                 ✕
                               </button>
-                              
+
                               <div className="flex flex-wrap gap-12 mx-auto pt-44 justify-center">
                                 {/* ARTICULOS MIRROR */}
 
@@ -286,7 +285,7 @@ export default function HomePage() {
                                     src={articulosMirror}
                                   ></Image>
                                   <div className="text-white text-[20px] font-bold leading-9">
-                                  Artículos
+                                    Articles
                                   </div>
                                   <Link
                                     className="text-fuchsia-500 font-normal leading-9"
@@ -294,7 +293,7 @@ export default function HomePage() {
                                     rel="noopener"
                                     href="https://mirror.xyz/seedlatam.eth"
                                   >
-                                    Ver más
+                                    Learn more
                                   </Link>
                                 </div>
 
@@ -314,7 +313,7 @@ export default function HomePage() {
                                     rel="noopener"
                                     href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5xNmrs0iWrSLGuiPaZIvyws"
                                   >
-                                    Ver más
+                                    Learn more
                                   </Link>
                                 </div>
 
@@ -326,7 +325,7 @@ export default function HomePage() {
                                     src={hitosWeb3}
                                   ></Image>
                                   <div className="text-white text-[20px] font-bold leading-9">
-                                    Hitos Web3
+                                    Web3 milestones
                                   </div>
                                   <Link
                                     className="text-fuchsia-500 font-normal leading-9"
@@ -334,7 +333,7 @@ export default function HomePage() {
                                     rel="noopener"
                                     href="https://seedlatam.notion.site/SEED-Latam-Events-627a0d0646d646ef8ab58c491b3e64cf"
                                   >
-                                    Ver más
+                                    Learn more
                                   </Link>
                                 </div>
                               </div>
@@ -356,9 +355,7 @@ export default function HomePage() {
                 <div className={styles.mainContainer}>
                   <div className={styles.sectionContainer}>
                     <div className={styles.containerTitle}>
-                      <h3 className={styles.title}>
-                        ¿Cuáles son nuestros valores?
-                      </h3>
+                      <h3 className={styles.title}>What are our values?</h3>
                     </div>
                   </div>
 
@@ -366,32 +363,30 @@ export default function HomePage() {
                     <div className="flex">
                       <div className={styles.breadcrumbs}>SEED Latam &gt;</div>
                       <div className={styles.breadcrumbs2}>
-                        ¿Cuáles son nuestros valores?
+                        What are our values?
                       </div>
                     </div>
                     <div className="pt-[70px]">
-                      <p className={styles.font3}>Soberanía</p>
+                      <p className={styles.font3}>Sovereignty</p>
                       <p className={styles.font4}>
-                        Trabajamos a diario para que los usuarios sean
-                        conscientes de la soberanía digital en el marco de la
-                        web3.
+                        We work daily to make users aware of digital sovereignty
+                        within the framework of web3.
                       </p>
-                      <p className={styles.font3}>Educación</p>
+                      <p className={styles.font3}>Education</p>
                       <p className={styles.font4}>
-                        Desde nuestros inicios abogamos por educación libre e
-                        interdisciplinaria.
+                        From our beginnings, we advocate for free and
+                        interdisciplinary education.
                       </p>
-                      <p className={styles.font3}>Evolución</p>
+                      <p className={styles.font3}>Evolution</p>
                       <p className={styles.font4}>
-                        Contribuimos a la evolución del ecosistema Web3
-                        alentando a la comunidad a participar de manera activa
-                        en diferentes protocolos y espacios
+                        We contribute to the evolution of the Web3 ecosystem by
+                        encouraging the community to actively participate in
+                        different protocols and spaces.
                       </p>
-                      <p className={styles.font3}>Descentralización</p>
+                      <p className={styles.font3}>Decentralization</p>
                       <p className={styles.font4}>
-                        Perseguimos los ideales de la descentralización, siendo
-                        uno de nuestros valores fundamentales y principal fuente
-                        de inspiración.
+                        We pursue the ideals of decentralization, which is one
+                        of our core values and the main source of inspiration.
                       </p>
                     </div>
                   </div>
@@ -406,7 +401,7 @@ export default function HomePage() {
                   <div className={styles.sectionContainer}>
                     <div className="h-28 pb-8 flex xl:pt-80">
                       <h3 className={styles.title}>
-                        ¿Quienes forman parte de SEED Latam?
+                        Who is part of SEED Latam?
                       </h3>
                     </div>
                   </div>
@@ -418,7 +413,7 @@ export default function HomePage() {
                           SEED Latam &gt;
                         </div>
                         <div className={styles.breadcrumbs2}>
-                          ¿Quienes forman parte de SEED Latam?
+                          Who is part of SEED Latam?
                         </div>
                       </div>
                     </div>
@@ -437,17 +432,17 @@ export default function HomePage() {
                             </div>
                             <div className=" pl-[1rem] ">
                               <div className="text-white text-[20px] font-bold leading-9">
-                                Ecosistema SEED
+                                SEED Ecosystem
                               </div>
 
-                              <h4>Toda nuestra estructura explicada</h4>
+                              <h4>All our structure explained</h4>
                               <a
                                 className="text-fuchsia-500 font-normal leading-9"
                                 target="_blank"
                                 rel="noopener"
                                 onClick={() => window.my_modal_1.showModal()}
                               >
-                                Ver más
+                                Learn more
                               </a>
                             </div>
                           </div>
@@ -489,17 +484,17 @@ export default function HomePage() {
                             </div>
                             <div className=" pl-[1rem] ">
                               <div className="text-white text-[20px] font-bold leading-9">
-                                Estatuto
+                                Bylaws
                               </div>
 
-                              <h4>Toda la informacion interna de SEED Latam</h4>
+                              <h4>All internal information about SEED Latam</h4>
                               <Link
                                 target="_blank"
                                 rel="noopener"
                                 className="text-fuchsia-500 font-normal leading-9"
-                                href="https://seedlatam.notion.site/Estatuto-SEED-Latam-bb2b20c5132d4bbaad7c2c2290c32da5"
+                                href="https://seedlatam.notion.site/SEED-Latam-statute-8c32073beb2147759e51b3d3e51edd7d"
                               >
-                                Ver url: seedlatam.wiki
+                                Learn more: seedlatam.wiki
                               </Link>
                             </div>
                           </div>
@@ -518,7 +513,7 @@ export default function HomePage() {
                   <div className={styles.sectionContainer}>
                     <div className={styles.containerTitle}>
                       <h3 className={styles.title}>
-                        ¿Quienes ya confiaron en nosotros?
+                        Who has already trusted us?
                       </h3>
                     </div>
                   </div>
@@ -528,7 +523,7 @@ export default function HomePage() {
                     <div className="flex pb-10">
                       <div className={styles.breadcrumbs}>SEED Latam &gt;</div>
                       <div className={styles.breadcrumbs2}>
-                        ¿Quienes ya confiaron en nosotros?
+                        Who has already trusted us?
                       </div>
                     </div>
                     {/* Imagenes */}
@@ -667,29 +662,27 @@ export default function HomePage() {
                 <div>
                   <div className={styles.sectionContainer}>
                     <div className={styles.containerTitle}>
-                      <h3 className={styles.title}>¿Qué es SEED Latam?</h3>
+                      <h3 className={styles.title}>What is SEED Latam?</h3>
                     </div>
                   </div>
                   <div>
                     <div className="pb-6">
                       <p className={styles.font4strong}>
-                        SEED Latam es es un ecosistema que tiene el objetivo de
-                        promover el conocimiento y el pensamiento crítico sobre
-                        la Web3 en América Latina, así como impulsar a los
-                        líderes Web3 del futuro.
+                        The SEED Latam ecosystem aims to promote knowledge and
+                        critical thinking about Web3 through education,
+                        community, and active governance participation in order
+                        to generate a positive impact in the Latin American
+                        region.
                       </p>
                     </div>
                     <p className={styles.font4}>
-                      Nuestra labor se centra en dos pilares fundamentales: la
-                      gobernanza y la educación. A través de la gobernanza,
-                      buscamos alzar la voz de Latinoamérica, promover la
-                      participación y potenciar aquellos delegados que
-                      representen a la región. Mientras que en el ámbito
-                      educativo, continuamos generando contenido para fomentar
-                      la participación activa de más personas en el ecosistema
-                      Web3. Desde el 2020 acercamos contenido de valor a los
-                      miembros y fomentamos el aprendizaje colaborativo y
-                      cooperativo.
+                      At SEED Latam, we believe that collective and cooperative
+                      knowledge is essential for forming a critically thinking
+                      community. <br/> <br/> We build bridges between the global industry
+                      and local talent; that&apos;s why we create high-quality,
+                      open, and freely accessible educational content in Spanish
+                      for the community. We strive to be a benchmark model for
+                      inclusive and accessible education for all.
                     </p>
                   </div>
                 </div>
@@ -702,7 +695,7 @@ export default function HomePage() {
                     <div className={styles.sectionContainer}>
                       <div className={styles.containerTitle}>
                         <h3 className={styles.title}>
-                          ¿Qué hacemos en SEED Latam?
+                          What do we do at SEED Latam?
                         </h3>
                       </div>
                     </div>
@@ -712,7 +705,7 @@ export default function HomePage() {
                           SEED Latam &gt;
                         </div>
                         <div className={styles.breadcrumbs2}>
-                          ¿Qué hacemos en SEED Latam?
+                          What do we do at SEED Latam?
                         </div>
                       </div>
 
@@ -740,10 +733,10 @@ export default function HomePage() {
                                   Community Calls
                                 </h4>
                                 <div className={styles.eventDescription}>
-                                  Repasamos los hechos más importantes
+                                  We review the most important events.
                                 </div>
 
-                                <p className={styles.eventCTA}>Ver más</p>
+                                <p className={styles.eventCTA}>Learn more</p>
                               </div>
                             </div>
                           </Link>
@@ -770,10 +763,10 @@ export default function HomePage() {
                                     Governance Calls
                                   </h4>
                                   <div className={styles.eventDescription}>
-                                    Votación en comunidad
+                                    Community voting
                                   </div>
 
-                                  <p className={styles.eventCTA}>Ver más</p>
+                                  <p className={styles.eventCTA}>Learn more</p>
                                 </div>
                               </div>
                             </Link>
@@ -796,13 +789,13 @@ export default function HomePage() {
                               </div>
                               <div className={styles.eventTitleContainer}>
                                 <h4 className={styles.eventTitle}>
-                                  Eventos Presenciales
+                                  In-Person Events
                                 </h4>
                                 <div className={styles.eventDescription}>
-                                  En casi todo el país
+                                  In various provinces of the country
                                 </div>
 
-                                <p className={styles.eventCTA}>Ver más</p>
+                                <p className={styles.eventCTA}>Learn more</p>
                               </div>
                             </div>
                           </Link>
@@ -828,12 +821,12 @@ export default function HomePage() {
                               </div>
                               <div className={styles.eventTitleContainer}>
                                 <h4 className={styles.eventTitle}>
-                                  Contenido Online
+                                  Online Content
                                 </h4>
                                 <div className={styles.eventDescription}>
-                                  Celebracion hitos web3
+                                  Interviews, articles, and Web3 milestones
                                 </div>
-                                <p className={styles.eventCTA}>Ver más</p>
+                                <p className={styles.eventCTA}>Learn more</p>
                               </div>
                             </div>
                           </a>
@@ -861,7 +854,7 @@ export default function HomePage() {
                                     src={articulosMirror}
                                   ></Image>
                                   <div className="text-white text-[20px] font-bold leading-9">
-                                  Artículos
+                                    Articles
                                   </div>
                                   <Link
                                     className="text-fuchsia-500 font-normal leading-9"
@@ -869,7 +862,7 @@ export default function HomePage() {
                                     rel="noopener"
                                     href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
                                   >
-                                    Ver más
+                                    Learn more
                                   </Link>
                                 </div>
 
@@ -889,7 +882,7 @@ export default function HomePage() {
                                     rel="noopener"
                                     href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
                                   >
-                                    Ver más
+                                    Learn more
                                   </Link>
                                 </div>
 
@@ -901,7 +894,7 @@ export default function HomePage() {
                                     src={hitosWeb3}
                                   ></Image>
                                   <div className="text-white text-[20px] font-bold leading-9">
-                                    Hitos Web3
+                                    Web3 milestones
                                   </div>
                                   <Link
                                     className="text-fuchsia-500 font-normal leading-9"
@@ -909,7 +902,7 @@ export default function HomePage() {
                                     rel="noopener"
                                     href="https://seedlatam.notion.site/SEED-Latam-Events-627a0d0646d646ef8ab58c491b3e64cf"
                                   >
-                                    Ver más
+                                    Learn more
                                   </Link>
                                 </div>
                               </div>
@@ -928,9 +921,7 @@ export default function HomePage() {
                   <div className={styles.mainContainer}>
                     <div className={styles.sectionContainer}>
                       <div className={styles.containerTitle}>
-                        <h3 className={styles.title}>
-                          ¿Cuáles son nuestros valores?
-                        </h3>
+                        <h3 className={styles.title}>What are our values?</h3>
                       </div>
                     </div>
                     <div className="">
@@ -939,32 +930,30 @@ export default function HomePage() {
                           SEED Latam &gt;
                         </div>
                         <div className={styles.breadcrumbs2}>
-                          ¿Cuáles son nuestros valores?
+                          What are our values?
                         </div>
                       </div>
                       <div className="pt-[1rem]">
-                        <p className={styles.font3}>Soberanía</p>
+                        <p className={styles.font3}>Sovereignty</p>
                         <p className={styles.font4}>
-                          Trabajamos a diario para que los usuarios sean
-                          conscientes de la soberanía digital en el marco de la
-                          web3. 
+                          We work daily to make users aware of digital
+                          sovereignty within the framework of web3.
                         </p>
-                        <p className={styles.font3}>Educación</p>
+                        <p className={styles.font3}>Education</p>
                         <p className={styles.font4}>
-                          Desde nuestros inicios abogamos por educación libre e
-                          interdisciplinaria.
+                          From our beginnings, we advocate for free and
+                          interdisciplinary education.
                         </p>
-                        <p className={styles.font3}>Evolución</p>
+                        <p className={styles.font3}>Evolution</p>
                         <p className={styles.font4}>
-                          Contribuimos a la evolución del ecosistema Web3
-                          alentando a la comunidad a participar de manera activa
-                          en diferentes protocolos y espacios
+                          We contribute to the evolution of the Web3 ecosystem
+                          by encouraging the community to actively participate
+                          in different protocols and spaces.
                         </p>
-                        <p className={styles.font3}>Descentralización</p>
+                        <p className={styles.font3}>Decentralization</p>
                         <p className={styles.font4}>
-                          Perseguimos los ideales de la descentralización,
-                          siendo uno de nuestros valores fundamentales y
-                          principal fuente de inspiración.
+                          We pursue the ideals of decentralization, which is one
+                          of our core values and the main source of inspiration.
                         </p>
                       </div>
                     </div>
@@ -979,7 +968,7 @@ export default function HomePage() {
                     <div className={styles.sectionContainer}>
                       <div className="h-28 pt-14 flex xl:pt-80">
                         <h3 className={styles.title}>
-                          ¿Quienes forman parte de SEED Latam?
+                          Who is part of SEED Latam?
                         </h3>
                       </div>
                     </div>
@@ -999,10 +988,10 @@ export default function HomePage() {
                               </div>
                               <div className=" pl-[1rem] ">
                                 <div className="text-white text-[20px] font-bold leading-9">
-                                  Ecosistema SEED
+                                  SEED Ecosystem
                                 </div>
 
-                                <h4>Toda nuestra estructura explicada</h4>
+                                <h4>All our structure explained</h4>
                                 <a
                                   className="text-fuchsia-500 font-normal leading-9"
                                   target="_blank"
@@ -1011,7 +1000,7 @@ export default function HomePage() {
                                     window.my_modal_mapa.showModal()
                                   }
                                 >
-                                  Ver más
+                                  Learn more
                                 </a>
                               </div>
                             </div>
@@ -1053,19 +1042,19 @@ export default function HomePage() {
                               </div>
                               <div className=" pl-[1rem] ">
                                 <div className="text-white text-[20px] font-bold leading-9">
-                                  Estatuto
+                                  Bylaws
                                 </div>
 
                                 <h4>
-                                  Toda la informacion interna de SEED Latam
+                                  All internal information about SEED Latam
                                 </h4>
                                 <Link
                                   target="_blank"
                                   rel="noopener"
                                   className="text-fuchsia-500 font-normal leading-9"
-                                  href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI"
+                                  href="https://seedlatam.notion.site/SEED-Latam-statute-8c32073beb2147759e51b3d3e51edd7d"
                                 >
-                                  Ver url: seedlatam.wiki
+                                  Learn more: seedlatam.wiki
                                 </Link>
                               </div>
                             </div>
@@ -1084,7 +1073,7 @@ export default function HomePage() {
                     <div className={styles.sectionContainer}>
                       <div className={styles.containerTitle}>
                         <h3 className={styles.title}>
-                          ¿Quienes ya confiaron en nosotros?
+                          Who has already trusted us?
                         </h3>
                       </div>
                     </div>
@@ -1093,84 +1082,84 @@ export default function HomePage() {
                       {/* Imagenes */}
                       {/* wonderland decentraland kleros uniswap */}
                       <div className=" flex gap-5">
-                      <Image
-                        width={246}
-                        src={wonderland}
-                        alt="logo_wonderland"
-                        className=""
-                      ></Image>
+                        <Image
+                          width={246}
+                          src={wonderland}
+                          alt="logo_wonderland"
+                          className=""
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={decentraland}
-                        alt="logo_decentraland"
-                        className="py-5"
-                      ></Image>
+                        <Image
+                          width={222}
+                          src={decentraland}
+                          alt="logo_decentraland"
+                          className="py-5"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={connext}
-                        alt="logo_connext"
-                        className="py-5"
-                      ></Image>
-                    </div>
+                        <Image
+                          width={222}
+                          src={connext}
+                          alt="logo_connext"
+                          className="py-5"
+                        ></Image>
+                      </div>
 
-                    <div className="flex gap-5">
-                      <Image
-                        width={107}
-                        src={kleros}
-                        alt="logo_kleros"
-                        className="py-5"
-                      ></Image>
+                      <div className="flex gap-5">
+                        <Image
+                          width={107}
+                          src={kleros}
+                          alt="logo_kleros"
+                          className="py-5"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={letgh}
-                        alt="logo_letgh"
-                        className="py-5"
-                      ></Image>
+                        <Image
+                          width={222}
+                          src={letgh}
+                          alt="logo_letgh"
+                          className="py-5"
+                        ></Image>
 
-                      <Image
-                        width={153}
-                        src={uniswap}
-                        alt="logo_uniswap"
-                        className="py-5"
-                      ></Image>
+                        <Image
+                          width={153}
+                          src={uniswap}
+                          alt="logo_uniswap"
+                          className="py-5"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={lens}
-                        alt="logo_lens"
-                        className="py-5"
-                      ></Image>
-                    </div>
-                    {/* tercer fila */}
-                    <div className="flex gap-5">
-                      <Image
-                        width={222}
-                        src={chainlink}
-                        alt="logo_chainlink"
-                        className="py-5"
-                      ></Image>
-                      <Image
-                        width={222}
-                        src={dappnode}
-                        alt="logo_dappnode"
-                        className="py-5"
-                      ></Image>
-                      <Image
-                        width={222}
-                        src={ethfound}
-                        alt="logo_ethereumfoundation"
-                        className="py-5"
-                      ></Image>
-                      <Image
-                        width={222}
-                        src={criptotend}
-                        alt="logo_criptotendencias"
-                        className="py-5"
-                      ></Image>
-                    </div>
+                        <Image
+                          width={222}
+                          src={lens}
+                          alt="logo_lens"
+                          className="py-5"
+                        ></Image>
+                      </div>
+                      {/* tercer fila */}
+                      <div className="flex gap-5">
+                        <Image
+                          width={222}
+                          src={chainlink}
+                          alt="logo_chainlink"
+                          className="py-5"
+                        ></Image>
+                        <Image
+                          width={222}
+                          src={dappnode}
+                          alt="logo_dappnode"
+                          className="py-5"
+                        ></Image>
+                        <Image
+                          width={222}
+                          src={ethfound}
+                          alt="logo_ethereumfoundation"
+                          className="py-5"
+                        ></Image>
+                        <Image
+                          width={222}
+                          src={criptotend}
+                          alt="logo_criptotendencias"
+                          className="py-5"
+                        ></Image>
+                      </div>
                     </div>
                   </div>
                 </div>

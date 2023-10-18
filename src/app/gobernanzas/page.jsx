@@ -12,7 +12,7 @@ import discord from "../assets/icons/discordwhite.svg";
 import twitter from "../assets/icons/twitterwhite.svg";
 import govday from "../assets/img/gobernanza/GOVERNANCEDAY.png";
 import web from "../assets/icons/web.svg";
-import webWhite from "../assets/icons/web-white.svg"
+import webWhite from "../assets/icons/web-white.svg";
 import governanza from "../assets/img/gobernanza/gobernanza.png";
 import iconVision from "../assets/icons/icon-nuestravision.svg";
 import iconGobModAbierto from "../assets/icons/icon-GobModAbierto.svg";
@@ -36,7 +36,7 @@ export default function HomePage() {
         "
       >
         {/* TITULO */}
-        <h1 className={styles.h1}>Nuestro enfoque en gobernanzas</h1>
+        <h1 className={styles.h1}>Our focus on governance</h1>
 
         {/* 2 secciones NUESTRA VISION + GOBERNANZA MODELO ABIERTO */}
         <div className="pl-16 lg:pl-48">
@@ -54,17 +54,17 @@ export default function HomePage() {
                   </div>
                   <div className=" pl-[1rem] ">
                     <div className="text-white text-[20px] font-bold leading-9">
-                      Nuestra visión
+                      Our vision
                     </div>
 
-                    <h4>¿Porque participar en este fenónmeno?</h4>
+                    <h4>Why participate in this phenomenon?</h4>
                     <a
                       className="text-fuchsia-500 font-normal leading-9"
                       target="_blank"
                       rel="noopener"
                       onClick={() => window.my_modal_1.showModal()}
                     >
-                      Ver más
+                      Learn more
                     </a>
                   </div>
                 </div>
@@ -79,12 +79,10 @@ export default function HomePage() {
                 className="modal-box bg-bg-card max-w-xl lg:max-w-5xl "
               >
                 <div className={styles.headerModal_nuestravision}>
-                  <h1 className="pl-20 font-extrabold text-5xl">
-                    Nuestra visión
-                  </h1>
+                  <h1 className="pl-20 font-extrabold text-5xl">Our vision</h1>
 
                   <h4 className="pl-20 font-normal text-2xl">
-                    ¿Porque participar en este fenónmeno?
+                    Why participate in this phenomenon?
                   </h4>
                 </div>
 
@@ -119,7 +117,7 @@ export default function HomePage() {
                     {/* boton Volver DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <form method="dialog" className="modal-backdrop">
-                        <button className={styles3.button4}> Volver </button>
+                        <button className={styles3.button4}> Return </button>
                       </form>
                     </div>
 
@@ -127,7 +125,7 @@ export default function HomePage() {
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
-                          Ver plataformas activas
+                          View active platforms
                         </button>
                       </Link>
                     </div>
@@ -137,7 +135,7 @@ export default function HomePage() {
                     {/* BOTON PLAT ACTIVAS */}
                     <div className="md:hidden pl-6 pb-5 text-9xl md:w-max-90vw md:justify-end">
                       <form method="dialog" className="modal-backdrop">
-                        <button className={styles3.button4}> Volver </button>
+                        <button className={styles3.button4}> Return </button>
                       </form>
                     </div>
 
@@ -145,7 +143,7 @@ export default function HomePage() {
                     <div className="md:hidden text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
-                          Ver plataformas activas
+                          View active platforms
                         </button>
                       </Link>
                     </div>
@@ -170,17 +168,17 @@ export default function HomePage() {
 
                   <div className=" pl-[1rem] ">
                     <div className="text-white text-[20px] font-bold leading-9">
-                      Gobernanza modelo abierto
+                      Open model 
                     </div>
 
-                    <h4>¿Porqué nuestro modelo de gobernanza es abierto?</h4>
+                    <h4>Why is our governance model open?</h4>
                     <a
                       className="text-fuchsia-500 font-normal leading-9"
                       target="_blank"
                       rel="noopener"
                       onClick={() => window.my_modal_2.showModal()}
                     >
-                      Ver más
+                      Learn more
                     </a>
                   </div>
                 </div>
@@ -196,11 +194,11 @@ export default function HomePage() {
               >
                 <div className={styles.headerModal_nuestravision}>
                   <h1 className="pl-20 font-extrabold text-5xl">
-                    Gobernanza modelo abierto
+                    Open model 
                   </h1>
 
                   <h4 className="pl-20 font-normal text-2xl">
-                    ¿Porqué nuestro modelo de gobernanza es abierto?
+                    Why is our governance model open?
                   </h4>
                 </div>
 
@@ -232,7 +230,7 @@ export default function HomePage() {
                     {/* boton DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <form method="dialog" className="modal-backdrop">
-                        <button className={styles3.button4}> Volver </button>
+                        <button className={styles3.button4}> Return </button>
                       </form>
                     </div>
 
@@ -240,12 +238,10 @@ export default function HomePage() {
 
                     {/* PROXIMAMENTE */}
                     <div className="hidden md:block pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
-                      <Link 
-                      
-                      href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI&si=gPAXdJ77mwefllQ8">
+                      <Link href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI&si=gPAXdJ77mwefllQ8">
                         {/* poner noopener para que se abra otra pestaña */}
                         <button className={styles3.button5}>
-                          Ver llamadas YouTube
+                          View YouTube calls
                         </button>
                       </Link>
                     </div>
@@ -255,17 +251,15 @@ export default function HomePage() {
                     {/* Boton VOLVER */}
                     <div className="md:hidden pl-6 pb-5 text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas">
-                        <button className={styles3.button4}>Volver</button>
+                        <button className={styles3.button4}>Return</button>
                       </Link>
                     </div>
 
                     {/* BOTON LLLAMADAS YOUTUBE */}
                     <div className="md:hidden pr-4 text-9xl md:w-max-90vw md:justify-end">
-                      <Link 
-                    
-                      href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI">
+                      <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI">
                         <button className={styles3.button5}>
-                          Ver llamadas YouTube
+                          View YouTube calls
                         </button>
                       </Link>
                     </div>
@@ -280,14 +274,14 @@ export default function HomePage() {
         </div>
 
         {/* Segundo TITULO */}
-        <h1 className={styles.h5}>Nuestras iniciativas: </h1>
+        <h1 className={styles.h5}>Our initiatives: </h1>
 
         <div className="pl-16  xl:pl-20 pt-24 flex flex-wrap  gap-4">
           <Link
             href="/gobernanzas/#PlataformasActivas"
             className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
           >
-            <h1 className={styles.h6}>Plataformas activas </h1>
+            <h1 className={styles.h6}>Active platforms </h1>
           </Link>
 
           <Link
@@ -314,11 +308,11 @@ export default function HomePage() {
       >
         {/* columna 1 */}
         <div className="max-w-[482px]">
-          <h3 className={styles.h3}>Plataformas activas actualmente</h3>
+          <h3 className={styles.h3}>Currently active platforms</h3>
           <p className={styles.p}>
-            Las plataformas de delegados son equipos que participan activamente
-            de las discusiones y votaciones de determinado protocolo,
-            representando los intereses de determinada organización o comunidad
+            Delegate platforms are teams that actively engage in discussions and
+            voting for a specific protocol, representing the interests of a
+            particular organization or community
           </p>
         </div>
 
@@ -663,7 +657,7 @@ export default function HomePage() {
                 la toma de decisiones y la asignación de recursos.
               </p>
               <div className="flex md:justify-end gap-2 ">
-              <div>
+                <div>
                   {" "}
                   <Link
                     target="_blank"
@@ -716,7 +710,7 @@ export default function HomePage() {
                 comunidad.
               </p>
               <div className="flex md:justify-end gap-2 ">
-              <div>
+                <div>
                   {" "}
                   <Link
                     target="_blank"
@@ -768,7 +762,7 @@ export default function HomePage() {
                 determinar mejoras para Connext.
               </p>
               <div className="flex md:justify-end gap-2 ">
-              <div>
+                <div>
                   {" "}
                   <Link
                     target="_blank"
@@ -827,7 +821,7 @@ export default function HomePage() {
         <div className="max-w-[482px] text-right pt-5 md:pr-20 pr-3 md:pb-40">
           <h3 className={styles.h3}>Governance Day</h3>
           <p className={styles.p2}>
-            El primer evento presencial enfocado en las gobernanzas en web3.
+            The first in-person event focused on Web3 governance.
           </p>
 
           {/* boton DESKTOP*/}
@@ -836,7 +830,7 @@ export default function HomePage() {
           <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button2}>
-                Ver más sobre Governance Day
+                Learn more about Governance Day
               </button>
             </Link>
           </div>
@@ -847,7 +841,7 @@ export default function HomePage() {
           <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button3}>
-                Ver más sobre Governance Day
+                Learn more about Governance Day
               </button>
             </Link>
           </div>
@@ -862,16 +856,16 @@ export default function HomePage() {
         <div className="max-w-[482px] text-left">
           <h3 className={styles.h3}>Aula abierta </h3>
           <p className={styles.p}>
-            Contenido educativo online y abierto explorando diversos temas y
-            orientado a quienes quieren formarse y capacitarse en temas
-            relacionados con DAOs y gobernanza con referentes y profesionales
-            del ecosistema{" "}
+            Open and online educational content exploring various topics and
+            aimed at those looking to learn and train in subjects related to
+            DAOs and governance, featuring experts and professionals from the
+            ecosystem.{" "}
           </p>
 
           {/* boton DESKTOP */}
           <div className="text-right md:pt-8 md:w-max-90vw md:flex md:justify-start">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-              <button className={styles3.button2}>Ir a Youtube</button>
+              <button className={styles3.button2}>Go to YouTube</button>
             </Link>
           </div>
         </div>
