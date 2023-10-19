@@ -52,7 +52,7 @@ export default function HomePage() {
         <Link
           target="_blank"
           rel="noopener"
-          href="https://mirror.xyz/seedlatam.eth"
+          href="https://mirror.xyz/seedlatam.eth/vNNjQgK8HIZXHlrsfOxILZPxp-d1mQEdIYoWH_jz2RI"
         >
           <Image
             className="max-w-lg md:max-w-full  md:min-w-min pl-2 lg:pt-32 xl:pt-20 md:pl-16 md:pb-40"

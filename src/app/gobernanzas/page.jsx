@@ -88,23 +88,19 @@ export default function HomePage() {
 
                 <div className="px-7 lg:px-6 ">
                   <p className="lg:pt-5 text-2xl text-white">
-                    Abogamos por una mirada crítica y objetiva, desde nuestro
-                    rol como representantes y tenemos en cuenta el impacto que
-                    pueden tener las decisiones tomadas en la comunidad de
-                    Latinoamérica sobre los usuarios, desarrolladores,
-                    protocolos, instituciones locales y todos aquellos que
-                    tengan interés en el ecosistema Web3.
-                    <br />
-                    <br />
-                    La participación en gobernanzas de Web3 es clave a la hora
-                    de decidir el futuro de las blockchains y protocolos que
-                    buscan construir una alternativa al sistema financiero
-                    tradicional y la disrupción en otras áreas. A lo largo de
-                    los años, nuestra región casi nunca ha sido protagonista en
-                    la toma de decisiones. Pero esto está cambiando, y desde
-                    SEED Latam somos parte del cambio siendo partícipes de la
-                    toma de decisiones y contribuir con nuestra visión y
-                    percepción.
+                    We advocate for a critical and objective perspective in our
+                    role as representatives, considering the potential impact of
+                    decisions made in the Latin American community on users,
+                    developers, protocols, local institutions, and all those
+                    interested in the Web3 ecosystem. <br />
+                    <br /> Participation in Web3 governance is crucial when it
+                    comes to shaping the future of blockchains and protocols
+                    aimed at providing an alternative to the traditional
+                    financial system and disrupting other areas. Over the years,
+                    our region has rarely played a leading role in
+                    decision-making. However, this is changing, and SEED Latam
+                    is part of this transformation, actively participating in
+                    decision-making and contributing our vision and insight
                   </p>
                 </div>
 
@@ -168,7 +164,7 @@ export default function HomePage() {
 
                   <div className=" pl-[1rem] ">
                     <div className="text-white text-[20px] font-bold leading-9">
-                      Open model 
+                      Open model
                     </div>
 
                     <h4>Why is our governance model open?</h4>
@@ -193,9 +189,7 @@ export default function HomePage() {
                 className="modal-box bg-bg-card max-w-xl lg:max-w-4xl "
               >
                 <div className={styles.headerModal_nuestravision}>
-                  <h1 className="pl-20 font-extrabold text-5xl">
-                    Open model 
-                  </h1>
+                  <h1 className="pl-20 font-extrabold text-5xl">Open model</h1>
 
                   <h4 className="pl-20 font-normal text-2xl">
                     Why is our governance model open?
@@ -204,20 +198,18 @@ export default function HomePage() {
 
                 <div className="px-7 lg:px-8 ">
                   <p className="lg:pt-5 text-2xl text-white">
-                    Tenemos llamadas de gobernanza comunitarias y abiertas al
-                    público donde invitamos a la comunidad a participar.
-                    Debatimos ideas y las implicancias de la decisión. La
-                    delegación votará lo que se decidió en la llamada,
-                    manteniendo una gobernanza transparente e inclusiva.
-                    <br />
-                    <br />
-                    En SEED Latam, reconocemos las diferencias en escalabilidad
-                    individual y, por ello, impulsamos equipos representados por
-                    &quot;El Delegado&quot; con un equipo de soporte y respaldo
-                    para enriquecer el debate. Cada decisión se toma
-                    considerando su impacto positivo en la región con una visión
-                    multidisciplinaria que abarque al usuario final,
-                    desarrolladores, eficiencia de capital, etc .
+                    We host open and community governance calls, inviting the
+                    public to participate. During these calls, we discuss ideas
+                    and the implications of decisions. The delegation will vote
+                    on what was decided during the call, maintaining a
+                    transparent and inclusive governance process. <br />
+                    <br /> At SEED Latam, we acknowledge individual scalability
+                    differences and, therefore, promote teams represented by
+                    &quot;The Delegate&quot; with a support and backup team to
+                    enrich the discussion. Every decision is made with a
+                    multidisciplinary perspective that considers its positive
+                    impact on the region, encompassing the end user, developers,
+                    capital efficiency, and more.
                   </p>
                 </div>
 
@@ -555,11 +547,11 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                Optimism DAO, su ecosistema y la potenciación de LATAM como
-                región. Comprendemos que la gobernanza es una pieza fundamental
-                para impulsar esta misión y reconocemos el arduo trabajo de sus
-                Delegados; quienes votación tras votación determinan cuál es la
-                mejor dirección que debe tomar el Optimism Collective.
+                Optimism DAO, its ecosystem, and the empowerment of LATAM as a
+                region. We understand that governance is a fundamental key in
+                driving this mission, and we recognize the hard work of its
+                Delegates, who, vote after vote, determine the best direction
+                for the Optimism Collective.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -609,11 +601,11 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                Sovereign Finance AVC fue fundada en marzo de 2023 como parte
-                del área de Gobernanza de SEED Latam, una comunidad educativa
-                enfocada en Web3 nacida en Latam. Nuestra comunidad ha estado
-                activa desde 2020 y participamos activamente en múltiples
-                iniciativas de gobernanza.{" "}
+                Sovereign Finance AVC was founded in March 2023 as part of the
+                Governance division of SEED Latam, an educational community
+                focused on Web3 originating in Latam. Our community has been
+                active since 2020 and actively participates in various
+                governance initiatives.{" "}
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -652,9 +644,10 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                La Arbitrum DAO se encarga de la gobernanza y el mantenimiento
-                del protocolo Arbitrum, incluyendo la implementación de mejoras,
-                la toma de decisiones y la asignación de recursos.
+                The Arbitrum DAO is responsible for the governance and
+                maintenance of the Arbitrum protocol, including the
+                implementation of improvements, decision-making, and resource
+                allocation.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -704,10 +697,10 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                StarkNet DAO tiene como misión respaldar el proyecto StarkNet,
-                una red l2 en Ethereum. Esta governanza promoverá el desarrollo
-                de StarkNet, la adopción de la red y la participación de la
-                comunidad.
+                The StarkNet DAO has the mission of supporting the StarkNet
+                project, an L2 network on Ethereum. This governance will promote
+                the development of StarkNet, network adoption, and community
+                participation.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -757,9 +750,9 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                Nuestra delegación en Connext DAO es nuestra participación más
-                reciente. En actividad a partir septiembre de 2023, busca
-                determinar mejoras para Connext.
+                Our delegation in Connext DAO is our most recent participation.
+                Active since September 2023, it aims to determine improvements
+                for Connext.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>

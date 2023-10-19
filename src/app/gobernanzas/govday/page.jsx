@@ -50,27 +50,26 @@ export default function HomePage() {
       {/* Charlas & Speakers */}
       <div className=" pb-16 pt-32 max-md:pt-[3rem] gap-8 grid-cols-2 lg: lg:flex xl:justify-between ">
         <div className="max-w-[482px] pt-6 text-left">
-          <h3 className={styles.h3}>Charlas & Speakers </h3>
+          <h3 className={styles.h3}>Talks & Speakers </h3>
           <p className={styles.p}>
-            Únete a nosotros en las diversas charlas de uno de los eventos más
-            destacados organizados por SEED Latam, el primer evento dedicado
-            exclusivamente a la gobernanza en América Latina. Contamos con la
-            participación de speakers internacionales en el #governanceday, una
-            oportunidad única para explorar temas clave en gobernanza blockchain
-            en nuestra región.
+            Join us for the various talks at one of the most prominent events
+            organized by SEED Latam, the first event exclusively dedicated to
+            governance in Latin America. We have the participation of
+            international speakers at #governanceday, a unique opportunity to
+            explore key topics in blockchain governance in our region.
           </p>
 
           {/* boton DESKTOP */}
           <div className="md:pt-8 md:w-max-90vw md:justify-start hidden md:block">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-              <button className={styles3.button2}>Ir a lista de Youtube</button>
+              <button className={styles3.button2}>Go to Youtube List</button>
             </Link>
           </div>
 
           {/* boton Responsive */}
           <div className="md:pt-8 md:w-max-90vw md:justify-start md:hidden">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-              <button className={styles3.button3}>Ir a lista de Youtube</button>
+              <button className={styles3.button3}>Go to Youtube List</button>
             </Link>
           </div>
         </div>
