@@ -45,14 +45,14 @@ export function Navigation() {
                 href="#Descubrenos"
                 className="p-2 text-lg font-bold  text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
               >
-                Descúbrenos
+                Discover us
               </Link>
 
               <Link
                 href="#Gobernanza"
                 className=" p-2  text-lg font-bold  text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
               >
-                Gobernanza
+                Governance
               </Link>
 
 
@@ -60,7 +60,7 @@ export function Navigation() {
                 href="#Separte"
                 className=" p-2  text-lg  font-bold text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
               >
-                Sé parte
+                Join us
               </Link>
               
               
@@ -98,7 +98,7 @@ export function Navigation() {
                 href="/links"
                 className="p-2 text-lg font-bold border-[#222222]  text-white hover:border-b-4 hover:border-[#F651F6] border-b-4"
               >
-                Contacto
+                Contact
               </Link>
               
 
@@ -139,13 +139,13 @@ export function Navigation() {
 
                 <ul id={styles.menu}>
                   <li>
-                    <Link href="#Descubrenos">Descúbrenos</Link>
+                    <Link href="#Descubrenos">Discover us</Link>
                   </li>
                   <li>
-                    <Link href="#Separte">Sé parte</Link>
+                    <Link href="#Separte">Join us</Link>
                   </li>
                   <li>
-                    <Link href="#Gobernanza">Gobernanza</Link>
+                    <Link href="#Gobernanza">Governance</Link>
                   </li>
                   <li>
                     <Link
@@ -153,7 +153,7 @@ export function Navigation() {
                       rel="noopener"
                       href="/links"
                     >
-                      Contacto
+                      Contact
                     </Link>
                   </li>
                 </ul>

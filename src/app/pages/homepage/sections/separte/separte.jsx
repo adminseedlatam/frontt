@@ -14,8 +14,8 @@ import ForkDAO from "../../../../../app/assets/img/community-section/forkdao.png
 import Dpp from "../../../../../app/assets/img/community-section/dpp.png";
 import Opes from "../../../../../app/assets/img/community-section/opes.png";
 import discord from "../../../../assets/icons/discord.svg";
-import discordwhite from "../../../../assets/icons/discordwhite.svg"; 
-import twitterwhite from "../../../../assets/icons/twitterwhite.svg"; 
+import discordwhite from "../../../../assets/icons/discordwhite.svg";
+import twitterwhite from "../../../../assets/icons/twitterwhite.svg";
 import instagram from "../../../../assets/icons/instagram.svg";
 import twitter from "../../../../assets/icons/twitter.svg";
 
@@ -43,26 +43,23 @@ export default function HomePage() {
 
   return (
     <div>
-      <div 
-      id="Separte" 
-      className="hidden xl:block py-[5vw]"
-      >
-        <div className="px-[5vw] pt-[75px]"> {/* Este agarra todo el swiper */}
-          <div className=" pb-[75px]"> 
-            <h3 className={styles.title}>
-              Las comunidades y SEED Latam
-            </h3>
+      <div id="Separte" className="hidden xl:block py-[5vw]">
+        <div className="px-[5vw] pt-[75px]">
+          {" "}
+          {/* Este agarra todo el swiper */}
+          <div className=" pb-[75px]">
+            <h3 className={styles.title}>Communities and SEED Latam</h3>
           </div>
           {/* este es el ultimo  */}
           <div className="flex  justify-between items-center pb-[50px]">
             <div>
               <div className="max-w-[336px] pb-[24px]">
-                <h4 className={styles.h3}>Comunidades Alineadas</h4>
+                <h4 className={styles.h3}>Communities Aligned</h4>
               </div>
               <div className="max-w-[336px] w-[90vw] ">
                 <p className={styles.fontAlineadas}>
-                  Son aquellas que han surgido en el ámbito de SEED Latam o han
-                  sido fundadas por un miembro core o hardcore
+                  These are those that have emerged within the scope of SEED
+                  Latam or have been founded by a core or hardcore member.
                 </p>
               </div>
             </div>
@@ -140,203 +137,26 @@ export default function HomePage() {
                   </a>
                 </SwiperSlide>
               </Swiper>
-
-              {/*     <Swiper
-                effect={"coverflow"}
-                grabCursor={false}
-                centeredSlides={true}
-                slidesPerView={3}
-                loop={true}
-                coverflowEffect={{
-                  rotate: 0,
-                  stretch: 0,
-                  depth: 50,
-                  modifier: 20,
-                  slideShadows: false,
-                }}
-                navigation={true}
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[EffectCoverflow, Pagination, Navigation]}
-                className="mySwiperSeParteDesktop2"
-              >
-                <SwiperSlide>
-                  <a
-                    className="cursor-pointer"
-                    onClick={() => window.my_modal_2.showModal()}
-                  >
-                    <div className="w-[300px]">
-                      <Image
-                        width={502}
-                        height={331}
-                        src={Descilatam}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                  </a>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <a
-                    className="cursor-pointer"
-                    onClick={() => window.my_modal_3.showModal()}
-                  >
-                    <div className="w-[302px]">
-                      <Image
-                        className="cursor-pointer"
-                        width={502}
-                        height={331}
-                        src={L2es}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                  </a>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <a
-                    className="cursor-pointer"
-                    onClick={() => window.my_modal_4.showModal()}
-                  >
-                    <div className="w-[502px]">
-                      <Image
-                        width={502}
-                        height={331}
-                        src={Opes}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                  </a>
-                </SwiperSlide>    
-              </Swiper> */}
             </div>
           </div>
         </div>
-
-        {/* slider comunidad responsive */}
-        {/*  <div className="  hidden md:flex  lg:justify-between  px-[5vw] ">
-          <div className="lg:flex min-w-[90vw] lg:justify-between">
-            <div className="  max-w-[316px] pb-[24px]">
-              <h4 className={styles.h3}>Comunidades Amigas</h4>
-              <div className="lg:max-w-[449px]  pb-[2rem]">
-                <div className="pt-6">
-                  <p className={styles.fontAmigas}>
-                    Son comunidades independientes que representan una
-                    colaboración valiosa para SEED Latam
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex  flex-wrap gap-4  max-lg:max-w-[90vw] pb-[4.25rem] ">
-              <div>
-                <a
-                  className="cursor-pointer"
-                  onClick={() => window.my_modal_7.showModal()}
-                >
-                  <div className={styles.containerAmigas}>
-                    <div className={styles.imageAmigas}>
-                      <Image
-                        width={109.28}
-                        height={93.3}
-                        src={Solow}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div className="">
-                      <h5 className="py-2 pl-2  font-bold text-[10px]">
-                        Solow
-                      </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div>
-                <a
-                  className="cursor-pointer"
-                  onClick={() => window.my_modal_8.showModal()}
-                >
-                  <div className={styles.containerAmigas}>
-                    <div className={styles.imageAmigas}>
-                      <Image
-                        width={109.28}
-                        height={93.3}
-                        src={Mec}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div>
-                      <h5 className="py-2 pl-2 flex items-center font-bold text-[10px]">
-                        Mujeres en Cripto
-                      </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div>
-                <a
-                  className="cursor-pointer"
-                  onClick={() => window.my_modal_9.showModal()}
-                >
-                  <div className={styles.containerAmigas}>
-                    <div className={styles.imageAmigas}>
-                      <Image
-                        width={109.28}
-                        height={93.3}
-                        src={ForkDAO}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div>
-                      <h5 className="py-2 pl-2 flex items-center font-bold text-[10px]">
-                        Fork DAO
-                      </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div>
-                <a
-                  className="cursor-pointer"
-                  onClick={() => window.my_modal_10.showModal()}
-                >
-                  <div className={styles.containerAmigas}>
-                    <div className={styles.imageAmigas}>
-                      <Image
-                        width={109.28}
-                        height={93.3}
-                        src={Dpp}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div>
-                      <h5 className="py-2 pl-2 flex items-center font-bold text-[10px]">
-                        DPP
-                      </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
 
       {/* Responsive */}
       <div id="Separte" className="xl:hidden">
         <div className=" px-[5vw] pt-[75px]">
           <div className="pb-[28.1px]  xl:pb-[75px]">
-            <h3 className={styles.title}>Las comunidades y SEED Latam</h3>
+            <h3 className={styles.title}>Communities and SEED Latam</h3>
           </div>
           <div className="flex  justify-between items-center xl:pb-[50px] flex-wrap">
             <div>
               <div className=" max-w-[336px] pb-[24px]">
-                <h4 className={styles.h3}>Comunidades Alineadas</h4>
+                <h4 className={styles.h3}>Communities Aligned</h4>
               </div>
               <div className="md:max-w-[60vw] lg:max-w-[336px] w-[90vw] ">
                 <p className={styles.fontAlineadas}>
-                  Son aquellas que han surgido en el ámbito de SEED Latam o han
-                  sido fundadas por un miembro core o hardcore
+                  These are those that have emerged within the scope of SEED
+                  Latam or have been founded by a core or hardcore member
                 </p>
               </div>
             </div>
@@ -408,227 +228,10 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        {/* Comunidades Amigas Desktop */}
-        {/* <div className="hidden xl:flex justify-between items-center  flex-wrap ">
-          <div>
-            <div className="max-w-[316px] pb-[24px]">
-              <h4 className={styles.h3}>Comunidades Amigas</h4>
-            </div>
-            <div className="lg:max-w-[449px] md:max-w-[1000px]  pb-[2rem]">
-              <p className={styles.fontAmigas}>
-                Son comunidades independientes que representan una colaboración
-                valiosa para SEED Latam
-              </p>
-            </div>
-          </div>
-          <div className="flex  flex-wrap gap-4  max-lg:max-w-[90vw] pb-[4.25rem] ">
-            <div>
-              <a
-                className="cursor-pointer"
-                onClick={() => window.my_modal_7.showModal()}
-              >
-                <div className={styles.containerAmigas}>
-                  <div className={styles.imageAmigas}>
-                    <Image
-                      width="9.125rem"
-                      height={300}
-                      src={Solow}
-                      alt="logo"
-                    ></Image>
-                  </div>
-                  <div>
-                    <h5 className="py-2 pl-2 flex items-center font-bold ">
-                      Solow
-                    </h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a
-                className="cursor-pointer"
-                onClick={() => window.my_modal_8.showModal()}
-              >
-                <div className={styles.containerAmigas}>
-                  <div className={styles.imageAmigas}>
-                    <Image
-                      width="9.125rem"
-                      height={300}
-                      src={Mec}
-                      alt="logo"
-                    ></Image>
-                  </div>
-                  <div>
-                    <h5 className="py-2 pl-2 flex items-center font-bold text-[0.9375rem]">
-                      Mujeres en Cripto
-                    </h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div>
-              <a
-                className="cursor-pointer"
-                onClick={() => window.my_modal_9.showModal()}
-              >
-                <div className={styles.containerAmigas}>
-                  <div className={styles.imageAmigas}>
-                    <Image
-                      width="9.125rem"
-                      height={300}
-                      src={ForkDAO}
-                      alt="logo"
-                    ></Image>
-                  </div>
-                  <div>
-                    <h5 className="py-2 pl-2 flex items-center font-bold">
-                      Fork DAO
-                    </h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div>
-              <a
-                className="cursor-pointer"
-                onClick={() => window.my_modal_10.showModal()}
-              >
-                <div className={styles.containerAmigas}>
-                  <div className={styles.imageAmigas}>
-                    <Image
-                      width="9.125rem"
-                      height={300}
-                      src={Dpp}
-                      alt="logo"
-                    ></Image>
-                  </div>
-                  <div>
-                    <h5 className="py-2 pl-2 flex items-center font-bold">
-                      DPP
-                    </h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div> */}
-
-        {/* Comunidades Amigas Responsive */}
-        {/*  <div className=" flex xl:hidden    lg:justify-between  px-[5vw] ">
-          <div className="lg:flex min-w-[90vw] lg:justify-between">
-            <div>
-              <div className=" max-w-[316px] ">
-                <h4 className={styles.h3}>Comunidades Amigas</h4>
-              </div>
-              <div className="md:max-w-[60vw] lg:w-[316px] pb-[2rem]">
-                <div className="pt-6">
-                  <p className={styles.fontAmigas}>
-                    Son comunidades independientes que representan una
-                    colaboración valiosa para SEED Latam
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex  flex-wrap gap-4  max-lg:max-w-[90vw] pb-[4.25rem] ">
-              <div>
-                <a
-                  className="cursor-pointer"
-                  onClick={() => window.my_modal_7.showModal()}
-                >
-                  <div className={styles.containerAmigas}>
-                    <div className={styles.imageAmigas}>
-                      <Image
-                        width={146}
-                        height={168}
-                        src={Solow}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div className="">
-                      <h5 className="py-2 pl-2  font-bold text-[10px]">
-                        Solow
-                      </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div>
-                <a
-                  className="cursor-pointer"
-                  onClick={() => window.my_modal_8.showModal()}
-                >
-                  <div className={styles.containerAmigas}>
-                    <div className={styles.imageAmigas}>
-                      <Image
-                        width={146}
-                        height={168}
-                        src={Mec}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div>
-                      <h5 className="py-2 pl-2 flex items-center font-bold text-[10px]">
-                        Mujeres en Cripto
-                      </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div>
-                <a
-                  className="cursor-pointer"
-                  onClick={() => window.my_modal_9.showModal()}
-                >
-                  <div className={styles.containerAmigas}>
-                    <div className={styles.imageAmigas}>
-                      <Image
-                        width={146}
-                        height={168}
-                        src={ForkDAO}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div>
-                      <h5 className="py-2 pl-2 flex items-center font-bold text-[10px]">
-                        Fork DAO
-                      </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div>
-                <a
-                  className="cursor-pointer"
-                  onClick={() => window.my_modal_10.showModal()}
-                >
-                  <div className={styles.containerAmigas}>
-                    <div className={styles.imageAmigas}>
-                      <Image
-                        width={146}
-                        height={168}
-                        src={Dpp}
-                        alt="logo"
-                      ></Image>
-                    </div>
-                    <div>
-                      <h5 className="py-2 pl-2 flex items-center font-bold text-[10px]">
-                        DPP
-                      </h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
 
       {/* Modals */}
       <div id="modals">
-
         <dialog id="my_modal_2" className="modal">
           <form method="dialog" className="modal-box bg-bg-card">
             <div className={styles.headerModal}>
@@ -638,13 +241,12 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg  text-white">
-                Es una comunidad en español que se dedica a la educación y
-                adopción de usuarios en el ecosistema Web3 y cripto, bajo los
-                valores de la descentralización. Su principal enfoque está en el
-                ecosistema DeFi en general, incluyendo protocolos, métricas,
-                tokenomics, MEV, entre otros. Para obtener más información sobre
-                DeFi Latam y cómo está organizado, haga clic en el siguiente
-                enlace defilatam.com.
+                It is a Spanish-speaking community dedicated to educating and
+                onboarding users in the Web3 and crypto ecosystem, under the
+                values of decentralization. Its main focus is on the DeFi
+                ecosystem as a whole, including protocols, metrics, tokenomics,
+                MEV, among others. For more information about DeFi Latam and how
+                it is organized, click on the following link: defilatam.com.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -654,10 +256,7 @@ export default function HomePage() {
                     rel="noopener"
                     href="https://comunidad.seedlatam.org"
                   >
-                    <Image 
-                    className="" 
-                    alt="Logo" 
-                    src={discordwhite}></Image>
+                    <Image className="" alt="Logo" src={discordwhite}></Image>
                   </Link>
                 </div>
 
@@ -687,10 +286,10 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                Es una comunidad en español dedicada al estudio de soluciones de
-                escalabilidad en Ethereum. Su principal enfoque está relacionado
-                a las L2, Optimistic Rollup, Zk rollup, Ethereum, Validiums, DA,
-                entre otros.
+                It is a Spanish-speaking community dedicated to the study of
+                scalability solutions on Ethereum. Its main focus is related to
+                L2, Optimistic Rollup, Zk rollup, Ethereum, Validiums, DA, among
+                others.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -730,9 +329,9 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                Es una comunidad enfocada en brindar información sobre el
-                ecosistema Optimism. Su principal enfoque está en la
-                actualización del protocolo y la traducción de documentación.
+                It is a community focused on providing information about the
+                Optimism ecosystem. Its main focus is on protocol updates and
+                documentation translation.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>

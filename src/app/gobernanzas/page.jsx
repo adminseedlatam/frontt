@@ -12,7 +12,7 @@ import discord from "../assets/icons/discordwhite.svg";
 import twitter from "../assets/icons/twitterwhite.svg";
 import govday from "../assets/img/gobernanza/GOVERNANCEDAY.png";
 import web from "../assets/icons/web.svg";
-import webWhite from "../assets/icons/web-white.svg"
+import webWhite from "../assets/icons/web-white.svg";
 import governanza from "../assets/img/gobernanza/gobernanza.png";
 import iconVision from "../assets/icons/icon-nuestravision.svg";
 import iconGobModAbierto from "../assets/icons/icon-GobModAbierto.svg";
@@ -36,7 +36,7 @@ export default function HomePage() {
         "
       >
         {/* TITULO */}
-        <h1 className={styles.h1}>Nuestro enfoque en gobernanzas</h1>
+        <h1 className={styles.h1}>Our focus on governance</h1>
 
         {/* 2 secciones NUESTRA VISION + GOBERNANZA MODELO ABIERTO */}
         <div className="pl-16 lg:pl-48">
@@ -54,17 +54,17 @@ export default function HomePage() {
                   </div>
                   <div className=" pl-[1rem] ">
                     <div className="text-white text-[20px] font-bold leading-9">
-                      Nuestra visión
+                      Our vision
                     </div>
 
-                    <h4>¿Porque participar en este fenónmeno?</h4>
+                    <h4>Why participate in this phenomenon?</h4>
                     <a
                       className="text-fuchsia-500 font-normal leading-9"
                       target="_blank"
                       rel="noopener"
                       onClick={() => window.my_modal_1.showModal()}
                     >
-                      Ver más
+                      Learn more
                     </a>
                   </div>
                 </div>
@@ -79,34 +79,28 @@ export default function HomePage() {
                 className="modal-box bg-bg-card max-w-xl lg:max-w-5xl "
               >
                 <div className={styles.headerModal_nuestravision}>
-                  <h1 className="pl-20 font-extrabold text-5xl">
-                    Nuestra visión
-                  </h1>
+                  <h1 className="pl-20 font-extrabold text-5xl">Our vision</h1>
 
                   <h4 className="pl-20 font-normal text-2xl">
-                    ¿Porque participar en este fenónmeno?
+                    Why participate in this phenomenon?
                   </h4>
                 </div>
 
                 <div className="px-7 lg:px-6 ">
                   <p className="lg:pt-5 text-2xl text-white">
-                    Abogamos por una mirada crítica y objetiva, desde nuestro
-                    rol como representantes y tenemos en cuenta el impacto que
-                    pueden tener las decisiones tomadas en la comunidad de
-                    Latinoamérica sobre los usuarios, desarrolladores,
-                    protocolos, instituciones locales y todos aquellos que
-                    tengan interés en el ecosistema Web3.
-                    <br />
-                    <br />
-                    La participación en gobernanzas de Web3 es clave a la hora
-                    de decidir el futuro de las blockchains y protocolos que
-                    buscan construir una alternativa al sistema financiero
-                    tradicional y la disrupción en otras áreas. A lo largo de
-                    los años, nuestra región casi nunca ha sido protagonista en
-                    la toma de decisiones. Pero esto está cambiando, y desde
-                    SEED Latam somos parte del cambio siendo partícipes de la
-                    toma de decisiones y contribuir con nuestra visión y
-                    percepción.
+                    We advocate for a critical and objective perspective in our
+                    role as representatives, considering the potential impact of
+                    decisions made in the Latin American community on users,
+                    developers, protocols, local institutions, and all those
+                    interested in the Web3 ecosystem. <br />
+                    <br /> Participation in Web3 governance is crucial when it
+                    comes to shaping the future of blockchains and protocols
+                    aimed at providing an alternative to the traditional
+                    financial system and disrupting other areas. Over the years,
+                    our region has rarely played a leading role in
+                    decision-making. However, this is changing, and SEED Latam
+                    is part of this transformation, actively participating in
+                    decision-making and contributing our vision and insight
                   </p>
                 </div>
 
@@ -119,7 +113,7 @@ export default function HomePage() {
                     {/* boton Volver DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <form method="dialog" className="modal-backdrop">
-                        <button className={styles3.button4}> Volver </button>
+                        <button className={styles3.button4}> Return </button>
                       </form>
                     </div>
 
@@ -127,7 +121,7 @@ export default function HomePage() {
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
-                          Ver plataformas activas
+                          View active platforms
                         </button>
                       </Link>
                     </div>
@@ -137,7 +131,7 @@ export default function HomePage() {
                     {/* BOTON PLAT ACTIVAS */}
                     <div className="md:hidden pl-6 pb-5 text-9xl md:w-max-90vw md:justify-end">
                       <form method="dialog" className="modal-backdrop">
-                        <button className={styles3.button4}> Volver </button>
+                        <button className={styles3.button4}> Return </button>
                       </form>
                     </div>
 
@@ -145,7 +139,7 @@ export default function HomePage() {
                     <div className="md:hidden text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
-                          Ver plataformas activas
+                          View active platforms
                         </button>
                       </Link>
                     </div>
@@ -170,17 +164,17 @@ export default function HomePage() {
 
                   <div className=" pl-[1rem] ">
                     <div className="text-white text-[20px] font-bold leading-9">
-                      Gobernanza modelo abierto
+                      Open model
                     </div>
 
-                    <h4>¿Porqué nuestro modelo de gobernanza es abierto?</h4>
+                    <h4>Why is our governance model open?</h4>
                     <a
                       className="text-fuchsia-500 font-normal leading-9"
                       target="_blank"
                       rel="noopener"
                       onClick={() => window.my_modal_2.showModal()}
                     >
-                      Ver más
+                      Learn more
                     </a>
                   </div>
                 </div>
@@ -195,31 +189,27 @@ export default function HomePage() {
                 className="modal-box bg-bg-card max-w-xl lg:max-w-4xl "
               >
                 <div className={styles.headerModal_nuestravision}>
-                  <h1 className="pl-20 font-extrabold text-5xl">
-                    Gobernanza modelo abierto
-                  </h1>
+                  <h1 className="pl-20 font-extrabold text-5xl">Open model</h1>
 
                   <h4 className="pl-20 font-normal text-2xl">
-                    ¿Porqué nuestro modelo de gobernanza es abierto?
+                    Why is our governance model open?
                   </h4>
                 </div>
 
                 <div className="px-7 lg:px-8 ">
                   <p className="lg:pt-5 text-2xl text-white">
-                    Tenemos llamadas de gobernanza comunitarias y abiertas al
-                    público donde invitamos a la comunidad a participar.
-                    Debatimos ideas y las implicancias de la decisión. La
-                    delegación votará lo que se decidió en la llamada,
-                    manteniendo una gobernanza transparente e inclusiva.
-                    <br />
-                    <br />
-                    En SEED Latam, reconocemos las diferencias en escalabilidad
-                    individual y, por ello, impulsamos equipos representados por
-                    &quot;El Delegado&quot; con un equipo de soporte y respaldo
-                    para enriquecer el debate. Cada decisión se toma
-                    considerando su impacto positivo en la región con una visión
-                    multidisciplinaria que abarque al usuario final,
-                    desarrolladores, eficiencia de capital, etc .
+                    We host open and community governance calls, inviting the
+                    public to participate. During these calls, we discuss ideas
+                    and the implications of decisions. The delegation will vote
+                    on what was decided during the call, maintaining a
+                    transparent and inclusive governance process. <br />
+                    <br /> At SEED Latam, we acknowledge individual scalability
+                    differences and, therefore, promote teams represented by
+                    &quot;The Delegate&quot; with a support and backup team to
+                    enrich the discussion. Every decision is made with a
+                    multidisciplinary perspective that considers its positive
+                    impact on the region, encompassing the end user, developers,
+                    capital efficiency, and more.
                   </p>
                 </div>
 
@@ -232,7 +222,7 @@ export default function HomePage() {
                     {/* boton DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <form method="dialog" className="modal-backdrop">
-                        <button className={styles3.button4}> Volver </button>
+                        <button className={styles3.button4}> Return </button>
                       </form>
                     </div>
 
@@ -240,12 +230,10 @@ export default function HomePage() {
 
                     {/* PROXIMAMENTE */}
                     <div className="hidden md:block pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
-                      <Link 
-                      
-                      href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI&si=gPAXdJ77mwefllQ8">
+                      <Link href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI&si=gPAXdJ77mwefllQ8">
                         {/* poner noopener para que se abra otra pestaña */}
                         <button className={styles3.button5}>
-                          Ver llamadas YouTube
+                          View YouTube calls
                         </button>
                       </Link>
                     </div>
@@ -255,17 +243,15 @@ export default function HomePage() {
                     {/* Boton VOLVER */}
                     <div className="md:hidden pl-6 pb-5 text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas">
-                        <button className={styles3.button4}>Volver</button>
+                        <button className={styles3.button4}>Return</button>
                       </Link>
                     </div>
 
                     {/* BOTON LLLAMADAS YOUTUBE */}
                     <div className="md:hidden pr-4 text-9xl md:w-max-90vw md:justify-end">
-                      <Link 
-                    
-                      href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI">
+                      <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI">
                         <button className={styles3.button5}>
-                          Ver llamadas YouTube
+                          View YouTube calls
                         </button>
                       </Link>
                     </div>
@@ -280,14 +266,14 @@ export default function HomePage() {
         </div>
 
         {/* Segundo TITULO */}
-        <h1 className={styles.h5}>Nuestras iniciativas: </h1>
+        <h1 className={styles.h5}>Our initiatives: </h1>
 
         <div className="pl-16  xl:pl-20 pt-24 flex flex-wrap  gap-4">
           <Link
             href="/gobernanzas/#PlataformasActivas"
             className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
           >
-            <h1 className={styles.h6}>Plataformas activas </h1>
+            <h1 className={styles.h6}>Active platforms </h1>
           </Link>
 
           <Link
@@ -314,11 +300,11 @@ export default function HomePage() {
       >
         {/* columna 1 */}
         <div className="max-w-[482px]">
-          <h3 className={styles.h3}>Plataformas activas actualmente</h3>
+          <h3 className={styles.h3}>Currently active platforms</h3>
           <p className={styles.p}>
-            Las plataformas de delegados son equipos que participan activamente
-            de las discusiones y votaciones de determinado protocolo,
-            representando los intereses de determinada organización o comunidad
+            Delegate platforms are teams that actively engage in discussions and
+            voting for a specific protocol, representing the interests of a
+            particular organization or community
           </p>
         </div>
 
@@ -561,11 +547,11 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                Optimism DAO, su ecosistema y la potenciación de LATAM como
-                región. Comprendemos que la gobernanza es una pieza fundamental
-                para impulsar esta misión y reconocemos el arduo trabajo de sus
-                Delegados; quienes votación tras votación determinan cuál es la
-                mejor dirección que debe tomar el Optimism Collective.
+                Optimism DAO, its ecosystem, and the empowerment of LATAM as a
+                region. We understand that governance is a fundamental key in
+                driving this mission, and we recognize the hard work of its
+                Delegates, who, vote after vote, determine the best direction
+                for the Optimism Collective.
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -615,11 +601,11 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                Sovereign Finance AVC fue fundada en marzo de 2023 como parte
-                del área de Gobernanza de SEED Latam, una comunidad educativa
-                enfocada en Web3 nacida en Latam. Nuestra comunidad ha estado
-                activa desde 2020 y participamos activamente en múltiples
-                iniciativas de gobernanza.{" "}
+                Sovereign Finance AVC was founded in March 2023 as part of the
+                Governance division of SEED Latam, an educational community
+                focused on Web3 originating in Latam. Our community has been
+                active since 2020 and actively participates in various
+                governance initiatives.{" "}
               </p>
               <div className="flex md:justify-end gap-2 ">
                 <div>
@@ -658,12 +644,13 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                La Arbitrum DAO se encarga de la gobernanza y el mantenimiento
-                del protocolo Arbitrum, incluyendo la implementación de mejoras,
-                la toma de decisiones y la asignación de recursos.
+                The Arbitrum DAO is responsible for the governance and
+                maintenance of the Arbitrum protocol, including the
+                implementation of improvements, decision-making, and resource
+                allocation.
               </p>
               <div className="flex md:justify-end gap-2 ">
-              <div>
+                <div>
                   {" "}
                   <Link
                     target="_blank"
@@ -710,13 +697,13 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                StarkNet DAO tiene como misión respaldar el proyecto StarkNet,
-                una red l2 en Ethereum. Esta governanza promoverá el desarrollo
-                de StarkNet, la adopción de la red y la participación de la
-                comunidad.
+                The StarkNet DAO has the mission of supporting the StarkNet
+                project, an L2 network on Ethereum. This governance will promote
+                the development of StarkNet, network adoption, and community
+                participation.
               </p>
               <div className="flex md:justify-end gap-2 ">
-              <div>
+                <div>
                   {" "}
                   <Link
                     target="_blank"
@@ -763,12 +750,12 @@ export default function HomePage() {
             </div>
             <div className="px-4 ">
               <p className="py-4 text-lg text-white">
-                Nuestra delegación en Connext DAO es nuestra participación más
-                reciente. En actividad a partir septiembre de 2023, busca
-                determinar mejoras para Connext.
+                Our delegation in Connext DAO is our most recent participation.
+                Active since September 2023, it aims to determine improvements
+                for Connext.
               </p>
               <div className="flex md:justify-end gap-2 ">
-              <div>
+                <div>
                   {" "}
                   <Link
                     target="_blank"
@@ -827,7 +814,7 @@ export default function HomePage() {
         <div className="max-w-[482px] text-right pt-5 md:pr-20 pr-3 md:pb-40">
           <h3 className={styles.h3}>Governance Day</h3>
           <p className={styles.p2}>
-            El primer evento presencial enfocado en las gobernanzas en web3.
+            The first in-person event focused on Web3 governance.
           </p>
 
           {/* boton DESKTOP*/}
@@ -836,7 +823,7 @@ export default function HomePage() {
           <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button2}>
-                Ver más sobre Governance Day
+                Learn more about Governance Day
               </button>
             </Link>
           </div>
@@ -847,7 +834,7 @@ export default function HomePage() {
           <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button3}>
-                Ver más sobre Governance Day
+                Learn more about Governance Day
               </button>
             </Link>
           </div>
@@ -862,16 +849,16 @@ export default function HomePage() {
         <div className="max-w-[482px] text-left">
           <h3 className={styles.h3}>Aula abierta </h3>
           <p className={styles.p}>
-            Contenido educativo online y abierto explorando diversos temas y
-            orientado a quienes quieren formarse y capacitarse en temas
-            relacionados con DAOs y gobernanza con referentes y profesionales
-            del ecosistema{" "}
+            Open and online educational content exploring various topics and
+            aimed at those looking to learn and train in subjects related to
+            DAOs and governance, featuring experts and professionals from the
+            ecosystem.{" "}
           </p>
 
           {/* boton DESKTOP */}
           <div className="text-right md:pt-8 md:w-max-90vw md:flex md:justify-start">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-              <button className={styles3.button2}>Ir a Youtube</button>
+              <button className={styles3.button2}>Go to YouTube</button>
             </Link>
           </div>
         </div>
