@@ -484,7 +484,7 @@ export default function HomePage() {
                             </div>
                             <div className=" pl-[1rem] ">
                               <div className="text-white text-[20px] font-bold leading-9">
-                                Bylaws
+                                Statute
                               </div>
 
                               <h4>All internal information about SEED Latam</h4>
@@ -1042,7 +1042,7 @@ export default function HomePage() {
                               </div>
                               <div className=" pl-[1rem] ">
                                 <div className="text-white text-[20px] font-bold leading-9">
-                                  Bylaws
+                                  Statute
                                 </div>
 
                                 <h4>
