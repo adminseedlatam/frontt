@@ -86,7 +86,7 @@
 }
 
 .p {
-  text-align: justify;
+  text-align: justify; /* se va? */
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -183,7 +183,7 @@
   text-align: center; */
   border-radius: 8px;
   width: 382px;
-  height: 63px;
+  height: 93px;
   font-size: 1.5rem;
   font-weight: 700;
   color: #f651f6;
@@ -205,9 +205,10 @@
 .button3 {
   /* font-size: medium;
   text-align: center; */
+  
   border-radius: 8px;
   width: 305px;
-  height: 63px;
+  height: 93px;
   font-size: 1.5rem;
   font-weight: 700;
   color: #f651f6;

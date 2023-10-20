@@ -811,7 +811,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="max-w-[482px] text-right pt-5 md:pr-20 pr-3 md:pb-40">
+        <div className="justify-end  max-w-[482px] text-right pt-5 md:pr-20 pr-3 md:pb-40">
           <h3 className={styles.h3}>Governance Day</h3>
           <p className={styles.p2}>
             The first in-person event focused on Web3 governance.
@@ -820,7 +820,7 @@ export default function HomePage() {
           {/* boton DESKTOP*/}
           {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
           {/* PROXIMAMENTE */}
-          <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
+          <div className="hidden md:block pl-5 justify-center max-w-full">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button2}>
                 Learn more about Governance Day
@@ -831,7 +831,7 @@ export default function HomePage() {
           {/* boton RESPONSIVE */}
           {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
           {/* PROXIMAMENTE */}
-          <div className="md:hidden pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
+          <div className="md:hidden pb-8 justify-center max-w-full">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button3}>
                 Learn more about Governance Day
@@ -858,7 +858,7 @@ export default function HomePage() {
           {/* boton DESKTOP */}
           <div className="text-right md:pt-8 md:w-max-90vw md:flex md:justify-start">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-              <button className={styles3.button2}>Go to YouTube</button>
+              <button className={styles3.button3}>Go to YouTube</button>
             </Link>
           </div>
         </div>
