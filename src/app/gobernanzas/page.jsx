@@ -81,7 +81,7 @@ export default function HomePage() {
                 <div className={styles.headerModal_nuestravision}>
                   <h1 className="pl-20 font-extrabold text-5xl">Our vision</h1>
 
-                  <h4 className="tracking-tighter text-[16px] leading-5 mb-4">
+                  <h4 className="pl-20 pt-5 tracking-tighter text-[24px] leading-8 font-normal">
                     Why participate in this phenomenon?
                   </h4>
                 </div>
@@ -191,7 +191,7 @@ export default function HomePage() {
                 <div className={styles.headerModal_nuestravision}>
                   <h1 className="pl-20 font-extrabold text-5xl">Open model</h1>
 
-                  <h4 className="pl-20 font-normal text-2xl">
+                  <h4 className="pl-20 pt-5 tracking-tighter text-[24px] leading-8 font-normal">
                     Why is our governance model open?
                   </h4>
                 </div>
