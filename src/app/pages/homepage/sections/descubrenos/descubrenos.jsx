@@ -528,7 +528,7 @@ export default function HomePage() {
                     </div>
                     {/* Imagenes */}
                     {/* wonderland decentraland kleros uniswap */}
-                    <div className=" flex gap-5">
+                    <div className=" grid grid-cols-3 gap-6 py-5 xl:max-w-3xl">
                       <Image
                         width={246}
                         src={wonderland}
@@ -540,71 +540,70 @@ export default function HomePage() {
                         width={222}
                         src={decentraland}
                         alt="logo_decentraland"
-                        className="py-5"
+                        className="pt-1"
                       ></Image>
 
                       <Image
                         width={222}
                         src={connext}
                         alt="logo_connext"
-                        className="py-5"
+                        className=""
                       ></Image>
                     </div>
-
-                    <div className="flex gap-5">
+                    <div className="grid grid-cols-4 gap-6 py-5 xl:max-w-3xl">
                       <Image
                         width={107}
                         src={kleros}
                         alt="logo_kleros"
-                        className="py-5"
+                        className="w-36"
                       ></Image>
 
                       <Image
                         width={222}
                         src={letgh}
                         alt="logo_letgh"
-                        className="py-5"
+                        className="pt-3"
                       ></Image>
 
                       <Image
                         width={153}
                         src={uniswap}
                         alt="logo_uniswap"
-                        className="py-5"
+                        className="pl-5 w-80"
                       ></Image>
 
                       <Image
                         width={222}
                         src={lens}
                         alt="logo_lens"
-                        className="py-5"
+                        className="pt-3"
                       ></Image>
-                    </div>
-                    {/* tercer fila */}
-                    <div className="flex gap-5">
+
                       <Image
                         width={222}
                         src={chainlink}
                         alt="logo_chainlink"
-                        className="py-5"
+                        className="pl-2 w-48"
                       ></Image>
                       <Image
                         width={222}
                         src={dappnode}
                         alt="logo_dappnode"
-                        className="py-5"
+                        className="pl-5 w-80"
                       ></Image>
+
                       <Image
                         width={222}
                         src={ethfound}
                         alt="logo_ethereumfoundation"
-                        className="py-5"
+                        className="w-56"
                       ></Image>
+
                       <Image
                         width={222}
                         src={criptotend}
                         alt="logo_criptotendencias"
-                        className="py-5"
+                        className="pt-5"
                       ></Image>
                     </div>
                   </div>
@@ -966,7 +965,7 @@ export default function HomePage() {
                 <div className="">
                   <div className={styles.mainContainer}>
                     <div className={styles.sectionContainer}>
-                      <div className="h-28 pt-14 flex xl:pt-80">
+                      <div className="h-28 pt-10 sm:pt-14 flex xl:pt-80">
                         <h3 className={styles.title}>
                           Who is part of SEED Latam?
                         </h3>
@@ -977,7 +976,7 @@ export default function HomePage() {
                       <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px] ">
                         <div className="pr-[79.75px] ">
                           <div className="">
-                            <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
+                            <div className="flex bg-[#323232] min-w-[325px] sm:min-w-[526px] rounded-[7px] p-[16px] ">
                               <div>
                                 <Image
                                   width={100}
@@ -1031,7 +1030,7 @@ export default function HomePage() {
 
                         <div className="pr-[79.75px] ">
                           <div className="">
-                            <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
+                            <div className="flex bg-[#323232] min-w-[325px] sm:min-w-[526px] rounded-[7px] p-[16px]  ">
                               <div>
                                 <Image
                                   width={100}
@@ -1080,86 +1079,84 @@ export default function HomePage() {
 
                     <div className="lg:max-w-[874px] ">
                       {/* Imagenes */}
-                      {/* wonderland decentraland kleros uniswap */}
-                      <div className=" flex gap-5">
-                        <Image
-                          width={246}
-                          src={wonderland}
-                          alt="logo_wonderland"
-                          className=""
-                        ></Image>
+                      <div className=" grid grid-cols-3 gap-6 py-5 xl:max-w-3xl">
+                      <Image
+                        width={246}
+                        src={wonderland}
+                        alt="logo_wonderland"
+                        className=""
+                      ></Image>
 
-                        <Image
-                          width={222}
-                          src={decentraland}
-                          alt="logo_decentraland"
-                          className="py-5"
-                        ></Image>
+                      <Image
+                        width={222}
+                        src={decentraland}
+                        alt="logo_decentraland"
+                        className="pt-1"
+                      ></Image>
 
-                        <Image
-                          width={222}
-                          src={connext}
-                          alt="logo_connext"
-                          className="py-5"
-                        ></Image>
-                      </div>
+                      <Image
+                        width={222}
+                        src={connext}
+                        alt="logo_connext"
+                        className=""
+                      ></Image>
+                    </div>
+                    <div className="grid grid-cols-4 gap-6 py-5 xl:max-w-3xl">
+                      <Image
+                        width={107}
+                        src={kleros}
+                        alt="logo_kleros"
+                        className="w-36"
+                      ></Image>
 
-                      <div className="flex gap-5">
-                        <Image
-                          width={107}
-                          src={kleros}
-                          alt="logo_kleros"
-                          className="py-5"
-                        ></Image>
+                      <Image
+                        width={222}
+                        src={letgh}
+                        alt="logo_letgh"
+                        className="pt-3"
+                      ></Image>
 
-                        <Image
-                          width={222}
-                          src={letgh}
-                          alt="logo_letgh"
-                          className="py-5"
-                        ></Image>
+                      <Image
+                        width={153}
+                        src={uniswap}
+                        alt="logo_uniswap"
+                        className="pl-5 w-80"
+                      ></Image>
 
-                        <Image
-                          width={153}
-                          src={uniswap}
-                          alt="logo_uniswap"
-                          className="py-5"
-                        ></Image>
+                      <Image
+                        width={222}
+                        src={lens}
+                        alt="logo_lens"
+                        className="pt-3"
+                      ></Image>
 
-                        <Image
-                          width={222}
-                          src={lens}
-                          alt="logo_lens"
-                          className="py-5"
-                        ></Image>
-                      </div>
-                      {/* tercer fila */}
-                      <div className="flex gap-5">
-                        <Image
-                          width={222}
-                          src={chainlink}
-                          alt="logo_chainlink"
-                          className="py-5"
-                        ></Image>
-                        <Image
-                          width={222}
-                          src={dappnode}
-                          alt="logo_dappnode"
-                          className="py-5"
-                        ></Image>
-                        <Image
-                          width={222}
-                          src={ethfound}
-                          alt="logo_ethereumfoundation"
-                          className="py-5"
-                        ></Image>
-                        <Image
-                          width={222}
-                          src={criptotend}
-                          alt="logo_criptotendencias"
-                          className="py-5"
-                        ></Image>
-                      </div>
+                      <Image
+                        width={222}
+                        src={chainlink}
+                        alt="logo_chainlink"
+                        className="pl-2 w-48"
+                      ></Image>
+                      <Image
+                        width={222}
+                        src={dappnode}
+                        alt="logo_dappnode"
+                        className="pl-5 w-80"
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={ethfound}
+                        alt="logo_ethereumfoundation"
+                        className="w-56"
+                      ></Image>
+
+                      <Image
+                        width={222}
+                        src={criptotend}
+                        alt="logo_criptotendencias"
+                        className="pt-5"
+                      ></Image>
+                    </div>
                     </div>
                   </div>
                 </div>
