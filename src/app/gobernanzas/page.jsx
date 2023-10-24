@@ -36,7 +36,7 @@ export default function HomePage() {
         "
       >
         {/* TITULO */}
-        <h1 className={styles.h1}>Our focus on governance</h1>
+        <h1 className={styles.h2}>Our focus on governance</h1>
 
         {/* 2 secciones NUESTRA VISION + GOBERNANZA MODELO ABIERTO */}
         <div className="pl-16 lg:pl-48">
@@ -53,13 +53,13 @@ export default function HomePage() {
                     ></Image>
                   </div>
                   <div className=" pl-[1rem] ">
-                    <div className="text-white text-[20px] font-bold leading-9">
+                    <div className="text-white text-[32px] mb-2 font-bold leading-9 tracking-tighter">
                       Our vision
                     </div>
 
-                    <h4>Why participate in this phenomenon?</h4>
+                    <h4 className="tracking-tighter text-[16px] leading-5 mb-4">Why participate in this phenomenon?</h4>
                     <a
-                      className="text-fuchsia-500 font-normal leading-9"
+                      className="text-fuchsia-500 font-bold leading-4 tracking-tighter"
                       target="_blank"
                       rel="noopener"
                       onClick={() => window.my_modal_1.showModal()}
@@ -81,7 +81,7 @@ export default function HomePage() {
                 <div className={styles.headerModal_nuestravision}>
                   <h1 className="pl-20 font-extrabold text-5xl">Our vision</h1>
 
-                  <h4 className="pl-20 font-normal text-2xl">
+                  <h4 className="tracking-tighter text-[16px] leading-5 mb-4">
                     Why participate in this phenomenon?
                   </h4>
                 </div>
@@ -163,13 +163,13 @@ export default function HomePage() {
                   </div>
 
                   <div className=" pl-[1rem] ">
-                    <div className="text-white text-[20px] font-bold leading-9">
+                    <div className="text-white text-[32px] mb-2 font-bold leading-9 tracking-tighter">
                       Open model
                     </div>
 
-                    <h4>Why is our governance model open?</h4>
+                    <h4 className="tracking-tighter text-[16px] leading-5 mb-4">Why is our governance model open?</h4>
                     <a
-                      className="text-fuchsia-500 font-normal leading-9"
+                      className="text-fuchsia-500 font-bold leading-4 tracking-tighter"
                       target="_blank"
                       rel="noopener"
                       onClick={() => window.my_modal_2.showModal()}
@@ -266,28 +266,28 @@ export default function HomePage() {
         </div>
 
         {/* Segundo TITULO */}
-        <h1 className={styles.h5}>Our initiatives: </h1>
+        <h1 className="pl-12 pt-20 text-white text-[40px] mb-2 font-bold leading-9 tracking-tighter">Our initiatives: </h1>
 
         <div className="pl-16  xl:pl-20 pt-24 flex flex-wrap  gap-4">
           <Link
             href="/gobernanzas/#PlataformasActivas"
             className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
           >
-            <h1 className={styles.h6}>Active platforms </h1>
+            <h1 className="font-bold text-2xl leading-7 tracking-tighter justify-center items-center flex pt-4 ">Active platforms </h1>
           </Link>
 
           <Link
             href="/gobernanzas/#GovernanceDay"
             className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
           >
-            <h1 className={styles.h6}>Governance Day </h1>
+            <h1 className="font-bold text-2xl leading-7 tracking-tighter justify-center items-center flex pt-4">Governance Day </h1>
           </Link>
 
           <Link
             href="/gobernanzas/#AulaAbierta"
             className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify mb-20"
           >
-            <h1 className={styles.h6}>Aula Abierta </h1>
+            <h1 className="font-bold text-2xl leading-7 tracking-tighter justify-center items-center flex pt-4">Aula Abierta </h1>
           </Link>
         </div>
       </div>
