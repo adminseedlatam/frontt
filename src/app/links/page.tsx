@@ -27,12 +27,64 @@ export default function Links() {
               <h2 className={styles.h2}>SEED Latam</h2>
               <div className={styles.linksMainContainer}>
                 <ul className={styles.linksContainer}>
+
+                <li>
+                    <Link target="_blank" rel="noopener" href="https://www.notion.so/seedlatam/e4b238dd9a2348e198ee4fdf301bf27d?v=211e14a11b1a448486eb5eb8d76c8590">
+                      {" "}
+                      <Image className=" " alt="Logo" src={mirror}></Image>
+                      Wiki
+                    </Link>
+                  </li>
+                  <li>
+                    <Link target="_blank" rel="noopener" href="https://www.notion.so/seedlatam/Team-320e74e6abdb4ebfa33ca8cfc77f1bbc?pvs=4#5fcea4b6661c49449c58f131358ed5a8">
+                      {" "}
+                      <Image className=" " alt="Logo" src={mirror}></Image>
+                      SEED Ecosystem
+                    </Link>
+                  </li>
+
+
+
+
+
                   <li>
                     <Link target="_blank" rel="noopener" href="https://twitter.com/SeedLatam">
                       <Image className="" alt="Logo" src={twitter}></Image>
                       Twitter
                     </Link>
                   </li>
+                  <li>
+                    <Link target="_blank" rel="noopener" href="https://twitter.com/SEEDGov">
+                      <Image className="" alt="Logo" src={twitter}></Image>
+                      Twitter SEEDGov
+                    </Link>
+                  </li>
+
+
+
+
+
+                  
+                  <li>
+                    <Link target="_blank" rel="noopener" href="https://discord.com/invite/zMy9gUzzHH">
+                      {" "}
+                      <Image className=" " alt="Logo" src={discord}></Image>
+                      Discord
+                    </Link>
+                  </li>
+                  <li>
+                    <Link target="_blank" rel="noopener" href="https://t.me/seed_latam">
+                      {" "}
+                      <Image
+                        className=" "
+                        alt="Logo"
+                        src={telegram}
+                      ></Image>
+                      Telegram
+                    </Link>
+                  </li>
+                  
+
                   <li>
                     <Link target="_blank" rel="noopener" href="https://www.youtube.com/@SEEDLatam/playlists">
                       {" "}
@@ -41,12 +93,13 @@ export default function Links() {
                     </Link>
                   </li>
                   <li>
-                    <Link target="_blank" rel="noopener" href="https://discord.com/invite/zMy9gUzzHH">
+                    <Link target="_blank" rel="noopener" href="https://mirror.xyz/seedlatam.eth">
                       {" "}
-                      <Image className=" " alt="Logo" src={discord}></Image>
-                      Discord
+                      <Image className=" " alt="Logo" src={mirror}></Image>
+                      Mirror
                     </Link>
                   </li>
+
                   <li>
                     <Link target="_blank" rel="noopener" href="https://www.linkedin.com/company/seedlatam/">
                       {" "}
@@ -69,24 +122,10 @@ export default function Links() {
                       Instagram
                     </Link>
                   </li>
-                  <li>
-                    <Link target="_blank" rel="noopener" href="https://t.me/seed_latam">
-                      {" "}
-                      <Image
-                        className=" "
-                        alt="Logo"
-                        src={telegram}
-                      ></Image>
-                      Telegram
-                    </Link>
-                  </li>
-                  <li>
-                    <Link target="_blank" rel="noopener" href="https://mirror.xyz/seedlatam.eth">
-                      {" "}
-                      <Image className=" " alt="Logo" src={mirror}></Image>
-                      Mirror
-                    </Link>
-                  </li>
+
+
+
+
                 </ul>
               </div>
               <div>
