@@ -54,7 +54,7 @@ export default function HomePage() {
           <div className="flex  justify-between items-center pb-[50px]">
             <div>
               <div className="max-w-[336px] pb-[24px]">
-                <h4 className={styles.h3}>Communities Aligned</h4>
+                <h4 className={styles.h3}>Friendly communities</h4>
               </div>
               <div className="max-w-[336px] w-[90vw] ">
                 <p className={styles.fontAlineadas}>
@@ -151,7 +151,7 @@ export default function HomePage() {
           <div className="flex  justify-between items-center xl:pb-[50px] flex-wrap">
             <div>
               <div className=" max-w-[336px] pb-[24px]">
-                <h4 className={styles.h3}>Communities Aligned</h4>
+                <h4 className={styles.h3}>Friendly communities</h4>
               </div>
               <div className="md:max-w-[60vw] lg:max-w-[336px] w-[90vw] ">
                 <p className={styles.fontAlineadas}>
