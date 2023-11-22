@@ -271,8 +271,8 @@ export default function HomePage() {
                             method="dialog"
                             className="modal-backdrop pt-20  "
                           >
-                            <div className="items-center max-w-6xl rounded-lg h-4/5 border-white border bg-[#222222] mx-auto w-screen">
-                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none ">
+                            <div className=" items-center max-w-6xl rounded-lg h-4/5 border-white border bg-[#222222] mx-auto w-screen">
+                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none  xl:pt-[10px] xl:pl-[1125px] ">
                                 ✕
                               </button>
 
@@ -841,7 +841,7 @@ export default function HomePage() {
                             className="modal-backdrop pt-20  "
                           >
                             <div className="items-center max-w-6xl rounded-lg h-fit md:h-4/5 min-w-3/4 border-white border bg-[#222222] mx-auto ">
-                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none  ">
+                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none pl-[540px] sm:pl-[740px] ">
                                 ✕
                               </button>
                               <div className="flex flex-wrap gap-12 mx-20 md:mx-6 pt-0 md:pt-44 justify-center">

@@ -39,7 +39,7 @@ export default function HomePage() {
         <h1 className={styles.h2}>Our focus on governance</h1>
 
         {/* 2 secciones NUESTRA VISION + GOBERNANZA MODELO ABIERTO */}
-        <div className="pl-16 lg:pl-48">
+        <div className="pl-[5vw] ">
           <div className=" flex flex-wrap gap-4 ">
             <div className="pr-[79.75px]">
               <div className=" ">
@@ -266,9 +266,9 @@ export default function HomePage() {
         </div>
 
         {/* Segundo TITULO */}
-        <h1 className="pl-12 pt-20 text-white text-[40px] mb-2 font-bold leading-9 tracking-tighter">Our initiatives: </h1>
+        <h1 className="pl-[5vw] pt-20 text-white text-[40px] mb-2 font-bold leading-9 tracking-tighter">Our initiatives: </h1>
 
-        <div className="pl-16  xl:pl-20 pt-24 flex flex-wrap  gap-4">
+        <div className="pl-[5vw]  xl:pl-20 pt-24 flex flex-wrap  gap-4">
           <Link
             href="/gobernanzas/#PlataformasActivas"
             className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
@@ -312,7 +312,7 @@ export default function HomePage() {
         {/*  slider gobernanzas DESKTOP*/}
         <div
           id="GobernanzasPage"
-          className="hidden xl:block py-[50px] xl:pt-[46px] px-16"
+          className="hidden xl:block py-[50px] xl:pt-[46px]  "
         >
           <div className="md:w-[880px]  xl:pt-16">
             <Swiper
@@ -811,7 +811,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="justify-end  max-w-[482px] text-right pt-5 md:pr-20 pr-3 md:pb-40">
+        <div className="justify-end  max-w-[482px] text-right pt-5 md:pr-14 pr-3 md:pb-40">
           <h3 className={styles.h3}>Governance Day</h3>
           <p className={styles.p2}>
             The first in-person event focused on Web3 governance.
@@ -820,7 +820,7 @@ export default function HomePage() {
           {/* boton DESKTOP*/}
           {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
           {/* PROXIMAMENTE */}
-          <div className="hidden md:block pl-5 justify-center max-w-full">
+          <div className="hidden md:block justify-center max-w-full">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button2}>
                 Learn more about Governance Day
