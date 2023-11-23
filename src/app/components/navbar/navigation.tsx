@@ -15,9 +15,6 @@ const links = [
 ];
 
 export function Navigation() {
-
-
-
   return (
     <header className="flex justify-center  bg-[#222222] fixed z-10 top-0">
       {/*   <ul className="text-white">
@@ -55,15 +52,13 @@ export function Navigation() {
                 Governance
               </Link>
 
-
               <Link
                 href="#Separte"
                 className=" p-2  text-lg  font-bold text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
               >
                 Join us
               </Link>
-              
-              
+
               <Link
                 target="_blank"
                 rel="noopener"
@@ -83,7 +78,6 @@ export function Navigation() {
                 Fotos
               </Link> */}
 
-
               <Link
                 target="_blank"
                 rel="noopener"
@@ -93,7 +87,7 @@ export function Navigation() {
                 Contact
               </Link>
 
-             {/*  <select className="select bg-transparent w-[75px] max-w-xs ml-8">
+              {/*  <select className="select bg-transparent w-[75px] max-w-xs ml-8">
                 <option disabled selected>
                   ES
                 </option>
@@ -113,7 +107,7 @@ export function Navigation() {
           </div>
           <div className="lg:hidden">
             <nav role="navigation" className="flex items-center">
-             {/*  <select className="select bg-transparent w-[75px] max-w-xs ml-8">
+              {/*  <select className="select bg-transparent w-[75px] max-w-xs ml-8">
                 <option disabled selected>
                   ES
                 </option>
@@ -133,17 +127,23 @@ export function Navigation() {
                     <Link href="#Descubrenos">Discover us</Link>
                   </li>
                   <li>
-                    <Link href="#Separte">Join us</Link>
+                    <Link href="#Gobernanza">Governance</Link>
                   </li>
                   <li>
-                    <Link href="#Gobernanza">Governance</Link>
+                    <Link href="#Separte">Join us</Link>
                   </li>
                   <li>
                     <Link
                       target="_blank"
                       rel="noopener"
-                      href="/links"
+                      href="https://mirror.xyz/seedlatam.eth"
                     >
+                      Blog
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link target="_blank" rel="noopener" href="/links">
                       Contact
                     </Link>
                   </li>

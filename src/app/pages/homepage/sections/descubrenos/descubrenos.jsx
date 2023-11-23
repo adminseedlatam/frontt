@@ -44,17 +44,7 @@ SwiperCore.use([Pagination, Navigation, EffectCoverflow]);
 export default function HomePage() {
   const swiperRef = useRef(null);
 
-  const slidePrev = () => {
-    if (swiperRef.current) {
-      swiperRef.current.slidePrev();
-    }
-  };
-
-  const slideNext = () => {
-    if (swiperRef.current) {
-      swiperRef.current.slideNext();
-    }
-  };
+  
   return (
     <div id="Descubrenos" className="pt-[5vw]">
       {/* Desktop slider Descubrenos*/}
@@ -699,7 +689,7 @@ export default function HomePage() {
                       </div>
                     </div>
                     <div className=" xl:max-w-[620px] lg:max-w-[600px] ">
-                      <div className="flex hidden">
+                      <div className="flex ">
                         <div className={styles.breadcrumbs}>
                           SEED Latam &gt;
                         </div>
@@ -924,7 +914,7 @@ export default function HomePage() {
                       </div>
                     </div>
                     <div className="">
-                      <div className="flex hidden">
+                      <div className="flex ">
                         <div className={styles.breadcrumbs}>
                           SEED Latam &gt;
                         </div>
@@ -975,7 +965,7 @@ export default function HomePage() {
                     <div className="  xl:max-w-[990px] ">
                       <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px] ">
                         <div className="pr-[79.75px] ">
-                          <div className="">
+                          
                             <div className="flex bg-[#323232] min-w-[325px] sm:min-w-[526px] rounded-[7px] p-[16px] ">
                               <div>
                                 <Image
@@ -1003,7 +993,7 @@ export default function HomePage() {
                                 </a>
                               </div>
                             </div>
-                          </div>
+                          
                         </div>
 
                         {/* modal 1 */}
@@ -1027,11 +1017,12 @@ export default function HomePage() {
                         </dialog>
 
                         {/* ---------------Fin modal -------- */}
-
+                                  
                         <div className="pr-[79.75px] ">
-                          <div className="">
+                          
+                          <div className=" max-w-[347px]">
                             <div className="flex bg-[#323232] min-w-[325px] sm:min-w-[526px] rounded-[7px] p-[16px]  ">
-                              <div>
+                              <div className="min-w-[100px]">
                                 <Image
                                   width={100}
                                   height={100}

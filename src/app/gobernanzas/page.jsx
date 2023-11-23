@@ -818,8 +818,7 @@ export default function HomePage() {
           </p>
 
           {/* boton DESKTOP*/}
-          {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
-          {/* PROXIMAMENTE */}
+
           <div className="hidden md:block justify-center max-w-full">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button2}>
@@ -829,9 +828,8 @@ export default function HomePage() {
           </div>
 
           {/* boton RESPONSIVE */}
-          {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
-          {/* PROXIMAMENTE */}
-          <div className="md:hidden pb-8 justify-center max-w-full">
+       
+          <div className="md:hidden pb-8 pl-5 text-center ">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button3}>
                 Learn more about Governance Day
@@ -856,11 +854,22 @@ export default function HomePage() {
           </p>
 
           {/* boton DESKTOP */}
-          <div className="text-right md:pt-8 md:w-max-90vw md:flex md:justify-start">
+          <div className="hidden md:block text-right md:pt-8 md:w-max-90vw md:justify-start">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-              <button className={styles3.button3}>Go to YouTube</button>
+              <button className={styles3.button2}>Go to YouTube</button>
             </Link>
           </div>
+
+          {/* boton RESPONSIVE */}
+          <div className=" text-center md:pt-8 md:w-max-90vw  md:hidden">
+            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
+              <button className={styles3.button6}>Go to YouTube</button>
+            </Link>
+          </div>
+
+
+
+
         </div>
 
         <div>

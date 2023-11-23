@@ -52,45 +52,7 @@
   
 @media (width <= 480px) {
 
-    #Descubrenos .mySwiperResponsive .prev-button svg {
-      stroke-width: 1.5 !important;
-      }
-  
-    #Descubrenos .mySwiperResponsive .next-button svg {
-    stroke-width: 1.5 !important;
-    }
-  
-    #Descubrenos .mySwiperResponsive .swiper-pagination-bullet {
-      width: 0.74981rem;
-      height: 0.74981rem;
-    }
-  
-    #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
-    .swiper-pagination-bullets.swiper-pagination-horizontal,
-    .swiper-pagination-custom,
-    .swiper-pagination-fraction {
-      top: 5px;
-      left: 37%;
-      cursor: pointer;
-      width: 100px;
-    }
-  
-    #Descubrenos .mySwiperResponsive .prev-button {
-      position: absolute;
-      top: 0;
-      left: 5vw;
-      z-index: 1;
-      cursor: pointer;
-    }
-  
-    #Descubrenos .mySwiperResponsive .next-button {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 90vw;
-      z-index: 1;
-    }
-  
+
   
     #Separte .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
   

@@ -44,22 +44,25 @@ export default function HomePage() {
           <div className="justify-center max-w-full">
             <Link href="/gobernanzas">
               <button className={styles3.button2}>
-              Learn more about governance
+                Learn more about governance
               </button>
             </Link>
           </div>
         </div>
-        <Link
-          target="_blank"
-          rel="noopener"
-          href="https://mirror.xyz/seedlatam.eth/KMHntv3I3vQzK7wxaP5h9ahNsZmvJnAnGPV3XwYd50c"
-        >
-          <Image
-            className=" sm:max-w-lg md:max-w-full md:min-w-min pl-2 lg:pt-32 xl:pt-20 md:pl-16 md:pb-40"
-            alt="Logo"
-            src={temporal}
-          ></Image>
-        </Link>
+
+        <div>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://mirror.xyz/seedlatam.eth/KMHntv3I3vQzK7wxaP5h9ahNsZmvJnAnGPV3XwYd50c"
+          >
+            <Image
+              className=" sm:max-w-lg md:max-w-full md:min-w-min pl-2 lg:pt-32 xl:pt-20 md:pl-16 md:pb-40"
+              alt="Logo"
+              src={temporal}
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
