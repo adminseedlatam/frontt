@@ -28,7 +28,7 @@ export default function HomePage() {
   const swiperRef = useRef(null);
 
   return (
-    <div id="Gobernanza" className="pt-[4vw]">
+    <div id="Gobernanza" className="pt-[4vw] lg:grid-cols-2 ">
       <div className={styles3.gobernanza}>
         <div className="px-[5vw] pb-[76px]">
           <h2 className={styles3.h2}>Governance in web3</h2>
@@ -50,17 +50,20 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div>
+        <div className="justify-center mx-[70px]">
           <a
+            className="block overflow-hidden "
             target="_blank"
             rel="noopener"
             href="https://mirror.xyz/seedlatam.eth/KMHntv3I3vQzK7wxaP5h9ahNsZmvJnAnGPV3XwYd50c"
           >
+             <div className="lg:pt-32 xl:pt-20">
             <Image
-              className=" sm:max-w-lg md:max-w-full md:min-w-min pl-2 lg:pt-32 xl:pt-20 md:pl-16 md:pb-40"
-              alt="Logo"
+              className="w-full h-auto "
+              alt="GovInWeb3"
               src={temporal}
             />
+            </div>
           </a>
         </div>
       </div>

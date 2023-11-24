@@ -44,7 +44,6 @@ SwiperCore.use([Pagination, Navigation, EffectCoverflow]);
 export default function HomePage() {
   const swiperRef = useRef(null);
 
-  
   return (
     <div id="Descubrenos" className="pt-[5vw]">
       {/* Desktop slider Descubrenos*/}
@@ -667,11 +666,12 @@ export default function HomePage() {
                     <p className={styles.font4}>
                       At SEED Latam, we believe that collective and cooperative
                       knowledge is essential for forming a critically thinking
-                      community. <br/> <br/> We build bridges between the global industry
-                      and local talent; that&apos;s why we create high-quality,
-                      open, and freely accessible educational content in Spanish
-                      for the community. We strive to be a benchmark model for
-                      inclusive and accessible education for all.
+                      community. <br /> <br /> We build bridges between the
+                      global industry and local talent; that&apos;s why we
+                      create high-quality, open, and freely accessible
+                      educational content in Spanish for the community. We
+                      strive to be a benchmark model for inclusive and
+                      accessible education for all.
                     </p>
                   </div>
                 </div>
@@ -828,21 +828,20 @@ export default function HomePage() {
                         >
                           <form
                             method="dialog"
-                            className="modal-backdrop pt-20  "
+                            className="modal-backdrop pt-0 md:pt-20  "
                           >
-                            <div className="items-center max-w-6xl rounded-lg h-fit md:h-4/5 min-w-3/4 border-white border bg-[#222222] mx-auto ">
-                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none pl-[540px] sm:pl-[740px] ">
+                            <div className="items-center max-w-[320px] sm:max-w-xl md:max-w-3xl rounded-lg max-h-[700px] md:h-4/5 min-w-3/4 border-white border bg-[#222222] mx-auto overflow-y-auto ">
+                              <button className="text-white btn btn-sm btn-circle btn-ghost border-none pl-[300px] sm:pl-[555px] md:pl-[740px] ">
                                 ✕
                               </button>
-                              <div className="flex flex-wrap gap-12 mx-20 md:mx-6 pt-0 md:pt-44 justify-center">
+                              <div className="flex flex-wrap gap-12 mx-0 sm:mx-20 md:mx-6 pt-0 md:pt-44 justify-center">
                                 {/* ARTICULOS MIRROR */}
-
-                                <div>
+                                <div className="flex flex-col items-center text-center">
                                   <Image
                                     alt="articulosMirror"
                                     src={articulosMirror}
                                   ></Image>
-                                  <div className="text-white text-[20px] font-bold leading-9">
+                                  <div className="text-white text-[20px] md:text-lg font-bold leading-9">
                                     Articles
                                   </div>
                                   <Link
@@ -856,13 +855,12 @@ export default function HomePage() {
                                 </div>
 
                                 {/* TWITTER SPACES */}
-
-                                <div>
+                                <div className="flex flex-col items-center text-center">
                                   <Image
                                     alt="twitterSpaces"
                                     src={twitterSpaces}
                                   ></Image>
-                                  <div className="text-white text-[20px] font-bold leading-9">
+                                  <div className="text-white text-[20px] md:text-lg font-bold leading-9">
                                     Twitter Spaces
                                   </div>
                                   <Link
@@ -876,13 +874,12 @@ export default function HomePage() {
                                 </div>
 
                                 {/* HITOS WEB3 */}
-
-                                <div>
+                                <div className="flex flex-col items-center text-center">
                                   <Image
                                     alt="hitosweb3"
                                     src={hitosWeb3}
                                   ></Image>
-                                  <div className="text-white text-[20px] font-bold leading-9">
+                                  <div className="text-white text-[20px] md:text-lg font-bold leading-9">
                                     Web3 milestones
                                   </div>
                                   <Link
@@ -965,35 +962,31 @@ export default function HomePage() {
                     <div className="  xl:max-w-[990px] ">
                       <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px] ">
                         <div className="pr-[79.75px] ">
-                          
-                            <div className="flex bg-[#323232] min-w-[325px] sm:min-w-[526px] rounded-[7px] p-[16px] ">
-                              <div>
-                                <Image
-                                  width={100}
-                                  height={100}
-                                  src={iconEcoSeed}
-                                  alt="logo"
-                                ></Image>
-                              </div>
-                              <div className=" pl-[1rem] ">
-                                <div className="text-white text-[20px] font-bold leading-9">
-                                  SEED Ecosystem
-                                </div>
-
-                                <h4>All our structure explained</h4>
-                                <a
-                                  className="text-fuchsia-500 font-normal leading-9"
-                                  target="_blank"
-                                  rel="noopener"
-                                  onClick={() =>
-                                    window.my_modal_mapa.showModal()
-                                  }
-                                >
-                                  Learn more
-                                </a>
-                              </div>
+                          <div className="flex bg-[#323232] min-w-[325px] sm:min-w-[526px] rounded-[7px] p-[16px] ">
+                            <div>
+                              <Image
+                                width={100}
+                                height={100}
+                                src={iconEcoSeed}
+                                alt="logo"
+                              ></Image>
                             </div>
-                          
+                            <div className=" pl-[1rem] ">
+                              <div className="text-white text-[20px] font-bold leading-9">
+                                SEED Ecosystem
+                              </div>
+
+                              <h4>All our structure explained</h4>
+                              <a
+                                className="text-fuchsia-500 font-normal leading-9"
+                                target="_blank"
+                                rel="noopener"
+                                onClick={() => window.my_modal_mapa.showModal()}
+                              >
+                                Learn more
+                              </a>
+                            </div>
+                          </div>
                         </div>
 
                         {/* modal 1 */}
@@ -1017,9 +1010,8 @@ export default function HomePage() {
                         </dialog>
 
                         {/* ---------------Fin modal -------- */}
-                                  
+
                         <div className="pr-[79.75px] ">
-                          
                           <div className=" max-w-[347px]">
                             <div className="flex bg-[#323232] min-w-[325px] sm:min-w-[526px] rounded-[7px] p-[16px]  ">
                               <div className="min-w-[100px]">
@@ -1071,83 +1063,83 @@ export default function HomePage() {
                     <div className="lg:max-w-[874px] ">
                       {/* Imagenes */}
                       <div className=" grid grid-cols-3 gap-6 py-5 xl:max-w-3xl">
-                      <Image
-                        width={246}
-                        src={wonderland}
-                        alt="logo_wonderland"
-                        className=""
-                      ></Image>
+                        <Image
+                          width={246}
+                          src={wonderland}
+                          alt="logo_wonderland"
+                          className=""
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={decentraland}
-                        alt="logo_decentraland"
-                        className="pt-1"
-                      ></Image>
+                        <Image
+                          width={222}
+                          src={decentraland}
+                          alt="logo_decentraland"
+                          className="pt-1"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={connext}
-                        alt="logo_connext"
-                        className=""
-                      ></Image>
-                    </div>
-                    <div className="grid grid-cols-4 gap-6 py-5 xl:max-w-3xl">
-                      <Image
-                        width={107}
-                        src={kleros}
-                        alt="logo_kleros"
-                        className="w-36"
-                      ></Image>
+                        <Image
+                          width={222}
+                          src={connext}
+                          alt="logo_connext"
+                          className=""
+                        ></Image>
+                      </div>
+                      <div className="grid grid-cols-4 gap-6 py-5 xl:max-w-3xl">
+                        <Image
+                          width={107}
+                          src={kleros}
+                          alt="logo_kleros"
+                          className="w-36"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={letgh}
-                        alt="logo_letgh"
-                        className="pt-3"
-                      ></Image>
+                        <Image
+                          width={222}
+                          src={letgh}
+                          alt="logo_letgh"
+                          className="pt-3"
+                        ></Image>
 
-                      <Image
-                        width={153}
-                        src={uniswap}
-                        alt="logo_uniswap"
-                        className="pl-5 w-80"
-                      ></Image>
+                        <Image
+                          width={153}
+                          src={uniswap}
+                          alt="logo_uniswap"
+                          className="pl-5 w-80"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={lens}
-                        alt="logo_lens"
-                        className="pt-3"
-                      ></Image>
+                        <Image
+                          width={222}
+                          src={lens}
+                          alt="logo_lens"
+                          className="pt-3"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={chainlink}
-                        alt="logo_chainlink"
-                        className="pl-2 w-48"
-                      ></Image>
-                      <Image
-                        width={222}
-                        src={dappnode}
-                        alt="logo_dappnode"
-                        className="pl-5 w-80"
-                      ></Image>
+                        <Image
+                          width={222}
+                          src={chainlink}
+                          alt="logo_chainlink"
+                          className="pl-2 w-48"
+                        ></Image>
+                        <Image
+                          width={222}
+                          src={dappnode}
+                          alt="logo_dappnode"
+                          className="pl-5 w-80"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={ethfound}
-                        alt="logo_ethereumfoundation"
-                        className="w-56"
-                      ></Image>
+                        <Image
+                          width={222}
+                          src={ethfound}
+                          alt="logo_ethereumfoundation"
+                          className="w-56"
+                        ></Image>
 
-                      <Image
-                        width={222}
-                        src={criptotend}
-                        alt="logo_criptotendencias"
-                        className="pt-5"
-                      ></Image>
-                    </div>
+                        <Image
+                          width={222}
+                          src={criptotend}
+                          alt="logo_criptotendencias"
+                          className="pt-5"
+                        ></Image>
+                      </div>
                     </div>
                   </div>
                 </div>
