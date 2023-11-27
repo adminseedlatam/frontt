@@ -37,7 +37,7 @@ export function Navigation() {
           </div>
 
           <div className="lg:flex hidden px-2 ">
-            <div className="flex items-center content-center items-stretch">
+            <div className="flex items-center content-center ">
               <Link
                 href="#Descubrenos"
                 className="p-2 text-lg font-bold  text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
@@ -60,8 +60,8 @@ export function Navigation() {
               </Link>
 
               <Link
-                target="_blank"
-                rel="noopener"
+                /* target="_blank" PROBAR SIN ESTO A VER SI DESAPARECEN LOS 2
+                rel="noopener" */
                 href="https://mirror.xyz/seedlatam.eth"
                 className="p-2 text-lg font-bold border-[#222222]  text-white hover:border-b-4 hover:border-[#F651F6] border-b-4"
               >

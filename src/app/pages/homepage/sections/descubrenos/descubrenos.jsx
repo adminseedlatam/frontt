@@ -133,7 +133,7 @@ export default function HomePage() {
                       <div className="pr-[79.75px]">
                         <div className={styles.events}>
                           <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
-                            <div>
+                            <div >
                               <Image
                                 width={100}
                                 height={100}
@@ -709,7 +709,7 @@ export default function HomePage() {
                             href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5yMhvZMHae4HBAdaD-_Dxwp"
                           >
                             <div className={styles.events}>
-                              <div>
+                              <div className="min-w-[100px]">
                                 <Image
                                   width="5,5rem"
                                   height={100}
@@ -739,7 +739,7 @@ export default function HomePage() {
                               href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI"
                             >
                               <div className={styles.events}>
-                                <div>
+                                <div className="min-w-[100px]">
                                   <Image
                                     width="5,5rem"
                                     height={100}
@@ -768,7 +768,7 @@ export default function HomePage() {
                             href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5ycJFkObjp3VAUu4dZsCWlP"
                           >
                             <div className={styles.events}>
-                              <div>
+                              <div className="min-w-[100px]">
                                 <Image
                                   width="5,5rem"
                                   height={100}
@@ -800,7 +800,7 @@ export default function HomePage() {
                             }
                           >
                             <div className={styles.events}>
-                              <div>
+                              <div className="min-w-[100px]">
                                 <Image
                                   width="5,5rem"
                                   height={100}
@@ -963,7 +963,7 @@ export default function HomePage() {
                       <div className=" flex flex-wrap gap-4 min-[1570px]:max-w-[400px] ">
                         <div className="pr-[79.75px] ">
                           <div className="flex bg-[#323232] min-w-[325px] sm:min-w-[526px] rounded-[7px] p-[16px] ">
-                            <div>
+                            <div className="min-w-[100px]">
                               <Image
                                 width={100}
                                 height={100}
