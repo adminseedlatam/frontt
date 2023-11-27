@@ -49,10 +49,11 @@
 
 .button2 {
   border-radius: 8px;
-  width: 357px;
-  height: 90px;
-  font-size: 1.5rem;
+  width: 320px;
+  height: 56px;
+  font-size: 18px;
   font-weight: 700;
+  line-height: 1.25rem;
   color: #f651f6;
   border: 1px solid;
   border-color: #f651f6;
@@ -86,7 +87,6 @@
     
   }
 
-
   .h2 {
     padding-top: 3rem;
     padding-bottom: 1rem;
@@ -113,27 +113,7 @@
     letter-spacing: -0.05em;
   }
 
-  .button2 {
-    border-radius: 8px;
-    max-width: 90vw;
-    height: auto;
-    
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #f651f6;
-    border: 1px solid;
-    border-color: #f651f6;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.25);
-    margin-top: 25px;
-  }
-
-  .button2:hover {
-    border: 1px solid;
-    border-color: #f651f6;
-    color: white;
-    background-color: #f651f6;
-  }
+  
 }
 
 @media (width <= 720px) {
@@ -169,6 +149,8 @@
     justify-content: center;
   }
 
+  
+
   .button2 {
     height: 2rem;
     padding: 0.493rem 1.01506rem;
@@ -188,4 +170,7 @@
     color: white;
     background-color: #f651f6;
   }
+
+
+  
 }

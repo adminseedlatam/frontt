@@ -239,29 +239,31 @@
 }
 
 @media (width <= 480px) {
-  #Descubrenos .mySwiperResponsive .prev-button svg {
-    stroke-width: 2 !important;
+  #Descubrenos .mySwiper .swiper-button-prev {
+    color: #ffffff;
+    font-weight: 900;
   }
 
-  #Descubrenos .mySwiperResponsive .next-button svg {
-    stroke-width: 2 !important;
+  #Descubrenos .swiper-pagination-bullet-active {
+    background-color: #fff;
   }
 
   #Descubrenos .mySwiperResponsive .swiper-pagination-bullet {
-    width: 0.74981rem;
-    height: 0.74981rem;
+    width: 22px;
+    height: 22px;
   }
 
   #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    /*  bottom: 50px; */
-    top: 5px;
-    left: 37%;
-    /* right: 500px; */
-    cursor: pointer;
-    width: 100px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 103px;
+    left: 50%;
+    margin: -100px 0 0 -150px;
   }
 
   #Descubrenos .mySwiperResponsive .prev-button {
@@ -277,62 +279,6 @@
     cursor: pointer;
     top: 0;
     left: 90vw;
-    z-index: 1;
-  }
-}
-
-@media (width <= 380px) {
-  #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
-  .swiper-pagination-bullets.swiper-pagination-horizontal,
-  .swiper-pagination-custom,
-  .swiper-pagination-fraction {
-    top: 5px;
-    left: 37%;
-    cursor: pointer;
-    width: 100px;
-  }
-
-  #Descubrenos .mySwiperResponsive .prev-button {
-    position: absolute;
-    top: 0;
-    left: 5vw;
-    z-index: 1;
-    cursor: pointer;
-  }
-
-  #Descubrenos .mySwiperResponsive .next-button {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 87vw;
-    z-index: 1;
-  }
-}
-
-@media (width <= 320px) {
-  #Descubrenos .swiper-horizontal > .swiper-pagination-bullets,
-  .swiper-pagination-bullets.swiper-pagination-horizontal,
-  .swiper-pagination-custom,
-  .swiper-pagination-fraction {
-    top: 5px;
-    left: 37%;
-    cursor: pointer;
-    width: 100px;
-  }
-
-  #Descubrenos .mySwiperResponsive .prev-button {
-    position: absolute;
-    top: 0;
-    left: 5vw;
-    z-index: 1;
-    cursor: pointer;
-  }
-
-  #Descubrenos .mySwiperResponsive .next-button {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 85vw;
     z-index: 1;
   }
 }

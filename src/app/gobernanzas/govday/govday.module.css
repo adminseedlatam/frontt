@@ -147,23 +147,23 @@
     background-color: #f651f6;
   }
   
+
   .button3 {
-    /* font-size: medium;
-    text-align: center; */
     border-radius: 8px;
-    width: 305px;
-    height: 63px;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #f651f6;
-    border: 1px solid;
-    border-color: #f651f6;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.25);
+    width: 155px;
+    height: 35px;
+    padding: 0.493rem 1.01506rem;
     margin-right: 25px;
     margin-top: 80px;
+    color: #f651f6;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: -0.0375rem;
+    border-radius: 4.733px;
+    border: 1.088px solid #f651f6;
+    background: rgba(0, 0, 0, 0.25);
   }
-  
+
   .button3:hover {
     border: 1px solid;
     border-color: #f651f6;

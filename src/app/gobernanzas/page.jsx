@@ -39,12 +39,12 @@ export default function HomePage() {
         <h1 className={styles.h2}>Our focus on governance</h1>
 
         {/* 2 secciones NUESTRA VISION + GOBERNANZA MODELO ABIERTO */}
-        <div className="pl-16 lg:pl-48">
+        <div className="pl-[5vw] ">
           <div className=" flex flex-wrap gap-4 ">
             <div className="pr-[79.75px]">
               <div className=" ">
-                <div className="flex bg-[#323232] min-w-[526px] rounded-[7px] p-[16px] ">
-                  <div>
+                <div className="flex bg-[#323232] min-w-[340px] md:min-w-[526px] rounded-[7px] p-[16px] ">
+                  <div className="min-w-[100px]">
                     <Image
                       width={100}
                       height={100}
@@ -79,15 +79,15 @@ export default function HomePage() {
                 className="modal-box bg-bg-card max-w-xl lg:max-w-5xl "
               >
                 <div className={styles.headerModal_nuestravision}>
-                  <h1 className="pl-20 font-extrabold text-5xl">Our vision</h1>
+                  <h1 className=" pl-10 sm:pl-20 font-extrabold text-4xl sm:text-5xl">Our vision</h1>
 
-                  <h4 className="pl-20 pt-5 tracking-tighter text-[24px] leading-8 font-normal">
+                  <h4 className=" pl-10 sm:pl-20 pt-2 sm:pt-5 tracking-tighter sm:text-[24px] leading-8 font-normal">
                     Why participate in this phenomenon?
                   </h4>
                 </div>
 
                 <div className="px-7 lg:px-6 ">
-                  <p className="lg:pt-5 text-2xl text-white">
+                  <p className=" lg:pt-5 text-2xl text-white">
                     We advocate for a critical and objective perspective in our
                     role as representatives, considering the potential impact of
                     decisions made in the Latin American community on users,
@@ -106,10 +106,10 @@ export default function HomePage() {
 
                 {/* BOTONES */}
 
-                <div className="flex justify-end ">
+                <div className="flex justify-end min-w-[400px] ">
                   {" "}
                   {/* BOTONES DESKTOP*/}
-                  <div className="flex md:justify-end">
+                  <div className="flex md:justify-end gap-2">
                     {/* boton Volver DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
                       <form method="dialog" className="modal-backdrop">
@@ -127,18 +127,18 @@ export default function HomePage() {
                     </div>
                   </div>
                   {/* BOTONES RESPONSIVE */}
-                  <div className="flex md:justify-end gap-2 ">
-                    {/* BOTON PLAT ACTIVAS */}
-                    <div className="md:hidden pl-6 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                  <div className="flex pr-5 md:justify-end gap-0 sm:gap-2 ">
+                    {/* BOTON RETURN */}
+                    <div className="md:hidden pl-6 pb-6 text-9xl  md:w-max-90vw md:justify-end">
                       <form method="dialog" className="modal-backdrop">
                         <button className={styles3.button4}> Return </button>
                       </form>
                     </div>
 
                     {/* boton PLAT ACTIVAS */}
-                    <div className="md:hidden text-9xl md:w-max-90vw md:justify-end">
+                    <div className="md:hidden pr-4 text-9xl  md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas/#PlataformasActivas">
-                        <button className={styles3.button5}>
+                        <button className={styles3.button6}>
                           View active platforms
                         </button>
                       </Link>
@@ -152,8 +152,8 @@ export default function HomePage() {
 
             <div className="pr-[79.75px] ">
               <div className={styles.events}>
-                <div className="flex bg-[#323232] min-w-[526px] rounded-lg p-[16px] ">
-                  <div>
+                <div className="flex bg-[#323232] min-w-[340px] md:min-w-[526px] rounded-lg p-[16px] ">
+                  <div className="min-w-[100px]">
                     <Image
                       width={100}
                       height={100}
@@ -189,9 +189,9 @@ export default function HomePage() {
                 className="modal-box bg-bg-card max-w-xl lg:max-w-4xl "
               >
                 <div className={styles.headerModal_nuestravision}>
-                  <h1 className="pl-20 font-extrabold text-5xl">Open model</h1>
+                  <h1 className="pl-10 sm:pl-20 font-extrabold text-4xl sm:text-5xl">Open model</h1>
 
-                  <h4 className="pl-20 pt-5 tracking-tighter text-[24px] leading-8 font-normal">
+                  <h4 className="pl-10 sm:pl-20 pt-2 sm:pt-5 tracking-tighter sm:text-[24px] leading-8 font-normal">
                     Why is our governance model open?
                   </h4>
                 </div>
@@ -215,9 +215,9 @@ export default function HomePage() {
 
                 {/* BOTONES */}
 
-                <div className="flex  justify-end ">
+                <div className="flex  justify-end min-w-[400px]">
                   {" "}
-                  {/* BOTON VOLVER */}
+                  {/* BOTON RETURN */}
                   <div className="flex md:justify-end gap-2">
                     {/* boton DESKTOP*/}
                     <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
@@ -239,16 +239,16 @@ export default function HomePage() {
                     </div>
                   </div>
                   {/* BOTONES RESPONSIVE */}
-                  <div className="flex md:justify-end gap-2 ">
+                  <div className="flex pr-5 md:justify-end sm:gap-2 ">
                     {/* Boton VOLVER */}
-                    <div className="md:hidden pl-6 pb-5 text-9xl md:w-max-90vw md:justify-end">
-                      <Link href="/gobernanzas">
+                    <div className="md:hidden pl-6 pb-5 text-9xl  md:w-max-90vw md:justify-end">
+                    <form method="dialog" className="modal-backdrop">
                         <button className={styles3.button4}>Return</button>
-                      </Link>
+                        </form>
                     </div>
 
                     {/* BOTON LLLAMADAS YOUTUBE */}
-                    <div className="md:hidden pr-4 text-9xl md:w-max-90vw md:justify-end">
+                    <div className="md:hidden pr-4 text-9xl  md:w-max-90vw md:justify-end">
                       <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI">
                         <button className={styles3.button5}>
                           View YouTube calls
@@ -266,9 +266,9 @@ export default function HomePage() {
         </div>
 
         {/* Segundo TITULO */}
-        <h1 className="pl-12 pt-20 text-white text-[40px] mb-2 font-bold leading-9 tracking-tighter">Our initiatives: </h1>
+        <h1 className="pl-[5vw] pt-20 text-white text-[40px] mb-2 font-bold leading-9 tracking-tighter">Our initiatives: </h1>
 
-        <div className="pl-16  xl:pl-20 pt-24 flex flex-wrap  gap-4">
+        <div className="pl-[5vw] pt-24 flex flex-wrap  gap-4">
           <Link
             href="/gobernanzas/#PlataformasActivas"
             className=" w-80 h-16 bg-fuchsia-500 rounded-md mr-12 text-justify"
@@ -312,9 +312,9 @@ export default function HomePage() {
         {/*  slider gobernanzas DESKTOP*/}
         <div
           id="GobernanzasPage"
-          className="hidden xl:block py-[50px] xl:pt-[46px] px-16"
+          className="hidden xl:block py-[50px] xl:pt-[46px]  "
         >
-          <div className="md:w-[880px]  xl:pt-16">
+          <div className="md:w-[880px]  lg:pl-2 xl:pt-16">
             <Swiper
               initialSlide="2"
               effect={"coverflow"}
@@ -811,16 +811,15 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="justify-end  max-w-[482px] text-right pt-5 md:pr-20 pr-3 md:pb-40">
+        <div className="justify-end  max-w-[482px] text-right pt-5 md:pr-14 pr-3 md:pb-40">
           <h3 className={styles.h3}>Governance Day</h3>
           <p className={styles.p2}>
             The first in-person event focused on Web3 governance.
           </p>
 
           {/* boton DESKTOP*/}
-          {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
-          {/* PROXIMAMENTE */}
-          <div className="hidden md:block pl-5 justify-center max-w-full">
+
+          <div className="hidden md:block justify-center max-w-full">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button2}>
                 Learn more about Governance Day
@@ -829,9 +828,8 @@ export default function HomePage() {
           </div>
 
           {/* boton RESPONSIVE */}
-          {/* put <Link href="/gobernanzas/govday"> </Link> to redirect */}
-          {/* PROXIMAMENTE */}
-          <div className="md:hidden pb-8 justify-center max-w-full">
+       
+          <div className="md:hidden pb-8 pl-5 text-center ">
             <Link href="/gobernanzas/govday">
               <button className={styles3.button3}>
                 Learn more about Governance Day
@@ -856,11 +854,22 @@ export default function HomePage() {
           </p>
 
           {/* boton DESKTOP */}
-          <div className="text-right md:pt-8 md:w-max-90vw md:flex md:justify-start">
+          <div className="hidden md:block text-right md:pt-8 md:w-max-90vw md:justify-start">
             <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
-              <button className={styles3.button3}>Go to YouTube</button>
+              <button className={styles3.button2}>Go to YouTube</button>
             </Link>
           </div>
+
+          {/* boton RESPONSIVE */}
+          <div className=" text-center pt-8 md:pt-8 md:w-max-90vw  md:hidden">
+            <Link href="https://www.youtube.com/playlist?list=PLhTCvqIxiz5wxW4fe0-WSIJ7qVIo0vQWa">
+              <button className={styles3.button3b}>Go to YouTube</button>
+            </Link>
+          </div>
+
+
+
+
         </div>
 
         <div>
