@@ -57,6 +57,37 @@
     background-color: #F651F6;
   }
 
+  .button2 {
+    border-radius: 8px;
+    width: 205px;
+    height: 48px;
+    border: solid 3.2px;
+    border-color: #f651f6;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #f651f6;
+    margin-right: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .button2:hover {
+    border-radius: 8px;
+    width: 233px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f651f6;
+    border: 1px solid;
+    border-color: #f651f6;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.25);
+    margin-right: 25px;
+    margin-top: 80px;
+  }
+  
+
 
 
   @media ( width <= 1250px ) {
