@@ -75,6 +75,12 @@ const nextConfig = {
         ],
         permanent: true,
       },
+
+      {
+        source: "/proposal-starknet-latam-summit",
+        destination: "https://seedlatam.notion.site/Proposal-Starknet-Latam-Summit-e01140e7dc7949c2929f59d327e15e75",
+        permanent: true,
+      },
      
     ];
   }}
