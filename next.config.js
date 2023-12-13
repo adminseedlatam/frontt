@@ -63,6 +63,12 @@ const nextConfig = {
         destination: "https://defilatam.vercel.app/poap/",
         permanent: true,
       },
+
+      {
+        source: "/proposal-starknet-latam-summit",
+        destination: "https://seedlatam.notion.site/Proposal-Starknet-Latam-Summit-e01140e7dc7949c2929f59d327e15e75",
+        permanent: true,
+      },
   
       {
         source: '/(.*)',
@@ -76,11 +82,7 @@ const nextConfig = {
         permanent: true,
       },
 
-      {
-        source: "/proposal-starknet-latam-summit",
-        destination: "https://seedlatam.notion.site/Proposal-Starknet-Latam-Summit-e01140e7dc7949c2929f59d327e15e75",
-        permanent: true,
-      },
+    
      
     ];
   }}
