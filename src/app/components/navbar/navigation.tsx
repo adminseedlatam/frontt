@@ -48,14 +48,14 @@ export function Navigation() {
                 Join us
               </Link>
 
-              <Link
+              {/* <Link
                 target="_blank" 
                 rel="noopener" 
                 href="https://mirror.xyz/seedlatam.eth"
                 className="p-2 text-lg font-bold border-[#222222]  text-white hover:border-b-4 hover:border-[#F651F6] border-b-4"
               >
                 Blog
-              </Link>
+              </Link> */}
 
               <Link
                 target="_blank"
