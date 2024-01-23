@@ -8,6 +8,7 @@ import Arbitrum from "../assets/img/gobernanza/gob-arbitrum.png";
 import Optimism from "../assets/img/gobernanza/gob-op.png";
 import Starknet from "../assets/img/gobernanza/gob-starknet.png";
 import Connext from "../assets/img/gobernanza/gob-connext.png";
+import Gnosis from "../assets/img/gobernanza/gob-gnosis.png";
 import discord from "../assets/icons/discordwhite.svg";
 import twitter from "../assets/icons/twitterwhite.svg";
 import govday from "../assets/img/gobernanza/GOVERNANCEDAY.png";
@@ -118,7 +119,7 @@ export default function HomePage() {
                     </div>
 
                     {/* boton PLAT ACTIVAS */}
-                    <div className="hidden md:block text-9xl md:w-max-90vw md:justify-end">
+                    <div className="hidden md:block pt-[5px] text-9xl md:w-max-90vw md:justify-end">
                       <Link href="/gobernanzas/#PlataformasActivas">
                         <button className={styles3.button5}>
                           View active platforms
@@ -229,7 +230,7 @@ export default function HomePage() {
                     {/* boton RESPONSIVE */}
 
                     {/* PROXIMAMENTE */}
-                    <div className="hidden md:block pl-8 pb-5 text-9xl md:w-max-90vw md:justify-end">
+                    <div className="hidden md:block pl-8 pb-5 pt-[5px] text-9xl md:w-max-90vw md:justify-end">
                       <Link href="https://youtube.com/playlist?list=PLhTCvqIxiz5zrVMkC6DVt9frsX4bxQtGI&si=gPAXdJ77mwefllQ8">
                         {/* poner noopener para que se abra otra pestaña */}
                         <button className={styles3.button5}>
@@ -418,6 +419,20 @@ export default function HomePage() {
                   </div>
                 </a>
               </SwiperSlide>
+              {/* gnosis */}
+              <SwiperSlide>
+                <a
+                >
+                  <div>
+                    <Image
+                      width="100%"
+                      height={331}
+                      src={Gnosis}
+                      alt="logo"
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
             </Swiper>{" "}
           </div>
         </div>
@@ -526,6 +541,20 @@ export default function HomePage() {
                       width="100%"
                       height={331}
                       src={Connext}
+                      alt="logo"
+                    ></Image>
+                  </div>
+                </a>
+              </SwiperSlide>
+              {/* gnosis */}
+              <SwiperSlide>
+                <a
+                >
+                  <div>
+                    <Image
+                      width="100%"
+                      height={331}
+                      src={Gnosis}
                       alt="logo"
                     ></Image>
                   </div>
