@@ -447,14 +447,16 @@ export default function HomePage() {
                           method="dialog"
                           className="modal-backdrop justify-end"
                         >
+                          
                           <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-28 xl:right-32 2xl:right-32 top-12 xl:top-28 2xl:top-8">
-                            ✕
+                            ✕ 
                           </button>
                           <Image
                             className="object-contain mx-auto px-28 w-screen"
                             alt="Logo"
                             src={mapa}
                           ></Image>
+                         
                         </form>
                       </dialog>
 
@@ -996,10 +998,10 @@ export default function HomePage() {
                         >
                           <form
                             method="dialog"
-                            className="modal-backdrop justify-end"
+                            className="modal-backdrop justify-end "
                           >
                             <button className="text-white btn btn-sm btn-circle btn-ghost border-none absolute right-32 top-12 xl:top-24 2xl:top-4">
-                              ✕
+                              ✕ 
                             </button>
                             <Image
                               className="object-contain mx-auto px-28 w-screen"

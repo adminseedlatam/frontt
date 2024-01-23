@@ -17,17 +17,6 @@ const links = [
 export function Navigation() {
   return (
     <header className="flex justify-center  bg-[#222222] fixed z-10 top-0">
-      {/*   <ul className="text-white">
-        {links.map(({ label, route }) => (
-          <li key={route}>
-            <Link href={route}>
-              {label}
-            </Link>
-          </li>
-        ))}
-        </ul> */}
-
-      {/*   <div className={"navbar-desktop rounded-box  lg:flex "}> */}
       <div className="">
         <div className={styles.navbarDesktop}>
           <div className="px-2 hidden  lg:flex ">
@@ -60,23 +49,13 @@ export function Navigation() {
               </Link>
 
               <Link
-                /* target="_blank" PROBAR SIN ESTO A VER SI DESAPARECEN LOS 2
-                rel="noopener" */
+                target="_blank" 
+                rel="noopener" 
                 href="https://mirror.xyz/seedlatam.eth"
                 className="p-2 text-lg font-bold border-[#222222]  text-white hover:border-b-4 hover:border-[#F651F6] border-b-4"
               >
                 Blog
               </Link>
-              {/* Aca va fotos */}
-
-              {/* <Link
-                target="_blank"
-                rel="noopener"
-                href="/fotos"
-                className="p-2 text-lg font-bold border-[#222222]  text-white hover:border-b-4 hover:border-[#F651F6] border-b-4"
-              >
-                Fotos
-              </Link> */}
 
               <Link
                 target="_blank"
@@ -87,14 +66,7 @@ export function Navigation() {
                 Contact
               </Link>
 
-              {/*  <select className="select bg-transparent w-[75px] max-w-xs ml-8">
-                <option disabled selected>
-                  ES
-                </option>
-                <option>ES - Español</option>
-                <option>EN - English</option>
-                <option>PT - Portugues</option>
-              </select> */}
+       
             </div>
           </div>
         </div>
@@ -107,14 +79,7 @@ export function Navigation() {
           </div>
           <div className="lg:hidden">
             <nav role="navigation" className="flex items-center">
-              {/*  <select className="select bg-transparent w-[75px] max-w-xs ml-8">
-                <option disabled selected>
-                  ES
-                </option>
-                <option value="es">ES - Español</option>
-                <option value="en">EN - English</option>
-                <option value="pt">PT - Português</option>
-              </select> */}
+             
               <div id={styles.menuToggle}>
                 <input type="checkbox" />
 
