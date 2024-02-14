@@ -1,0 +1,226 @@
+.mainContainer {
+    background-image: url("../assets/img/links/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    min-height: 100vh;
+  }
+  
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      padding-bottom: 5vw;
+  }
+  
+  .secondContainer {
+      padding-top: 75.75px;
+      display:flex; 
+      flex-wrap: wrap;
+      justify-content: space-between;
+     
+  }
+
+  .hero_button1 {
+    border-radius: 8px;
+    width: 215px;
+    border: solid 3.2px;
+    border-color: #F651F6;
+    padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #F651F6;
+    margin-right: 25px;
+  }
+
+  .hero_button1:hover {
+    color: #F651F6;
+    border: 3.2px solid;
+    border-color: #F651F6;  
+    background: rgba(0, 0, 0, 0.25);
+  }
+
+  .hero_button2 {
+    border-radius: 8px;
+    width: 161px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #F651F6;
+    border: 3.2px solid;
+    border-color: #F651F6;  
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.25);
+    margin-right: 25px;
+  }
+
+  .hero_button2:hover {
+    
+    border: 3.2px solid;
+    border-color: #F651F6;  
+    color: white;
+    background-color: #F651F6;
+  }
+  
+  .h1 {
+  color: #FFF;
+  padding-top: 1vw;
+  text-shadow: 0px 3px 16.5px 0px rgba(0, 0, 0, 0.25);
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 66px; /* 122.222% */
+  letter-spacing: -2.7px;
+  }
+
+  .h2 {
+    padding-top: 75.75px;
+    padding-bottom: 10px;
+    padding-left: 5vw;
+    text-shadow: 0px 3px 16.5px 0px rgba(0, 0, 0, 0.25);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 66px; /* 122.222% */
+    letter-spacing: -2.7px;
+  }
+
+  .h3 {
+    max-width: 494.25px;
+    padding-bottom: 24px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.5px;
+    padding-left: 5vw;
+  }
+
+ .p {
+  text-align: justify; /* se va? */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 27px; /* 112.5% */
+  letter-spacing: -1.2px;
+  padding-top: 25.75px;
+  
+}
+
+.p2 {
+    text-align: center; /* se va? */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 27px; /* 112.5% */
+    letter-spacing: -1.2px;
+    padding-top: 25.75px;
+    padding-left: 5vw;
+  }
+  
+  .linksMainContainer {
+      /* width: 900px; */
+      display: flex;
+     /*  flex-wrap: wrap; */
+  }
+  
+   .linksContainer {
+   max-width: 688px;
+   gap: 48px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 24px;
+  } 
+  
+  .linksContainer li a {
+    display: flex;
+    width: 320px;
+    height: 56px;
+    padding: 12.75px 26.25px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1.5px solid #f651f6;
+    background: rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  @media ( width <= 1024px ) { 
+  
+      .container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          max-width: 90vw;
+      }
+  
+      
+  .h1 {
+      max-width: 90vw;
+     
+      color: #FFF;
+      text-shadow: 0px 3px 16.5px 0px rgba(0, 0, 0, 0.25);
+      font-size: 54px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 66px; /* 122.222% */
+      letter-spacing: -2.7px;
+      }
+      
+      .h2 {
+      max-width: 90vw;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -1.5px;
+      padding-bottom: 24px;
+      padding-top: 70px;
+      }
+      
+      .p {
+          max-width: 90vw;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          letter-spacing: -0.8px;
+      }
+  
+      .linksContainer {
+          max-width: 900px;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          gap: 24px;
+        }
+  
+        .linksMainContainer {
+          
+          display: grid;
+          place-items: center;
+          flex-wrap: wrap;
+      }
+  
+  
+      .linksContainer li a {
+          display: flex;
+          max-width: 90vw;
+          width: 320px;
+          height: 56px;
+          padding: 12.75px 26.25px;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          border-radius: 6px;
+          border: 1.5px solid #f651f6;
+          background: rgba(0, 0, 0, 0.25);
+        }
+   
+  }

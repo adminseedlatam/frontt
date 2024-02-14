@@ -7,6 +7,10 @@ const nextConfig = {
   module.exports = nextConfig
   
   module.exports = {
+    images: {
+      domains: ['images.mirror-media.xyz'],
+    },
+
   async redirects() {
     return [
   

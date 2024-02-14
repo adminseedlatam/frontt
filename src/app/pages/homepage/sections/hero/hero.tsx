@@ -114,10 +114,6 @@ export function Hero() {
             </div>
           </div>
 
-            {/* VER BIEN UBICACION MODAL */}
-
-            {/* <Modal/>  */}
-
 
      
         </div>
