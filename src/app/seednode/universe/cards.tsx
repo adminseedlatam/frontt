@@ -3,10 +3,11 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
+import Ethereum from "../../assets/img/seednode/ethereum.jpg";
 
 export default function ThreeDCards() {
   return (
-    <div className="max-w-[800px] min-h-screen pl-[16vw] pr-[3vw] flex justify-center items-center">
+    <div className="max-w-[800px] gap-11 pt-4 pl-[47vw] pr-[3vw] flex justify-center items-center">
       {/* Ethereum */}
       <div>
         <CardContainer className="inter-var">
@@ -22,7 +23,7 @@ export default function ThreeDCards() {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              Super texto 
+              Super texto
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <a
@@ -31,10 +32,10 @@ export default function ThreeDCards() {
                 target="_blank"
               >
                 <Image
-                  src="https://images.mirror-media.xyz/publication-images/oCx996LCPvCjkOyRc_pC1.jpeg?height=1000&width=1000"
-                  height="1000"
-                  width="1000"
-                  className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  src={Ethereum}
+                  height="500"
+                  width="600"
+                  className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
                 />
               </a>
@@ -43,52 +44,89 @@ export default function ThreeDCards() {
         </CardContainer>
       </div>
       {/* Optimism */}
-      <div></div>
+      <div>
+        <CardContainer className="inter-var">
+          <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+            <CardItem
+              translateZ="50"
+              className="text-xl font-bold text-neutral-600 dark:text-white"
+            >
+              Optimism the infinite
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="60"
+              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            >
+              Super texto
+            </CardItem>
+            <CardItem translateZ="100" className="w-full mt-4">
+              <a
+                href="/seednode/universe/ethereum"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div className="relative">
+                  <Image
+                    src={Ethereum}
+                    height="500"
+                    width="600"
+                    className="h-full w-full object-cover rounded-xl group-hover:shadow-xl filter blur-sm"
+                    alt="thumbnail"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <h1 className="text-neutral-600 text-4xl font-bold uppercase">
+                      Coming Soon
+                    </h1>
+                  </div>
+                </div>
+              </a>
+            </CardItem>
+          </CardBody>
+        </CardContainer>
+      </div>
       {/* StarkNet */}
-      <div></div>
-
-      {/* <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
-        <CardItem
-          translateZ="50"
-          className="text-xl font-bold text-neutral-600 dark:text-white"
-        >
-          Make things float in air
-        </CardItem>
-        <CardItem
-          as="p"
-          translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
-        >
-          Hover over this card to unleash the power of CSS perspective
-        </CardItem>
-        <CardItem translateZ="100" className="w-full mt-4">
-          <Image
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-            alt="thumbnail"
-          />
-        </CardItem>
-        <div className="flex justify-between items-center mt-20">
-          <CardItem
-            translateZ={20}
-            as="button"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-          >
-            Try now →
-          </CardItem>
-          <CardItem
-            translateZ={20}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
-            Sign up
-          </CardItem>
-        </div>
-      </CardBody>
-    </CardContainer> */}
+      <div>
+        <CardContainer className="inter-var">
+          <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+            <CardItem
+              translateZ="50"
+              className="text-xl font-bold text-neutral-600 dark:text-white"
+            >
+              StarkNet the infinite
+            </CardItem>
+            <CardItem
+              as="p"
+              translateZ="60"
+              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            >
+              Super texto
+            </CardItem>
+            <CardItem translateZ="100" className="w-full mt-4">
+              <a
+                href="/seednode/universe/ethereum"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div className="relative">
+                  <Image
+                    src={Ethereum}
+                    height="500"
+                    width="600"
+                    className="h-full w-full object-cover rounded-xl group-hover:shadow-xl filter blur-sm"
+                    alt="thumbnail"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <h1 className="text-neutral-600 text-4xl font-bold uppercase">
+                      Coming Soon
+                    </h1>
+                  </div>
+                </div>
+              </a>
+            </CardItem>
+          </CardBody>
+        </CardContainer>
+      </div>
     </div>
   );
 }

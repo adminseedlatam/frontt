@@ -6,7 +6,7 @@ export default function Universe() {
     <div className="justify-center items-center min-h-screen">
      
       <div className="">
-      <h1 className="pt-32 text-center text-7xl">Seed Node Universe</h1>
+      <h1 className="pt-32 text-shadow-lg font-bold leading-10 tracking-tight px-5vw text-center text-7xl">Seed Node Universe</h1>
         {/* Cards */}
         <Cards />
       </div>
