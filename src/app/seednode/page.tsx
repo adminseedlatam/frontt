@@ -7,7 +7,7 @@ export default function SeedNode() {
   return (
     /* Desktop */
     <div className="bg-[url('../assets/img/gobernanza/gobernanza.png')] w-screen bg-cover pr-3 pt-28 justify-center items-center min-h-screen">
-      <div className="max-w-[800px] min-h-screen pl-[5vw] pr-[3vw] hidden  md:flex">
+      <div className="max-w-[1100px] min-h-screen pl-[5vw] pr-[3vw] hidden  md:flex">
         <div className=" 2xl:pt-[3.5rem] lg:pt-[2.5rem] md:pt-[1.5rem]">
           <Image
             className="mb-[28px] mr-2"
@@ -19,8 +19,11 @@ export default function SeedNode() {
           <h1 className={styles.h1}>SEED Node</h1>
 
           <p className={styles.p}>
-            “Collectively building the path to decentralized and unpermissioned
-            digital sovereignty”.
+            En SEEDNode, somos más que una comunidad, somos pioneros que
+            cultivan el futuro de la infraestructura blockchain. <br/> <br/> Impulsados por
+            la convicción del poder transformador de esta tecnología; nos
+            dedicamos a estudiar, dar a conocer y facilitar el acceso a nodos
+            seguros y escalables ampliando así la descentralización geográfica.
           </p>
 
           <div className="flex py-[2.23rem]">
@@ -31,7 +34,11 @@ export default function SeedNode() {
               </Link>
             </div>
             <div>
-              <Link target="_blank" rel="noopener" href="https://seedorg.super.site/seednode">
+              <Link
+                target="_blank"
+                rel="noopener"
+                href="https://seedorg.super.site/seednode"
+              >
                 <button className={styles.hero_button2}>About us</button>
               </Link>
             </div>

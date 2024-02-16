@@ -2,15 +2,16 @@
 
 import Image from "next/image";
 import { Tabs } from "../../../components/ui/tabs";
+import Nivel3 from "../../../assets/img/seednode/2 old school hat.svg"
 
 export default function TabsDemo() {
   const tabs = [
     {
-      title: "Starting the Wizard Path",
-      value: "starting the Wizard Path",
+      title: "Apprendice Wizard Path",
+      value: "apprendice Wizard Path",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Contenido - Starting the Wizard Path</p>
+          <p>Contenido - Apprendice Wizard Path</p>
           <StartWizardPath />
         </div>
       ),
@@ -26,11 +27,18 @@ export default function TabsDemo() {
       ),
     },
     {
-      title: "Full Wizard",
-      value: "full Wizard",
+      title: "Node Wizard",
+      value: "node Wizard",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Contenido - Full Wizard</p>
+        <div className="flex flex-wrap w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <Image
+                    src={Nivel3}
+                    height="100"
+                    width="100"
+                    className="h-full w-full object-cover rounded-xl group-hover:shadow-xl filter blur-sm"
+                    alt="thumbnail"
+                  />
+          <p>Contenido - Node Wizard</p>
           <FullWizard />
         </div>
       ),
@@ -38,7 +46,7 @@ export default function TabsDemo() {
   ];
 
   return (
-    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
+    <div className="h-[20rem] md:h-[40rem] [perspective:1000px]  relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
       <Tabs tabs={tabs} />
     </div>
   );
