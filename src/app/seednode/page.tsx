@@ -17,13 +17,12 @@ export default function SeedNode() {
           ></Image>
 
           <h1 className={styles.h1}>SEED Node</h1>
-
+        
           <p className={styles.p}>
-            En SEEDNode, somos más que una comunidad, somos pioneros que
-            cultivan el futuro de la infraestructura blockchain. <br/> <br/> Impulsados por
-            la convicción del poder transformador de esta tecnología; nos
-            dedicamos a estudiar, dar a conocer y facilitar el acceso a nodos
-            seguros y escalables ampliando así la descentralización geográfica.
+            En SEEDNode, facilitamos el acceso a nodos seguros y escalables en
+            todo el mundo. <br /> <br /> Más que una comunidad, somos pioneros
+            que impulsan la descentralización y accesibilidad de esta
+            tecnología.
           </p>
 
           <div className="flex py-[2.23rem]">
