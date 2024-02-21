@@ -4,6 +4,9 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Ethereum from "../../assets/img/seednode/ethereum.jpg";
+import Starknet from "../../assets/img/seednode/starknet.png";
+import Optimism from "../../assets/img/seednode/optimism2.png"
+
 
 export default function ThreeDCards() {
   return (
@@ -68,14 +71,14 @@ export default function ThreeDCards() {
               >
                 <div className="relative">
                   <Image
-                    src={Ethereum}
+                    src={Optimism}
                     height="500"
                     width="600"
                     className="h-full w-full object-cover rounded-xl group-hover:shadow-xl filter blur-sm"
                     alt="thumbnail"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <h1 className="text-neutral-600 text-4xl font-bold uppercase">
+                    <h1 className="text-neutral-200 text-4xl font-bold uppercase">
                       Coming Soon
                     </h1>
                   </div>
@@ -110,14 +113,14 @@ export default function ThreeDCards() {
               >
                 <div className="relative">
                   <Image
-                    src={Ethereum}
+                    src={Starknet}
                     height="500"
                     width="600"
                     className="h-full w-full object-cover rounded-xl group-hover:shadow-xl filter blur-sm"
                     alt="thumbnail"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <h1 className="text-neutral-600 text-4xl font-bold uppercase">
+                    <h1 className="text-neutral-200 text-4xl font-bold uppercase">
                       Coming Soon
                     </h1>
                   </div>

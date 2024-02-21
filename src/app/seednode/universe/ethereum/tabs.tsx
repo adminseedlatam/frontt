@@ -13,7 +13,7 @@ export default function TabsDemo() {
       title: "Apprendice Wizard Path",
       value: "apprendice Wizard Path",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-400 to-[#8D3C94]">
           <StartWizardPath />
         </div>
       ),

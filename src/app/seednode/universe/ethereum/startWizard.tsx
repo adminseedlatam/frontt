@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function StartWizardPath() {
   const imageUrl =
-    "https://images.mirror-media.xyz/publication-images/RzTdrK_xZ1NE24WHqplIp.png?height=1000&width=2000";
+    "https://i.imgur.com/6VV0HzV.png";
 
   return (
     <div className=" justify-center items-center min-h-screen">
