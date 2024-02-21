@@ -10,9 +10,9 @@ import Optimism from "../../assets/img/seednode/optimism2.png"
 
 export default function ThreeDCards() {
   return (
-    <div className="max-w-[800px] gap-11 pt-4 pl-[27vw] pr-[3vw] flex justify-center items-center">
+    <div className="max-w-full gap-11 h-full w-full pt-4 px-4 grid grid-cols-1 lg:grid-cols-3">
       {/* Ethereum */}
-      <div>
+      <div className=" ">
         <CardContainer className="inter-var">
           <CardBody className="bg-[#DCDBDC] relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem
@@ -47,7 +47,7 @@ export default function ThreeDCards() {
         </CardContainer>
       </div>
       {/* Optimism */}
-      <div>
+      <div className="">
         <CardContainer className="inter-var">
           <CardBody className="bg-[#DCDBDC] relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem
@@ -89,7 +89,7 @@ export default function ThreeDCards() {
         </CardContainer>
       </div>
       {/* StarkNet */}
-      <div>
+      <div className="">
         <CardContainer className="inter-var">
           <CardBody className="bg-[#DCDBDC] relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             <CardItem

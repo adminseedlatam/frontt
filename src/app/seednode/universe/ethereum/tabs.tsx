@@ -39,7 +39,7 @@ export default function TabsDemo() {
   ];
 
   return (
-    <div className="h-[20rem] md:h-[120rem] [perspective:1000px]  relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start mt-20 mb-40">
+    <div className="h-[20rem] md:h-[120rem] [perspective:1000px]  relative b flex flex-col max-w-5xl px-6 lg:mx-auto w-full  items-start justify-start mt-20 mb-40">
       <Tabs tabs={tabs} />
     </div>
   );
