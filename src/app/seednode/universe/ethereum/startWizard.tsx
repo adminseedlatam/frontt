@@ -19,7 +19,7 @@ export default function StartWizardPath() {
         <div className="flex justify-center items-center">
           <Image alt="image" className="" width="94" height="100" src={gorro} />
           <h1 className="pt-7 text-shadow-lg font-bold leading-10 tracking-tight  text-center text-5xl">
-            Starting the wizard path
+            Apprendice wizard path
           </h1>
           <Image alt="image" className="" width="94" height="100" src={gorro} />
         </div>
@@ -83,7 +83,7 @@ export default function StartWizardPath() {
                 {/* Utilizamos justify-end e items-end */}
                 <Link target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/c7sL9rh1mIy6MLygNdjB15HvsTmmqi-NoYDnp-48z1M">
+                  href="https://mirror.xyz/seedlatam.eth/lxUIkT6NrZBl5Hbdcdy2Opnt0tFOGrZRCeYaFwWKbSI">
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>
               </div>

@@ -7,7 +7,7 @@ export default function SeedNode() {
   return (
     /* Desktop */
     <div className="bg-[url('../assets/img/seednode/background2.svg')] w-screen bg-cover pr-3 pt-28 justify-center items-center min-h-screen">
-      <div className="max-w-[1100px] min-h-screen pl-[5vw] pr-[3vw] hidden  md:flex">
+      <div className="max-w-[1100px] min-h-screen pl-[5vw] pr-[3vw] hidden  lg:flex">
         <div className=" 2xl:pt-[3.5rem] lg:pt-[2.5rem] md:pt-[1.5rem]">
           <Image
             className="mb-[28px] mr-9"
@@ -17,7 +17,7 @@ export default function SeedNode() {
           ></Image>
 
           <h1 className={styles.h1}>SEED Node</h1>
-        
+
           <p className={styles.p}>
             En SEEDNode, facilitamos el acceso a nodos seguros y escalables en
             todo el mundo. <br /> <br /> Más que una comunidad, somos pioneros
@@ -46,30 +46,39 @@ export default function SeedNode() {
       </div>
 
       {/* REPONSIVE */}
-      <div className="max-w-[750px] min-h-screen px-[5vw]  flex md:hidden mt-10">
+      <div className="max-w-[750px] min-h-screen px-[5vw]  flex lg:hidden mt-10">
         <div>
+          
           <Image
             className="mt-10 mr-2 "
             height={90.19}
             src={NodoImg}
             alt="Logo"
           ></Image>
+          <h1 className={styles.h1}>SEED Node</h1>
+
 
           <p className="text-base">
-            “Collectively building the path to decentralized and unpermissioned
-            digital sovereignty”.
+            En SEEDNode, facilitamos el acceso a nodos seguros y escalables en
+            todo el mundo. <br /> <br /> Más que una comunidad, somos pioneros
+            que impulsan la descentralización y accesibilidad de esta
+            tecnología.
           </p>
 
-          <div className="flex">
+          <div className="pt-8 flex">
             <div>
               {" "}
-              <Link href="#Descubrenos">
-                <button className={styles.hero_button1}>Discover us</button>
+              <Link href="/seednode/universe">
+                <button className={styles.hero_button1}>Get started</button>
               </Link>
             </div>
             <div>
-              <Link target="_blank" rel="noopener" href="/links">
-                <button className={styles.hero_button2}>Contact us</button>
+              <Link
+                target="_blank"
+                rel="noopener"
+                href="https://seedorg.super.site/seednode"
+              >
+                <button className={styles.hero_button2}>About us</button>
               </Link>
             </div>
           </div>
