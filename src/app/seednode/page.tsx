@@ -1,17 +1,17 @@
 import Link from "next/link";
 import styles from "./seednode.module.css";
 import Image from "next/image";
-import NodoImg from "@/app/assets/img/seednode/9.svg";
+import NodoImg from "@/app/assets/img/seednode/Logo2.svg";
 
 export default function SeedNode() {
   return (
     /* Desktop */
-    <div className="bg-[url('../assets/img/seednode/background.svg')] w-screen bg-cover pr-3 pt-28 justify-center items-center min-h-screen">
+    <div className="bg-[url('../assets/img/seednode/background2.svg')] w-screen bg-cover pr-3 pt-28 justify-center items-center min-h-screen">
       <div className="max-w-[1100px] min-h-screen pl-[5vw] pr-[3vw] hidden  md:flex">
         <div className=" 2xl:pt-[3.5rem] lg:pt-[2.5rem] md:pt-[1.5rem]">
           <Image
-            className="mb-[28px] mr-2"
-            height={325}
+            className="mb-[28px] mr-9"
+            height={180}
             src={NodoImg}
             alt="Logo"
           ></Image>

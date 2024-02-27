@@ -3,17 +3,17 @@ import styles from "../../seednode.module.css";
 
 export default function Ethereum() {
   return (
-    <div className=" justify-center items-center min-h-screen">
-      
-      <h1 className="pt-32 text-shadow-lg font-bold leading-10 tracking-tight  text-center text-7xl">
+    <div className=" justify-center items-center min-h-screen mx-8 sm:mx-24 lg:mx-28">
+      <h1 className="pt-32 2xl:pl-10 text-shadow-lg font-bold leading-10 tracking-tight  text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
         Ethereum: The infinite
       </h1>
-      <div className="pt-7 mx-auto px-24">
-        <p className={styles.p}>
+      <div className="pt-7 ">
+        <p className="text-center text-2xl not-italic font-normal leading-7 tracking-[-1.2px] pt-[25.75px]">
           Ethereum: the infinite está diseñado por SEEDNode para que aprendas de
-          forma interactiva sobre nodos. A través de tres niveles: X1, X2 y X3,
-          mejorarás tus conocimientos. Cada nivel te ayudará a ordenar y a
-          desbloquear contenido más avanzado
+          forma interactiva sobre nodos. A través de tres niveles:{" "}
+          <b>Apprendice Wizard Path</b>,<b> Walking the Wizard Path</b> y{" "}
+          <b>Node Wizard</b>, mejorarás tus conocimientos. <br/><br/> Cada nivel te ayudará
+          a ordenar y a desbloquear contenido más avanzado
         </p>
       </div>
 

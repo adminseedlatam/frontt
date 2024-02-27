@@ -72,7 +72,7 @@ export const DirectionAwareHover = ({
     >
       <AnimatePresence mode="wait">
         <motion.div
-          className="relative h-full w-full"
+          className="relative  lg:h-full lg:w-full"
           initial="initial"
           whileHover={direction}
           exit="exit"

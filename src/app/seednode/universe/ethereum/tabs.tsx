@@ -22,7 +22,7 @@ export default function TabsDemo() {
       title: "Walking the Wizard path",
       value: "walking the Wizard path",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-400 to-[#8D3C94]">
           <WalkWizardPath />
         </div>
       ),
@@ -31,7 +31,7 @@ export default function TabsDemo() {
       title: "Node Wizard",
       value: "node Wizard",
       content: (
-        <div className="flex flex-wrap w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="flex flex-wrap w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-400 to-[#8D3C94]">
           <FullWizardPath />
         </div>
       ),
@@ -39,7 +39,8 @@ export default function TabsDemo() {
   ];
 
   return (
-    <div className="h-[20rem] md:h-[120rem] [perspective:1000px]  relative b flex flex-col max-w-5xl px-6 lg:mx-auto w-full  items-start justify-start mt-20 mb-40">
+    /* Modify when adding more articles */
+    <div className=" h-[70rem] sm:h-[70rem] md:h-[80rem] lg:h-[85rem] [perspective:1000px]  relative b flex flex-col lg:max-w-5xl px-6 mx-auto w-full  items-start justify-start mt-20  mb-40">
       <Tabs tabs={tabs} />
     </div>
   );

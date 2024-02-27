@@ -10,9 +10,8 @@ export default function Universe() {
         </h1>
         <div className="pt-7">
           <p className="text-center text-xl font-normal leading-7 tracking-tighter pt-26.75 pl-5vw mx-7 md:mx-36">
-            Aquí podrán explorar el universo de nodos que les proponemos, elegir
-            una blockchain e iniciar su viaje por{" "}
-            <strong>Ethereum: the infinite.</strong>
+            Explora nuestro universo de nodos, elige una blockchain y comienza
+            tu viaje por <strong>Ethereum: the infinite</strong> te espera.
           </p>
         </div>
         {/* Cards */}
