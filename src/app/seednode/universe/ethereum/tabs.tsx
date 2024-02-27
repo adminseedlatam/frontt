@@ -10,19 +10,19 @@ import FullWizardPath from "./fullWizard";
 export default function TabsDemo() {
   const tabs = [
     {
-      title: "Apprendice Wizard Path",
-      value: "apprendice Wizard Path",
+      title: "Node Apprentice",
+      value: "node apprentice",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-400 to-[#8D3C94]">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#B9B8FD] to-[#6C52BB]">
           <StartWizardPath />
         </div>
       ),
     },
     {
-      title: "Walking the Wizard path",
-      value: "walking the Wizard path",
+      title: "Node Guardian",
+      value: "node guardian",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-400 to-[#8D3C94]">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#9A95FF] to-[#4A3686]">
           <WalkWizardPath />
         </div>
       ),
@@ -31,7 +31,7 @@ export default function TabsDemo() {
       title: "Node Wizard",
       value: "node Wizard",
       content: (
-        <div className="flex flex-wrap w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-400 to-[#8D3C94]">
+        <div className="flex flex-wrap w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-[#6149AB] to-[#211E25]">
           <FullWizardPath />
         </div>
       ),

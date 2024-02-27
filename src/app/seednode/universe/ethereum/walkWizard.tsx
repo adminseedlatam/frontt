@@ -18,7 +18,7 @@ export default function WalkWizardPath() {
         <div className="flex justify-center items-center">
           <Image alt="image" className="" width="94" height="100" src={gorro} />
           <h1 className="pt-7 text-shadow-lg font-bold leading-10 tracking-tight  text-center text-5xl">
-            Starting the wizard path
+            Node Guardian
           </h1>
           <Image alt="image" className="" width="94" height="100" src={gorro} />
         </div>
@@ -29,16 +29,17 @@ export default function WalkWizardPath() {
       </div>
       <div className="lg:hidden flex justify-center items-center  ">
         <h1 className="pt-2 text-shadow-lg font-bold leading-10 tracking-tight  text-center text-5xl">
-          Starting the wizard path
+          Node Guardian
         </h1>
       </div>
 
       <div className="mx-0 lg:mx-11">
         <p className={styles.p}>
-          Descubre los fundamentos de Ethereum para iniciar tu viaje hacia
-          correr tu propio nodo. Explora el papel de los nodos en la red, así
-          como el concepto y proceso del staking líquido, haciendo un recorrido
-          por su historia y principios.
+          En este tramo de nuestro recorrido, podrás ver el paso a paso para
+          construir un nodo desde cero con materiales de hardware, así como
+          investigar sobre las medidas de seguridad para operadores de nodos.
+          Adentrate en la importancia de la sincronización y las
+          actualizaciones.
         </p>
       </div>
       {/* Articulos */}

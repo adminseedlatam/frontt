@@ -8,9 +8,9 @@ import styles from "../../seednode.module.css";
 import Link from "next/link";
 
 export default function StartWizardPath() {
-  const art1 = "https://i.imgur.com/l7dH2Xl.png";
+  const art1 = "https://i.imgur.com/hN77yLz.png";
 
-  const art2 = "https://i.imgur.com/eP7MJ9w.png";
+  const art2 = "https://i.imgur.com/pbE68OB.png";
 
   return (
     <div className=" justify-center items-center ">
@@ -19,7 +19,7 @@ export default function StartWizardPath() {
         <div className="flex justify-center items-center">
           <Image alt="image" className="" width="94" height="100" src={gorro} />
           <h1 className="pt-7 text-shadow-lg font-bold leading-10 tracking-tight  text-center text-5xl">
-            Apprendice wizard path
+            Node Apprentice
           </h1>
           <Image alt="image" className="" width="94" height="100" src={gorro} />
         </div>
@@ -30,7 +30,7 @@ export default function StartWizardPath() {
       </div>
       <div className="lg:hidden flex justify-center items-center  ">
         <h1 className="pt-2 text-shadow-lg font-bold leading-10 tracking-tight  text-center text-5xl">
-          Starting the wizard path
+          Node Apprentice
         </h1>
       </div>
 
@@ -57,9 +57,11 @@ export default function StartWizardPath() {
               <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
                 {" "}
                 {/* Utilizamos justify-end e items-end */}
-                <Link target="_blank"
+                <Link
+                  target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/c7sL9rh1mIy6MLygNdjB15HvsTmmqi-NoYDnp-48z1M">
+                  href="https://mirror.xyz/seedlatam.eth/c7sL9rh1mIy6MLygNdjB15HvsTmmqi-NoYDnp-48z1M"
+                >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>
               </div>
@@ -81,9 +83,11 @@ export default function StartWizardPath() {
               <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
                 {" "}
                 {/* Utilizamos justify-end e items-end */}
-                <Link target="_blank"
+                <Link
+                  target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/lxUIkT6NrZBl5Hbdcdy2Opnt0tFOGrZRCeYaFwWKbSI">
+                  href="https://mirror.xyz/seedlatam.eth/lxUIkT6NrZBl5Hbdcdy2Opnt0tFOGrZRCeYaFwWKbSI"
+                >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>
               </div>

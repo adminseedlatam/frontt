@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./seednode.module.css";
 import Image from "next/image";
-import NodoImg from "@/app/assets/img/seednode/Logo2.svg";
+import NodoImg from "@/app/assets/img/seednode/Logo1.svg";
 
 export default function SeedNode() {
   return (
@@ -11,7 +11,7 @@ export default function SeedNode() {
         <div className=" 2xl:pt-[3.5rem] lg:pt-[2.5rem] md:pt-[1.5rem]">
           <Image
             className="mb-[28px] mr-9"
-            height={180}
+            height={200}
             src={NodoImg}
             alt="Logo"
           ></Image>
