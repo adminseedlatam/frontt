@@ -11,7 +11,7 @@ export default function Ethereum() {
         <p className="text-center text-2xl not-italic font-normal leading-7 tracking-[-1.2px] pt-[25.75px]">
           Ethereum: the infinite está diseñado por SEEDNode para que aprendas de
           forma interactiva sobre nodos. A través de tres niveles:{" "}
-          <b>Apprendice Wizard Path</b>,<b> Walking the Wizard Path</b> y{" "}
+          <b>Node Apprendice</b>,<b> Node Guardian</b> y{" "}
           <b>Node Wizard</b>, mejorarás tus conocimientos. <br/><br/> Cada nivel te ayudará
           a ordenar y a desbloquear contenido más avanzado
         </p>
