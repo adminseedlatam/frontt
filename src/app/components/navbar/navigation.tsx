@@ -42,6 +42,13 @@ export function Navigation() {
               </Link>
 
               <Link
+                href="/seednode"
+                className=" p-2  text-lg font-bold  text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
+              >
+                Seed node
+              </Link>
+
+              <Link
                 href="#Separte"
                 className=" p-2  text-lg  font-bold text-white border-[#222222] border-b-4 hover:border-b-4 hover:border-[#F651F6]"
               >
@@ -102,6 +109,9 @@ export function Navigation() {
                   </li>
                   <li>
                     <Link href="#Gobernanza">Governance</Link>
+                  </li>
+                  <li>
+                    <Link href="/seednode">Seed Node</Link>
                   </li>
                   <li>
                     <Link href="#Separte">Join us</Link>
