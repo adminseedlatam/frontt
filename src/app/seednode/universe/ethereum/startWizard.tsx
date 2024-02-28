@@ -58,9 +58,9 @@ export default function StartWizardPath() {
                 {" "}
                 {/* Utilizamos justify-end e items-end */}
                 <Link
+                  href="https://mirror.xyz/seedlatam.eth"
+                  rel="noopener noreferrer"
                   target="_blank"
-                  rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/c7sL9rh1mIy6MLygNdjB15HvsTmmqi-NoYDnp-48z1M"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>
