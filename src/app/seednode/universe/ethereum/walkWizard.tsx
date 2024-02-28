@@ -49,10 +49,12 @@ export default function WalkWizardPath() {
           <DirectionAwareHover imageUrl={art1}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
-                <h1 className="font-bold text-xl">
-                  Construyendo un nodo desde cero con materiales de hardware
-                </h1>
-                <p className="font-normal text-sm">Descripcion?</p>
+                <p className="font-normal text-sm">
+                  Descubre cómo construir tu propio nodo físico para la
+                  tecnología blockchain. Desde especificaciones recomendadas
+                  hasta consejos prácticos y una guía completa para configurar
+                  un nodo de Ethereum.
+                </p>
               </div>
               <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
                 {" "}
@@ -73,11 +75,12 @@ export default function WalkWizardPath() {
           <DirectionAwareHover imageUrl={art2}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
-                <h1 className="font-bold text-xl">
-                  Medidas de Seguridad para Operadores de Nodos
-                </h1>
                 <p className="font-normal text-sm">
-                  Diferencias y características
+                  Protege tu nodo Ethereum: Medidas esenciales para salvaguardar
+                  la integridad de la red. Descubre cómo fortalecer la seguridad
+                  de tus nodos distribuidos con recomendaciones prácticas, desde
+                  monitoreo constante hasta implementación de protocolos de
+                  enrutamiento seguros y más.
                 </p>
               </div>
               <div className="sm: md: lg: xl:ml-[225px] flex justify-end">

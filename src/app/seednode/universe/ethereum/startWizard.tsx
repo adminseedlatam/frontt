@@ -50,9 +50,9 @@ export default function StartWizardPath() {
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <h1 className="font-bold text-xl">
-                  Ethereum: El nacimiento de la nueva era digital
+                  {/* Ethereum: El nacimiento de la nueva era digital */}
                 </h1>
-                <p className="font-normal text-sm">Descripcion?</p>
+                <p className="font-normal text-sm">{/* Descripcion? */}</p>
               </div>
               <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
                 {" "}
@@ -73,11 +73,13 @@ export default function StartWizardPath() {
           <DirectionAwareHover imageUrl={art2}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
-                <h1 className="font-bold text-xl">
-                  Diferencias entre nodos archivo, completos y ligeros
-                </h1>
                 <p className="font-normal text-sm">
-                  Diferencias y características
+                  Descubre los fundamentos esenciales de los nodos Ethereum: su
+                  papel clave en la red, la importancia de su diversidad y los
+                  requisitos para ejecutar nodos completos, de archivo y
+                  ligeros. Explora cómo contribuyen a la descentralización y la
+                  seguridad de la red, y conoce los recursos necesarios para su
+                  implementación
                 </p>
               </div>
               <div className="sm: md: lg: xl:ml-[225px] flex justify-end">

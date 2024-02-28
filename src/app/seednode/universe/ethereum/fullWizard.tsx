@@ -49,9 +49,9 @@ export default function WalkWizardPath() {
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <h1 className="font-bold text-xl">
-                  PoS - De Full Node a Validator Node
+                  {/* PoS - De Full Node a Validator Node */}
                 </h1>
-                <p className="font-normal text-sm">Descripcion?</p>
+                <p className="font-normal text-sm">{/* Descripcion */}</p>
               </div>
               <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
                 {" "}
