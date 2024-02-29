@@ -6,9 +6,10 @@ import { DirectionAwareHover } from "../../../components/ui/direction-aware-hove
 import gorro from "@/app/assets/img/seednode/2 old school hat.svg";
 import styles from "../../seednode.module.css";
 import Link from "next/link";
+import art1 from "@/app/assets/img/seednode/fullNodeValidatorNode.png";
 
 export default function WalkWizardPath() {
-  const art1 = "https://i.imgur.com/qiUEz35.png";
+  
 
   return (
     <div className=" justify-center items-center ">
@@ -45,7 +46,7 @@ export default function WalkWizardPath() {
       <div>
         {/* Articulo 1 */}
         <div className="h-[6rem] sm:h-[20rem] md:h-[35rem] lg:h-[40rem] pt-40 sm:pt-0 relative  flex items-center justify-center">
-          <DirectionAwareHover imageUrl={art1}>
+          <DirectionAwareHover imageUrl={art1.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <h1 className="font-bold text-xl">
