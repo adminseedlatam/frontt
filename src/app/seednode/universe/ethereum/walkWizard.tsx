@@ -6,10 +6,11 @@ import { DirectionAwareHover } from "../../../components/ui/direction-aware-hove
 import gorro from "@/app/assets/img/seednode/2 intermediate hat.svg";
 import styles from "../../seednode.module.css";
 import Link from "next/link";
+import art1 from "@/app/assets/img/seednode/construyendo-nodo-hardware.png";
+import art2 from "@/app/assets/img/seednode/artMedidasSeg.jpg";
+
 
 export default function WalkWizardPath() {
-  const art1 = "https://i.imgur.com/aXcXMpD.png";
-  const art2 = "https://i.imgur.com/252W1m3.png";
 
   return (
     <div className=" justify-center items-center ">
@@ -46,7 +47,7 @@ export default function WalkWizardPath() {
       <div>
         {/* Articulo 1 */}
         <div className="h-[6rem] sm:h-[20rem] md:h-[35rem] lg:h-[40rem] pt-40 sm:pt-0 relative  flex items-center justify-center">
-          <DirectionAwareHover imageUrl={art1}>
+          <DirectionAwareHover imageUrl={art1.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <p className="font-normal text-sm">
@@ -72,7 +73,7 @@ export default function WalkWizardPath() {
         </div>
         {/* Articulo 2 */}
         <div className="h-[20rem] sm:h-[0rem] md:h-[20rem] relative  flex items-center justify-center">
-          <DirectionAwareHover imageUrl={art2}>
+          <DirectionAwareHover imageUrl={art2.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <p className="font-normal text-sm">

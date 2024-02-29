@@ -6,11 +6,10 @@ import { DirectionAwareHover } from "../../../components/ui/direction-aware-hove
 import gorro from "@/app/assets/img/seednode/2 newbie hat.svg";
 import styles from "../../seednode.module.css";
 import Link from "next/link";
+import art1 from "@/app/assets/img/seednode/eth-nac-era-digital.png";
+import art2 from "@/app/assets/img/seednode/tipos-nodos-portada.png";
 
 export default function StartWizardPath() {
-  const art1 = "https://i.imgur.com/tBZtrzu.png";
-
-  const art2 = "https://i.imgur.com/x70t1xM.png";
 
   return (
     <div className=" justify-center items-center ">
@@ -46,7 +45,7 @@ export default function StartWizardPath() {
       <div>
         {/* Articulo 1 */}
         <div className="h-[6rem] sm:h-[20rem] md:h-[35rem] lg:h-[40rem] pt-40 sm:pt-0 relative  flex items-center justify-center">
-          <DirectionAwareHover imageUrl={art1}>
+          <DirectionAwareHover imageUrl={art1.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <h1 className="font-bold text-xl">
@@ -70,7 +69,7 @@ export default function StartWizardPath() {
         </div>
         {/* Articulo 2 */}
         <div className="h-[20rem] sm:h-[0rem] md:h-[20rem] relative  flex items-center justify-center">
-          <DirectionAwareHover imageUrl={art2}>
+          <DirectionAwareHover imageUrl={art2.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <p className="font-normal text-sm">
