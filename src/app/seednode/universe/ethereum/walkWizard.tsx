@@ -62,7 +62,7 @@ export default function WalkWizardPath() {
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/c7sL9rh1mIy6MLygNdjB15HvsTmmqi-NoYDnp-48z1M"
+                  href="/seednode/universe/ethereum/articles/contruyendo-nodos"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>
@@ -89,7 +89,7 @@ export default function WalkWizardPath() {
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/fnGBQeAW0r5IPsnMIo3kJoW4zJHDC3YZIle7z7T_O1w"
+                  href="/seednode/universe/ethereum/articles/seguridad-op-nodos"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>

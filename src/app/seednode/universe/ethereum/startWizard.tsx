@@ -58,7 +58,7 @@ export default function StartWizardPath() {
                 {" "}
                 {/* Utilizamos justify-end e items-end */}
                 <Link
-                  href="https://mirror.xyz/seedlatam.eth"
+                  href="/seednode/universe/ethereum/articles/nacimiento-era-digital"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -88,7 +88,7 @@ export default function StartWizardPath() {
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/lxUIkT6NrZBl5Hbdcdy2Opnt0tFOGrZRCeYaFwWKbSI"
+                  href="/seednode/universe/ethereum/articles/tipos-nodos"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>

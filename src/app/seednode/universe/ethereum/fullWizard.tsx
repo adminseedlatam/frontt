@@ -59,7 +59,7 @@ export default function WalkWizardPath() {
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/ddwMgu_S0Ie5T7V0KWxSjx_-AsXm7mQGQ4-2jXFRIrg"
+                  href="/seednode/universe/ethereum/articles/full-node-a-validator-node"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>

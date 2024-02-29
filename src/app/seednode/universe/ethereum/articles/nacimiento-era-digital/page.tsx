@@ -1,5 +1,5 @@
 
-import styles from "../seednode.module.css";
+import styles from "../../../../seednode.module.css";
 
 export default function Articulo1() {
   return (
