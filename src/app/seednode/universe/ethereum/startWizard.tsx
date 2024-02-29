@@ -8,9 +8,9 @@ import styles from "../../seednode.module.css";
 import Link from "next/link";
 
 export default function StartWizardPath() {
-  const art1 = "https://i.imgur.com/hN77yLz.png";
+  const art1 = "https://i.imgur.com/tBZtrzu.png";
 
-  const art2 = "https://i.imgur.com/pbE68OB.png";
+  const art2 = "https://i.imgur.com/x70t1xM.png";
 
   return (
     <div className=" justify-center items-center ">
@@ -50,7 +50,7 @@ export default function StartWizardPath() {
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <h1 className="font-bold text-xl">
-                  {/* Ethereum: El nacimiento de la nueva era digital */}
+                  Ethereum: El nacimiento de la nueva era digital
                 </h1>
                 <p className="font-normal text-sm">{/* Descripcion? */}</p>
               </div>
@@ -58,7 +58,7 @@ export default function StartWizardPath() {
                 {" "}
                 {/* Utilizamos justify-end e items-end */}
                 <Link
-                  href="https://mirror.xyz/seedlatam.eth"
+                  href="/seednode/universe/ethereum/articles/nacimiento-era-digital"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -88,7 +88,7 @@ export default function StartWizardPath() {
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/lxUIkT6NrZBl5Hbdcdy2Opnt0tFOGrZRCeYaFwWKbSI"
+                  href="/seednode/universe/ethereum/articles/tipos-nodos"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>

@@ -8,8 +8,8 @@ import styles from "../../seednode.module.css";
 import Link from "next/link";
 
 export default function WalkWizardPath() {
-  const art1 = "https://i.imgur.com/v8hpynE.png";
-  const art2 = "https://i.imgur.com/4BivUH5.png";
+  const art1 = "https://i.imgur.com/aXcXMpD.png";
+  const art2 = "https://i.imgur.com/252W1m3.png";
 
   return (
     <div className=" justify-center items-center ">
@@ -62,7 +62,7 @@ export default function WalkWizardPath() {
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/c7sL9rh1mIy6MLygNdjB15HvsTmmqi-NoYDnp-48z1M"
+                  href="/seednode/universe/ethereum/articles/contruyendo-nodos"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>
@@ -89,7 +89,7 @@ export default function WalkWizardPath() {
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/fnGBQeAW0r5IPsnMIo3kJoW4zJHDC3YZIle7z7T_O1w"
+                  href="/seednode/universe/ethereum/articles/seguridad-op-nodos"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>

@@ -8,7 +8,7 @@ import styles from "../../seednode.module.css";
 import Link from "next/link";
 
 export default function WalkWizardPath() {
-  const art1 = "https://i.imgur.com/Vhre3Xm.png";
+  const art1 = "https://i.imgur.com/qiUEz35.png";
 
   return (
     <div className=" justify-center items-center ">
@@ -59,7 +59,7 @@ export default function WalkWizardPath() {
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href="https://mirror.xyz/seedlatam.eth/ddwMgu_S0Ie5T7V0KWxSjx_-AsXm7mQGQ4-2jXFRIrg"
+                  href="/seednode/universe/ethereum/articles/full-node-a-validator-node"
                 >
                   <button className={styles.card_button1}>Leer Articulo</button>
                 </Link>
