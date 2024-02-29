@@ -8,7 +8,7 @@ import styles from "../../seednode.module.css";
 import Link from "next/link";
 
 export default function WalkWizardPath() {
-  const art1 = "https://i.imgur.com/Vhre3Xm.png";
+  const art1 = "https://i.imgur.com/qiUEz35.png";
 
   return (
     <div className=" justify-center items-center ">
