@@ -7,7 +7,7 @@ import gorro from "@/app/assets/img/seednode/2 intermediate hat.svg";
 import styles from "../../seednode.module.css";
 import Link from "next/link";
 import art1 from "@/app/assets/img/seednode/construyendo-nodo-hardware.png";
-import art2 from "@/app/assets/img/seednode/artMedidasSeg.jpg";
+import art2 from "@/app/assets/img/seednode/medidas-seg.png";
 
 
 export default function WalkWizardPath() {
