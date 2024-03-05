@@ -44,9 +44,9 @@ export default function WalkWizardPath() {
         </p>
       </div>
       {/* Articulos */}
-      <div>
+      <div className="overflow-y-auto">
         {/* Articulo 1 */}
-        <div className="h-[6rem] sm:h-[20rem] md:h-[35rem] lg:h-[40rem] pt-40 sm:pt-0 relative  flex items-center justify-center">
+        <div className="h-[12rem] sm:h-[20rem] md:h-[30rem] lg:h-[30rem] pt-40 sm:pt-0  relative  flex items-center justify-center">
           <DirectionAwareHover imageUrl={art1.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
@@ -72,7 +72,34 @@ export default function WalkWizardPath() {
           </DirectionAwareHover>
         </div>
         {/* Articulo 2 */}
-        <div className="h-[20rem] sm:h-[0rem] md:h-[20rem] relative  flex items-center justify-center">
+        <div className=" h-[21rem] sm:h-[1rem] md:h-[15rem] lg:h-[20rem] md:pt-20 flex items-center justify-center">
+          <DirectionAwareHover imageUrl={art2.src}>
+            <div className="grid grid-cols-2">
+              <div className="col-span-1">
+                <p className="font-normal text-sm">
+                  Protege tu nodo Ethereum: Medidas esenciales para salvaguardar
+                  la integridad de la red. Descubre cómo fortalecer la seguridad
+                  de tus nodos distribuidos con recomendaciones prácticas, desde
+                  monitoreo constante hasta implementación de protocolos de
+                  enrutamiento seguros y más.
+                </p>
+              </div>
+              <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
+                {" "}
+                {/* Utilizamos justify-end e items-end */}
+                <Link
+                  target="_blank"
+                  rel="noopener"
+                  href="/seednode/universe/ethereum/articles/guia-nodo-ethereum"
+                >
+                  <button className={styles.card_button1}>Leer Articulo</button>
+                </Link>
+              </div>
+            </div>
+          </DirectionAwareHover>
+        </div>
+        {/* Articulo 3 */}
+        <div className=" h-[0rem] sm:h-[10rem] md:h-[20rem] sm:mb-20 sm:mt-20 md:pt-40  relative  flex items-center justify-center">
           <DirectionAwareHover imageUrl={art2.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
