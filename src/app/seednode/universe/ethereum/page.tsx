@@ -1,5 +1,4 @@
 import Tabs from "./tabs.tsx";
-import styles from "../../seednode.module.css";
 
 export default function Ethereum() {
   return (
