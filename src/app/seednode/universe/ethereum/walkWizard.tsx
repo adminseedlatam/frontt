@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "../../../../../utils/cn";
 import { DirectionAwareHover } from "../../../components/ui/direction-aware-hover";
 import gorro from "@/app/assets/img/seednode/2 intermediate hat.svg";
-import styles from "../../seednode.module.css";
+import styles from "./seednode.module.css";
 import Link from "next/link";
 import art1 from "@/app/assets/img/seednode/construyendo-nodo-hardware.png";
 import art2 from "@/app/assets/img/seednode/portadaguia.png";
