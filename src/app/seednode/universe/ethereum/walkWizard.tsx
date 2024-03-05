@@ -7,11 +7,10 @@ import gorro from "@/app/assets/img/seednode/2 intermediate hat.svg";
 import styles from "../../seednode.module.css";
 import Link from "next/link";
 import art1 from "@/app/assets/img/seednode/construyendo-nodo-hardware.png";
-import art2 from "@/app/assets/img/seednode/medidas-seg.png";
-
+import art2 from "@/app/assets/img/seednode/portadaguia.png";
+import art3 from "@/app/assets/img/seednode/medidas-seg.png";
 
 export default function WalkWizardPath() {
-
   return (
     <div className=" justify-center items-center ">
       {/* Desktop */}
@@ -44,7 +43,7 @@ export default function WalkWizardPath() {
         </p>
       </div>
       {/* Articulos */}
-      <div className="overflow-y-auto">
+      <div className="overflow-y-auto lg:overflow-y-hidden">
         {/* Articulo 1 */}
         <div className="h-[12rem] sm:h-[20rem] md:h-[30rem] lg:h-[30rem] pt-40 sm:pt-0  relative  flex items-center justify-center">
           <DirectionAwareHover imageUrl={art1.src}>
@@ -77,11 +76,10 @@ export default function WalkWizardPath() {
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <p className="font-normal text-sm">
-                  Protege tu nodo Ethereum: Medidas esenciales para salvaguardar
-                  la integridad de la red. Descubre cómo fortalecer la seguridad
-                  de tus nodos distribuidos con recomendaciones prácticas, desde
-                  monitoreo constante hasta implementación de protocolos de
-                  enrutamiento seguros y más.
+                  Configura tu propio nodo de Ethereum con nuestra guía
+                  completa. Desde la instalación hasta la selección del cliente,
+                  contribuye a la descentralización de la red. ¡Únete al
+                  movimiento y sé dueño de tu camino tecnológico!
                 </p>
               </div>
               <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
@@ -100,7 +98,7 @@ export default function WalkWizardPath() {
         </div>
         {/* Articulo 3 */}
         <div className=" h-[0rem] sm:h-[10rem] md:h-[20rem] sm:mb-20 sm:mt-20 md:pt-40  relative  flex items-center justify-center">
-          <DirectionAwareHover imageUrl={art2.src}>
+          <DirectionAwareHover imageUrl={art3.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <p className="font-normal text-sm">
