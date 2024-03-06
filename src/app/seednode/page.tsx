@@ -20,12 +20,10 @@ export default function SeedNode() {
 
           <p className={styles.p}>
             En SEEDNode, facilitamos el acceso a nodos seguros y escalables en
-            todo el mundo. <br /> <br /> Más que una comunidad, somos pioneros
-            que impulsan la descentralización y accesibilidad de esta
-            tecnología.
+            todo el mundo.
           </p>
 
-          <div className="flex py-[2.23rem]">
+          <div className="flex py-[2.5rem]">
             <div>
               {" "}
               <Link href="/seednode/universe">
@@ -60,9 +58,7 @@ export default function SeedNode() {
 
           <p className="text-base">
             En SEEDNode, facilitamos el acceso a nodos seguros y escalables en
-            todo el mundo. <br /> <br /> Más que una comunidad, somos pioneros
-            que impulsan la descentralización y accesibilidad de esta
-            tecnología.
+            todo el mundo.
           </p>
 
           <div className="pt-8 flex">

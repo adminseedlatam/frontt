@@ -6,11 +6,11 @@ import { DirectionAwareHover } from "../../../components/ui/direction-aware-hove
 import gorro from "@/app/assets/img/seednode/2 newbie hat.svg";
 import styles from "./seednode.module.css";
 import Link from "next/link";
+import art0 from "@/app/assets/img/seednode/nodos-101.png";
 import art1 from "@/app/assets/img/seednode/eth-nac-era-digital.png";
 import art2 from "@/app/assets/img/seednode/tipos-nodos-portada.png";
 
 export default function StartWizardPath() {
-
   return (
     <div className=" justify-center items-center ">
       {/* Desktop */}
@@ -43,8 +43,30 @@ export default function StartWizardPath() {
       </div>
       {/* Articulos */}
       <div>
+        {/* Articulo 0 */}
+        <div className="h-[12rem] sm:h-[20rem] md:h-[30rem] lg:h-[30rem] pt-40 sm:pt-0  relative  flex items-center justify-center">
+          <DirectionAwareHover imageUrl={art0.src}>
+            <div className="grid grid-cols-2">
+              <div className="col-span-1">
+                <h1 className="font-bold text-xl">Artículo 0: Nodos 101</h1>
+                <p className="font-normal text-sm">{/* Descripcion? */}</p>
+              </div>
+              <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
+                {" "}
+               
+                <Link
+                  href="/seednode/universe/ethereum/articles/nodos-101"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <button className={styles.card_button1}>Leer Articulo</button>
+                </Link>
+              </div>
+            </div>
+          </DirectionAwareHover>
+        </div>
         {/* Articulo 1 */}
-        <div className="h-[6rem] sm:h-[20rem] md:h-[35rem] lg:h-[40rem] pt-40 sm:pt-0 relative  flex items-center justify-center">
+        <div className=" h-[21rem] sm:h-[1rem] md:h-[15rem] lg:h-[20rem] md:pt-20 flex items-center justify-center">
           <DirectionAwareHover imageUrl={art1.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
@@ -68,7 +90,7 @@ export default function StartWizardPath() {
           </DirectionAwareHover>
         </div>
         {/* Articulo 2 */}
-        <div className="h-[20rem] sm:h-[0rem] md:h-[20rem] relative  flex items-center justify-center">
+        <div className="h-[0rem] sm:h-[10rem] md:h-[20rem] sm:mb-20 sm:mt-20 md:pt-40  relative  flex items-center justify-center">
           <DirectionAwareHover imageUrl={art2.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
