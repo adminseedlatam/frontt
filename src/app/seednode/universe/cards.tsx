@@ -23,7 +23,7 @@ export default function ThreeDCards() {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-neutral-600 text-sm max-w-sm mt-2"
+              className="text-neutral-600 sm:text-center text-sm max-w-sm mt-2"
             >
               Elige tu camino entre los distintos senderos que Ethereum tiene
               para ofrecerte, desde los principios basicos hasta correr tu
@@ -60,7 +60,7 @@ export default function ThreeDCards() {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+              className="text-neutral-500 sm:text-center text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
               Próximamente podrás conocer más sobre Optimism, explorando todo lo
               necesario para ejecutar tu propio nodo en esta blockchain de capa
@@ -104,7 +104,7 @@ export default function ThreeDCards() {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+              className="text-neutral-500 sm:text-center text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
               Próximamente podrás conocer más sobre StarkNet, explorando todo lo
               necesario para ejecutar tu propio nodo en esta blockchain de capa
