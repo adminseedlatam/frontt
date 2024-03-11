@@ -31,7 +31,7 @@ export default function ThreeDCards() {
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <a
-                href="/seednode/universe/ethereum"
+                href="/seednode/universe/ethereum/articles/pag-construccion"
                 rel="noopener noreferrer"
                 target="_blank"
               >
