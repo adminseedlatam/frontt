@@ -20,7 +20,7 @@ export default function Articulo2() {
           className="max-w-3xl pt-10 mx-4 pr-4 w-full h-auto rounded-lg sm:max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-5xl"
           width={1200}
           height={500}
-          alt="GovInWeb3"
+          alt="portada"
           src={portada}
         />
       </div>
