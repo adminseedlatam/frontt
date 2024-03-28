@@ -639,12 +639,183 @@ Global Flags:
           Para salir del comando docker compose logs presiona ctrl+c o control+c
         </p>
         <p className="mt-4">
-        (tambien podria agregar otros comandos: <Link
+          (Otros comandos:{" "}
+          <Link
+            className="font-bold underline text-md"
+            href="https://docs.sedge.nethermind.io/docs/commands"
+          >
+            Acá
+          </Link>{" "}
+          )
+        </p>
+        <h2 className="pt-6 pb-4 text-shadow-lg text-3xl lg:text-4xl font-extrabold leading-16 tracking-tight ">
+          Erigon
+        </h2>
+        <p className="mt-4">
+          Erigon es una implementación eficiente y optimizada de Ethereum,
+          diseñada para ser más rápida y modular.
+        </p>
+        <p className="mt-4">
+          Utiliza tecnologías avanzadas como la sincronización escalonada y el
+          almacenamiento de estado eficiente. Es un archieve node por defecto y
+          ha sido reescrito completamente para enfocarse en velocidad y ahorro
+          de almacenamiento.
+        </p>
+        <p className="mt-4">
+          Puede completar la sincronización de un archive node en menos de tres
+          días y con menos de 2 TB de almacenamiento.
+        </p>
+        <h3 className="pt-6 pb-4 text-shadow-lg text-xl lg:text-2xl xl:text-3xl font-extrabold leading-10 lg:leading-12 tracking-tight ">
+          Opciones
+        </h3>
+        <Link
           className="font-bold underline text-md"
-          href="https://docs.sedge.nethermind.io/docs/commands"
+          href="https://erigon.gitbook.io/erigon/advanced-usage/options"
         >
-          Acá
-        </Link> )
+          Docs
+        </Link>
+        <p className="mt-4">
+          En cuanto a lo que podemos hacer con Erigon es similar a los demás
+          clientes, la forma de acceder a los mandos es utilizando la flag{" "}
+          <span className="bg-gray-200 px-1 rounded text-black">
+            ./build/bin/erigon --help
+          </span>{" "}
+          donde el uso de estos comandos es el siguiente:
+        </p>
+        {/* Codigo */}
+        <div className="bg-gray-600 mt-4 rounded-lg p-2 overflow-x-auto text-white">
+          <pre className="whitespace-pre-wrap">
+            <code className="language-html">erigon [command] [flags]</code>
+          </pre>
+        </div>
+        <p className="mt-4">Con 5 comandos principales:</p>
+        <ul className="pt-4 list-disc ml-5 text-white">
+          <li>
+            <span className="font-bold text-red-600">init :</span> Inicializa y
+            arranca un nuevo bloque génesis
+          </li>
+          <li>
+            <span className="font-bold text-red-600">import :</span> Importa un
+            archivo de cadena de bloques
+          </li>
+          <li>
+            <span className="font-bold text-red-600">snapshots :</span> Gestiona
+            instantáneas (particiones de datos históricos)
+          </li>
+          <li>
+            <span className="font-bold text-red-600">support :</span> Conecta
+            una instancia de Erigon a un sistema de diagnóstico para soporte
+          </li>
+          <li>
+            <span className="font-bold text-red-600">help, h:</span> Muestra una
+            lista de comandos o ayuda para un comando
+          </li>
+        </ul>
+        <p className="mt-4">
+          Como las flags son un monton, aca dejamos algunas reelevantes:
+        </p>
+        <ul className="pt-4 list-disc ml-5 text-white">
+          <ul>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --datadir value
+              </span>
+              : Especifica el directorio de datos para las bases de datos.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --ethash.dagdir value
+              </span>
+              : Establece el directorio para almacenar los DAGs de minería
+              ethash.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --internalcl
+              </span>
+              : Activa el consenso interno.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --txpool.disable
+              </span>
+              : Deshabilita la funcionalidad interna de txpool y el productor de
+              bloques.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --prune value
+              </span>
+              : Configura qué datos antiguos eliminar de la base de datos.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --http
+              </span>
+              : Habilita el servidor JSON-RPC HTTP.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --http.port value
+              </span>
+              : Especifica el puerto en el que el servidor HTTP-RPC escucha las
+              solicitudes.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --ws
+              </span>
+              : Habilita el servidor WS-RPC.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --graphql
+              </span>
+              : Habilita el endpoint de GraphQL.
+            </li>
+            <li>
+              <span className="bg-gray-800 px-1 rounded text-red-600">
+                --db.pagesize value
+              </span>
+              : Establece el tamaño de página para la base de datos.
+            </li>
+          </ul>
+        </ul>
+        <h3 className="pt-6 pb-4 text-shadow-lg text-xl lg:text-2xl xl:text-3xl font-extrabold leading-10 lg:leading-12 tracking-tight ">
+          Otterscan
+        </h3>
+        <p className="mt-4">
+          Otterscan es un explorador de bloques de Ethereum diseñado para ser
+          ejecutado localmente junto con Erigon.
+        </p>
+        <p className="mt-4">
+          Basado completamente en código fuente abierto (open source code), es
+          extremadamente rápido y totalmente privado, ya que funciona en tu
+          máquina local. La interfaz de usuario es intencionalmente muy similar,
+          pero con muchas mejoras, al explorador de bloques de Ethereum más
+          popular para facilitar la ubicación de la información.
+        </p>
+        <p className="mt-4">
+          Para instalar Otterscan, sigue las instrucciones en el repositorio
+          oficial de Github:
+          <Link
+            className="font-bold underline text-md"
+            href="https://github.com/wmitsuda/otterscan/blob/develop/docs/install.md"
+          >
+            &nbsp;Docs
+          </Link>
+        </p>
+        <h2 className="pt-6 pb-4 text-shadow-lg text-3xl lg:text-4xl font-extrabold leading-16 tracking-tight ">
+          Conclusión
+        </h2>
+        <p className="mt-4">
+          La elección del cliente de Ethereum dependerá en gran medida de las
+          necesidades y objetivos específicos de cada usuario o proyecto. Es
+          recomendable evaluar las características y capacidades de cada cliente
+          para seleccionar la opción más adecuada según los requisitos de
+          rendimiento, seguridad, facilidad de uso y funcionalidades específicas
+          requeridas. Pero lo mas importante de todo es PROBAR estos clientes y
+          ver que es lo ideal para nosotros.
         </p>
 
         {/* FIN */}
