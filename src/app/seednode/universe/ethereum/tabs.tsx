@@ -40,7 +40,7 @@ export default function TabsDemo() {
 
   return (
     /* Modify when adding more articles */
-    <div className=" h-[70rem] sm:h-[70rem] md:h-[110rem] lg:h-[110rem] [perspective:1000px]  relative b flex flex-col lg:max-w-5xl px-6 mx-auto w-full  items-start justify-start mt-20  mb-40">
+    <div className=" h-[90rem] sm:h-[90rem] md:h-[130rem] lg:h-[130rem] [perspective:1000px]  relative b flex flex-col lg:max-w-5xl px-6 mx-auto w-full  items-start justify-start mt-20  mb-40">
       <Tabs tabs={tabs} />
     </div>
   );

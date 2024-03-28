@@ -8,7 +8,8 @@ import styles from "./seednode.module.css";
 import Link from "next/link";
 import art1 from "@/app/assets/img/seednode/construyendo-nodo-hardware.png";
 import art2 from "@/app/assets/img/seednode/portadaguia.png";
-import art3 from "@/app/assets/img/seednode/medidas-seg.png";
+import art3 from "@/app/assets/img/seednode/ethereum_clients.jpg";
+import art4 from "@/app/assets/img/seednode/medidas-seg.png";
 
 export default function WalkWizardPath() {
   return (
@@ -71,7 +72,7 @@ export default function WalkWizardPath() {
           </DirectionAwareHover>
         </div>
         {/* Articulo 2 */}
-        <div className=" h-[21rem] sm:h-[1rem] md:h-[15rem] lg:h-[20rem] md:pt-20 flex items-center justify-center">
+        <div className=" h-[18rem] sm:h-[1rem] md:h-[15rem] lg:h-[20rem]  md:pt-20 flex items-center justify-center">
           <DirectionAwareHover imageUrl={art2.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
@@ -97,8 +98,32 @@ export default function WalkWizardPath() {
           </DirectionAwareHover>
         </div>
         {/* Articulo 3 */}
-        <div className=" h-[0rem] sm:h-[10rem] md:h-[20rem] sm:mb-20 sm:mt-20 md:pt-40  relative  flex items-center justify-center">
+        <div className="h-[0rem] sm:h-[20rem] md:h-[35rem] lg:h-[37rem] pt-0 sm:pt-4 relative  flex items-center justify-center">
           <DirectionAwareHover imageUrl={art3.src}>
+            <div className="grid grid-cols-2">
+              <div className="col-span-1">
+                <h1 className="font-bold text-xl">
+                  {/* Medidas de seguridad para operadores de nodos */}
+                </h1>
+                <p className="font-normal text-sm">{/* Descripcion */}</p>
+              </div>
+              <div className="sm: md: lg: xl:ml-[225px] flex justify-end">
+                {" "}
+                {/* Utilizamos justify-end e items-end */}
+                <Link
+                  target="_blank"
+                  rel="noopener"
+                  href="/seednode/universe/ethereum/articles/ethereum_clients"
+                >
+                  <button className={styles.card_button1}>Leer Articulo</button>
+                </Link>
+              </div>
+            </div>
+          </DirectionAwareHover>
+        </div>
+        {/* Articulo 4 */}
+        <div className=" h-[-1rem] sm:h-[0rem] md:h-[20rem] sm:mb-20 sm:mt-4 md:pt-40 lg:pt-0  relative  flex items-center justify-center">
+          <DirectionAwareHover imageUrl={art4.src}>
             <div className="grid grid-cols-2">
               <div className="col-span-1">
                 <p className="font-normal text-sm">
