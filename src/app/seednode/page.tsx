@@ -19,7 +19,7 @@ export default function SeedNode() {
           <h1 className={styles.h1}>SEED Node</h1>
 
           <p className={styles.p}>
-            En SEEDNode, facilitamos el acceso a nodos seguros y escalables en
+            Facilitamos el acceso a nodos seguros y escalables en
             todo el mundo.
           </p>
 
