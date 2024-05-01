@@ -15,7 +15,7 @@ const nextConfig = {
     return [
       {
         source: "/",
-        destination: "https://seedorg.super.site/home#972ac703d5004f30a518fd33b0a72be9",
+        destination: "https://seedorg.super.site/",
         permanent: true,
       },
   
