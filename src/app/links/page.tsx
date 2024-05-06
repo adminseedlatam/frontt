@@ -56,7 +56,13 @@ export default function Links() {
                   <li>
                     <Link target="_blank" rel="noopener" href="https://twitter.com/SEEDGov">
                       <Image className="" alt="Logo" src={twitter}></Image>
-                      Twitter SEEDGov
+                      Twitter SEED Gov
+                    </Link>
+                  </li>
+                  <li>
+                    <Link target="_blank" rel="noopener" href="https://twitter.com/Seedorg_">
+                      <Image className="" alt="Logo" src={twitter}></Image>
+                      Twitter SEED Org
                     </Link>
                   </li>
 
@@ -133,7 +139,7 @@ export default function Links() {
                 <div className={styles.linksMainContainer}>
                   <ul className={styles.linksContainer}>
                     <li>
-                      <Link target="_blank" rel="noopener" href="https://twitter.com/Layer2es">
+                      <Link target="_blank" rel="noopener" href="https://seedorg.super.site/communities/l2-en-espaol">
                         <span>
                           <Image
                             className="mt-1 mr-2"
