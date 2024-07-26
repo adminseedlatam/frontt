@@ -149,30 +149,38 @@ export default function Links() {
                       Instagram
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      target="_blank"
-                      rel="noopener"
-                      href="https://x.com/SEEDNodes"
-                    >
-                      {" "}
-                      <Image className=" " alt="Logo" src={twitter}></Image>
-                      Twitter SEED Nodes
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      target="_blank"
-                      rel="noopener"
-                      href="https://t.me/SEED_Nodes"
-                    >
-                      {" "}
-                      <Image className=" " alt="Logo" src={telegram}></Image>
-                      Club de nodos
-                    </Link>
-                  </li>
                 </ul>
               </div>
+              <div>
+                <h2 className={styles.h2}>SEED Nodes</h2>
+                <div className={styles.linksMainContainer}>
+                  <ul className={styles.linksContainer}>
+                    <li>
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://x.com/SEEDNodes"
+                      >
+                        {" "}
+                        <Image className=" " alt="Logo" src={twitter}></Image>
+                        Twitter SEED Nodes
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        target="_blank"
+                        rel="noopener"
+                        href="https://t.me/SEED_Nodes"
+                      >
+                        {" "}
+                        <Image className=" " alt="Logo" src={telegram}></Image>
+                        Club de nodos
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
               <div>
                 <h2 className={styles.h2}>Communities</h2>
                 <div className={styles.linksMainContainer}>
