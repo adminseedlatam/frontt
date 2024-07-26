@@ -157,7 +157,7 @@ export default function Links() {
                     >
                       {" "}
                       <Image className=" " alt="Logo" src={twitter}></Image>
-                      SeedNodes
+                      Twitter SEED Nodes
                     </Link>
                   </li>
                   <li>
