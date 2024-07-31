@@ -19,7 +19,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/governanceday",
+        source: "/GovernanceDayAR",
         destination: "https://governanceday.framer.website/",
         permanent: true,
       },
