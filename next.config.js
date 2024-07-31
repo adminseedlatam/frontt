@@ -29,26 +29,6 @@ const nextConfig = {
         destination: "https://www.notion.so/seedlatam/Bienvenidos-welcome-e3f40e15d2d84f4ab34653324a15842b",
         permanent: true,
       },
-  
-      {
-        source: "/governanceday",
-        destination: "https://seedlatam.notion.site/SEEDday-Ethereum-Argentina-cec57147c36f473f8b65ef793c24f338?pvs=4",
-        permanent: true,
-      },
-  
-      {
-        source: "/governanceday/es",
-        destination: "https://www.notion.so/seedlatam/GovernanceDay-ESP-46af4fde4f46483582d43516811c042f?pvs=4",
-        permanent: true,
-      },
-
-      {
-        source: "/governanceday/en",
-        destination: "https://www.notion.so/seedlatam/Governance-Day-ENG-4f4f0d7773da4ecf9e39c97817d25064",
-        permanent: true,
-      },
-
-  
       {
         source: "/events",
         destination: "https://www.notion.so/seedlatam/SEED-Latam-Events-627a0d0646d646ef8ab58c491b3e64cf",
