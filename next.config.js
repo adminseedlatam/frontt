@@ -18,6 +18,11 @@ const nextConfig = {
         destination: "https://seedorg.super.site/",
         permanent: true,
       },
+      {
+        source: "/governanceday",
+        destination: "https://governanceday.framer.website/",
+        permanent: true,
+      },
   
       {
         source: "/bienvenida",
